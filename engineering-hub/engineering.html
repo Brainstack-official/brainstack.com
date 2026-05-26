@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Engineering Hub | BrainStack</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#020617;
+  color:white;
+}
+
+/* NAVBAR */
+.navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 8%;
+
+  background:rgba(2,6,23,0.85);
+
+  backdrop-filter:blur(12px);
+
+  border-bottom:1px solid rgba(255,255,255,0.08);
+
+  z-index:1000;
+}
+
+.logo{
+  font-size:2rem;
+  font-weight:700;
+  color:#38bdf8;
+}
+
+.nav-links{
+  display:flex;
+  gap:25px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:white;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:#38bdf8;
+}
+
+/* HERO */
+.hero{
+  height:65vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  background:
+  linear-gradient(rgba(2,6,23,0.8), rgba(2,6,23,0.9)),
+  url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop');
+
+  background-size:cover;
+  background-position:center;
+}
+
+.hero-content h1{
+  font-size:4.5rem;
+  margin-bottom:20px;
+}
+
+.hero-content p{
+  font-size:1.2rem;
+  color:#cbd5e1;
+}
+
+/* SECTION */
+.section{
+  padding:100px 8%;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.section-title h2{
+  font-size:2.8rem;
+  margin-bottom:10px;
+}
+
+.section-title p{
+  color:#94a3b8;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:35px;
+}
+
+/* CARD */
+.card{
+  background:#0f172a;
+
+  padding:35px;
+
+  border-radius:25px;
+
+  border:1px solid rgba(255,255,255,0.08);
+
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card-icon{
+  font-size:2.5rem;
+  margin-bottom:20px;
+}
+
+.card h3{
+  color:#38bdf8;
+  margin-bottom:15px;
+}
+
+.card p{
+  color:#cbd5e1;
+  margin-bottom:20px;
+}
+
+/* TAGS */
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+
+  margin-bottom:25px;
+}
+
+.tags span{
+  background:#1e293b;
+
+  padding:8px 14px;
+
+  border-radius:30px;
+
+  font-size:0.8rem;
+}
+
+/* BUTTON */
+.card a{
+  display:inline-block;
+
+  text-decoration:none;
+
+  background:#38bdf8;
+
+  color:black;
+
+  padding:12px 22px;
+
+  border-radius:12px;
+
+  font-weight:600;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+
+  padding:50px 20px;
+
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+
+footer p{
+  color:#94a3b8;
+  margin-top:10px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .hero-content h1{
+    font-size:2.7rem;
+  }
+
+  .section-title h2{
+    font-size:2rem;
+  }
+
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+  <div class="logo">
+    🧠 BrainStack
+  </div>
+
+  <div class="nav-links">
+    <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\index.html">Home</a>
+      </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1>
+      Engineering Hub
+    </h1>
+
+    <p>
+      Engineering notes, and other resources
+    </p>
+
+  </div>
+
+</section>
+
+<!-- MAIN SECTION -->
+<section class="section">
+
+  <div class="section-title">
+
+    <h2>Main Engineering Resources</h2>
+
+    <p>
+      Explore study materials for all branches
+    </p>
+
+  </div>
+
+
+  <div class="grid">
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-icon">
+        ⚙️
+      </div>
+
+      <h3>Mechanical Engineering</h3>
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\engineering-hub\mechanical-engineering\mechanical-resources.html">
+        Open Resources
+      </a>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-icon">
+        💻
+      </div>
+
+      <h3>Computer Science</h3>
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\engineering-hub\computer-science\cs-resources.html">
+        Open Resources
+      </a>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-icon">
+        📡
+      </div>
+
+      <h3>ECE Resources</h3>
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\engineering-hub\ece-engineering\ece-resources.html">
+        Open Resources
+      </a>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-icon">
+        🏗️
+      </div>
+
+      <h3>Civil Engineering</h3>
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\engineering-hub\civil-engineering\civil-resources.html">
+        Open Resources
+      </a>
+    </div>
+
+
+    <!-- CARD -->
+    <div class="card">
+
+      <div class="card-icon">
+        📘
+      </div>
+
+      <h3>Engineering Mathematics</h3>
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\engineering-hub\engineering-mathematics\math-resources.html">
+        Open Resources
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <h2>BrainStack</h2>
+
+  <p>
+    Built for students and future engineers.
+  </p>
+
+  <p>
+    © 2026 BrainStack. All Rights Reserved.
+  </p>
+
+</footer>
+
+</body>
+</html>
