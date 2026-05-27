@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehan Notes</title>
+	<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #020617;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 8%;
+  background: rgba(2,6,23,0.8);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo{
+  font-size:1.8rem;
+  font-weight:700;
+  color:#38bdf8
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+
+/* NOTES SECTION */
+.notes-section {
+  padding: 100px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  color: #94a3b8;
+}
+
+.card {
+  background: #0f172a;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 14px;
+  margin-bottom: 12px;
+  background: #334155;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+ color:white;
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.3rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+}
+
+	
+	
+
+
+	</style>
+  </head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🧠 BrainStack</div>
+
+    <div class="menu">
+      <a href="C:\Users\Mohammed rehan\Desktop\BrainStack study platform\index.html">Home</a>
+      </div>
+  </nav>
+ 
+  <!-- NOTES SECTION -->
+  <section id="notes" class="notes-section">
+
+    <div class="section-title">
+      <h2> 🤖
+AI Automation </h2>
+      </div>
+
+
+       <div class="card">
+      <h3>Main Content</h3>
+
+      <a href="#" target="_blank">
+        
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>1st Semester</h3>
+
+      <a href="#" target="_blank">
+        
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>2nd Semester</h3>
+
+      <a href="#" target="_blank">
+        
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+
+  <h3>   BrainStack </h3> <br>
+<p> Built for students, learners and future developers. <br>
+ <br>
+© 2026 BrainStack. All Rights Reserved. </p>
+
+
+  </footer>
+</body>
+</html>
