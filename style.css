@@ -371,46 +371,86 @@ footer p{
 }
 
 /* =========================
-   MOBILE RESPONSIVE
+   MOBILE RESPONSIVE DESIGN
 ========================= */
 
-@media(max-width:600px){
+@media (max-width: 900px){
+
+  /* NAVBAR */
+  .navbar{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    padding:15px 5%;
+  }
 
   .logo{
-    font-size:1.5rem;
+    font-size:1.6rem;
+    text-align:center;
   }
 
   .nav-links{
-    gap:12px;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
   }
 
   .nav-links a{
-    font-size:14px;
-  }
-
-  #loginBtn{
-    padding:10px 16px;
-    font-size:14px;
-  }
-
-  .hero{
-    min-height:90vh;
-    padding:190px 20px 80px;
-  }
-
-  .hero-content h1{
-    font-size:2.2rem;
-  }
-
-  .hero-content p{
     font-size:0.95rem;
   }
 
-  #searchInput{
-    padding:16px 18px;
-    font-size:15px;
+  .nav-right{
+    justify-content:center;
+    width:100%;
   }
 
+  #loginBtn{
+    padding:10px 18px;
+    font-size:0.9rem;
+  }
+
+  #userPhoto{
+    width:40px;
+    height:40px;
+  }
+
+  /* HERO SECTION */
+  .hero{
+    padding-top:180px;
+    min-height:auto;
+    padding-bottom:80px;
+  }
+
+  .hero-content{
+    width:100%;
+  }
+
+  .hero-content h1{
+    font-size:2.3rem;
+    line-height:1.2;
+    margin-bottom:18px;
+  }
+
+  .hero-content p{
+    font-size:1rem;
+    line-height:1.6;
+    margin-bottom:25px;
+  }
+
+  /* SEARCH */
+  .search-container{
+    width:100%;
+    padding:0 10px;
+  }
+
+  #searchInput{
+    width:100%;
+    padding:18px;
+    font-size:1rem;
+    border-radius:16px;
+  }
+
+  /* SECTIONS */
   .categories-section,
   .resources-section,
   .bookmark-section{
@@ -422,37 +462,88 @@ footer p{
   }
 
   .section-title h2{
-    font-size:1.8rem;
+    font-size:2rem;
   }
 
   .section-title p{
-    font-size:0.9rem;
+    font-size:0.95rem;
   }
 
+  /* RESOURCE CARDS */
   .resource-grid{
     grid-template-columns:1fr;
     gap:25px;
   }
 
   .resource-card{
-    padding:24px;
+    width:100%;
+    padding:25px;
+    border-radius:20px;
   }
 
   .resource-card h3{
-    font-size:1.2rem;
+    font-size:1.4rem;
   }
 
   .resource-card p{
-    font-size:0.92rem;
+    font-size:0.95rem;
+    line-height:1.6;
+  }
+
+  .tags{
+    gap:8px;
+  }
+
+  .tags span{
+    font-size:0.75rem;
+    padding:7px 10px;
   }
 
   .resource-card a{
     width:100%;
     text-align:center;
+    padding:14px;
   }
 
+  /* FOOTER */
   footer{
     padding:40px 15px;
+  }
+
+  footer h2{
+    font-size:1.8rem;
+  }
+
+  footer p{
+    font-size:0.9rem;
+    line-height:1.6;
+  }
+
+}
+
+
+/* EXTRA SMALL MOBILE */
+@media (max-width: 500px){
+
+  .hero-content h1{
+    font-size:1.9rem;
+  }
+
+  .hero-content p{
+    font-size:0.9rem;
+  }
+
+  .logo{
+    font-size:1.4rem;
+  }
+
+  .section-title h2{
+    font-size:1.7rem;
+  }
+
+  #searchInput{
+    padding:16px;
+    font-size:0.95rem;
   }
 
 }
