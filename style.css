@@ -366,11 +366,11 @@ footer p{
     align-items:center;
     gap:14px;
 
-    padding:14px 5%;
+    padding:11px 4%;
   }
 
   .logo{
-    font-size:1.7rem;
+    font-size:1.4rem;
     text-align:center;
   }
 
@@ -392,13 +392,13 @@ footer p{
   }
 
   #userPhoto{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
   }
 
   #loginBtn,
   #logoutBtn{
-    padding:10px 20px;
+    padding:8px 14px;
     font-size:1rem;
     border-radius:16px;
   }
@@ -476,8 +476,8 @@ footer p{
   }
 
   .resource-card p{
-    font-size:1.05rem;
-    line-height:1.7;
+    font-size:1rem;
+    line-height:1.4;
   }
 
   .tags{
