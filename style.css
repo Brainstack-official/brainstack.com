@@ -399,13 +399,13 @@ footer p{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    gap:14px;
+    gap:2px;
 
-    padding:14px 5%;
+    padding:2px 2%;
   }
 
   .logo{
-    font-size:2rem;
+    font-size:1.4rem;
     text-align:center;
   }
 
@@ -413,11 +413,11 @@ footer p{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:18px;
+    gap:2px;
   }
 
   .nav-links a{
-    font-size:1.1rem;
+    font-size:0.8rem;
   }
 
   .nav-right{
