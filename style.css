@@ -38,8 +38,8 @@ body{
 }
 
 .logo{
-  font-size:1.8rem;
-  font-weight:700;
+  font-size:1.6rem;
+  font-weight:650;
   color:#38bdf8;
 }
 
@@ -53,7 +53,7 @@ body{
   text-decoration:none;
   color:white;
   transition:0.3s;
-  font-weight:500;
+  font-weight:450;
 }
 
 .nav-links a:hover{
@@ -119,13 +119,13 @@ body{
 }
 
 .hero-content h1{
-  font-size:4.1rem;
+  font-size:3.8rem;
   line-height:1.2;
   margin-bottom:20px;
 }
 
 .hero-content p{
-  font-size:1.15rem;
+  font-size:1.1rem;
   color:#cbd5e1;
   margin-bottom:35px;
   line-height:1.7;
