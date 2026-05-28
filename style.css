@@ -499,7 +499,7 @@ footer p{
   }
 
   .resource-card{
-    width:40%;
+    width:60%;
     padding:20px;
     border-radius:20px;
   }
@@ -523,7 +523,7 @@ footer p{
   }
 
   .resource-card a{
-    width:180%;
+    width:40%;
     text-align:center;
     padding:10px;
   }
