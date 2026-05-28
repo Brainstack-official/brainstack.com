@@ -89,6 +89,23 @@ body{
   transform:translateY(-3px);
 }
 
+
+#logoutBtn{
+  padding:12px 22px;
+  border:none;
+  border-radius:12px;
+  background:#38bdf8;
+  color:black;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+#logoutBtn:hover{
+  transform:translateY(-3px);
+}
+
+
 /* HERO SECTION */
 .hero{
   min-height:100vh;
@@ -119,7 +136,7 @@ body{
 }
 
 .hero-content h1{
-  font-size:3.8rem;
+  font-size:3.1rem;
   line-height:1.2;
   margin-bottom:20px;
 }
@@ -380,12 +397,12 @@ footer p{
   .navbar{
     flex-direction:column;
     align-items:center;
-    gap:15px;
-    padding:10px 5%;
+    gap:10px;
+    padding:10px 4%;
   }
 
   .logo{
-    font-size:1.4rem;
+    font-size:1.3rem;
     text-align:center;
   }
 
@@ -396,7 +413,7 @@ footer p{
   }
 
   .nav-links a{
-    font-size:0.95rem;
+    font-size:0.90rem;
   }
 
   .nav-right{
@@ -409,6 +426,12 @@ footer p{
     font-size:0.7rem;
   }
 
+#logoutBtn{
+    padding:10px 18px;
+    font-size:0.7rem;
+  }
+
+  
   #userPhoto{
     width:35px;
     height:35px;
@@ -454,39 +477,39 @@ footer p{
   .categories-section,
   .resources-section,
   .bookmark-section{
-    padding:80px 5%;
+    padding:70px 4%;
   }
 
   .section-title{
-    margin-bottom:40px;
+    margin-bottom:30px;
   }
 
   .section-title h2{
-    font-size:2rem;
+    font-size:1.5rem;
   }
 
   .section-title p{
-    font-size:0.95rem;
+    font-size:0.90rem;
   }
 
   /* RESOURCE CARDS */
   .resource-grid{
     grid-template-columns:1fr;
-    gap:25px;
+    gap:18px;
   }
 
   .resource-card{
-    width:90%;
-    padding:25px;
+    width:40%;
+    padding:20px;
     border-radius:20px;
   }
 
   .resource-card h3{
-    font-size:1.2rem;
+    font-size:1rem;
   }
 
   .resource-card p{
-    font-size:0.95rem;
+    font-size:0.90rem;
     line-height:1.5;
   }
 
@@ -495,14 +518,14 @@ footer p{
   }
 
   .tags span{
-    font-size:0.75rem;
-    padding:7px 10px;
+    font-size:0.60rem;
+    padding:7px 7px;
   }
 
   .resource-card a{
-    width:100%;
+    width:180%;
     text-align:center;
-    padding:14px;
+    padding:10px;
   }
 
   /* FOOTER */
@@ -516,7 +539,7 @@ footer p{
 
   footer p{
     font-size:0.9rem;
-    line-height:1.6;
+    line-height:1.4;
   }
 
 }
