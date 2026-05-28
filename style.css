@@ -46,7 +46,7 @@ body{
 .nav-links{
   display:flex;
   align-items:center;
-  gap:25px;
+  gap:20px;
 }
 
 .nav-links a{
@@ -182,11 +182,11 @@ body{
 /* TITLES */
 .section-title{
   text-align:center;
-  margin-bottom:50px;
+  margin-bottom:40px;
 }
 
 .section-title h2{
-  font-size:23rem;
+  font-size:2.3rem;
   margin-bottom:10px;
 }
 
