@@ -119,7 +119,7 @@ body{
 }
 
 .hero-content h1{
-  font-size:4.5rem;
+  font-size:4.1rem;
   line-height:1.2;
   margin-bottom:20px;
 }
@@ -182,11 +182,11 @@ body{
 /* TITLES */
 .section-title{
   text-align:center;
-  margin-bottom:60px;
+  margin-bottom:50px;
 }
 
 .section-title h2{
-  font-size:2.8rem;
+  font-size:23rem;
   margin-bottom:10px;
 }
 
@@ -237,7 +237,7 @@ body{
 .resource-card p{
   color:#cbd5e1;
   margin-bottom:20px;
-  line-height:1.7;
+  line-height:1.5;
 }
 
 /* TAGS */
@@ -349,7 +349,7 @@ footer p{
   .nav-links{
     flex-wrap:wrap;
     justify-content:center;
-    gap:16px;
+    gap:15px;
   }
 
   .hero{
@@ -357,7 +357,7 @@ footer p{
   }
 
   .hero-content h1{
-    font-size:3rem;
+    font-size:2.7rem;
   }
 
   .hero-content p{
@@ -365,7 +365,7 @@ footer p{
   }
 
   .section-title h2{
-    font-size:2.2rem;
+    font-size:2rem;
   }
 
 }
@@ -385,14 +385,14 @@ footer p{
   }
 
   .logo{
-    font-size:1.5rem;
+    font-size:1.4rem;
     text-align:center;
   }
 
   .nav-links{
     flex-wrap:wrap;
     justify-content:center;
-    gap:15px;
+    gap:14px;
   }
 
   .nav-links a{
@@ -410,8 +410,8 @@ footer p{
   }
 
   #userPhoto{
-    width:40px;
-    height:40px;
+    width:35px;
+    height:35px;
   }
 
   /* HERO SECTION */
@@ -426,15 +426,15 @@ footer p{
   }
 
   .hero-content h1{
-    font-size:2.3rem;
+    font-size:2rem;
     line-height:1.2;
-    margin-bottom:18px;
+    margin-bottom:16px;
   }
 
   .hero-content p{
     font-size:1rem;
-    line-height:1.6;
-    margin-bottom:25px;
+    line-height:1.5;
+    margin-bottom:20px;
   }
 
   /* SEARCH */
@@ -476,22 +476,22 @@ footer p{
   }
 
   .resource-card{
-    width:100%;
+    width:90%;
     padding:25px;
     border-radius:20px;
   }
 
   .resource-card h3{
-    font-size:1.4rem;
+    font-size:1.2rem;
   }
 
   .resource-card p{
     font-size:0.95rem;
-    line-height:1.6;
+    line-height:1.5;
   }
 
   .tags{
-    gap:8px;
+    gap:6px;
   }
 
   .tags span{
@@ -526,24 +526,24 @@ footer p{
 @media (max-width: 500px){
 
   .hero-content h1{
-    font-size:1.9rem;
+    font-size:1.5rem;
   }
 
   .hero-content p{
-    font-size:0.9rem;
+    font-size:0.8rem;
   }
 
   .logo{
-    font-size:1.4rem;
+    font-size:1.3rem;
   }
 
   .section-title h2{
-    font-size:1.7rem;
+    font-size:1.2rem;
   }
 
   #searchInput{
     padding:16px;
-    font-size:0.95rem;
+    font-size:0.80rem;
   }
 
 }
