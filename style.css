@@ -39,7 +39,7 @@ body{
 .logo{
   font-size:1.6rem;
   font-weight:650;
-  color:#38bdf8;
+  color:#111827;
 }
 
 .nav-links{
@@ -50,13 +50,13 @@ body{
 
 .nav-links a{
   text-decoration:none;
-  color:white;
+  color:#111827;
   transition:0.3s;
-  font-weight:450;
+  font-weight:500;
 }
 
 .nav-links a:hover{
-  color:#38bdf8;
+  color:#111827;
 }
 
 .nav-right{
