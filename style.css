@@ -37,7 +37,7 @@ body{
 }
 
 .logo{
-  font-size:1.6rem;
+  font-size:1.7rem;
   font-weight:650;
   color:#111827;
 }
@@ -70,15 +70,15 @@ body{
   height:45px;
   border-radius:50%;
   object-fit:cover;
-  border:2px solid #38bdf8;
+  border:solid black
 }
 
 #loginBtn{
   padding:12px 22px;
   border:none;
   border-radius:12px;
-  background:#38bdf8;
-  color:black;
+  background:#111827;
+  color:white;
   font-weight:600;
   cursor:pointer;
   transition:0.3s;
@@ -93,8 +93,8 @@ body{
   padding:12px 22px;
   border:none;
   border-radius:12px;
-  background:#38bdf8;
-  color:black;
+  background:#111827;
+  color:white;
   font-weight:600;
   cursor:pointer;
   transition:0.3s;
@@ -129,16 +129,17 @@ body{
 }
 
 .hero-content h1{
-  font-size:3.1rem;
+  font-size:4.2rem;
   line-height:1.2;
   margin-bottom:20px;
+  color: #111827;
 }
 
 .hero-content p{
-  font-size:1.1rem;
-  color:#cbd5e1;
+  font-size:1.4rem;
+  color:#111827;
   margin-bottom:35px;
-  line-height:1.7;
+  line-height:1.8;
 }
 
 /* SEARCH */
@@ -159,15 +160,13 @@ body{
 
   border-radius:18px;
 
-  background:rgba(255,255,255,0.08);
-
-  color:white;
-
-  font-size:1rem;
+  background: white;
+border: 1px solid #D1D5DB;
+  color: #111827;
+  
+  font-size:1.4rem;
 
   backdrop-filter:blur(15px);
-
-  border:1px solid rgba(255,255,255,0.08);
 
   box-shadow:0 8px 30px rgba(0,0,0,0.3);
 
@@ -175,11 +174,11 @@ body{
 }
 
 #searchInput:focus{
-  border:1px solid #38bdf8;
+  border:1px solid #111827;
 }
 
 #searchInput::placeholder{
-  color:#94a3b8;
+  color:#111827;
 }
 
 /* MAIN SECTIONS */
