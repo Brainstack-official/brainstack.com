@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-
+  
 /* RESET */
 *{
   margin:0;
@@ -21,38 +21,46 @@
   box-sizing:border-box;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 body{
   font-family:'Poppins',sans-serif;
-  background:#020617;
-  color:white;
+  background:#F9FAFB;
+  color:#111827;
+  overflow-x:hidden;
 }
+
 
 /* NAVBAR */
 .navbar{
   position:fixed;
   top:0;
+  left:0;
   width:100%;
 
   display:flex;
   justify-content:space-between;
   align-items:center;
 
-  padding:20px 8%;
+  padding:18px 8%;
 
-  background:rgba(2,6,23,0.85);
+  background:#ffffff;
 
   backdrop-filter:blur(12px);
 
-  border-bottom:1px solid rgba(255,255,255,0.08);
-
+  border-bottom: 1px solid #E5E7EB;
   z-index:1000;
 }
 
+
 .logo{
-  font-size:2rem;
-  font-weight:700;
-  color:#38bdf8;
+  font-size:1.7rem;
+  font-weight:650;
+  color: #111827;
 }
+
 
 .nav-links{
   display:flex;
@@ -61,13 +69,15 @@ body{
 
 .nav-links a{
   text-decoration:none;
-  color:white;
+  color: #111827;
   transition:0.3s;
+  font-weight:500;
 }
 
 .nav-links a:hover{
-  color:#38bdf8;
+  color: #111827;
 }
+
 
 /* HERO */
 .hero{
@@ -79,22 +89,20 @@ body{
 
   text-align:center;
 
-  background:
-  linear-gradient(rgba(2,6,23,0.8), rgba(2,6,23,0.9)),
-  url('https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop');
-
   background-size:cover;
   background-position:center;
 }
 
 .hero-content h1{
-  font-size:4.5rem;
+  font-size:4.4rem;
   margin-bottom:20px;
 }
 
 .hero-content p{
-  font-size:1.2rem;
-  color:#cbd5e1;
+  font-size:1.3rem;
+  color:#111827;
+margin-bottom:35px;
+  line-height:1.5;
 }
 
 /* SECTION */
@@ -108,12 +116,13 @@ body{
 }
 
 .section-title h2{
-  font-size:2.8rem;
+  font-size:2.9rem;
   margin-bottom:10px;
 }
 
 .section-title p{
-  color:#94a3b8;
+  color:#111827;
+font-size:1.1rem;
 }
 
 /* GRID */
@@ -125,35 +134,30 @@ body{
 
 /* CARD */
 .card{
-  background:#0f172a;
+  background:#FFFFFF;
 
   padding:35px;
 
   border-radius:25px;
 
-  border:1px solid rgba(255,255,255,0.08);
+ border: 1px solid #E5E7EB;
 
   transition:0.3s;
 }
 
 .card:hover{
-  transform:translateY(-10px);
+  transform: translateY(-4px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.card-icon{
-  font-size:2.5rem;
-  margin-bottom:20px;
-}
+
 
 .card h3{
-  color:#38bdf8;
+  color:#111827;
   margin-bottom:15px;
+ line-height:1.6;
 }
 
-.card p{
-  color:#cbd5e1;
-  margin-bottom:20px;
-}
 
 /* TAGS */
 .tags{
@@ -165,45 +169,57 @@ body{
 }
 
 .tags span{
-  background:#1e293b;
 
-  padding:8px 14px;
-
+ background: #FFFFFF;
+  padding:8px 12px;
+color: #111827;
   border-radius:30px;
-
-  font-size:0.8rem;
+  font-size:0.9rem;
 }
+
 
 /* BUTTON */
 .card a{
   display:inline-block;
-
+     background:#111827;
+  color:white;
   text-decoration:none;
 
-  background:#38bdf8;
-
-  color:black;
-
-  padding:12px 22px;
-
+  padding:12px 24px;
   border-radius:12px;
 
   font-weight:600;
+
+  transition:all .3s ease;
 }
+
+ .card a:hover{
+  transform:scale(1.05);
+}
+
+
 
 /* FOOTER */
 footer{
   text-align:center;
-
   padding:50px 20px;
-
   border-top:1px solid rgba(255,255,255,0.08);
+  background:#1F2937;
+}
+
+footer h2{
+  margin-bottom:15px;
+  font-size:1.6rem;
+  color:white;
 }
 
 footer p{
-  color:#94a3b8;
   margin-top:10px;
+  line-height:1.5;
+  font-size:1.1rem;
+  color:white;
 }
+
 
 /* MOBILE */
 @media(max-width:768px){
@@ -222,7 +238,6 @@ footer p{
   }
 
 }
-
 </style>
 
 </head>
@@ -232,7 +247,7 @@ footer p{
 <nav class="navbar">
 
   <div class="logo">
-    🤖 BrainStack
+    BrainStack
   </div>
 
   <div class="nav-links">
@@ -278,15 +293,8 @@ footer p{
     <!-- CARD -->
     <div class="card">
 
-      <div class="card-icon">
-        💬
-      </div>
-
       <h3>ChatGPT Mastery</h3>
 
-      <p>
-        Learn prompting, AI workflows and productivity techniques using ChatGPT.
-      </p>
       <a href="../ai-lab/chatgpt.html">
         Open Resources
       </a>
@@ -297,15 +305,8 @@ footer p{
     <!-- CARD -->
     <div class="card">
 
-      <div class="card-icon">
-        ⚡
-      </div>
 
       <h3>AI Productivity Tools</h3>
-
-      <p>
-        Discover powerful AI tools for students, developers and creators.
-      </p>
 
       <a href="../ai-lab/ai-tools.html">
         Open Resources
@@ -316,15 +317,8 @@ footer p{
     <!-- CARD -->
     <div class="card">
 
-      <div class="card-icon">
-        🤖
-      </div>
-
       <h3>AI Automation</h3>
 
-      <p>
-        Build automated workflows and smart systems using AI tools.
-      </p>
       <a href="../ai-lab/automation.html">
         Open Resources
       </a>
@@ -334,16 +328,9 @@ footer p{
 
     <!-- CARD -->
     <div class="card">
+      
+     <h3>Future AI Careers</h3>
 
-      <div class="card-icon">
-        🚀
-      </div>
-
-      <h3>Future AI Careers</h3>
-
-      <p>
-        Explore AI careers, opportunities and future technology trends.
-      </p>
       <a href="../ai-lab/ai-careers.html">
         Open Resources
       </a>
@@ -356,16 +343,12 @@ footer p{
 
 <!-- FOOTER -->
 <footer>
+  
+<h2>BrainStack</h2>
 
-  <h2>BrainStack</h2>
+<p>Learn smarter. Build stronger. Grow faster.</p>
 
-  <p>
-    Built for future innovators and AI learners.
-  </p>
-
-  <p>
-    © 2026 BrainStack. All Rights Reserved.
-  </p>
+<p>© 2026 BrainStack. All rights reserved.</p>
 
 </footer>
 
