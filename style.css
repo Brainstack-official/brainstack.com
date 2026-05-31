@@ -201,7 +201,7 @@ border: 1px solid #D1D5DB;
 
 .section-title p{
   color: #111827;
-  font-size:1rem;
+  font-size:1.2rem;
 }
 
 /* RESOURCE GRID */
@@ -247,6 +247,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   color: #111827;
   margin-bottom:20px;
   line-height:1.3;
+	 font-size:1.2rem;
 }
 
 /* TAGS */
@@ -325,7 +326,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 .contact-card p{
     color: #111827;
     line-height:1.5;
-	font-size:1rem
+	font-size:1.1rem
 }
 
 
@@ -347,7 +348,7 @@ footer h2{
 footer p{
   margin-top:10px;
   line-height:1.5;
-  font-size:1.1rem;
+  font-size:1.2rem;
   color:white;
 }
 
