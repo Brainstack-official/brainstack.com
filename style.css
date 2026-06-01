@@ -332,27 +332,18 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 
 /* FOOTER */
+
 footer{
+  width:100%;
   text-align:center;
   padding:50px 20px;
-  border-top:1px solid rgba(255,255,255,0.08);
   background:#1F2937;
+  color:white;
 }
 
-footer h2{
-  margin-bottom:15px;
-  font-size:1.6rem;
-  	color:white;
+footer *{
+  color:white;
 }
-
-footer p{
-  margin-top:10px;
-  line-height:1.5;
-  font-size:1.2rem;
-  	color:white;
-}
-
-
 
 /* =========================
    TABLET RESPONSIVE
