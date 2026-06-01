@@ -339,13 +339,13 @@ footer{
   background:#1F2937;
 }
 
-.footer h2{
+footer h2{
   margin-bottom:15px;
   font-size:1.6rem;
   color:#111827;
 }
 
-.footer p{
+footer p{
   margin-top:10px;
   line-height:1.5;
   font-size:1.2rem;
@@ -476,12 +476,12 @@ footer{
   }
 
 
-	.footer h2{
+footer h2{
   font-size:1rem;
 		color:white;
 }
 
-.footer p{
+footer p{
   line-height:1.3;
 	color:white;
   font-size:0.7rem;
