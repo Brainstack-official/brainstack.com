@@ -57,7 +57,7 @@ const resources = [
 {
 title:"Mechanical engineering complete guide",
 keywords:["Mechanical engineering","Engineering","engineering"],
-url:"../engineering-hub/Mechanical_Engineering_Guide.pdf"
+url:"engineering-hub/Mechanical_Engineering_Guide.pdf"
 },
 
 {
