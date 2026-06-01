@@ -46,3 +46,21 @@ const observer = new IntersectionObserver((entries) => {
 cards.forEach((card) => {
   observer.observe(card);
 });
+
+
+
+
+
+
+
+const resources = [
+{
+title:"Mechanical engineering complete guide",
+keywords:["Mechanical engineering","Engineering","engineering"],
+url:"pdfs/python-notes.pdf"
+},
+
+{
+
+}
+];
