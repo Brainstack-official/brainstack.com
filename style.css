@@ -480,17 +480,13 @@ footer{
 
 
 	.footer h2{
-  margin-bottom:15px;
-  font-size:1.6rem;
-  color:white;
+  font-size:1.1rem;
 }
 
 .footer p{
-  margin-top:10px;
-  line-height:1.5;
-  font-size:1.2rem;
-  color:white;
+  line-height:1.4;
+  font-size:0.8rem;
+  
 }
-
 
 }
