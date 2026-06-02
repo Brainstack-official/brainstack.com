@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Engineering Mathematics Unit 1",
+    "category": "Mechanical Engineering",
+    "url": "pdfs/engineering-mathematics/unit1.pdf"
+  },
+  {
+    "title": "Thermodynamics Notes",
+    "category": "Mechanical Engineering",
+    "url": "pdfs/thermodynamics/notes.pdf"
+  },
+  {
+    "title": "Python Basics",
+    "category": "Programming",
+    "url": "pdfs/python/python-basics.pdf"
+  },
+  {
+    "title": "HTML Foundations",
+    "category": "Web Development",
+    "url": "pdfs/html/html-foundations.pdf"
+  }
+]
