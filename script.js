@@ -1,5 +1,5 @@
 
-# script.js
+script.js
 
 ```javascript
 // SMOOTH APPEAR ANIMATION
