@@ -26,7 +26,7 @@ async function searchResources() {
             item.className = "search-result";
 
             item.innerHTML = `
-                <a href="${resource.url}" target="_blank">
+                <a href="${resource.url}">
                     <strong>${resource.title}</strong><br>
                     <small>${resource.category}</small>
                 </a>
