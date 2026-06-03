@@ -5,6 +5,11 @@
     "url": "engineering-pdf/mechanical-career-guide.pdf"
   },
   {
+    "title": "Python Full Course.pdf",
+    "category": "Programming",
+    "url": "programming-languages/python-full-course.pdf"
+  },
+  {
     "title": "All About HTML.pdf",
     "category": "Web Development",
     "url": "web-development/html-foundation.pdf"
