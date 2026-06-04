@@ -5,7 +5,7 @@
     "url": "engineering-pdf/mechanical-career-guide.pdf"
   },
   {
-    "title": "All About Python.pdf",
+    "title": "Python Beginner Guide.pdf",
     "category": "Programming",
     "url": "programming-languages/all-about-python.pdf"
   },
@@ -18,6 +18,16 @@
     "title": "All About HTML.pdf",
     "category": "Web Development",
     "url": "web-development/html-foundation.pdf"
+  },
+  {
+    "title": "All About CSS.pdf",
+    "category": "Web Development",
+    "url": "web-development/all-about-css.pdf"
+  },
+   {
+    "title": "Javascript Beginner Guide.pdf",
+    "category": "Web Development",
+    "url": "web-development/all-about-javascript.pdf"
   },
   {
     "title": "GitHub Complete Guide",
