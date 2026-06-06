@@ -55,6 +55,16 @@
     "url": "web-development/all-about-javascript.pdf"
   },
   {
+    "title": "Artificial Intelligence Basics.pdf",
+    "category": "Artificial Intelligence",
+    "url": "ai-lab/ai-complete-guide.pdf"
+  },
+   {
+    "title": "Complete Prompt Engineering.pdf",
+    "category": "Artificial Intelligence",
+    "url": "ai-lab/prompt-engineering.pdf"
+  },
+  {
     "title": "GitHub Complete Guide",
     "category": "Programming",
     "url": "programming-languages/github-guide.pdf"
