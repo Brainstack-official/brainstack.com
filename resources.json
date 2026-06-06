@@ -5,6 +5,11 @@
     "url": "engineering-pdf/mechanical-engineering-guide.pdf"
   },
   {
+    "title": "Manufacturing Industry.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/manufacturing-industry.pdf"
+  },
+  {
     "title": "All about CS.pdf",
     "category": "Computer Science",
     "url": "engineering-pdf/computer-science-complete-guide.pdf"
@@ -13,6 +18,11 @@
     "title": "Civil Engineering.pdf",
     "category": "Civil Engineering",
     "url": "engineering-pdf/civil-engineering-complete-guide.pdf"
+  },
+  {
+    "title": "Construction Management.pdf",
+    "category": "Civil Engineering",
+    "url": "engineering-pdf/construction-management.pdf"
   },
     {
     "title": " Electronic and Communication Engg.pdf",
