@@ -15,6 +15,21 @@
     "url": "engineering-pdf/computer-science-complete-guide.pdf"
   },
   {
+    "title": "Machine Learning.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/all-about-machine-learning.pdf"
+  },
+  {
+    "title": "Cybersecurity Basics.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/cybersecurity-basics.pdf"
+  },
+   {
+    "title": "Website Deployment or Hosting.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/website-deployment-hosting.pdf"
+  },
+  {
     "title": "Civil Engineering.pdf",
     "category": "Civil Engineering",
     "url": "engineering-pdf/civil-engineering-complete-guide.pdf"
