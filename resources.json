@@ -100,9 +100,24 @@
     "url": "ai-lab/prompt-engineering.pdf"
   },
   {
-    "title": "GitHub Complete Guide",
+    "title": "GitHub Complete Guide.pdf",
     "category": "Programming",
     "url": "programming-languages/github-guide.pdf"
+  },
+  {
+    "title": "Startup with AI.pdf",
+    "category": "Library",
+    "url": "digital-library/startup-with-ai.pdf"
+  },
+  {
+    "title": "Personal Branding.pdf",
+    "category": "Library",
+    "url": "digital-library/personal-branding-guide.pdf"
+  },
+  {
+    "title": "Future Careers Overview.pdf",
+    "category": "Library",
+    "url": "digital-library/future-careers-overview.pdf"
   }
   
 ]
