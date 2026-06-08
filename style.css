@@ -464,6 +464,11 @@ footer p{
   .logo{
     font-size:1.5rem;
   }
+	
+ #userPhoto{
+    width:38px;
+    height:38px;
+  }
 
   .nav-links{
     width:100%;
@@ -480,10 +485,7 @@ footer p{
     gap:10px;
   }
 
-  #userPhoto{
-    width:38px;
-    height:38px;
-  }
+ 
 
   #loginBtn,
   #logoutBtn{
