@@ -13,6 +13,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script type="module">
+import { createClient }
+from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+
+const supabase = createClient(
+'https://https://waeeeyktjujpvpcprhbv.supabase.co/rest/v1/',
+'YOUR_PUBLISHABLE_KEY'
+);
+
+const {
+  data:{session}
+} = await supabase.auth.getSession();
+
+if(!session){
+   window.location.href='login.html';
+}
+</script>
 </head>
 <body>
 
