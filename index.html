@@ -27,15 +27,29 @@ const {
 } = await supabase.auth.getSession();
 
 if (!session) {
-  window.location.href = "login.html";
+
+    window.location.href = "login.html";
+
+} else {
+
+    document.body.style.display = "block";
+
 }
 
-		const {
-  data: { session }
-} = await supabase.auth.getSession();
-
-if (!session) {
+		if (!session) {
   window.location.href = "login.html";
+} else {
+
+  const user = session.user;
+
+  const photo =
+  document.getElementById("userPhoto");
+
+  photo.src =
+  user.user_metadata.avatar_url ||
+  user.user_metadata.picture ||
+  "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
+
 }
 		
 </script>
