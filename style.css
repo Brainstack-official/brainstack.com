@@ -236,12 +236,9 @@ border: 1px solid #D1D5DB;
 
 /* RESOURCE GRID */
 .resource-grid{
-  display:grid;
-
-  grid-template-columns:
-  repeat(auto-fit,minmax(320px,1fr));
-
-  gap:35px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
 }
 
 /* RESOURCE CARD */
@@ -510,12 +507,9 @@ footer p{
   }
 
   /* CARDS */
-
-  .resource-grid{
-    grid-template-columns:1fr;
-    gap:20px;
-  }
-
+    .resource-grid{
+        grid-template-columns:1fr;
+    }
   .resource-card{
     padding:20px;
     border-radius:18px;
