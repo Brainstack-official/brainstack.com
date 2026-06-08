@@ -8,76 +8,137 @@
 <style>
 
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-  font-family:'Poppins',sans-serif;
-  background:#F9FAFB;
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:20px;
+    font-family:'Poppins',sans-serif;
+    background:#F9FAFB;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 }
 
 .profile-card{
-  width:100%;
-  max-width:450px;
-  background:white;
-  border-radius:20px;
-  padding:40px;
-  text-align:center;
-  border:1px solid #E5E7EB;
-  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+    width:100%;
+    max-width:450px;
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    text-align:center;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
-.profile-photo{
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  object-fit:cover;
-  border:4px solid #111827;
-  margin-bottom:20px;
+.profile-img{
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:4px solid #111827;
+
+    margin-bottom:20px;
 }
 
-h1{
-  color:#111827;
-  margin-bottom:25px;
+.profile-email{
+
+    font-size:18px;
+
+    color:#111827;
+
+    font-weight:600;
+
+    margin-bottom:30px;
+
+    word-break:break-word;
 }
 
-.info{
-  text-align:left;
-  margin-top:20px;
+.dashboard{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-bottom:30px;
 }
 
-.info p{
-  margin:12px 0;
-  color:#374151;
-  font-size:16px;
+.dashboard-item{
+
+    background:#F3F4F6;
+
+    padding:16px;
+
+    border-radius:14px;
+
+    text-align:left;
+
+    font-weight:500;
+
+    color:#111827;
+
+    cursor:pointer;
+
+    transition:.3s;
 }
 
-.btn{
-  width:100%;
-  padding:15px;
-  border:none;
-  border-radius:12px;
-  cursor:pointer;
-  font-size:15px;
-  font-weight:600;
-  margin-top:15px;
+.dashboard-item:hover{
+
+    background:#E5E7EB;
 }
 
 .logout-btn{
-  background:#111827;
-  color:white;
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#111827;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
 }
 
-.delete-btn{
-  background:#DC2626;
-  color:white;
+.logout-btn:hover{
+
+    opacity:.9;
+}
+
+@media(max-width:600px){
+
+.profile-card{
+    padding:25px;
+}
+
+.profile-img{
+    width:100px;
+    height:100px;
+}
+
 }
 
 </style>
@@ -88,20 +149,45 @@ import { createClient }
 from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
 const supabase = createClient(
-  "https://waeeeyktjujpvpcprhbv.supabase.co",
-  "YOUR_PUBLISHABLE_KEY"
+"https://waeeeyktjujpvpcprhbv.supabase.co",
+"sb_publishable_4HE-L3GRIkDq4wSIaxWyJw_vtngeHdj"
 );
 
 const {
-  data:{session}
+    data:{session}
 } = await supabase.auth.getSession();
 
 if(!session){
-  window.location.href="login.html";
+
+    window.location.href="login.html";
+
+}else{
+
+    const user = session.user;
+
+    window.addEventListener("DOMContentLoaded",()=>{
+
+        document.getElementById("email").innerText =
+        user.email;
+
+        const photo =
+        document.getElementById("profilePhoto");
+
+        photo.src =
+        user.user_metadata.avatar_url ||
+        user.user_metadata.picture ||
+        "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
+
+    });
+
 }
 
-window.sessionData = session;
-window.supabase = supabase;
+window.logoutUser = async ()=>{
+
+    await supabase.auth.signOut();
+
+    window.location.href="login.html";
+};
 
 </script>
 
@@ -111,76 +197,46 @@ window.supabase = supabase;
 
 <div class="profile-card">
 
-<img
-id="photo"
-class="profile-photo"
-src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <img
+    id="profilePhoto"
+    class="profile-img"
+    src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
 
-<h1>My Profile</h1>
+    <div
+    id="email"
+    class="profile-email">
+        Loading...
+    </div>
 
-<div class="info">
+    <div class="dashboard">
 
-<p>
-<strong>Name:</strong>
-<span id="name">Loading...</span>
-</p>
+        <div class="dashboard-item">
+            📚 Saved Resources
+        </div>
 
-<p>
-<strong>Email:</strong>
-<span id="email">Loading...</span>
-</p>
+        <div class="dashboard-item">
+            📄 Downloaded PDFs
+        </div>
 
-<p>
-<strong>Provider:</strong>
-<span id="provider">Loading...</span>
-</p>
+        <div class="dashboard-item">
+            ⭐ Bookmarks
+        </div>
+
+        <div class="dashboard-item">
+            ⚙ Account Settings
+        </div>
+
+    </div>
+
+    <button
+    class="logout-btn"
+    onclick="logoutUser()">
+
+        Logout
+
+    </button>
 
 </div>
-
-<button class="btn logout-btn" id="logoutBtn">
-Logout
-</button>
-
-<button class="btn delete-btn">
-Delete Account
-</button>
-
-</div>
-
-<script type="module">
-
-const session = window.sessionData;
-
-const user = session.user;
-
-document.getElementById("name").innerText =
-user.user_metadata.full_name ||
-user.user_metadata.name ||
-"BrainStack User";
-
-document.getElementById("email").innerText =
-user.email;
-
-document.getElementById("provider").innerText =
-user.app_metadata.provider;
-
-if(user.user_metadata.avatar_url){
-
-document.getElementById("photo").src =
-user.user_metadata.avatar_url;
-
-}
-
-document.getElementById("logoutBtn")
-.addEventListener("click", async()=>{
-
-await window.supabase.auth.signOut();
-
-window.location.href="login.html";
-
-});
-
-</script>
 
 </body>
 </html>
