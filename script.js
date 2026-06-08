@@ -16,6 +16,14 @@ const observer = new IntersectionObserver((entries) => {
 
 });
 
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
 const cards = document.querySelectorAll(".resource-card");
 
 cards.forEach((card) => {
