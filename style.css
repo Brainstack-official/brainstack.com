@@ -425,30 +425,49 @@ footer p{
 @media (max-width:768px){
 
   /* NAVBAR */
-
-  .navbar{
-    padding:12px 5%;
-    flex-wrap:wrap;
+.navbar{
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:center;
+      padding:15px 5%;
   }
 
-  .logo{
-    font-size:1.5rem;
+  .menu-toggle{
+      display:block;
   }
 
   .nav-links{
-    width:100%;
-    justify-content:center;
-    margin-top:10px;
-    gap:14px;
+      display:none;
+      flex-direction:column;
+
+      position:absolute;
+      top:75px;
+      left:0;
+
+      width:100%;
+
+      background:white;
+
+      padding:20px;
+
+      box-shadow:0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .nav-links.active{
+      display:flex;
   }
 
   .nav-links a{
-    font-size:14px;
+      padding:10px 0;
+      font-size:16px;
   }
 
   .nav-right{
-    gap:10px;
+      display:none;
   }
+
+}
+
 
   #userPhoto{
     width:38px;
