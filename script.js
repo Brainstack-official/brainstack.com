@@ -1,28 +1,25 @@
-
-script.js
-
-```javascript
 // SMOOTH APPEAR ANIMATION
 
 const observer = new IntersectionObserver((entries) => {
-
   entries.forEach((entry) => {
-
-    if(entry.isIntersecting){
+    if (entry.isIntersecting) {
       entry.target.classList.add("show");
     }
-
   });
-
 });
 
+// HAMBURGER MENU
 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
-menuToggle.addEventListener("click", () => {
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
-});
+  });
+}
+
+// OBSERVE RESOURCE CARDS
 
 const cards = document.querySelectorAll(".resource-card");
 
