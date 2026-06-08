@@ -258,82 +258,9 @@
  
   </footer>
 
-
-  <!-- FIREBASE -->
-  <script type="module">
-
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
-
-    import {
-      getAuth,
-      GoogleAuthProvider,
-      signInWithPopup,
-      signOut
-    } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
-
-
-    const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_AUTH_DOMAIN",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_STORAGE_BUCKET",
-      messagingSenderId: "YOUR_MESSAGING_ID",
-      appId: "YOUR_APP_ID"
-    };
-
-
-    const app = initializeApp(firebaseConfig);
-
-    const auth = getAuth();
-
-    const provider = new GoogleAuthProvider();
-
-
-    const loginBtn = document.getElementById("loginBtn");
-
-    const userPhoto = document.getElementById("userPhoto");
-
-
-    loginBtn.addEventListener("click", () => {
-
-      if(loginBtn.innerText === "Logout"){
-
-        signOut(auth)
-          .then(() => {
-
-            loginBtn.innerText = "Login";
-
-            userPhoto.src = "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
-
-          });
-
-        return;
-      }
-
-
-      signInWithPopup(auth, provider)
-        .then((result) => {
-
-          const user = result.user;
-
-          loginBtn.innerText = "Logout";
-
-          userPhoto.src = user.photoURL;
-
-          console.log(user);
-
-        })
-        .catch((error) => {
-          console.error(error);
-        });
-
-    });
-
-  </script>
-
 <script src="script.js"></script>
+	
 <script src="search.js"></script>
 
 </body>
 </html>
-
