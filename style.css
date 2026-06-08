@@ -421,54 +421,33 @@ footer p{
 /* =========================
    MOBILE RESPONSIVE
 ========================= */
-
-@media (max-width:768px){
-
-  /* NAVBAR */
-.navbar{
-      flex-direction:row;
-      justify-content:space-between;
-      align-items:center;
-      padding:15px 5%;
-  }
-
-  .menu-toggle{
-      display:block;
-  }
-
-  .nav-links{
-      display:none;
-      flex-direction:column;
-
-      position:absolute;
-      top:75px;
-      left:0;
-
-      width:100%;
-
-      background:white;
-
-      padding:20px;
-
-      box-shadow:0 8px 20px rgba(0,0,0,0.1);
-  }
-
-  .nav-links.active{
-      display:flex;
-  }
-
-  .nav-links a{
-      padding:10px 0;
-      font-size:16px;
-  }
-
-  .nav-right{
-      display:none;
-  }
-
+.menu-toggle{
+    display:none;
+    cursor:pointer;
+    font-size:28px;
 }
 
+@media(max-width:768px){
 
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:white;
+        padding:20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
   #userPhoto{
     width:38px;
     height:38px;
