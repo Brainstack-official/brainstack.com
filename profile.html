@@ -241,6 +241,10 @@ window.logoutUser = async ()=>{
     window.location.href = "login.html";
 
 };
+    const {
+  data:{session}
+} = await supabase.auth.getSession();
+    console.log("SESSION:", session);
 
 </script>
 
