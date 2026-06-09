@@ -162,7 +162,9 @@ body{
 }
 
 }
+</style>
 
+    
 <script type="module">
 
 import { createClient }
@@ -189,7 +191,7 @@ if(!session){
     .from("profiles")
     .select("*")
     .eq("id", user.id)
-    .single();
+    .maybeSingle();
 
     window.addEventListener("DOMContentLoaded",()=>{
 
@@ -311,6 +313,6 @@ class="logout-btn"
 onclick="logoutUser()">
     Logout
 </button>
-
+</div>
 </body>
 </html>
