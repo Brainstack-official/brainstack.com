@@ -459,7 +459,7 @@ footer p{
     }
 
     .logo{
-        font-size:1.5rem;
+        font-size:1.4rem;
     }
 
     .nav-left{
@@ -470,14 +470,14 @@ footer p{
     }
 
     .nav-links{
-        gap:12px;
+        gap:11px;
         flex-wrap:wrap;
-        justify-content:center;
+        justify-content:left;
         gap:15px;
     }
 
     .nav-links a{
-        font-size:14px;
+        font-size:18px;
     .nav-right{
         margin-top:10px;
     }
