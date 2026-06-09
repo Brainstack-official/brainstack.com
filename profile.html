@@ -163,8 +163,6 @@ body{
 
 }
 
-</style>
-
 <script type="module">
 
 import { createClient }
@@ -181,21 +179,51 @@ const {
 
 if(!session){
 
-    window.location.href="login.html";
+    window.location.href = "login.html";
 
 }else{
 
     const user = session.user;
 
+    const { data: profile, error } = await supabase
+    .from("profiles")
+    .select("*")
+    .eq("id", user.id)
+    .single();
+
     window.addEventListener("DOMContentLoaded",()=>{
 
-        document.getElementById("email").innerText =
+        document.getElementById("email").textContent =
         user.email;
+
+        document.getElementById("fullName").textContent =
+        profile?.full_name ||
+        user.user_metadata.full_name ||
+        user.user_metadata.name ||
+        "BrainStack User";
+
+        document.getElementById("gender").textContent =
+        profile?.gender || "-";
+
+        document.getElementById("college").textContent =
+        profile?.college || "-";
+
+        document.getElementById("branch").textContent =
+        profile?.branch || "-";
+
+        document.getElementById("semester").textContent =
+        profile?.semester || "-";
+
+        document.getElementById("joinedDate").textContent =
+        profile?.created_at
+        ? new Date(profile.created_at).toLocaleDateString()
+        : "-";
 
         const photo =
         document.getElementById("profilePhoto");
 
         photo.src =
+        profile?.avatar_url ||
         user.user_metadata.avatar_url ||
         user.user_metadata.picture ||
         "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
@@ -208,10 +236,12 @@ window.logoutUser = async ()=>{
 
     await supabase.auth.signOut();
 
-    window.location.href="login.html";
+    window.location.href = "login.html";
+
 };
 
 </script>
+
 
 </head>
 
