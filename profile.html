@@ -164,28 +164,21 @@ body{
 }
 </style>
 
-    
-<script type="module">
+ <script type="module">
 
 import { createClient }
 from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
 const supabase = createClient(
 "https://waeeeyktjujpvpcprhbv.supabase.co",
-"sb_publishable_4HE-L3GRIkDq4wSIaxWyJw_vtngeHdj"
+"YOUR_PUBLISHABLE_KEY"
 );
 
-const {
-  data:{session}
-} = await supabase.auth.getSession();
-
-console.log("SESSION:", session);
-
-if(!session){
+if (!session) {
 
     window.location.href = "login.html";
 
-}else{
+} else {
 
     const user = session.user;
 
@@ -198,55 +191,48 @@ if(!session){
     console.log("PROFILE:", profile);
     console.log("ERROR:", error);
 
-    window.addEventListener("DOMContentLoaded",()=>{
+    document.getElementById("email").textContent =
+    profile?.email || user.email;
 
-        document.getElementById("email").textContent =
-        user.email;
+    document.getElementById("fullName").textContent =
+    profile?.full_name || "BrainStack User";
 
-        document.getElementById("fullName").textContent =
-        profile?.full_name ||
-        user.user_metadata.full_name ||
-        user.user_metadata.name ||
-        "BrainStack User";
+    document.getElementById("gender").textContent =
+    profile?.gender || "-";
 
-        document.getElementById("gender").textContent =
-        profile?.gender || "-";
+    document.getElementById("college").textContent =
+    profile?.college || "-";
 
-        document.getElementById("college").textContent =
-        profile?.college || "-";
+    document.getElementById("branch").textContent =
+    profile?.branch || "-";
 
-        document.getElementById("branch").textContent =
-        profile?.branch || "-";
+    document.getElementById("semester").textContent =
+    profile?.semester || "-";
 
-        document.getElementById("semester").textContent =
-        profile?.semester || "-";
+    document.getElementById("joinedDate").textContent =
+    profile?.created_at
+    ? new Date(profile.created_at).toLocaleDateString()
+    : "-";
 
-        document.getElementById("joinedDate").textContent =
-        profile?.created_at
-        ? new Date(profile.created_at).toLocaleDateString()
-        : "-";
-
-        document.getElementById("profilePhoto").src =
-        profile?.avatar_url ||
-        user.user_metadata.avatar_url ||
-        user.user_metadata.picture ||
-        "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
-
-    });
-
+    document.getElementById("profilePhoto").src =
+    profile?.avatar_url ||
+    "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
 }
 
-window.logoutUser = async ()=>{
+window.logoutUser = async () => {
 
     await supabase.auth.signOut();
 
     window.location.href = "login.html";
-
 };
+     const {
+  data: { session }
+} = await supabase.auth.getSession();
+
+console.log("SESSION:", session);
+
 
 </script>
-
-
 </head>
 
 <body>
