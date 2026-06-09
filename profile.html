@@ -189,32 +189,6 @@ window.logoutUser = async ()=>{
     window.location.href="login.html";
 };
 
-
-    document.getElementById("testBookmark")
-.addEventListener("click", async () => {
-
-  const {
-    data: { session }
-  } = await supabase.auth.getSession();
-
-  const { error } =
-  await supabase
-  .from("bookmarks")
-  .insert([
-    {
-      user_id: session.user.id,
-      resource_title: "Engineering Hub",
-      resource_link: "engineering.html"
-    }
-  ]);
-
-  if(error){
-    console.log(error);
-  }else{
-    alert("Bookmark Saved");
-  }
-
-});
 </script>
 
 </head>
@@ -236,10 +210,6 @@ window.logoutUser = async ()=>{
 
     <div class="dashboard">
 
-        <div class="dashboard-item">
-            📚 Saved Resources
-            <button id="testBookmark">Test Bookmark</button>
-        </div>
 
         <div class="dashboard-item">
             📄 Downloaded PDFs
