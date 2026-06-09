@@ -164,75 +164,6 @@ body{
 }
 </style>
 
- <script type="module">
-
-import { createClient }
-from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
-
-const supabase = createClient(
-"https://waeeeyktjujpvpcprhbv.supabase.co",
-"YOUR_PUBLISHABLE_KEY"
-);
-
-if (!session) {
-
-    window.location.href = "login.html";
-
-} else {
-
-    const user = session.user;
-
-    const { data: profile, error } = await supabase
-    .from("profiles")
-    .select("*")
-    .eq("id", user.id)
-    .maybeSingle();
-
-    console.log("PROFILE:", profile);
-    console.log("ERROR:", error);
-
-    document.getElementById("email").textContent =
-    profile?.email || user.email;
-
-    document.getElementById("fullName").textContent =
-    profile?.full_name || "BrainStack User";
-
-    document.getElementById("gender").textContent =
-    profile?.gender || "-";
-
-    document.getElementById("college").textContent =
-    profile?.college || "-";
-
-    document.getElementById("branch").textContent =
-    profile?.branch || "-";
-
-    document.getElementById("semester").textContent =
-    profile?.semester || "-";
-
-    document.getElementById("joinedDate").textContent =
-    profile?.created_at
-    ? new Date(profile.created_at).toLocaleDateString()
-    : "-";
-
-    document.getElementById("profilePhoto").src =
-    profile?.avatar_url ||
-    "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
-}
-
-window.logoutUser = async () => {
-
-    await supabase.auth.signOut();
-
-    window.location.href = "login.html";
-};
-     const {
-  data: { session }
-} = await supabase.auth.getSession();
-
-console.log("SESSION:", session);
-
-
-</script>
 </head>
 
 <body>
@@ -297,5 +228,80 @@ onclick="logoutUser()">
     Logout
 </button>
 </div>
+
+ <script type="module">
+
+import { createClient }
+from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+const supabase = createClient(
+"https://waeeeyktjujpvpcprhbv.supabase.co",
+"YOUR_PUBLISHABLE_KEY"
+);
+
+     const {
+  data: { session }
+} = await supabase.auth.getSession();
+if (!session) {
+
+    window.location.href = "login.html";
+
+} else {
+
+    const user = session.user;
+
+    const { data: profile, error } = await supabase
+    .from("profiles")
+    .select("*")
+    .eq("id", user.id)
+    .maybeSingle();
+
+    console.log("PROFILE:", profile);
+    console.log("ERROR:", error);
+
+    document.getElementById("email").textContent =
+    profile?.email || user.email;
+
+    document.getElementById("fullName").textContent =
+    profile?.full_name || "BrainStack User";
+
+    document.getElementById("gender").textContent =
+    profile?.gender || "-";
+
+    document.getElementById("college").textContent =
+    profile?.college || "-";
+
+    document.getElementById("branch").textContent =
+    profile?.branch || "-";
+
+    document.getElementById("semester").textContent =
+    profile?.semester || "-";
+
+    document.getElementById("joinedDate").textContent =
+    profile?.created_at
+    ? new Date(profile.created_at).toLocaleDateString()
+    : "-";
+
+    document.getElementById("profilePhoto").src =
+    profile?.avatar_url ||
+    "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
+}
+
+window.logoutUser = async () => {
+
+    await supabase.auth.signOut();
+
+    window.location.href = "login.html";
+};
+     const {
+  data: { session }
+} = await supabase.auth.getSession();
+
+console.log("SESSION:", session);
+
+
+</script>
+
+    
 </body>
 </html>
