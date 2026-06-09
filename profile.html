@@ -198,32 +198,67 @@ window.logoutUser = async ()=>{
 <div class="profile-card">
 
     <img
-    id="profilePhoto"
-    class="profile-img"
-    src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+id="profilePhoto"
+class="profile-img"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
 
-    <div
-    id="email"
-    class="profile-email">
-        Loading...
+<h2 id="fullName">Loading...</h2>
+
+<div class="info-box">
+    <strong>Email:</strong>
+    <span id="email">Loading...</span>
+</div>
+
+<div class="info-box">
+    <strong>Gender:</strong>
+    <span id="gender">-</span>
+</div>
+
+<div class="info-box">
+    <strong>College:</strong>
+    <span id="college">-</span>
+</div>
+
+<div class="info-box">
+    <strong>Branch:</strong>
+    <span id="branch">-</span>
+</div>
+
+<div class="info-box">
+    <strong>Semester:</strong>
+    <span id="semester">-</span>
+</div>
+
+<div class="info-box">
+    <strong>Joined:</strong>
+    <span id="joinedDate">-</span>
+</div>
+
+<div class="dashboard">
+
+    <div class="dashboard-item">
+        📄 My Downloads
     </div>
 
-    <div class="dashboard">
-
-
-        <div class="dashboard-item">
-            📄 Downloaded PDFs
-        </div>
-
+    <div class="dashboard-item">
+        ❤️ Saved Resources
     </div>
 
-    <button
-    class="logout-btn"
-    onclick="logoutUser()">
-        Logout
-    </button>
+    <div class="dashboard-item">
+        ⚙️ Edit Profile
+    </div>
+
+    <div class="dashboard-item">
+        📊 Account Information
+    </div>
 
 </div>
+
+<button
+class="logout-btn"
+onclick="logoutUser()">
+    Logout
+</button>
 
 </body>
 </html>
