@@ -452,25 +452,6 @@ footer p{
    MOBILE RESPONSIVE
 ========================= */
 
-.logo{
-    font-size:1.1rem;
-  }
-
-  .nav-links{
-    gap:8px;
-  }
-
-  .nav-links a{
-    font-size:13px;
-  }
-
-  #userPhoto{
-    width:35px;
-    height:35px;
-  }
-
-}
-
   /* HERO */
 
   .hero{
