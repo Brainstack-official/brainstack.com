@@ -452,34 +452,36 @@ footer p{
    MOBILE RESPONSIVE
 ========================= */
 @media(max-width:768px){
-    .navbar{
-        flex-wrap:nowrap;
-        padding:12px;
-    }
-		
- .logo{
-    font-size:1.5rem;
+   
+.navbar{
+    padding:12px 5%;
+    flex-wrap:wrap;
   }
 
-    .nav-left{
-        gap:12px;
-    }
+  .logo{
+    font-size:1.5rem;
+  }
+	
+ #userPhoto{
+    width:38px;
+    height:38px;
+  }
 
-    .nav-links{
-        gap:12px;
-    }
+  .nav-links{
+    width:100%;
+    justify-content:center;
+    margin-top:10px;
+    gap:14px;
+  }
 
-    .nav-links a{
-        font-size:14px;
-    }
+  .nav-links a{
+    font-size:14px;
+  }
 
-    #userPhoto{
-        width:38px;
-        height:38px;
-    }
-}
-
-  
+  .nav-right{
+    gap:10px;
+  }
+	
   #loginBtn,
   #logoutBtn{
     padding:8px 14px;
