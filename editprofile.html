@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit Profile</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#F9FAFB;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:500px;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+h2{
+text-align:center;
+margin-bottom:25px;
+}
+
+input,select{
+width:100%;
+padding:14px;
+margin-bottom:15px;
+border:1px solid #ddd;
+border-radius:12px;
+font-size:15px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:12px;
+background:#111827;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+opacity:.9;
+}
+
+#message{
+margin-top:15px;
+text-align:center;
+font-weight:600;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h2>Edit Profile</h2>
+
+<input type="text" id="fullName" placeholder="Full Name">
+
+<select id="gender">
+<option value="">Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<input type="text" id="college" placeholder="College Name">
+
+<input type="text" id="branch" placeholder="Branch">
+
+<input type="text" id="semester" placeholder="Semester">
+
+<input type="text"
+id="avatar"
+placeholder="Profile Photo URL (optional)">
+
+<button id="saveBtn">
+Save Profile
+</button>
+
+<p id="message"></p>
+
+</div>
+
+<script type="module">
+
+import { createClient }
+from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+const supabase = createClient(
+"https://waeeeyktjujpvpcprhbv.supabase.co",
+""sb_publishable_4HE-L3GRIkDq4wSIaxWyJw_vtngeHdj""
+);
+
+const {
+data:{session}
+} = await supabase.auth.getSession();
+
+if(!session){
+
+window.location.href="login.html";
+
+}
+
+const user = session.user;
+
+const { data } = await supabase
+.from("profiles")
+.select("*")
+.eq("id",user.id)
+.single();
+
+if(data){
+
+document.getElementById("fullName").value =
+data.full_name || "";
+
+document.getElementById("gender").value =
+data.gender || "";
+
+document.getElementById("college").value =
+data.college || "";
+
+document.getElementById("branch").value =
+data.branch || "";
+
+document.getElementById("semester").value =
+data.semester || "";
+
+document.getElementById("avatar").value =
+data.avatar_url || "";
+
+}
+
+document.getElementById("saveBtn")
+.addEventListener("click",async()=>{
+
+const profileData = {
+
+id:user.id,
+email:user.email,
+
+full_name:
+document.getElementById("fullName").value,
+
+gender:
+document.getElementById("gender").value,
+
+college:
+document.getElementById("college").value,
+
+branch:
+document.getElementById("branch").value,
+
+semester:
+document.getElementById("semester").value,
+
+avatar_url:
+document.getElementById("avatar").value
+
+};
+
+const { error } = await supabase
+.from("profiles")
+.upsert(profileData);
+
+if(error){
+
+document.getElementById("message").innerText =
+error.message;
+
+}else{
+
+document.getElementById("message").innerText =
+"Profile Updated Successfully";
+
+setTimeout(()=>{
+
+window.location.href =
+"profile.html";
+
+},1000);
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
