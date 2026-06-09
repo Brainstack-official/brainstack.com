@@ -451,15 +451,15 @@ footer p{
 /* =========================
    MOBILE RESPONSIVE
 ========================= */
-	@media(max-width:768px){
+  @media(max-width:768px){
     .navbar{
         flex-wrap:nowrap;
         padding:12px;
     }
-		
- .logo{
-    font-size:1.5rem;
-  }
+
+    .logo{
+        font-size:1.5rem;
+    }
 
     .nav-left{
         gap:12px;
