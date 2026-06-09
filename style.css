@@ -423,7 +423,7 @@ footer p{
   /* HERO */
 
   .hero{
-    min-height:70vh;
+    min-height:80vh;
     padding:160px 20px 60px;
   }
 
@@ -487,11 +487,11 @@ footer p{
   }
 
   .resource-card h3{
-    font-size:1.2rem;
+    font-size:1.3rem;
   }
 
   .resource-card p{
-    font-size:0.95rem;
+    font-size:0.9rem;
     line-height:1.5;
   }
 
@@ -516,7 +516,7 @@ footer p{
   }
 
   .contact-card p{
-    font-size:0.95rem;
+    font-size:1rem;
   }
 
   /* FOOTER */
@@ -578,7 +578,7 @@ footer p{
   }
 
   .nav-links a{
-    font-size:13px;
+    font-size:12px;
   }
 
   #userPhoto{
