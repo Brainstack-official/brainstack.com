@@ -189,16 +189,6 @@ window.logoutUser = async ()=>{
     window.location.href="login.html";
 };
 
-
-    await supabase
-.from("downloads")
-.insert([
-{
-  user_id: session.user.id,
-  pdf_name: "Sample PDF",
-  pdf_link: "sample.pdf"
-}
-]);
 </script>
 
 </head>
