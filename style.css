@@ -452,6 +452,7 @@ footer p{
    MOBILE RESPONSIVE
 ========================= */
 
+@media (max-width:768px){
   /* HERO */
 
   .hero{
