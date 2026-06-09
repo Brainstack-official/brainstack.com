@@ -17,7 +17,6 @@ body{
 
 /* NAVBAR */
 
-
 .navbar{
   position:fixed;
   top:0;
@@ -31,13 +30,17 @@ body{
   padding:18px 8%;
 
   background:#ffffff;
-  border-bottom:1px solid #E5E7EB;
+
+  backdrop-filter:blur(12px);
+
+  border-bottom: 1px solid #E5E7EB;
   z-index:1000;
 }
 
 .logo{
   font-size:1.7rem;
   font-weight:650;
+  color: #111827;
 }
 
 .nav-links{
@@ -46,9 +49,30 @@ body{
   gap:20px;
 }
 
+.nav-links a{
+  text-decoration:none;
+  color: #111827;
+  transition:0.3s;
+  font-weight:500;
+}
+
+.nav-links a:hover{
+  color: #111827;
+}
+
 .nav-right{
   display:flex;
   align-items:center;
+  gap:15px;
+}
+
+#userPhoto{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  object-fit:cover;
+  border:solid black;
+
 }
 
 #loginBtn{
