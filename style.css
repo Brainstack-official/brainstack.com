@@ -377,7 +377,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 .footer-links a{
     color:white;
     text-decoration:none;
-    font-size:16px;
+    font-size:23px;
     font-weight:500;
     transition:0.3s;
 }
@@ -388,7 +388,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 #footer p{
     color:white;
-    font-size:15px;
+    font-size:25px;
     margin:0;
 }
 
