@@ -173,24 +173,22 @@ body{
 ========================= */
 
 /* FOOTER */
-footer{
-  text-align:center;
-  padding:50px 20px;
-  border-top:1px solid rgba(255,255,255,0.08);
-  background:#1F2937;
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    font-size:23px;
+    font-weight:500;
+    transition:0.3s;
 }
 
-footer h2{
-  margin-bottom:15px;
-  font-size:1.8rem;
-  color:white;
+.footer-links a:hover{
+    color:#38BDF8;
 }
 
-footer p{
-  margin-top:10px;
-  line-height:1.5;
-  font-size:1.5rem;
-  color:white;
+#footer p{
+    color:white;
+    font-size:25px;
+    margin:0;
 }
 
 
@@ -229,15 +227,15 @@ footer p{
   }
     /* FOOTER */
 
-  footer{
-    padding:30px 15px;
-  }
+.footer-links{
+        flex-direction:rows;
+        gap:12px;
+    }
 
-  footer h2{
-    font-size:1.2rem;
-  }
-
-  footer p{
+    .footer-links a{
+        font-size:13px;
+    }
+  #footer p{
     font-size:0.9rem;
   }
 
@@ -334,16 +332,16 @@ footer p{
 
 <!-- FOOTER -->
 
-<footer>
+ <footer id="footer">
 
-  <h2>BrainStack</h2>
+    <div class="footer-links">
+        <a href="../about.html">About Us</a>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms & Conditions</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+    </div>
 
-
-<p>Learn smarter. Build stronger. Grow faster.</p>
-
-
-<p>© 2026 BrainStack. All rights reserved.</p>
-
+    <p>© 2026 BrainStack. All Rights Reserved.</p>
 
 </footer>
 
