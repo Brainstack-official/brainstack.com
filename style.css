@@ -534,7 +534,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   /* FOOTER */
 
   .footer-links{
-        flex-direction:column;
+        flex-direction:rows;
         gap:12px;
     }
 
