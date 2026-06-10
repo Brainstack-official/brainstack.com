@@ -533,16 +533,16 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
   /* FOOTER */
 
-  footer{
-    padding:30px 15px;
-  }
+  .footer-links{
+        flex-direction:column;
+        gap:12px;
+    }
 
-  footer h2{
-    font-size:1.2rem;
-  }
-
-  footer p{
-    font-size:0.9rem;
+    .footer-links a{
+        font-size:12px;
+    }
+  #footer p{
+    font-size:0.8rem;
   }
 
 }
