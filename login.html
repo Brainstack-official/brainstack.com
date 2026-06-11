@@ -145,6 +145,42 @@ input:focus{
     font-size:14px;
 }
 
+  /* FOOTER */
+
+#footer{
+    background:#1F2937;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    font-size:23px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#38BDF8;
+}
+
+#footer p{
+    color:white;
+    font-size:25px;
+    margin:0;
+}
+
+  
 @media(max-width:600px){
 
     .container{
@@ -154,6 +190,19 @@ input:focus{
     .logo{
         font-size:1.8rem;
     }
+  /* FOOTER */
+
+.footer-links{
+        flex-direction:rows;
+        gap:12px;
+    }
+
+    .footer-links a{
+        font-size:13px;
+    }
+  #footer p{
+    font-size:0.9rem;
+  }
 
 }
 
@@ -232,6 +281,21 @@ window.supabase = createClient(
     <p id="message"></p>
 
 </div>
+
+  <!-- FOOTER -->
+ <footer id="footer">
+
+    <div class="footer-links">
+        <a href="../about.html">About Us</a>
+        <a href="../privacy-policy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms & Conditions</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+    </div>
+
+    <p>© 2026 BrainStack. All Rights Reserved.</p>
+
+</footer>
+  
 <script type="module">
 
 const email =
