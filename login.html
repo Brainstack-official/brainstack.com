@@ -18,9 +18,6 @@ body{
     font-family:'Poppins',sans-serif;
     background:#F9FAFB;
     min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
     padding:20px;
 }
 
@@ -145,6 +142,13 @@ input:focus{
     font-size:14px;
 }
 
+.login-wrapper{
+    min-height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+  
   /* FOOTER */
 
 #footer{
@@ -192,7 +196,7 @@ input:focus{
   /* FOOTER */
 
 .footer-links{
-        flex-direction:rows;
+        flex-direction:row;
         gap:12px;
     }
 
@@ -234,6 +238,7 @@ window.supabase = createClient(
 </head>
 
 <body>
+  <div class="login-wrapper">
 
 <div class="container">
 
@@ -280,16 +285,16 @@ window.supabase = createClient(
     <p id="message"></p>
 
 </div>
-  
+  </div>
 
   <!-- FOOTER -->
  <footer id="footer">
 
     <div class="footer-links">
-        <a href="../about.html">About Us</a>
-        <a href="../privacy-policy.html">Privacy Policy</a>
-        <a href="../terms.html">Terms & Conditions</a>
-        <a href="../disclaimer.html">Disclaimer</a>
+        <a href="about.html">About Us</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="disclaimer.html">Disclaimer</a>
     </div>
 
     <p>© 2026 BrainStack. All Rights Reserved.</p>
