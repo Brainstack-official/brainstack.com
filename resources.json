@@ -10,6 +10,26 @@
     "url": "engineering-pdf/manufacturing-industry.pdf"
   },
   {
+    "title": "Fluid Mechanics.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/fluid-mechanics-fundamentals.pdf"
+  },
+  {
+    "title": "Heat Transfer.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/heat-transfer-explained.pdf"
+  },
+  {
+    "title": "Engineering Project Ideas.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/engineering-project-ideas.pdf"
+  },
+  {
+    "title": "First Internship.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/first-internship.pdf"
+  },
+  {
     "title": "All about CS.pdf",
     "category": "Computer Science",
     "url": "engineering-pdf/computer-science-complete-guide.pdf"
