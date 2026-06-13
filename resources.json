@@ -10,6 +10,11 @@
     "url": "engineering-pdf/manufacturing-industry.pdf"
   },
   {
+    "title": "Thermodynamics in Mechanical Engineering.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/thermodynamics-in-mechanical.pdf"
+  },
+  {
     "title": "Fluid Mechanics.pdf",
     "category": "Mechanical Engineering",
     "url": "engineering-pdf/fluid-mechanics-fundamentals.pdf"
@@ -69,10 +74,15 @@
     "category": "Electronic and Communication",
     "url": "engineering-pdf/communication-basics.pdf"
   },
-   {
-    "title": "Thermodynamics in Mechanical Engineering.pdf",
-    "category": "Mechanical Engineering",
-    "url": "engineering-pdf/thermodynamics-in-mechanical.pdf"
+  {
+    "title": "5G Technology Explained.pdf",
+    "category": "Electronic and Communication",
+    "url": "engineering-pdf/5g-technology-explained.pdf"
+  },
+  {
+    "title": " Arduino Project.pdf",
+    "category": "Electronic and Communication",
+    "url": "engineering-pdf/arduino-project.pdf"
   },
   {
     "title": "Python Beginner Guide.pdf",
@@ -118,6 +128,11 @@
     "title": "Complete Prompt Engineering.pdf",
     "category": "Artificial Intelligence",
     "url": "ai-lab/prompt-engineering.pdf"
+  },
+  {
+    "title": "Python for AI.pdf",
+    "category": "Artificial Intelligence",
+    "url": "ai-lab/python-for-ai-beginners.pdf"
   },
   {
     "title": "GitHub Complete Guide.pdf",
