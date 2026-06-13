@@ -35,6 +35,11 @@
     "url": "engineering-pdf/first-internship.pdf"
   },
   {
+    "title": "AI in Mechanical.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/ai-in-mechanical-engineering.pdf"
+  },
+  {
     "title": "All about CS.pdf",
     "category": "Computer Science",
     "url": "engineering-pdf/computer-science-complete-guide.pdf"
@@ -133,6 +138,11 @@
     "title": "Python for AI.pdf",
     "category": "Artificial Intelligence",
     "url": "ai-lab/python-for-ai-beginners.pdf"
+  },
+  {
+    "title": "How to make AI agents.pdf",
+    "category": "Artificial Intelligence",
+    "url": "ai-lab/how-to-make-ai-agents.pdf"
   },
   {
     "title": "GitHub Complete Guide.pdf",
