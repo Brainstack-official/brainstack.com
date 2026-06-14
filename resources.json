@@ -105,6 +105,11 @@
     "url": "programming-languages/all-about-c.pdf"
   },
   {
+    "title": "All About C++ Programming.pdf",
+    "category": "Programming",
+    "url": "programming-languages/c++.pdf"
+  },
+  {
     "title": "All About HTML.pdf",
     "category": "Web Development",
     "url": "web-development/html-foundation.pdf"
