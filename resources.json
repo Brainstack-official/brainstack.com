@@ -125,6 +125,11 @@
     "url": "web-development/all-about-javascript.pdf"
   },
   {
+    "title": "Build your own portfolio with coding.pdf",
+    "category": "Web Development",
+    "url": "web-development/portfolio-structure.pdf"
+  },
+  {
     "title": "Artificial Intelligence Basics.pdf",
     "category": "Artificial Intelligence",
     "url": "ai-lab/ai-complete-guide.pdf"
