@@ -45,6 +45,11 @@
     "url": "engineering-pdf/computer-science-complete-guide.pdf"
   },
   {
+    "title": "SQL basics.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/sql-basics.pdf"
+  },
+  {
     "title": "Machine Learning.pdf",
     "category": "Computer Science",
     "url": "engineering-pdf/all-about-machine-learning.pdf"
@@ -63,6 +68,11 @@
     "title": "Civil Engineering.pdf",
     "category": "Civil Engineering",
     "url": "engineering-pdf/civil-engineering-complete-guide.pdf"
+  },
+   {
+    "title": "Building Construction.pdf",
+    "category": "Civil Engineering",
+    "url": "engineering-pdf/building-construction.pdf"
   },
   {
     "title": "Construction Management.pdf",
@@ -150,6 +160,11 @@
     "url": "ai-lab/python-for-ai-beginners.pdf"
   },
   {
+    "title": "Robotic engineering Guide.pdf",
+    "category": "Artificial Intelligence",
+    "url": "ai-lab/robotics-engineer.pdf"
+  },
+  {
     "title": "How to make AI agents.pdf",
     "category": "Artificial Intelligence",
     "url": "ai-lab/how-to-make-ai-agents.pdf"
@@ -174,5 +189,5 @@
     "category": "Library",
     "url": "digital-library/future-careers-overview.pdf"
   }
-  
+
 ]
