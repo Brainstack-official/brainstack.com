@@ -3,7 +3,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://brainstack-com.vercel.app</loc>
+<loc>https://brainstack-com.vercel.app/</loc>
+</url>
+
+  <url>
+  <loc>https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html</loc>
+</url>
+
+<url>
+  <loc>https://brainstack-com.vercel.app/digital-library/digital-labrary.html</loc>
+</url>
+
+<url>
+  <loc>https://brainstack-com.vercel.app/engineering-hub/engineering.html</loc>
+</url>
+
+<url>
+  <loc>https://brainstack-com.vercel.app/programming-languages/programming.html</loc>
+</url>
+
+<url>
+  <loc>https://brainstack-com.vercel.app/web-development/web-development.html</loc>
+</url>
+
+  <url>
+  <loc>https://brainstack-com.vercel.app/engineering-hub/mechanical-resources.html</loc>
+</url>
+
+   <url>
+  <loc>https://brainstack-com.vercel.app/engineering-hub/cs-resources.html</loc>
+</url>
+
+   <url>
+  <loc>https://brainstack-com.vercel.app/engineering-hub/ece-resources.html</loc>
+</url>
+
+<url>
+  <loc>https://brainstack-com.vercel.app/engineering-hub/civil-resources.html</loc>
 </url>
 
 <url>
