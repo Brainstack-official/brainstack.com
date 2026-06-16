@@ -185,6 +185,11 @@
     "url": "web-development/github-guide.pdf"
   },
   {
+    "title": "Visual Studio .pdf",
+    "category": "Programming",
+    "url": "programming-languages/visual-studio.pdf"
+  },
+  {
     "title": "Startup with AI.pdf",
     "category": "Library",
     "url": "digital-library/startup-with-ai.pdf"
