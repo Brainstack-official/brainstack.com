@@ -34,11 +34,6 @@
     "category": "Mechanical Engineering",
     "url": "engineering-pdf/automobile-engineering.pdf"
   },
-    {
-    "title": "Intro to Electrical Engineering.pdf",
-    "category": "Mechanical Engineering",
-    "url": "engineering-pdf/electrical-engineering.pdf"
-  },
   {
     "title": "First Internship.pdf",
     "category": "Mechanical Engineering",
@@ -84,6 +79,16 @@
     "category": "Civil Engineering",
     "url": "engineering-pdf/building-construction.pdf"
   },
+   {
+    "title": "Material Science.pdf",
+    "category": "Civil Engineering",
+    "url": "engineering-pdf/materials-science.pdf"
+  },
+   {
+    "title": "Concrete Technology.pdf",
+    "category": "Civil Engineering",
+    "url": "engineering-pdf/concrete-technology.pdf"
+  },
   {
     "title": "Construction Management.pdf",
     "category": "Civil Engineering",
@@ -118,6 +123,11 @@
     "title": "Engineering Physics.pdf",
     "category": "Engineering",
     "url": "engineering-pdf/engineering-physics.pdf"
+  },
+ {
+    "title": "Intro to Electrical Engineering.pdf",
+    "category": "Engineering",
+    "url": "engineering-pdf/electrical-engineering.pdf"
   },
   {
     "title": "Python Beginner Guide.pdf",
