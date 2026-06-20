@@ -38,3 +38,31 @@ async function viewPDF(resourceName, pdfUrl) {
     window.open(pdfUrl, "_blank");
 }
 
+
+async function saveBookmark(resourceName,pdfUrl){
+
+    const {
+        data:{ user }
+    } = await supabase.auth.getUser();
+
+    if(!user){
+
+        alert("Please Login");
+
+        return;
+    }
+
+    await supabase
+    .from("bookmarks")
+    .insert([
+        {
+            user_id:user.id,
+            resource_name:resourceName,
+            resource_url:pdfUrl
+        }
+    ]);
+
+    alert("Bookmark Saved");
+}
+
+
