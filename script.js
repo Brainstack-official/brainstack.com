@@ -39,30 +39,38 @@ async function viewPDF(resourceName, pdfUrl) {
 }
 
 
-async function saveBookmark(resourceName,pdfUrl){
+async function saveBookmark(resourceName, pdfUrl) {
 
     const {
-        data:{ user }
+        data: { user }
     } = await supabase.auth.getUser();
 
-    if(!user){
+    console.log("USER:", user);
 
+    if (!user) {
         alert("Please Login");
-
         return;
     }
 
-    await supabase
-    .from("bookmarks")
-    .insert([
-        {
-            user_id:user.id,
-            resource_name:resourceName,
-            resource_url:pdfUrl
-        }
-    ]);
+    const { data, error } = await supabase
+        .from("bookmarks")
+        .insert([
+            {
+                user_id: user.id,
+                resource_name: resourceName,
+                resource_url: pdfUrl
+            }
+        ]);
 
-    alert("Bookmark Saved");
+    console.log("DATA:", data);
+    console.log("ERROR:", error);
+
+    if (error) {
+        alert(error.message);
+        return;
+    }
+
+    alert("Bookmark Saved Successfully");
 }
 
 
