@@ -1,3 +1,5 @@
+
+console.log("SCRIPT LOADED");
 // SMOOTH APPEAR ANIMATION
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
