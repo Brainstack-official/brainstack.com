@@ -1,5 +1,4 @@
 
-console.log("SCRIPT LOADED");
 // SMOOTH APPEAR ANIMATION
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -74,5 +73,7 @@ async function saveBookmark(resourceName, pdfUrl) {
 
     alert("Bookmark Saved Successfully");
 }
+window.viewPDF = viewPDF;
+window.saveBookmark = saveBookmark;
 
 
