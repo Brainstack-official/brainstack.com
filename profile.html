@@ -218,8 +218,6 @@ src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
     <span id="joinedDate">-</span>
 </div>
 
-  <div id="stats"></div>
-
 <div class="dashboard">
 
 
@@ -307,42 +305,6 @@ window.logoutUser = async () => {
     window.location.href = "login.html";
 };
 
-
-   async function loadStats(){
-
-    const {
-        data:{ user }
-    } = await supabase.auth.getUser();
-
-    const { data: bookmarks }
-    = await supabase
-      .from("bookmarks")
-      .select("*")
-      .eq("user_id",user.id);
-
-    const { data: views }
-    = await supabase
-      .from("pdf_views")
-      .select("*")
-      .eq("user_id",user.id);
-
-    document.getElementById("stats")
-    .innerHTML=`
-
-    <div>
-      Resources Viewed :
-      ${views.length}
-    </div>
-
-    <div>
-      Resources Saved :
-      ${bookmarks.length}
-    </div>
-
-    `;
-}
-
-loadStats();
     
 </script>
 
