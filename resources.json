@@ -4,6 +4,11 @@
     "category": "Mechanical Engineering",
     "url": "engineering-pdf/mechanical-engineering-guide.pdf"
   },
+   {
+    "title": "Ultimate Mechanical Engineering Resource Book.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/mechanical-resource-book.pdf"
+  },
   {
     "title": "Manufacturing Industry.pdf",
     "category": "Mechanical Engineering",
@@ -105,7 +110,7 @@
     "url": "engineering-pdf/construction-management.pdf"
   },
     {
-    "title": " Electronic and Communication Engg.pdf",
+    "title": "Electronic and Communication Engg.pdf",
     "category": "Electronic and Communication",
     "url": "engineering-pdf/electronics-and-communication-guide.pdf"
   },
@@ -120,12 +125,12 @@
     "url": "engineering-pdf/5g-technology-explained.pdf"
   },
   {
-    "title": " Arduino Project.pdf",
+    "title": "Arduino Project.pdf",
     "category": "Electronic and Communication",
     "url": "engineering-pdf/arduino-project.pdf"
   },
     {
-    "title": " Fundamentals of Electronics Technology.pdf",
+    "title": "Fundamentals of Electronics Technology.pdf",
     "category": "Electronic and Communication",
     "url": "engineering-pdf/electronics-technology.pdf"
   },
@@ -143,6 +148,11 @@
     "title": "Intro to Electrical Engineering.pdf",
     "category": "Engineering",
     "url": "engineering-pdf/electrical-engineering.pdf"
+  },
+  {
+    "title": "Engineering Handbook.pdf",
+    "category": "Engineering",
+    "url": "engineering-pdf/engineering-handbook.pdf"
   },
   {
     "title": "Python Beginner Guide.pdf",
