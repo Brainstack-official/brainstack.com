@@ -39,6 +39,11 @@
     "category": "Mechanical Engineering",
     "url": "engineering-pdf/automobile-engineering.pdf"
   },
+{
+    "title": "Mechatronics and Robotics.pdf",
+    "category": "Mechanical Engineering",
+    "url": "engineering-pdf/mechatronics-and-robotics.pdf"
+  },
   {
     "title": "First Internship.pdf",
     "category": "Mechanical Engineering",
@@ -65,6 +70,16 @@
     "url": "engineering-pdf/app-development.pdf"
   },
 {
+    "title": "Stack mini Projects.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/5-full-stack-projects.pdf"
+  },
+{
+    "title": "Operating Systems.pdf",
+    "category": "Computer Science",
+    "url": "engineering-pdf/operating-systems.pdf"
+  },
+{
     "title": " Computing and Programming.pdf",
     "category": "Computer Science",
     "url": "engineering-pdf/introduction-to-computing.pdf"
@@ -88,6 +103,11 @@
     "title": "Civil Engineering.pdf",
     "category": "Civil Engineering",
     "url": "engineering-pdf/civil-engineering-complete-guide.pdf"
+  },
+  {
+    "title": "Civil Engineering Resource Book.pdf",
+    "category": "Civil Engineering",
+    "url": "engineering-pdf/ultimate-civil-engineering.pdf"
   },
    {
     "title": "Building Construction.pdf",
