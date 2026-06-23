@@ -287,26 +287,6 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
   gtag('config', 'G-C3J27V16D2');
 </script>
-
-  <script type="module">
-
-import { createClient }
-from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
-
-window.supabase = createClient(
-  "https://waeeeyktjujpvpcprhbv.supabase.co",
-  "YOUR_KEY"
-);
-
-const {
-  data:{session}
-} = await window.supabase.auth.getSession();
-
-if(!session){
-  window.location.href="../login.html";
-}
-
-</script>
   
 </head>
 <body>
