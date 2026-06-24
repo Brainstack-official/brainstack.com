@@ -522,10 +522,6 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   .contact-card{
     padding:24px;
   }
-
-.contact-card h2{
-    font-size:0.2rem;
-  }
 	
   .contact-card h3{
     font-size:1.2rem;
