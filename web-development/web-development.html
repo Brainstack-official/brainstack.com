@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title> Web Development Resources | BrainStack</title>
+  <title> BrainStack Library | BrainStack</title>
   <link rel="icon" type="image/png" href="../brainstack.png">
   <!-- GOOGLE FONT -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,25 +13,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-
-/* RESET */
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-html{
-  scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-  font-family:'Poppins',sans-serif;
-  background:#F9FAFB;
-  color:#111827;
-  overflow-x:hidden;
+    background:#ffffff;
+    color:#111827;
+    padding:20px;
 }
-
 
 /* NAVBAR */
 .navbar{
@@ -71,114 +64,65 @@ body{
   text-decoration:none;
   color: #111827;
   transition:0.3s;
-  font-weight:500;
+   font-weight:650;
 }
 
 .nav-links a:hover{
   color: #111827;
 }
 
-
-/* HERO */
-  .hero{
-  padding:130px 20px 50px;
-  text-align:center;
+.container{
+    max-width:1000px;
+    margin:auto;
 }
 
-.hero-content h1{
-  font-size:3.8rem;
-  margin-bottom:15px;
-   color:#111827;
+.page-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:20px;
 }
 
-.hero-content p{
-  font-size:1.5rem;
-   color:#111827;
-  max-width:700px;
-  margin:auto;
+.pdf-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
 }
 
-  
-/* SECTION */
-.section{
-  padding:100px 8%;
+.pdf-table th{
+    background:#f8fafc;
+    color:#111827;
+    text-align:left;
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
 }
 
-.section-title{
-  text-align:center;
-  margin-bottom:60px;
+.pdf-table td{
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
+   font-size: 1.4rem;
 }
 
-.section-title h2{
-  font-size:2.9rem;
-  margin-bottom:10px;
+.pdf-table tr:hover{
+    background:#f9fafb;
 }
 
-.section-title p{
-  color:#111827;
-font-size:1.1rem;
+.view-btn{
+    display:inline-block;
+    background:#1F2937;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
 }
 
-/* GRID */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:35px;
+.view-btn:hover{
+    background:#1F2937;
 }
-
-/* CARD */
-.card{
-  background:#FFFFFF;
-
-  padding:35px;
-
-  border-radius:25px;
-
- border: 1px solid #E5E7EB;
-
-  transition:0.3s;
-}
-
-.card:hover{
-  transform: translateY(-4px);
-box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-
-.card h3{
-  color:#111827;
-  margin-bottom:15px;
- line-height:1.7;
-  font-size:1.5rem;
-}
-
-.card p{
-  color:#111827;
-  margin-bottom:12px;
- line-height:1.5;
-  font-size:1.2rem;
-}
-
-
-/* BUTTON */
-.card a{
-  display:inline-block;
-     background:#111827;
-  color:white;
-  text-decoration:none;
-
-  padding:12px 24px;
-  border-radius:12px;
-
-  font-weight:600;
-
-  transition:all .3s ease;
-}
-
- .card a:hover{
-  transform:scale(1.05);
-}
-
-
 
 /* FOOTER */
 
@@ -215,41 +159,24 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     margin:0;
 }
 
-  
-/* =========================
-   MOBILE
-========================= */
 
 @media(max-width:768px){
 
- .navbar{
-    padding:15px 5%;
-  }
+    .page-title{
+        font-size:1.6rem;
+    }
 
-  .logo{
-    font-size:1.5rem;
-  }
+    .pdf-table th,
+    .pdf-table td{
+        padding:12px;
+        font-size:14px;
+    }
 
-  .menu a{
-    font-size:17px;
-  }
- 
- .hero{
-    padding-top:140px;
-  }
-
-  .hero h1{
-    font-size:2rem;
-  }
-
-  .hero p{
-    font-size:1rem;
-  }
-
-  .navbar{
-    padding:18px 6%;
-  }
-   /* FOOTER */
+    .view-btn{
+        padding:8px 14px;
+        font-size:14px;
+    }
+ /* FOOTER */
 
 .footer-links{
         flex-direction:rows;
@@ -262,8 +189,10 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   #footer p{
     font-size:0.9rem;
   }
-  
+
 }
+
+
 @media(max-width:480px){
 
   .navbar{
@@ -280,10 +209,10 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 }
 
+
 </style>
 
-
-  <!-- Google Analytics -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3J27V16D2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -293,137 +222,162 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   gtag('config', 'G-C3J27V16D2');
 </script>
   
+
 </head>
+
 <body>
 
 <!-- NAVBAR -->
 <nav class="navbar">
 
   <div class="logo">
-  BrainStack
+    BrainStack
   </div>
 
   <div class="nav-links">
     <a href="../index.html">Home</a>
-    </div>
+
+  </div>
 
 </nav>
+<div class="container">
+<table class="pdf-table">
 
-<!-- HERO -->
-<section class="hero">
+<thead>
+<tr>
+<th>PDF Name</th>
+<th>View PDF</th>
+</tr>
+</thead>
 
-  <div class="hero-content">
+<tbody>
 
-    <h1>
-      Web Development
-    </h1>
+<tr>
+<td> FullStack Developer </td>
+<td>
+<a class="view-btn"
+href="../web-development/full-stack-development.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-  <p>
-      Learn and build real-world websites and web applications 
-    </p>
+<tr>
+<td> All about HTML </td>
+<td>
+<a class="view-btn"
+href="../web-development/html-foundation.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-  </div>
+<tr>
+<td> CSS & UI Design </td>
+<td>
+<a class="view-btn"
+href="../web-development/all-about-css.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-</section>
+<tr>
+<td> JavaScript </td>
+<td>
+<a class="view-btn"
+href="../web-development/all-about-javascript.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-<!-- MAIN SECTION -->
-<section class="section">
-
-  <div class="section-title">
-   
-  </div>
-
-  <div class="grid">
-
-
-     <!-- CARD -->
-    <div class="card">
-      <h3> Full Stack Developer Roadmap </h3>
-      <p> Full-stack integration and Small project. </p>
-     <a href="../web-development/full-stack-development.pdf" target="_blank"> View PDF </a>
-      </a>
-    </div>
-
-    <!-- CARD -->
-    <div class="card">
-      <h3> HTML Foundation </h3>
-      <p> Build the structure of modern websites using HTML. </p>
-     <a href="../web-development/html-foundation.pdf" target="_blank"> View PDF </a>
-      </a>
-    </div>
-
-    <!-- CARD -->
-    <div class="card">
-
-      <h3>CSS & UI Design</h3>
-       <p> Create responsive layouts and beautiful interfaces. </p>
-      <a href="../web-development/all-about-css.pdf" target="_blank"> View PDF </a>
-      
-    </div>
-
-
-    <!-- CARD -->
-    <div class="card">
-
-
-      <h3>JavaScript</h3>
-      <p> Add dynamic features and real-world functionality to websites. </p>
-        <a href="../web-development/all-about-javascript.pdf" target="_blank"> View PDF </a>
-    </div>
-
-
-    <div class="card">
-<h3> Visual Studio </h3>
-      <p> How to Install and how to set up for different languages. </p>
-      <a href="../programming-languages/visual-studio.pdf" target="_blank"> View PDF  </a>
-    </div>
-
-    <!-- CARD -->
-    <div class="card">
-
-      <h3>Firebase Backend</h3>
-      <p> Learn authentication, databases and backend services with Firebase. </p>
-      <a href="../web-development/firebase-backend-guide.pdf" target="_blank"> View PDF  </a>
-        
-    </div>
-
- <!-- CARD -->
-    <div class="card">
-<h3> GitHub </h3>
-      <p> Learn version control and workflows. </p>
-      <a href="../web-development/github-guide.pdf" target="_blank"> View PDF  </a>
-    </div>
+<tr>
+<td> Visual Studio  </td>
+<td>
+<a class="view-btn"
+href="../programming-languages/visual-studio.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
 
-     <!-- CARD -->
-    <div class="card">
-<h3> Build a Portfolio </h3>
-      <p> Build your own portfolio with coding. </p>
-      <a href="../web-development/portfolio-structure.pdf" target="_blank"> View PDF  </a>
-    </div>
+<tr>
+<td> Firebase Backend </td>
+<td>
+<a class="view-btn"
+href="../web-development/firebase-backend-guide.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-     <!-- CARD -->
-    <div class="card">
+<tr>
+<td> GitHub </td>
+<td>
+<a class="view-btn"
+href="../web-development/github-guide.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
- <h3> Cybersecurity Basics </h3>
-      <p> Networking Authentication and authorization </p>
-      <a href="../engineering-pdf/cybersecurity-basics.pdf" target="_blank"> View PDF  </a>
-      
-    </div>
+<tr>
+<td> Build a Portfolio </td>
+<td>
+<a class="view-btn"
+href="../web-development/portfolio-structure.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
- <!-- CARD -->
-    <div class="card">
-      
- <h3> Website Deployment or Hosting </h3>
-      <p> Github, Netlify and Vercel </p>
-      <a href="../engineering-pdf/website-deployment-hosting.pdf" target="_blank"> View PDF  </a>
-      
-    </div>
 
-    
-  </div>
+<tr>
+<td> Cybersecurity Basics </td>
+<td>
+<a class="view-btn"
+href="../engineering-pdf/cybersecurity-basics.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-</section>
+<tr>
+<td> Website Deployment or Hosting </td>
+<td>
+<a class="view-btn"
+href="../engineering-pdf/website-deployment-hosting.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
+
+
+</tbody>
+
+</table>
+
+</div>
+
+  
+  <br>
+<br>
+<br>
+  <br>
+<br>
+<br>
 
 <!-- FOOTER -->
  <footer id="footer">
@@ -438,11 +392,10 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     <p>© 2026 BrainStack. All Rights Reserved.</p>
 
 </footer>
-  
-  
+
  <script src="../script.js"></script>
   
 <script src="../search.js"></script>
-  
+
 </body>
 </html>
