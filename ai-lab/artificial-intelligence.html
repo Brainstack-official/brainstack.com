@@ -13,25 +13,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-  
-/* RESET */
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-html{
-  scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-  font-family:'Poppins',sans-serif;
-  background:#F9FAFB;
-  color:#111827;
-  overflow-x:hidden;
+    background:#ffffff;
+    color:#111827;
+    padding:20px;
 }
-
 
 /* NAVBAR */
 .navbar{
@@ -78,107 +71,57 @@ body{
   color: #111827;
 }
 
-
-/* HERO */
-.hero{
-  padding:130px 20px 50px;
-  text-align:center;
+.container{
+    max-width:1000px;
+    margin:auto;
 }
 
-.hero-content h1{
-  font-size:3.8rem;
-  margin-bottom:15px;
-   color:#111827;
+.page-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:20px;
 }
 
-.hero-content p{
-  font-size:1.5rem;
-   color:#111827;
-  max-width:700px;
-  margin:auto;
+.pdf-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    overflow:hidden;
 }
 
-/* SECTION */
-.section{
-  padding:100px 8%;
+.pdf-table th{
+    background:#f8fafc;
+    color:#111827;
+    text-align:left;
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
 }
 
-.section-title{
-  text-align:center;
-  margin-bottom:60px;
+.pdf-table td{
+    padding:16px;
+    border-bottom:1px solid #e5e7eb;
 }
 
-.section-title h2{
-  font-size:2.9rem;
-  margin-bottom:10px;
+.pdf-table tr:hover{
+    background:#f9fafb;
 }
 
-.section-title p{
-  color:#111827;
-font-size:1.1rem;
+.view-btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
 }
 
-/* GRID */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:35px;
+.view-btn:hover{
+    background:#1d4ed8;
 }
-
-/* CARD */
-.card{
-  background:#FFFFFF;
-
-  padding:35px;
-
-  border-radius:25px;
-
- border: 1px solid #E5E7EB;
-
-  transition:0.3s;
-}
-
-.card:hover{
-  transform: translateY(-4px);
-box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-}
-  
-
-.card h3{
-  color:#111827;
-  margin-bottom:15px;
- line-height:1.7;
-  font-size:1.6rem;
-}
-
-.card p{
-  color:#111827;
-  margin-bottom:12px;
- line-height:1.6;
-  font-size:1.2rem;
-}
-
-
-/* BUTTON */
-.card a{
-  display:inline-block;
-     background:#111827;
-  color:white;
-  text-decoration:none;
-
-  padding:12px 24px;
-  border-radius:12px;
-
-  font-weight:600;
-
-  transition:all .3s ease;
-}
-
- .card a:hover{
-  transform:scale(1.05);
-}
-
-
 
 /* FOOTER */
 
@@ -215,41 +158,24 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     margin:0;
 }
 
-  
-/* =========================
-   MOBILE
-========================= */
 
 @media(max-width:768px){
 
- .navbar{
-    padding:15px 5%;
-  }
+    .page-title{
+        font-size:1.6rem;
+    }
 
-  .logo{
-    font-size:1.5rem;
-  }
+    .pdf-table th,
+    .pdf-table td{
+        padding:12px;
+        font-size:14px;
+    }
 
-  .menu a{
-    font-size:17px;
-  }
- 
- .hero{
-    padding-top:140px;
-  }
-
-  .hero h1{
-    font-size:1.8rem;
-  }
-
-  .hero p{
-    font-size:0.9rem;
-  }
-
-  .navbar{
-    padding:18px 6%;
-  }
-   /* FOOTER */
+    .view-btn{
+        padding:8px 14px;
+        font-size:14px;
+    }
+ /* FOOTER */
 
 .footer-links{
         flex-direction:rows;
@@ -264,6 +190,8 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   }
 
 }
+
+
 @media(max-width:480px){
 
   .navbar{
@@ -280,6 +208,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 }
 
+
 </style>
 
 <!-- Google Analytics -->
@@ -292,7 +221,9 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   gtag('config', 'G-C3J27V16D2');
 </script>
   
+
 </head>
+
 <body>
 
 <!-- NAVBAR -->
@@ -309,93 +240,107 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 
 </nav>
 
-<!-- HERO -->
-<section class="hero">
+<div class="container">
 
-  <div class="hero-content">
+<h1 class="page-title"> Artificial Intelligence </h1>
 
-    <h1>
-      Artificial Intelligence
-    </h1>
-    
-<p>
-      Explore the future of artificial intelligence and automation
-    </p>
-  </div>
+<table class="pdf-table">
 
-</section>
+<thead>
+<tr>
+<th>PDF Name</th>
+<th>View PDF</th>
+</tr>
+</thead>
 
-<!-- MAIN SECTION -->
-<section class="section">
+<tbody>
 
-  <div class="section-title">
+<tr>
+<td> All about AI </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/ai-complete-guide.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-  </div>
+<tr>
+<td> Prompt Engineering </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/prompt-engineering.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
+
+<tr>
+<td> Robotics Engineering </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/robotics-engineer.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
+
+<tr>
+<td> Python for AI </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/python-for-ai-beginners.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
+
+<tr>
+<td> How to make AI agents </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/how-to-make-ai-agents.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
 
-  <div class="grid">
+<tr>
+<td> Machine Learning  </td>
+<td>
+<a class="view-btn"
+href="../engineering-pdf/all-about-machine-learning.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-     <!-- CARD -->
-    <div class="card">
 
-      <h3> All about AI </h3>
-<p> Study, Career and Jobs. </p>
-      <a href="../ai-lab/ai-complete-guide.pdf" target="_blank">
-     View PDF
-      </a>
-    </div>
+<tr>
+<td> ChatGPT and Perplexity </td>
+<td>
+<a class="view-btn"
+href="../ai-lab/chatgpt-and-perplexity.pdf"
+target="_blank">
+View PDF
+</a>
+</td>
+</tr>
 
-    <!-- CARD -->
-    <div class="card">
 
-      <h3> Prompt Engineering </h3>
-<p> Learn prompting and techniques to maximize AI productivity. </p>
-     <a href="../ai-lab/prompt-engineering.pdf" target="_blank">
-     View PDF
-      </a>
-    </div>
 
-<div class="card">
-      <h3> Robotics Engineering </h3>
-      <p> Education path, Skills and Career. </p>
-      <a href="../ai-lab/robotics-engineer.pdf" target="_blank"> View PDF  </a>
-    </div>
-    
- <!-- CARD -->
-    <div class="card">
+</tbody>
 
-      <h3> Python for AI </h3>
-      <p> Learn data types and more with mini projects. </p>
-      <a href="../ai-lab/python-for-ai-beginners.pdf" target="_blank"> View PDF  </a>
-    </div>
+</table>
 
-      <div class="card">
-
-      <h3> How to make AI agents </h3>
-      <p> Agent types and memory. </p>
-      <a href="../ai-lab/how-to-make-ai-agents.pdf" target="_blank"> View PDF  </a>
-  
-    </div>
-    
- <!-- CARD -->
-    <div class="card">
-
-      <h3> Machine Learning </h3>
-      <p> Types of Machine Learning and Algorithms. </p>
-      <a href="../engineering-pdf/all-about-machine-learning.pdf" target="_blank"> View PDF  </a>
-    </div>
-
-    <div class="card">
-      <h3> ChatGPT and Perplexity </h3>
-      <p> Know about Logic behind answers. </p>
-      <a href="../ai-lab/chatgpt-and-perplexity.pdf" target="_blank"> View PDF  </a>
-    </div>
-
-    
-    
-  </div>
-
-</section>
+</div>
 
 <!-- FOOTER -->
  <footer id="footer">
@@ -410,7 +355,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     <p>© 2026 BrainStack. All Rights Reserved.</p>
 
 </footer>
-  
+
 
 </body>
 </html>
