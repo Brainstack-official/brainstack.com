@@ -347,13 +347,13 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 .contact-card h3{
     color: #111827;
     margin-bottom:15px;
-    font-size:1.5rem;
+    font-size:1.3rem;
 }
 
 .contact-card p{
     color: #111827;
     line-height:1.5;
-	font-size:1.3rem
+	font-size:1.2rem
 }
 
 
@@ -524,7 +524,7 @@ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   }
 
   .contact-card h3{
-    font-size:0.8rem;
+    font-size:0.6rem;
   }
 
   .contact-card p{
