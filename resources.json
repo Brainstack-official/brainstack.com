@@ -260,9 +260,14 @@
     "url": "web-development/github-guide.pdf"
   },
   {
-    "title": "Visual Studio .pdf",
+    "title": "Visual Studio.pdf",
     "category": "Programming",
     "url": "programming-languages/visual-studio.pdf"
+  },
+  {
+    "title": "All about BSc in CSE.pdf",
+    "category": "BSc in CSE",
+    "url": "bsc-pdfs/all-about-bsc-in-cse.pdf"
   },
   {
     "title": "Startup with AI.pdf",
