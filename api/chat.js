@@ -1,27 +1,39 @@
 // ============================================================
-// FILE: api/chat.js
-// This is a Vercel Serverless Function.
-// It keeps your Gemini API key 100% hidden from users.
+// FILE: api/chat.js  — Vercel Serverless Function
 // ============================================================
 
 export default async function handler(req, res) {
 
-  // Only allow POST requests
+  // Allow CORS
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
+  // Handle preflight
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // Get the API key from Vercel Environment Variables (never exposed to users)
   const GEMINI_KEY = process.env.GEMINI_KEY;
 
   if (!GEMINI_KEY) {
-    return res.status(500).json({ error: "API key not configured" });
+    return res.status(500).json({ error: "GEMINI_KEY not found in environment variables" });
   }
 
   try {
     const { messages, systemPrompt } = req.body;
 
-    // Call Gemini API from the server side
+    const geminiMessages = messages.map(function(m) {
+      return {
+        role: m.role === "assistant" ? "model" : "user",
+        parts: [{ text: m.content }]
+      };
+    });
+
     const response = await fetch(
       "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + GEMINI_KEY,
       {
@@ -31,23 +43,24 @@ export default async function handler(req, res) {
           system_instruction: {
             parts: [{ text: systemPrompt }]
           },
-          contents: messages.map(function(m) {
-            return {
-              role: m.role === "assistant" ? "model" : "user",
-              parts: [{ text: m.content }]
-            };
-          })
+          contents: geminiMessages
         })
       }
     );
 
+    if (!response.ok) {
+      const errData = await response.json();
+      console.error("Gemini API error:", errData);
+      return res.status(500).json({ error: "Gemini API error", details: errData });
+    }
+
     const data = await response.json();
-    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text ||
-                  "Sorry, I didn't get a response. Please try again!";
+    const reply = data.candidates?.[0]?.content?.parts?.[0]?.text || "No response from Gemini.";
 
     return res.status(200).json({ reply });
 
   } catch (error) {
-    return res.status(500).json({ error: "Something went wrong. Please try again." });
+    console.error("Server error:", error);
+    return res.status(500).json({ error: "Server error: " + error.message });
   }
 }
