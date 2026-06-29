@@ -223,38 +223,6 @@ body{
 
   gtag('config', 'G-C3J27V16D2');
 
-
-  document.getElementById("aiFab").onclick = function(){
-
-window.location.href="https://brainstack-com.vercel.app/brainstack-ai/brainstack-ai.html";
-
-};
-
-	window.addEventListener("load",()=>{
-
-if(localStorage.getItem("brainstackAiHint")) return;
-
-setTimeout(()=>{
-
-const tip=document.createElement("div");
-
-tip.innerHTML="👋 Need help? Ask BrainStack AI";
-
-tip.className="aiHint";
-
-document.body.appendChild(tip);
-
-setTimeout(()=>{
-
-tip.remove();
-
-},5000);
-
-localStorage.setItem("brainstackAiHint","yes");
-
-},2500);
-
-});
 </script>
   
 
@@ -487,21 +455,7 @@ Open PDF
 
 </div>
 
-  <!-- =========================
-     BrainStack AI Floating Button
-========================= -->
-
-<div id="brainstackAI">
-
-    <button id="aiFab">
-
-        <span class="ai-icon">🤖</span>
-
-        <span class="ai-text">Ask AI</span>
-
-    </button>
-
-</div>
+	
   <br>
 <br>
 <br>
