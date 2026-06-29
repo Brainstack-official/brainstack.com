@@ -1,0 +1,478 @@
+{
+  "site": {
+    "name": "BrainStack",
+    "url": "https://brainstack-com.vercel.app",
+    "founder": "Shaik Mohammed Rehan",
+    "tagline": "Your All-in-One Learning Hub for Students",
+    "categories": [
+      { "name": "Engineering Hub",        "url": "https://brainstack-com.vercel.app/engineering-hub/engineering.html",  "emoji": "⚙️" },
+      { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",                      "emoji": "🔬" },
+      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming/programming.html",       "emoji": "💻" },
+      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-dev/web.html",                  "emoji": "🌐" },
+      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/ai.html",                    "emoji": "🤖" },
+      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/library.html",                      "emoji": "📚" }
+    ]
+  },
+
+  "pdfs": [
+
+
+    {
+      "id": "mech",
+      "title": "Mechanical Engineering Notes",
+      "category": "Engineering Hub",
+      "emoji": "⚙️",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/mechanical-resources.html",
+      "topics": ["mechanical","thermodynamics","fluid mechanics","heat transfer","manufacturing","cad","machine design","kinematics","dynamics","strength of materials","rankine","carnot","bernoulli"]
+    },
+    {
+      "id": "civil",
+      "title": "Civil Engineering Notes",
+      "category": "Engineering Hub",
+      "emoji": "🏗️",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/civil-resources.html",
+      "topics": ["civil","construction","structural","concrete","surveying","bridge","road","geotechnical","hydraulics","rcc","steel structure","soil mechanics"]
+    },
+    {
+      "id": "ece",
+      "title": "Electronics & Communication Engineering Notes",
+      "category": "Engineering Hub",
+      "emoji": "📡",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/ece-resources.html",
+      "topics": ["electronics","communication","ece","circuit","signal","microcontroller","arduino","embedded","semiconductor","amplifier","transistor","diode","analog","digital","vlsi","antenna","modulation"]
+    },
+    {
+      "id": "cse",
+      "title": "Computer Science Engineering Notes",
+      "category": "Engineering Hub",
+      "emoji": "💻",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/cse-resources.html",
+      "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","computer architecture","theory of computation","software development"]
+    },
+    {
+      "id": "aiml_eng",
+      "title": "AI & ML Engineering Notes",
+      "category": "Engineering Hub",
+      "emoji": "🤖",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/ai-ml-resources.html",
+      "topics": ["ai engineering","ml engineering","aiml","ai ml","artificial intelligence engineering"]
+    },
+
+    {
+      "id": "bsc_math",
+      "title": "B.Sc Mathematics Notes",
+      "category": "Bachelor of Science",
+      "emoji": "📐",
+      "url": "https://brainstack-com.vercel.app/bsc/mathematics.html",
+      "topics": ["bsc mathematics","bsc maths","calculus","algebra","trigonometry","statistics","differentiation","integration","matrices","probability","vectors","sequences","series","limits","bsc math"]
+    },
+    {
+      "id": "bsc_phy",
+      "title": "B.Sc Physics Notes",
+      "category": "Bachelor of Science",
+      "emoji": "⚛️",
+      "url": "https://brainstack-com.vercel.app/bsc/physics.html",
+      "topics": ["bsc physics","physics","optics","quantum","relativity","waves","electricity","magnetism","nuclear physics","laws of motion","newton","gravitation","light","sound","thermodynamics physics"]
+    },
+    {
+      "id": "bsc_chem",
+      "title": "B.Sc Chemistry Notes",
+      "category": "Bachelor of Science",
+      "emoji": "🧪",
+      "url": "https://brainstack-com.vercel.app/bsc/chemistry.html",
+      "topics": ["bsc chemistry","chemistry","organic","inorganic","physical chemistry","reaction","periodic table","bonding","electrochemistry","polymer","acid","base","mole","benzene","alkane","functional group"]
+    },
+    {
+      "id": "bsc_bot",
+      "title": "B.Sc Botany Notes",
+      "category": "Bachelor of Science",
+      "emoji": "🌿",
+      "url": "https://brainstack-com.vercel.app/bsc/botany.html",
+      "topics": ["bsc botany","botany","plant","plant biology","cell","photosynthesis","ecology","morphology","taxonomy","plant physiology","genetics botany"]
+    },
+    {
+      "id": "bsc_zoo",
+      "title": "B.Sc Zoology Notes",
+      "category": "Bachelor of Science",
+      "emoji": "🦁",
+      "url": "https://brainstack-com.vercel.app/bsc/zoology.html",
+      "topics": ["bsc zoology","zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification"]
+    },
+    {
+      "id": "bsc_cse",
+      "title": "B.Sc Computer Science Notes",
+      "category": "Bachelor of Science",
+      "emoji": "🖥️",
+      "url": "https://brainstack-com.vercel.app/bsc/cse.html",
+      "topics": ["bsc cse","bsc computer science","bsc it","bsc computer","bsc cs"]
+    },
+
+
+    {
+      "id": "python",
+      "title": "Python Programming Guide",
+      "category": "Programming",
+      "emoji": "🐍",
+      "url": "https://brainstack-com.vercel.app/programming/python.html",
+      "topics": ["python","django","flask","pandas","numpy","automation","scripting","data analysis","matplotlib","jupyter","pip","lambda","decorator","list comprehension"]
+    },
+    {
+      "id": "java",
+      "title": "Java Programming Guide",
+      "category": "Programming",
+      "emoji": "☕",
+      "url": "https://brainstack-com.vercel.app/programming/java.html",
+      "topics": ["java","oops","spring","class","inheritance","polymorphism","encapsulation","abstraction","interface","collections","multithreading","exception","java 8","lambda java","streams"]
+    },
+    {
+      "id": "cpp",
+      "title": "C & C++ Programming Guide",
+      "category": "Programming",
+      "emoji": "🔧",
+      "url": "https://brainstack-com.vercel.app/programming/c-cpp.html",
+      "topics": ["c programming","c++","cpp","pointers","memory","arrays","structures","file handling","c language"]
+    },
+    {
+      "id": "dsa",
+      "title": "Data Structures & Algorithms",
+      "category": "Programming",
+      "emoji": "📊",
+      "url": "https://brainstack-com.vercel.app/programming/dsa.html",
+      "topics": ["data structure","dsa","algorithm","sorting","searching","tree","graph","linked list","stack","queue","dynamic programming","recursion","binary search","hashing","big o","time complexity","greedy"]
+    },
+    {
+      "id": "dbms",
+      "title": "Database Management (DBMS)",
+      "category": "Programming",
+      "emoji": "🗄️",
+      "url": "https://brainstack-com.vercel.app/programming/dbms.html",
+      "topics": ["database","sql","mysql","mongodb","nosql","query","normalization","dbms","postgresql","joins","transactions","er diagram","acid","relational database"]
+    },
+    {
+      "id": "cyber",
+      "title": "Cyber Security Guide",
+      "category": "Programming",
+      "emoji": "🔒",
+      "url": "https://brainstack-com.vercel.app/programming/cyber-security.html",
+      "topics": ["cyber security","hacking","ethical hacking","network security","firewall","encryption","malware","penetration testing","kali linux","vulnerability","phishing","ddos","cryptography","security"]
+    },
+
+    {
+      "id": "html_css",
+      "title": "HTML & CSS Complete Guide",
+      "category": "Web Development",
+      "emoji": "🌐",
+      "url": "https://brainstack-com.vercel.app/web-dev/html-css.html",
+      "topics": ["html","css","web design","responsive","bootstrap","tailwind","flexbox","grid","dom","forms","selectors","animation css","media query","html5","css3"]
+    },
+    {
+      "id": "js",
+      "title": "JavaScript Complete Guide",
+      "category": "Web Development",
+      "emoji": "⚡",
+      "url": "https://brainstack-com.vercel.app/web-dev/javascript.html",
+      "topics": ["javascript","js","es6","async","await","promise","event","dom","json","fetch","arrow function","closure","prototype","scope","hoisting","callback","spread","destructuring"]
+    },
+    {
+      "id": "react",
+      "title": "React & Frontend Frameworks",
+      "category": "Web Development",
+      "emoji": "⚛️",
+      "url": "https://brainstack-com.vercel.app/web-dev/react.html",
+      "topics": ["react","vue","angular","component","hooks","usestate","useeffect","props","jsx","redux","context","next.js","virtual dom","spa","react router"]
+    },
+    {
+      "id": "node",
+      "title": "Node.js & Backend Guide",
+      "category": "Web Development",
+      "emoji": "🖧",
+      "url": "https://brainstack-com.vercel.app/web-dev/nodejs.html",
+      "topics": ["nodejs","node","express","backend","rest api","server","npm","full stack","middleware","authentication","jwt","api development","expressjs"]
+    },
+
+    {
+      "id": "ai",
+      "title": "Artificial Intelligence Guide",
+      "category": "Artificial Intelligence",
+      "emoji": "🤖",
+      "url": "https://brainstack-com.vercel.app/ai-lab/ai-resources.html",
+      "topics": ["artificial intelligence","ai","expert system","search algorithm","problem solving","knowledge representation","planning ai","turing test","ai history"]
+    },
+    {
+      "id": "ml",
+      "title": "Machine Learning Guide",
+      "category": "Artificial Intelligence",
+      "emoji": "📈",
+      "url": "https://brainstack-com.vercel.app/ai-lab/machine-learning.html",
+      "topics": ["machine learning","ml","supervised learning","unsupervised learning","regression","classification","clustering","scikit learn","model training","overfitting","cross validation","feature engineering"]
+    },
+    {
+      "id": "dl",
+      "title": "Deep Learning & Neural Networks",
+      "category": "Artificial Intelligence",
+      "emoji": "🧠",
+      "url": "https://brainstack-com.vercel.app/ai-lab/deep-learning.html",
+      "topics": ["deep learning","neural network","cnn","rnn","lstm","tensorflow","pytorch","keras","nlp","computer vision","backpropagation","activation function","epoch","batch","dropout"]
+    },
+    {
+      "id": "ds",
+      "title": "Data Science Guide",
+      "category": "Artificial Intelligence",
+      "emoji": "📊",
+      "url": "https://brainstack-com.vercel.app/ai-lab/data-science.html",
+      "topics": ["data science","data analysis","visualization","matplotlib","seaborn","pandas","numpy","jupyter","statistics","eda","exploratory data analysis","data cleaning","feature selection"]
+    },
+
+    {
+      "id": "lib",
+      "title": "BrainStack Digital Library",
+      "category": "BrainStack Library",
+      "emoji": "📚",
+      "url": "https://brainstack-com.vercel.app/library.html",
+      "topics": ["library","ebook","book","reference","textbook","notes collection","pdf collection","study material","all books","all notes"]
+    }
+
+   
+  ],
+
+  "roadmaps": [
+    {
+      "id": "webdev",
+      "title": "Full Stack Web Developer",
+      "emoji": "🌐",
+      "url": "https://brainstack-com.vercel.app/roadmaps/web-dev.html",
+      "keywords": ["web developer","full stack","frontend developer","backend developer","web development career"],
+      "steps": ["Learn HTML & CSS basics","Master JavaScript","Learn a framework like React or Vue","Learn Node.js & Express for backend","Learn a database — MySQL or MongoDB","Build 3–5 real projects","Deploy on Vercel or Netlify"]
+    },
+    {
+      "id": "aiml",
+      "title": "AI & Machine Learning Engineer",
+      "emoji": "🤖",
+      "url": "https://brainstack-com.vercel.app/roadmaps/ai-ml.html",
+      "keywords": ["ai engineer","machine learning engineer","data scientist","deep learning","artificial intelligence career"],
+      "steps": ["Learn Python thoroughly","Study Mathematics — Linear Algebra & Statistics","Learn NumPy, Pandas, Matplotlib","Study Machine Learning with scikit-learn","Learn Deep Learning — TensorFlow or PyTorch","Work on real datasets and Kaggle projects","Build an AI portfolio"]
+    },
+    {
+      "id": "cyber",
+      "title": "Cyber Security",
+      "emoji": "🔒",
+      "url": "https://brainstack-com.vercel.app/roadmaps/cyber.html",
+      "keywords": ["cyber security","ethical hacker","security engineer","penetration tester","hacking career"],
+      "steps": ["Learn Networking fundamentals — TCP/IP, DNS, HTTP","Study Linux and command line tools","Learn Python for security scripting","Study ethical hacking concepts and tools","Practice on TryHackMe and HackTheBox","Get certified — CEH or CompTIA Security+","Build a home lab for practice"]
+    },
+    {
+      "id": "python_dev",
+      "title": "Python Developer",
+      "emoji": "🐍",
+      "url": "https://brainstack-com.vercel.app/roadmaps/python.html",
+      "keywords": ["python developer","python programmer","django developer","flask developer","python career"],
+      "steps": ["Learn Python basics — variables, loops, functions","Learn OOP in Python","Study key libraries — NumPy, Pandas","Learn Django or Flask framework","Work with databases — SQL and MongoDB","Build and deploy Python projects"]
+    },
+    {
+      "id": "dsa_cp",
+      "title": "DSA & Competitive Programming",
+      "emoji": "📊",
+      "url": "https://brainstack-com.vercel.app/roadmaps/dsa.html",
+      "keywords": ["dsa roadmap","competitive programming","coding interview","leetcode","placement preparation","data structures career"],
+      "steps": ["Learn a language — C++, Java, or Python","Master Arrays, Strings, Math tricks","Learn Recursion and Sorting algorithms","Study Trees, Graphs, and Hashing","Dynamic Programming — memoization & tabulation","Practice daily on LeetCode and Codeforces"]
+    },
+    {
+      "id": "android",
+      "title": "Android App Developer",
+      "emoji": "📱",
+      "url": "https://brainstack-com.vercel.app/roadmaps/android.html",
+      "keywords": ["android developer","mobile developer","app developer","kotlin","flutter","mobile app career"],
+      "steps": ["Learn Java or Kotlin basics","Set up Android Studio","Build simple UI apps — buttons, layouts","Learn Activities, Fragments, Intents","Study local databases — SQLite or Room","Learn API integration and Firebase","Publish your app on Play Store"]
+    }
+  ],
+
+  "responses": {
+    "greetings":  ["hi","hello","hey","hii","heya","heyy","sup","yo","good morning","good evening","good afternoon","good night","namaste","howdy","greetings","what's up","wassup","hi there","hello there","start","begin","hai"],
+    "thanks":     ["thank","thanks","thank you","thankyou","helpful","great answer","awesome","well done","perfect","amazing","nice","good job","excellent","brilliant","superb","wonderful"],
+    "bye":        ["bye","goodbye","see you","see ya","later","exit","quit","close","that's all","done","finish","end"],
+    "about":      ["who made","who created","who built","who developed","about brainstack","what is brainstack","tell me about","founder","rehan","shaik","who are you","what are you","who made you","your creator","brainstack team","brainstack founder","brainstack platform","brainstack website"],
+    "help":       ["help","what can you do","how to use","guide me","features","what do you know","capabilities","assist"],
+    "categories": ["categories","what categories","what subjects","what topics","all subjects","show categories","list categories","what sections"],
+
+    "topics": {
+
+      "thermodynamics": {
+        "keywords": ["thermodynamics","heat transfer","carnot","rankine","entropy","enthalpy","first law","second law","zeroth law","third law","heat engine","refrigerator cycle"],
+        "explanation": "**Thermodynamics** is the branch of physics and engineering that studies heat, work, and energy transformations.\n\n**4 Laws of Thermodynamics:**\n• **Zeroth Law** — If A and B are in thermal equilibrium with C, then A and B are in equilibrium with each other\n• **First Law** — Energy cannot be created or destroyed: ΔU = Q − W\n• **Second Law** — Entropy of the universe always increases\n• **Third Law** — Entropy approaches zero as temperature approaches absolute zero\n\n**Key Concepts:**\n• Heat (Q), Work (W), Internal Energy (U)\n• Enthalpy H = U + PV\n• Entropy S — measure of disorder\n• Carnot Cycle — the most efficient possible heat engine\n\n**Important Formulas:**\n• First Law: ΔU = Q − W\n• Carnot Efficiency = 1 − (T_cold / T_hot)\n• For ideal gas: PV = nRT\n\n💡 **Exam Tip:** Learn all 4 laws and the Carnot cycle — they appear in almost every exam!",
+        "pdfIds": ["mech","bsc_phy"]
+      },
+
+      "laws of motion": {
+        "keywords": ["laws of motion","newton","newton's laws","first law motion","second law motion","third law motion","inertia","force mass acceleration","action reaction","momentum"],
+        "explanation": "**Newton's Three Laws of Motion** are the foundation of classical mechanics.\n\n**First Law — Law of Inertia:**\nAn object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force.\n• Example: A ball rolling on a frictionless surface keeps rolling forever\n\n**Second Law — F = ma:**\nForce = Mass × Acceleration\n• The greater the force, the greater the acceleration\n• The greater the mass, the less the acceleration for the same force\n• Example: Pushing a heavy box needs more force than a light box\n\n**Third Law — Action & Reaction:**\nFor every action, there is an equal and opposite reaction\n• Example: A rocket pushes gas downward → gas pushes rocket upward\n• Example: When you walk, you push the ground backward → ground pushes you forward\n\n**Key Formulas:**\n• F = ma\n• Momentum p = mv\n• Impulse = F × t = Δp\n• Weight W = mg (g = 9.8 m/s²)\n\n💡 **Tip:** Understand the real-world examples — they help you apply the laws in numerical problems!",
+        "pdfIds": ["bsc_phy","mech"]
+      },
+
+      "mechanics": {
+        "keywords": ["mechanics","motion","kinematics","dynamics","velocity","acceleration","displacement","projectile","circular motion","work energy","power","friction"],
+        "explanation": "**Mechanics** is the study of motion and the forces that cause it.\n\n**Kinematics — Equations of Motion:**\n• v = u + at\n• s = ut + ½at²\n• v² = u² + 2as\n• s = (u + v)/2 × t\n\n**Key Concepts:**\n• Displacement — change in position (vector)\n• Velocity — rate of change of displacement\n• Acceleration — rate of change of velocity\n• Projectile Motion — horizontal + vertical motion combined\n• Circular Motion — centripetal force = mv²/r\n\n**Work, Energy & Power:**\n• Work W = F × d × cosθ\n• Kinetic Energy KE = ½mv²\n• Potential Energy PE = mgh\n• Power P = Work / Time\n• Conservation of Energy: KE + PE = constant\n\n💡 **Tip:** Draw free body diagrams for every problem — it makes solving much easier!",
+        "pdfIds": ["bsc_phy","mech"]
+      },
+
+      "civil engineering": {
+        "keywords": ["civil engineering","construction","structural","concrete","rcc","steel","surveying","soil","foundation","beam","column","bridge","road","dam","irrigation"],
+        "explanation": "**Civil Engineering** is one of the oldest engineering branches — it deals with designing and building infrastructure.\n\n**Major Branches:**\n• **Structural Engineering** — designing buildings, bridges, dams\n• **Geotechnical Engineering** — soil mechanics, foundations\n• **Transportation Engineering** — roads, highways, traffic\n• **Environmental Engineering** — water treatment, waste management\n• **Hydraulics** — water flow, dams, irrigation\n• **Surveying** — measuring and mapping land\n\n**Key Concepts:**\n• RCC (Reinforced Cement Concrete) — concrete + steel bars\n• Bending Moment and Shear Force in beams\n• Factor of Safety = Failure Load / Working Load\n• Soil bearing capacity for foundations\n• Slump test — measures concrete workability\n\n**Important Materials:**\n• Cement grades — OPC 33, 43, 53\n• Steel — Fe 415, Fe 500 (yield strength)\n• Concrete grades — M15, M20, M25, M30\n\n💡 **Tip:** Practice drawing BMD and SFD diagrams — they come in every civil exam!",
+        "pdfIds": ["civil"]
+      },
+
+      "electronics": {
+        "keywords": ["electronics","ece","circuit","transistor","diode","amplifier","analog","digital","op amp","logic gate","microcontroller","signal","semiconductor","mosfet","bjt","rectifier"],
+        "explanation": "**Electronics Engineering** deals with circuits, signals, and electronic devices.\n\n**Basic Components:**\n• Resistor — opposes current flow (Ohm's law: V = IR)\n• Capacitor — stores electric charge (C = Q/V)\n• Inductor — stores magnetic energy\n• Diode — allows current in one direction only\n• Transistor (BJT/MOSFET) — amplification and switching\n\n**Key Topics:**\n• **Analog Electronics** — amplifiers, oscillators, filters\n• **Digital Electronics** — logic gates, flip-flops, counters\n• **Communication** — AM/FM modulation, antennas, signals\n• **Microcontrollers** — Arduino, 8051, ARM\n• **VLSI** — designing integrated circuits\n\n**Logic Gates:**\n• AND: output 1 only if all inputs are 1\n• OR: output 1 if any input is 1\n• NOT: inverts input\n• NAND, NOR, XOR — combinations\n\n**Op-Amp Golden Rules:**\n• Input terminals draw no current\n• Output adjusts to make inputs equal (in feedback)\n\n💡 **Tip:** Start with basic Ohm's law and KVL/KCL — everything else builds on these!",
+        "pdfIds": ["ece"]
+      },
+
+      "mechanical engineering": {
+        "keywords": ["mechanical engineering","machine design","manufacturing","cad","fluid mechanics","heat","material science","turbine","engine","stress","strain"],
+        "explanation": "**Mechanical Engineering** is the branch that deals with machines, energy, and materials.\n\n**Core Subjects:**\n• **Thermodynamics** — heat and energy systems\n• **Fluid Mechanics** — behavior of liquids and gases\n• **Machine Design** — designing mechanical components\n• **Manufacturing** — production processes and techniques\n• **Strength of Materials** — stress, strain, deformation\n• **Theory of Machines** — kinematics & dynamics of machinery\n• **Heat Transfer** — conduction, convection, radiation\n\n**Key Formulas:**\n• Stress σ = Force / Area\n• Strain ε = Change in Length / Original Length\n• Young's Modulus E = σ / ε\n• Fluid pressure P = ρgh\n• Bernoulli's equation: P + ½ρv² + ρgh = constant\n\n**CAD Tools used:**\n• AutoCAD, SolidWorks, CATIA, ANSYS\n\n💡 **Tip:** Mechanical exams focus heavily on numericals — practice formulas daily!",
+        "pdfIds": ["mech"]
+      },
+
+      "chemistry": {
+        "keywords": ["chemistry","organic chemistry","inorganic chemistry","physical chemistry","reaction","periodic table","bonding","mole","acid","base","ph","electrochemistry","polymer","benzene","alkane","functional group","isomer"],
+        "explanation": "**Chemistry** is the science of matter — what it's made of and how it changes.\n\n**3 Main Branches:**\n• **Organic Chemistry** — carbon compounds, reactions\n• **Inorganic Chemistry** — metals, minerals, non-metals\n• **Physical Chemistry** — thermodynamics, kinetics, equilibrium\n\n**Key Concepts:**\n• **Periodic Table** — 118 elements arranged by atomic number\n• **Chemical Bonding** — ionic, covalent, metallic, hydrogen\n• **Mole Concept** — 1 mole = 6.022 × 10²³ particles (Avogadro's number)\n• **Acid-Base** — pH scale 0-14, acids < 7, bases > 7\n• **Redox Reactions** — oxidation (loss of e⁻), reduction (gain of e⁻)\n\n**Important Formulas:**\n• Molarity M = moles of solute / liters of solution\n• pH = −log[H⁺]\n• PV = nRT (Ideal Gas Law)\n\n**Organic Chemistry Tips:**\n• Learn functional groups: −OH (alcohol), −COOH (acid), −NH₂ (amine)\n• IUPAC naming rules\n• Reaction mechanisms: SN1, SN2, E1, E2\n\n💡 **Tip:** Make flashcards for organic reactions — there are many to memorize!",
+        "pdfIds": ["bsc_chem"]
+      },
+
+      "physics": {
+        "keywords": ["physics","optics","quantum","relativity","electricity","magnetism","nuclear","gravitation","waves","sound","light","reflection","refraction"],
+        "explanation": "**Physics** explains how the universe works through laws, equations, and experiments.\n\n**Major Branches:**\n• **Mechanics** — motion, force, energy\n• **Optics** — light, reflection, refraction, lenses\n• **Electricity & Magnetism** — Ohm's law, Faraday's law, Maxwell's equations\n• **Waves & Sound** — frequency, amplitude, Doppler effect\n• **Modern Physics** — quantum mechanics, relativity, nuclear physics\n\n**Optics Key Concepts:**\n• Reflection: angle of incidence = angle of reflection\n• Refraction: n₁sinθ₁ = n₂sinθ₂ (Snell's law)\n• Lens formula: 1/v − 1/u = 1/f\n\n**Electricity:**\n• Ohm's Law: V = IR\n• Power: P = VI = I²R = V²/R\n• Kirchhoff's Laws — KVL and KCL\n\n**Waves:**\n• Speed = frequency × wavelength (v = fλ)\n• Doppler Effect — change in frequency due to motion\n\n💡 **Tip:** Derive every formula at least once — it helps you remember and understand it!",
+        "pdfIds": ["bsc_phy"]
+      },
+
+      "mathematics": {
+        "keywords": ["mathematics","calculus","algebra","trigonometry","statistics","differentiation","integration","matrix","probability","limit","derivative","integral","vector","fourier","laplace"],
+        "explanation": "**Mathematics** is the language of science, engineering, and technology.\n\n**Calculus:**\n• **Differentiation** — rate of change\n  - d/dx(xⁿ) = nxⁿ⁻¹\n  - d/dx(sin x) = cos x\n  - d/dx(eˣ) = eˣ\n• **Integration** — area under curve\n  - ∫xⁿ dx = xⁿ⁺¹/(n+1) + C\n  - ∫sin x dx = −cos x + C\n\n**Trigonometry:**\n• sin²θ + cos²θ = 1\n• tan θ = sin θ / cos θ\n• sin(A+B) = sinA cosB + cosA sinB\n\n**Statistics:**\n• Mean = sum / count\n• Standard Deviation = √(Σ(x−x̄)² / n)\n• Normal Distribution — bell curve\n\n**Matrices:**\n• Addition, multiplication, transpose\n• Determinant and inverse\n• Eigenvalues and eigenvectors\n\n**Probability:**\n• P(A) = favorable outcomes / total outcomes\n• P(A∪B) = P(A) + P(B) − P(A∩B)\n\n💡 **Tip:** Practice 10 problems daily — mathematics improves only by doing, not just reading!",
+        "pdfIds": ["bsc_math"]
+      },
+
+      "botany": {
+        "keywords": ["botany","plant","plant biology","cell","photosynthesis","ecology","morphology","taxonomy","plant physiology","chlorophyll","transpiration","osmosis","mitosis","meiosis"],
+        "explanation": "**Botany** is the scientific study of plants — their structure, growth, reproduction, and classification.\n\n**Key Topics:**\n• **Cell Biology** — plant cell structure (cell wall, chloroplast, vacuole)\n• **Photosynthesis** — 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂\n• **Transpiration** — water loss through stomata\n• **Osmosis** — movement of water through semi-permeable membrane\n• **Plant Taxonomy** — classification of plants\n• **Morphology** — study of external structure (root, stem, leaf, flower)\n• **Ecology** — relationship of plants with environment\n\n**Cell Division:**\n• **Mitosis** — cell divides into 2 identical cells (growth)\n• **Meiosis** — cell divides into 4 cells with half chromosomes (reproduction)\n\n**Photosynthesis Stages:**\n• Light reactions — in thylakoid, produces ATP and NADPH\n• Dark reactions (Calvin cycle) — in stroma, produces glucose\n\n💡 **Tip:** Draw diagrams for photosynthesis and cell structure — visuals make memorization much easier!",
+        "pdfIds": ["bsc_bot"]
+      },
+
+      "zoology": {
+        "keywords": ["zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification","darwin","chromosome","gene","dna"],
+        "explanation": "**Zoology** is the scientific study of animals — their structure, behavior, classification, and evolution.\n\n**Key Topics:**\n• **Animal Kingdom Classification:**\n  - Phylum Porifera (sponges)\n  - Phylum Cnidaria (jellyfish)\n  - Phylum Platyhelminthes (flatworms)\n  - Phylum Annelida (earthworms)\n  - Phylum Arthropoda (insects, crabs)\n  - Phylum Chordata (vertebrates — fish, amphibians, reptiles, birds, mammals)\n\n• **Genetics:**\n  - DNA carries genetic information\n  - Mendel's Laws — Law of Segregation, Law of Independent Assortment\n  - Chromosomes — humans have 46 (23 pairs)\n\n• **Evolution:**\n  - Darwin's Theory — survival of the fittest\n  - Natural selection drives evolution over generations\n\n• **Physiology:**\n  - Digestive, respiratory, circulatory, nervous, excretory systems\n\n• **Embryology:**\n  - Stages: zygote → cleavage → blastula → gastrula → organogenesis\n\n💡 **Tip:** Learn the animal kingdom classification with mnemonics — it's asked in every exam!",
+        "pdfIds": ["bsc_zoo"]
+      },
+
+      "machine learning": {
+        "keywords": ["machine learning","ml","supervised","unsupervised","regression","classification","clustering","model","training","feature","scikit","overfitting","underfitting","bias variance","cross validation"],
+        "explanation": "**Machine Learning** is a branch of AI where computers learn patterns from data without being explicitly programmed.\n\n**Types of ML:**\n• **Supervised Learning** — learns from labeled data\n  - Regression: predicting numbers (house prices)\n  - Classification: predicting categories (spam or not)\n• **Unsupervised Learning** — finds patterns in unlabeled data\n  - Clustering: grouping similar data (K-Means)\n  - Dimensionality Reduction (PCA)\n• **Reinforcement Learning** — learns by reward and punishment (games, robots)\n\n**Key Algorithms:**\n• Linear Regression — predicting continuous values\n• Logistic Regression — binary classification\n• Decision Trees — tree-based decisions\n• Random Forest — multiple decision trees\n• SVM — finds best boundary between classes\n• K-Nearest Neighbors (KNN) — classifies by closest neighbors\n• K-Means — clustering algorithm\n\n**ML Workflow:**\n1. Collect & clean data\n2. Explore data (EDA)\n3. Choose and train model\n4. Evaluate with metrics\n5. Tune hyperparameters\n6. Deploy model\n\n💡 **Tip:** Start with scikit-learn in Python — easiest library for ML beginners!",
+        "pdfIds": ["ml","ds","ai"]
+      },
+
+      "artificial intelligence": {
+        "keywords": ["artificial intelligence","ai","expert system","turing test","ai history","problem solving ai","search algorithm","knowledge representation","planning","agent","intelligent system"],
+        "explanation": "**Artificial Intelligence (AI)** is the simulation of human intelligence in machines.\n\n**What AI Can Do:**\n• Recognize speech and images\n• Translate languages\n• Play games (chess, Go)\n• Drive cars autonomously\n• Diagnose diseases\n• Generate text, images, music\n\n**Types of AI:**\n• **Narrow AI** — does one specific task (Siri, Google Maps)\n• **General AI** — human-level intelligence (not achieved yet)\n• **Super AI** — smarter than humans (theoretical)\n\n**Key Concepts:**\n• **Turing Test** — if you can't tell it's a machine, it's intelligent\n• **Search Algorithms** — BFS, DFS, A* for problem solving\n• **Expert Systems** — rule-based AI (early AI systems)\n• **Machine Learning** — AI that learns from data\n• **Deep Learning** — neural networks with many layers\n• **NLP** — AI that understands human language\n\n**Famous AI Models:**\n• ChatGPT — language model by OpenAI\n• Gemini — AI by Google\n• DALL-E — image generation AI\n\n💡 **Tip:** AI = broad field. ML is a subset of AI. Deep Learning is a subset of ML!",
+        "pdfIds": ["ai","ml","dl"]
+      },
+
+      "deep learning": {
+        "keywords": ["deep learning","neural network","cnn","rnn","lstm","tensorflow","pytorch","keras","backpropagation","epoch","layer","activation","nlp","computer vision","transformer","bert","gpt"],
+        "explanation": "**Deep Learning** uses neural networks with many layers to learn complex patterns from large amounts of data.\n\n**How Neural Networks Work:**\n• **Input Layer** — receives data (pixels, words, numbers)\n• **Hidden Layers** — extract patterns and features\n• **Output Layer** — gives final prediction\n• **Weights** — adjusted during training\n• **Backpropagation** — updates weights to reduce error\n\n**Types of Networks:**\n• **CNN (Convolutional Neural Network)** — best for images\n• **RNN (Recurrent Neural Network)** — best for sequences and time series\n• **LSTM** — improved RNN, handles long sequences\n• **Transformer** — powers ChatGPT, BERT, modern NLP\n• **GAN** — generates fake realistic images\n\n**Activation Functions:**\n• ReLU — most common in hidden layers\n• Sigmoid — used in binary classification\n• Softmax — used in multi-class output\n\n**Frameworks:**\n• TensorFlow + Keras — Google, easier to learn\n• PyTorch — Facebook, more flexible, popular in research\n\n💡 **Tip:** Learn Keras first — you can build a neural network in just 10 lines of code!",
+        "pdfIds": ["dl","ml"]
+      },
+
+      "data science": {
+        "keywords": ["data science","data analysis","visualization","eda","statistics","pandas","matplotlib","seaborn","jupyter","dataset","insight","correlation","data cleaning","feature engineering","exploratory"],
+        "explanation": "**Data Science** is about extracting meaningful insights from raw data using statistics, programming, and visualization.\n\n**The Data Science Process:**\n1. **Define the Problem** — what question are we answering?\n2. **Collect Data** — databases, APIs, web scraping\n3. **Clean Data** — handle missing values, duplicates, outliers\n4. **Explore (EDA)** — understand data with statistics and charts\n5. **Model** — apply ML algorithms\n6. **Communicate Results** — visualizations and reports\n\n**Key Python Libraries:**\n• **Pandas** — data manipulation (DataFrames)\n• **NumPy** — numerical computing\n• **Matplotlib / Seaborn** — data visualization\n• **Scikit-learn** — machine learning\n• **Jupyter Notebook** — interactive coding\n\n**Example — Basic EDA:**\n```python\nimport pandas as pd\ndf = pd.read_csv('data.csv')\nprint(df.head())          # first 5 rows\nprint(df.describe())      # statistics\nprint(df.isnull().sum())  # missing values\ndf['column'].hist()       # histogram\n```\n\n💡 **Tip:** EDA is the most important step — the better you understand your data, the better your model!",
+        "pdfIds": ["ds","ml","python"]
+      },
+
+      "python": {
+        "keywords": ["python","py","django","flask","pandas","numpy","pip","list","dictionary","class","function","lambda","decorator","python basics","python project"],
+        "explanation": "**Python** is the most popular and beginner-friendly programming language — used in web dev, AI, automation, and data science.\n\n**Why Python?**\n• Clean, readable syntax — no semicolons or braces needed\n• Huge library ecosystem — pandas, numpy, Django, Flask\n• Used everywhere — Google, Netflix, NASA, Instagram\n\n**Key Concepts:**\n• Variables, Data Types — int, float, str, list, dict, tuple, set\n• Control Flow — if/elif/else, for, while loops\n• Functions — def, *args, **kwargs, lambda\n• OOP — classes, objects, inheritance\n• File Handling — open(), read(), write()\n• Modules & Packages — import, pip install\n\n**Example — Python Class:**\n```python\nclass Student:\n    def __init__(self, name, marks):\n        self.name = name\n        self.marks = marks\n\n    def grade(self):\n        if self.marks >= 90:\n            return 'A+'\n        elif self.marks >= 80:\n            return 'A'\n        else:\n            return 'B'\n\ns = Student('Rehan', 95)\nprint(f'{s.name} got grade: {s.grade()}')\n```\n\n💡 **Tip:** Python is the best first language — learn it and you can do web dev, AI, automation — everything!",
+        "pdfIds": ["python","ml","ds"]
+      },
+
+      "javascript": {
+        "keywords": ["javascript","js","es6","dom","async","await","promise","fetch","arrow function","closure","scope","event","callback","spread","destructuring","prototype"],
+        "explanation": "**JavaScript** is the programming language of the web — it makes websites interactive and dynamic.\n\n**Key Concepts:**\n• **Variables** — let, const (avoid var)\n• **Functions** — regular and arrow functions\n• **DOM Manipulation** — getElementById, querySelector, addEventListener\n• **Events** — click, submit, keydown, mouseover\n• **Arrays** — map, filter, reduce, forEach\n• **Objects** — key-value pairs, destructuring\n• **Async JS** — Promises, async/await, Fetch API\n• **ES6+** — spread operator, template literals, modules\n\n**Example — Fetch API:**\n```javascript\nasync function getUsers() {\n  const response = await fetch('https://api.example.com/users');\n  const data = await response.json();\n  console.log(data);\n}\n\ngetUsers();\n```\n\n**Common Uses:**\n• Form validation\n• Dynamic content (show/hide elements)\n• Calling APIs\n• Building web apps with React\n\n💡 **Tip:** Master DOM manipulation and async/await first — they are used in 90% of web projects!",
+        "pdfIds": ["js","react","node"]
+      },
+
+      "data structures": {
+        "keywords": ["data structure","dsa","array","linked list","stack","queue","tree","graph","heap","hash","sorting","algorithm","recursion","dynamic programming","big o","time complexity","binary search","greedy"],
+        "explanation": "**Data Structures & Algorithms** are the foundation of computer science and every coding interview!\n\n**Key Data Structures:**\n• **Array** — fixed size, O(1) access by index\n• **Linked List** — dynamic size, O(n) access, O(1) insert at head\n• **Stack** — Last In First Out (LIFO) — use for undo, brackets\n• **Queue** — First In First Out (FIFO) — use for scheduling\n• **Tree** — hierarchical — BST, AVL, Heap, Trie\n• **Graph** — nodes + edges — directed, undirected, weighted\n• **Hash Table** — key-value, O(1) average lookup\n\n**Key Algorithms:**\n• **Sorting** — Bubble O(n²), Merge O(nlogn), Quick O(nlogn)\n• **Searching** — Linear O(n), Binary O(logn)\n• **Graph** — BFS, DFS, Dijkstra's shortest path\n• **Dynamic Programming** — memoization, tabulation, knapsack\n• **Greedy** — activity selection, Huffman coding\n\n**Time Complexities to Know:**\n• O(1) — constant — best\n• O(log n) — binary search\n• O(n) — linear scan\n• O(n log n) — merge sort\n• O(n²) — nested loops — avoid\n\n💡 **Tip:** Solve 2 LeetCode problems daily — consistency beats cramming!",
+        "pdfIds": ["dsa","java","cpp"]
+      },
+
+      "database": {
+        "keywords": ["database","sql","mysql","mongodb","nosql","query","normalization","dbms","postgresql","joins","transactions","er diagram","acid","relational","schema","index"],
+        "explanation": "**Databases** store, organize, and retrieve data efficiently. Every app needs a database!\n\n**Types:**\n• **Relational (SQL)** — MySQL, PostgreSQL, SQLite — tables with rows & columns\n• **NoSQL** — MongoDB, Redis, Cassandra — flexible documents or key-value\n\n**SQL Commands:**\n• DDL — CREATE, ALTER, DROP (structure)\n• DML — SELECT, INSERT, UPDATE, DELETE (data)\n• DCL — GRANT, REVOKE (permissions)\n\n**SQL Joins:**\n• INNER JOIN — only matching rows\n• LEFT JOIN — all left + matching right\n• RIGHT JOIN — all right + matching left\n• FULL JOIN — all rows from both\n\n**Example:**\n```sql\nSELECT s.name, s.marks\nFROM students s\nINNER JOIN courses c ON s.course_id = c.id\nWHERE s.marks > 80\nORDER BY s.marks DESC;\n```\n\n**ACID Properties:**\n• **A**tomicity — all or nothing\n• **C**onsistency — data stays valid\n• **I**solation — transactions don't interfere\n• **D**urability — committed data is permanent\n\n**Normalization:**\n• 1NF — no repeating groups\n• 2NF — no partial dependencies\n• 3NF — no transitive dependencies\n\n💡 **Tip:** Learn SQL first — it's used in almost every company and project!",
+        "pdfIds": ["dbms","cse"]
+      },
+
+      "cyber security": {
+        "keywords": ["cyber security","hacking","ethical hacking","network security","firewall","encryption","malware","penetration testing","kali linux","vulnerability","phishing","ddos","cryptography"],
+        "explanation": "**Cyber Security** protects computers, networks, and data from digital attacks.\n\n**Key Areas:**\n• **Network Security** — firewalls, VPNs, intrusion detection systems\n• **Application Security** — secure coding, OWASP Top 10 vulnerabilities\n• **Cryptography** — AES, RSA, SHA encryption algorithms\n• **Ethical Hacking** — finding vulnerabilities before attackers do\n• **Incident Response** — handling and recovering from breaches\n\n**Common Cyber Threats:**\n• **Phishing** — fake emails to steal credentials\n• **Malware** — viruses, ransomware, spyware, trojans\n• **SQL Injection** — attacking databases via input fields\n• **Man-in-the-Middle** — intercepting communications\n• **DDoS** — overwhelming server with fake traffic\n• **Zero-Day** — exploiting unknown vulnerabilities\n\n**OWASP Top 3 Vulnerabilities:**\n1. Broken Access Control\n2. Cryptographic Failures\n3. Injection (SQL, XSS)\n\n**Tools Used:**\n• Kali Linux — ethical hacking operating system\n• Nmap — network scanner\n• Wireshark — packet analyzer\n• Metasploit — penetration testing framework\n• Burp Suite — web app security testing\n\n💡 **Important:** Always practice ethical hacking only on systems you own or have written permission to test. Unauthorized hacking is illegal!",
+        "pdfIds": ["cyber"]
+      },
+
+      "react": {
+        "keywords": ["react","reactjs","component","hooks","usestate","useeffect","props","jsx","redux","context","next.js","virtual dom","spa","react router","react native"],
+        "explanation": "**React** is the most popular JavaScript library for building fast, interactive user interfaces.\n\n**Core Concepts:**\n• **Components** — reusable UI building blocks (functions or classes)\n• **JSX** — HTML-like syntax inside JavaScript\n• **Props** — passing data from parent to child component\n• **State** — dynamic data inside a component\n• **Virtual DOM** — React's trick for fast updates\n\n**Essential Hooks:**\n• **useState** — manage component state\n• **useEffect** — side effects (API calls, timers)\n• **useContext** — global state without prop drilling\n• **useRef** — reference DOM elements\n• **useCallback / useMemo** — performance optimization\n\n**Example — Counter:**\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <div>\n      <h2>Count: {count}</h2>\n      <button onClick={() => setCount(count + 1)}>+1</button>\n      <button onClick={() => setCount(count - 1)}>-1</button>\n    </div>\n  );\n}\n\nexport default Counter;\n```\n\n💡 **Tip:** Master useState and useEffect first — they cover 80% of React use cases!",
+        "pdfIds": ["react","js","node"]
+      },
+
+      "nodejs": {
+        "keywords": ["nodejs","node","express","backend","rest api","server","npm","middleware","jwt","authentication","expressjs","api","http"],
+        "explanation": "**Node.js** lets you run JavaScript on the server. Combined with **Express.js** you can build powerful REST APIs.\n\n**Why Node.js?**\n• Same language (JavaScript) for frontend and backend\n• Non-blocking I/O — handles many requests at once\n• Huge NPM ecosystem — 2 million+ packages\n• Used by Netflix, LinkedIn, PayPal, Uber\n\n**Express.js Example — REST API:**\n```javascript\nconst express = require('express');\nconst app = express();\napp.use(express.json());\n\n// GET all students\napp.get('/students', (req, res) => {\n  res.json([{ id:1, name:'Rehan' }, { id:2, name:'Ali' }]);\n});\n\n// POST add student\napp.post('/students', (req, res) => {\n  const { name } = req.body;\n  res.json({ message: `Added ${name} successfully!` });\n});\n\napp.listen(3000, () => console.log('Server running on port 3000'));\n```\n\n**Key Concepts:**\n• Middleware — runs between request and response\n• JWT — JSON Web Tokens for authentication\n• REST API — GET, POST, PUT, DELETE methods\n• Environment Variables — .env files for secrets\n\n💡 **Tip:** Learn Node.js + Express + MongoDB together — they form the MERN stack!",
+        "pdfIds": ["node","js","dbms"]
+      },
+
+      "html": {
+        "keywords": ["html","hypertext","markup","tags","elements","forms","tables","semantic","html5","attributes","href","src"],
+        "explanation": "**HTML (HyperText Markup Language)** is the backbone of every website — it gives structure to web content.\n\n**Basic Structure:**\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Hello World!</h1>\n  <p>Welcome to BrainStack!</p>\n</body>\n</html>\n```\n\n**Important Tags:**\n• Headings — h1 to h6\n• Paragraph — p\n• Links — a href\n• Images — img src\n• Lists — ul, ol, li\n• Tables — table, tr, th, td\n• Forms — form, input, button, select\n• Divs — div, span\n\n**Semantic HTML5 Tags:**\n• header, nav, main, section, article, aside, footer\n• These help SEO and screen readers\n\n**HTML Forms:**\n```html\n<form action=\"/submit\" method=\"POST\">\n  <input type=\"text\" name=\"name\" placeholder=\"Your name\">\n  <input type=\"email\" name=\"email\" placeholder=\"Email\">\n  <button type=\"submit\">Submit</button>\n</form>\n```\n\n💡 **Tip:** Always use semantic HTML — it makes your code meaningful and helps SEO!",
+        "pdfIds": ["html_css","js"]
+      },
+
+      "css": {
+        "keywords": ["css","styling","flexbox","grid","responsive","bootstrap","tailwind","animation","selector","media query","css3","hover","transition"],
+        "explanation": "**CSS (Cascading Style Sheets)** makes websites beautiful — it controls colors, fonts, layout, and animations.\n\n**Selectors:**\n• Element — `p { }`, `h1 { }`\n• Class — `.card { }`, `.btn { }`\n• ID — `#header { }`\n• Pseudo — `a:hover { }`, `li:first-child { }`\n\n**Box Model:**\n• Content → Padding → Border → Margin\n\n**Flexbox — 1D Layout:**\n```css\n.container {\n  display: flex;\n  justify-content: center;  /* horizontal */\n  align-items: center;       /* vertical */\n  gap: 16px;\n}\n```\n\n**CSS Grid — 2D Layout:**\n```css\n.grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n```\n\n**Responsive Design:**\n```css\n@media (max-width: 768px) {\n  .grid {\n    grid-template-columns: 1fr;\n  }\n}\n```\n\n**Animations:**\n```css\n.btn {\n  transition: all 0.3s ease;\n}\n.btn:hover {\n  transform: scale(1.05);\n  background: #1D4ED8;\n}\n```\n\n💡 **Tip:** Master Flexbox and Grid — they solve 90% of layout problems!",
+        "pdfIds": ["html_css"]
+      },
+
+      "java": {
+        "keywords": ["java","oops","object oriented","class","object","inheritance","polymorphism","abstraction","encapsulation","interface","spring","collections","exception","multithreading","java 8"],
+        "explanation": "**Java** is one of the most widely used programming languages — used in Android apps, enterprise software, and backend systems.\n\n**4 Pillars of OOP:**\n• **Encapsulation** — hiding data inside a class (private fields)\n• **Inheritance** — child class inherits from parent class\n• **Polymorphism** — same method, different behavior\n• **Abstraction** — showing only essential details, hiding complexity\n\n**Example — Inheritance & Polymorphism:**\n```java\nclass Animal {\n    void speak() {\n        System.out.println(\"Animal speaks\");\n    }\n}\n\nclass Dog extends Animal {\n    @Override\n    void speak() {\n        System.out.println(\"Dog says: Woof! 🐕\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.speak(); // Dog says: Woof!\n    }\n}\n```\n\n**Java Collections:**\n• ArrayList — dynamic array\n• LinkedList — doubly linked list\n• HashMap — key-value pairs\n• HashSet — unique elements\n• TreeMap — sorted map\n\n**Exception Handling:**\n```java\ntry {\n    int result = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.println(\"Error: \" + e.getMessage());\n} finally {\n    System.out.println(\"Always runs\");\n}\n```\n\n💡 **Tip:** Java is great for placements — most IT companies use Java in backend interviews!",
+        "pdfIds": ["java","dsa"]
+      }
+    },
+
+    "projects": {
+      "html_css": {
+        "keywords": ["html project","css project","html css project","landing page","portfolio","webpage","simple website","web page"],
+        "title": "Student Portfolio Website",
+        "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Student Portfolio</title>\n  <style>\n    *{margin:0;padding:0;box-sizing:border-box;}\n    body{font-family:Arial,sans-serif;}\n    nav{background:#2563EB;padding:15px 40px;display:flex;justify-content:space-between;align-items:center;}\n    nav h1{color:white;font-size:22px;}\n    nav ul{list-style:none;display:flex;gap:20px;}\n    nav ul li a{color:white;text-decoration:none;}\n    .hero{background:linear-gradient(135deg,#1e3a8a,#7c3aed);color:white;text-align:center;padding:80px 20px;}\n    .hero h2{font-size:40px;margin-bottom:12px;}\n    .hero p{font-size:18px;opacity:.85;margin-bottom:24px;}\n    .btn{background:white;color:#2563EB;border:none;padding:12px 30px;border-radius:25px;font-size:16px;cursor:pointer;font-weight:bold;}\n    .skills{padding:60px 40px;text-align:center;background:#F8FAFF;}\n    .skills h2{font-size:28px;margin-bottom:30px;color:#1e3a8a;}\n    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:20px;max-width:700px;margin:0 auto;}\n    .card{background:white;border-radius:12px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,.08);}\n    .card span{font-size:34px;display:block;margin-bottom:8px;}\n    footer{background:#1e293b;color:white;text-align:center;padding:20px;font-size:13px;}\n  </style>\n</head>\n<body>\n  <nav>\n    <h1>👨‍💻 My Portfolio</h1>\n    <ul><li><a href=\"#skills\">Skills</a></li><li><a href=\"#contact\">Contact</a></li></ul>\n  </nav>\n  <div class=\"hero\">\n    <h2>Hi, I'm a Student Developer! 👋</h2>\n    <p>Building the future one project at a time</p>\n    <button class=\"btn\" onclick=\"alert('Thanks for visiting!')\">Say Hello 😊</button>\n  </div>\n  <div class=\"skills\" id=\"skills\">\n    <h2>My Skills</h2>\n    <div class=\"grid\">\n      <div class=\"card\"><span>🌐</span><p>HTML & CSS</p></div>\n      <div class=\"card\"><span>⚡</span><p>JavaScript</p></div>\n      <div class=\"card\"><span>🐍</span><p>Python</p></div>\n      <div class=\"card\"><span>🤖</span><p>AI & ML</p></div>\n      <div class=\"card\"><span>🗄️</span><p>MySQL</p></div>\n      <div class=\"card\"><span>🔒</span><p>Cyber Security</p></div>\n    </div>\n  </div>\n  <footer><p>Made with ❤️ | Inspired by BrainStack 🧠</p></footer>\n</body>\n</html>",
+        "pdfIds": ["html_css","js"]
+      },
+      "python": {
+        "keywords": ["python project","python code","python program","python example","beginner python","python beginner"],
+        "title": "Student Grade Calculator",
+        "code": "# ================================\n# Student Grade Calculator\n# BrainStack Python Project\n# ================================\n\ndef get_grade(marks):\n    if marks >= 90: return 'A+', '🌟 Outstanding!'\n    elif marks >= 80: return 'A',  '🎉 Excellent!'\n    elif marks >= 70: return 'B',  '👍 Good Work!'\n    elif marks >= 60: return 'C',  '📚 Keep Improving!'\n    elif marks >= 50: return 'D',  '💪 Study More!'\n    else: return 'F', '🔥 Do Not Give Up!'\n\ndef main():\n    print('=' * 40)\n    print('   BRAINSTACK GRADE CALCULATOR 🧠')\n    print('=' * 40)\n    name = input('Enter student name: ')\n    subjects = ['Mathematics','Physics','Chemistry','English','Computer Science']\n    total = 0\n    print(f'\\nEnter marks for {name} (out of 100):')\n    for sub in subjects:\n        while True:\n            try:\n                m = float(input(f'  {sub}: '))\n                if 0 <= m <= 100: total += m; break\n                else: print('  Enter 0-100 only!')\n            except ValueError: print('  Enter a valid number!')\n    avg = total / len(subjects)\n    grade, remark = get_grade(avg)\n    print('\\n' + '=' * 40)\n    print(f'  REPORT: {name.upper()}')\n    print('=' * 40)\n    print(f'  Total  : {total}/{len(subjects)*100}')\n    print(f'  Average: {avg:.2f}%')\n    print(f'  Grade  : {grade}')\n    print(f'  Remark : {remark}')\n    print('=' * 40)\n\nmain()",
+        "pdfIds": ["python"]
+      },
+      "javascript": {
+        "keywords": ["javascript project","js project","quiz","calculator","js example","js code","javascript quiz","todo list"],
+        "title": "Interactive Quiz App",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <title>BrainStack Quiz 🧠</title>\n  <style>\n    *{margin:0;padding:0;box-sizing:border-box;}\n    body{font-family:Arial,sans-serif;background:linear-gradient(135deg,#1e3a8a,#7c3aed);min-height:100vh;display:flex;align-items:center;justify-content:center;}\n    .box{background:white;border-radius:20px;padding:36px;max-width:480px;width:90%;}\n    h1{color:#2563EB;text-align:center;font-size:22px;margin-bottom:6px;}\n    .info{text-align:center;color:#94A3B8;font-size:12px;margin-bottom:20px;}\n    .bar{background:#EFF6FF;padding:10px 14px;border-radius:8px;font-size:13px;color:#2563EB;font-weight:600;margin-bottom:18px;}\n    .q{font-size:17px;font-weight:600;color:#0F172A;margin-bottom:18px;line-height:1.5;}\n    .opts{display:flex;flex-direction:column;gap:10px;margin-bottom:18px;}\n    .opt{padding:13px 16px;border:2px solid #E2E8F0;border-radius:10px;cursor:pointer;font-size:14px;text-align:left;background:white;transition:.2s;}\n    .opt:hover{border-color:#2563EB;background:#EFF6FF;color:#2563EB;}\n    .opt.correct{background:#D1FAE5;border-color:#10B981;color:#065F46;}\n    .opt.wrong{background:#FEE2E2;border-color:#EF4444;color:#991B1B;}\n    .opt:disabled{cursor:default;}\n    .next{width:100%;background:#2563EB;color:white;border:none;padding:13px;border-radius:10px;font-size:15px;cursor:pointer;display:none;font-weight:600;}\n    .next:hover{background:#1D4ED8;}\n    .result{text-align:center;}\n    .result h2{font-size:26px;margin-bottom:8px;}\n    .restart{background:#2563EB;color:white;border:none;padding:12px 28px;border-radius:20px;font-size:14px;cursor:pointer;margin-top:14px;font-weight:600;}\n  </style>\n</head>\n<body>\n<div class=\"box\">\n  <h1>🧠 BrainStack Quiz</h1>\n  <p class=\"info\">Test your knowledge!</p>\n  <div class=\"bar\" id=\"bar\">Question 1 of 5 · Score: 0</div>\n  <div id=\"area\">\n    <div class=\"q\" id=\"q\"></div>\n    <div class=\"opts\" id=\"opts\"></div>\n    <button class=\"next\" id=\"nxt\" onclick=\"next()\">Next →</button>\n  </div>\n</div>\n<script>\nconst qs=[{q:'What does HTML stand for?',o:['HyperText Markup Language','High Tech Modern Language','HyperTransfer Markup Link','Home Tool Markup Language'],a:0},{q:'Which symbol starts comments in Python?',o:['//','/* */','#','--'],a:2},{q:'Time complexity of Binary Search?',o:['O(n)','O(n²)','O(log n)','O(1)'],a:2},{q:'Which is used to style web pages?',o:['HTML','JavaScript','Python','CSS'],a:3},{q:'What does AI stand for?',o:['Automated Input','Artificial Intelligence','Advanced Internet','Auto Integration'],a:1}];\nlet cur=0,sc=0;\nfunction load(){const q=qs[cur];document.getElementById('q').textContent=(cur+1)+'. '+q.q;document.getElementById('bar').textContent='Question '+(cur+1)+' of '+qs.length+' · Score: '+sc;const o=document.getElementById('opts');o.innerHTML='';q.o.forEach(function(op,i){const b=document.createElement('button');b.className='opt';b.textContent=op;b.onclick=function(){check(i);};o.appendChild(b);});document.getElementById('nxt').style.display='none';}\nfunction check(s){const c=qs[cur].a;document.querySelectorAll('.opt').forEach(function(b,i){b.disabled=true;if(i===c)b.classList.add('correct');else if(i===s)b.classList.add('wrong');});if(s===c)sc++;document.getElementById('nxt').style.display='block';}\nfunction next(){cur++;if(cur<qs.length){load();}else{const p=Math.round(sc/qs.length*100);document.getElementById('area').innerHTML='<div class=\"result\"><h2>'+(p>=80?'🏆 Excellent!':p>=60?'👍 Good Job!':'📚 Keep Studying!')+'</h2><p>Score: <strong>'+sc+'/'+qs.length+'</strong> ('+p+'%)</p><p style=\"color:#94A3B8;font-size:12px;margin-top:8px\">Keep learning with BrainStack 🧠</p><button class=\"restart\" onclick=\"restart()\">Try Again 🔄</button></div>';}}\nfunction restart(){cur=0;sc=0;document.getElementById('area').innerHTML='<div class=\"q\" id=\"q\"></div><div class=\"opts\" id=\"opts\"></div><button class=\"next\" id=\"nxt\" onclick=\"next()\">Next →</button>';load();}\nload();\n</script>\n</body>\n</html>",
+        "pdfIds": ["js","html_css"]
+      }
+    },
+
+    "fallbacks": [
+      "Hmm, I want to give you the best answer! 😊 Could you rephrase?\n\nTry:\n• **\"Explain [topic]\"** — for explanations\n• **\"Give me a [language] project\"** — for code\n• **\"How to become a [career]\"** — for roadmaps\n• **\"Find PDF for [subject]\"** — for study materials",
+      "I didn't quite catch that! 🤔 Try asking about a specific subject, project, or roadmap and I'll guide you perfectly! 🚀",
+      "Could you be more specific? 😊 For example:\n• \"What is machine learning?\"\n• \"Give me a Python project with code\"\n• \"Roadmap for cyber security\"\n• \"Find notes for civil engineering\"",
+      "I'm here to help! 🧠 Ask me about any of BrainStack's 6 categories:\n• ⚙️ Engineering Hub\n• 🔬 Bachelor of Science\n• 💻 Programming\n• 🌐 Web Development\n• 🤖 Artificial Intelligence\n• 📚 BrainStack Library"
+    ]
+  }
+}
