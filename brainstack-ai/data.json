@@ -7,10 +7,10 @@
     "categories": [
       { "name": "Engineering Hub",        "url": "https://brainstack-com.vercel.app/engineering-hub/engineering.html",  "emoji": "⚙️" },
       { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",                      "emoji": "🔬" },
-      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming/programming.html",       "emoji": "💻" },
-      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-dev/web.html",                  "emoji": "🌐" },
-      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/ai.html",                    "emoji": "🤖" },
-      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/library.html",                      "emoji": "📚" }
+      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming-languages/programming.html",       "emoji": "💻" },
+      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-development/web-development.html",                  "emoji": "🌐" },
+      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",                    "emoji": "🤖" },
+      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",                      "emoji": "📚" }
     ]
   },
 
@@ -46,7 +46,7 @@
       "title": "Computer Science Engineering Notes",
       "category": "Engineering Hub",
       "emoji": "💻",
-      "url": "https://brainstack-com.vercel.app/engineering-hub/cse-resources.html",
+      "url": "https://brainstack-com.vercel.app/engineering-hub/cs-resources.html",
       "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","computer architecture","theory of computation","software development"]
     },
     {
@@ -54,7 +54,7 @@
       "title": "AI & ML Engineering Notes",
       "category": "Engineering Hub",
       "emoji": "🤖",
-      "url": "https://brainstack-com.vercel.app/engineering-hub/ai-ml-resources.html",
+      "url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",
       "topics": ["ai engineering","ml engineering","aiml","ai ml","artificial intelligence engineering"]
     },
 
@@ -63,7 +63,7 @@
       "title": "B.Sc Mathematics Notes",
       "category": "Bachelor of Science",
       "emoji": "📐",
-      "url": "https://brainstack-com.vercel.app/bsc/mathematics.html",
+      "url": "https://brainstack-com.vercel.app/bsc/math.html",
       "topics": ["bsc mathematics","bsc maths","calculus","algebra","trigonometry","statistics","differentiation","integration","matrices","probability","vectors","sequences","series","limits","bsc math"]
     },
     {
@@ -113,7 +113,7 @@
       "title": "Python Programming Guide",
       "category": "Programming",
       "emoji": "🐍",
-      "url": "https://brainstack-com.vercel.app/programming/python.html",
+      "url": "https://brainstack-com.vercel.app/programming-languages/all-about-python.pdf",
       "topics": ["python","django","flask","pandas","numpy","automation","scripting","data analysis","matplotlib","jupyter","pip","lambda","decorator","list comprehension"]
     },
     {
@@ -121,7 +121,7 @@
       "title": "Java Programming Guide",
       "category": "Programming",
       "emoji": "☕",
-      "url": "https://brainstack-com.vercel.app/programming/java.html",
+      "url": "https://brainstack-com.vercel.app/programming-languages/java-basics.pdf",
       "topics": ["java","oops","spring","class","inheritance","polymorphism","encapsulation","abstraction","interface","collections","multithreading","exception","java 8","lambda java","streams"]
     },
     {
@@ -129,31 +129,15 @@
       "title": "C & C++ Programming Guide",
       "category": "Programming",
       "emoji": "🔧",
-      "url": "https://brainstack-com.vercel.app/programming/c-cpp.html",
+      "url": "https://brainstack-com.vercel.app/programming-languages/all-about-c.pdf",
       "topics": ["c programming","c++","cpp","pointers","memory","arrays","structures","file handling","c language"]
-    },
-    {
-      "id": "dsa",
-      "title": "Data Structures & Algorithms",
-      "category": "Programming",
-      "emoji": "📊",
-      "url": "https://brainstack-com.vercel.app/programming/dsa.html",
-      "topics": ["data structure","dsa","algorithm","sorting","searching","tree","graph","linked list","stack","queue","dynamic programming","recursion","binary search","hashing","big o","time complexity","greedy"]
-    },
-    {
-      "id": "dbms",
-      "title": "Database Management (DBMS)",
-      "category": "Programming",
-      "emoji": "🗄️",
-      "url": "https://brainstack-com.vercel.app/programming/dbms.html",
-      "topics": ["database","sql","mysql","mongodb","nosql","query","normalization","dbms","postgresql","joins","transactions","er diagram","acid","relational database"]
     },
     {
       "id": "cyber",
       "title": "Cyber Security Guide",
       "category": "Programming",
       "emoji": "🔒",
-      "url": "https://brainstack-com.vercel.app/programming/cyber-security.html",
+      "url": "https://brainstack-com.vercel.app/engineering-pdf/cybersecurity-basics.pdf",
       "topics": ["cyber security","hacking","ethical hacking","network security","firewall","encryption","malware","penetration testing","kali linux","vulnerability","phishing","ddos","cryptography","security"]
     },
 
@@ -162,7 +146,7 @@
       "title": "HTML & CSS Complete Guide",
       "category": "Web Development",
       "emoji": "🌐",
-      "url": "https://brainstack-com.vercel.app/web-dev/html-css.html",
+      "url": "https://brainstack-com.vercel.app/web-development/web-development.html",
       "topics": ["html","css","web design","responsive","bootstrap","tailwind","flexbox","grid","dom","forms","selectors","animation css","media query","html5","css3"]
     },
     {
@@ -170,7 +154,7 @@
       "title": "JavaScript Complete Guide",
       "category": "Web Development",
       "emoji": "⚡",
-      "url": "https://brainstack-com.vercel.app/web-dev/javascript.html",
+      "url": "https://brainstack-com.vercel.app/web-development/all-about-javascript.pdf",
       "topics": ["javascript","js","es6","async","await","promise","event","dom","json","fetch","arrow function","closure","prototype","scope","hoisting","callback","spread","destructuring"]
     },
     {
@@ -195,7 +179,7 @@
       "title": "Artificial Intelligence Guide",
       "category": "Artificial Intelligence",
       "emoji": "🤖",
-      "url": "https://brainstack-com.vercel.app/ai-lab/ai-resources.html",
+      "url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",
       "topics": ["artificial intelligence","ai","expert system","search algorithm","problem solving","knowledge representation","planning ai","turing test","ai history"]
     },
     {
@@ -203,24 +187,16 @@
       "title": "Machine Learning Guide",
       "category": "Artificial Intelligence",
       "emoji": "📈",
-      "url": "https://brainstack-com.vercel.app/ai-lab/machine-learning.html",
+      "url": "https://brainstack-com.vercel.app/engineering-pdf/all-about-machine-learning.pdf",
       "topics": ["machine learning","ml","supervised learning","unsupervised learning","regression","classification","clustering","scikit learn","model training","overfitting","cross validation","feature engineering"]
     },
     {
-      "id": "dl",
-      "title": "Deep Learning & Neural Networks",
-      "category": "Artificial Intelligence",
-      "emoji": "🧠",
-      "url": "https://brainstack-com.vercel.app/ai-lab/deep-learning.html",
-      "topics": ["deep learning","neural network","cnn","rnn","lstm","tensorflow","pytorch","keras","nlp","computer vision","backpropagation","activation function","epoch","batch","dropout"]
-    },
-    {
       "id": "ds",
-      "title": "Data Science Guide",
+      "title": "Prompt Engineering",
       "category": "Artificial Intelligence",
       "emoji": "📊",
-      "url": "https://brainstack-com.vercel.app/ai-lab/data-science.html",
-      "topics": ["data science","data analysis","visualization","matplotlib","seaborn","pandas","numpy","jupyter","statistics","eda","exploratory data analysis","data cleaning","feature selection"]
+      "url": "https://brainstack-com.vercel.app/ai-lab/prompt-engineering.pdf",
+      "topics": ["Prompt Engineering","prompt-engineering","visualization","matplotlib","seaborn","pandas","numpy","jupyter","statistics","eda","exploratory data analysis","data cleaning","feature selection"]
     },
 
     {
@@ -228,7 +204,7 @@
       "title": "BrainStack Digital Library",
       "category": "BrainStack Library",
       "emoji": "📚",
-      "url": "https://brainstack-com.vercel.app/library.html",
+      "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",
       "topics": ["library","ebook","book","reference","textbook","notes collection","pdf collection","study material","all books","all notes"]
     }
 
@@ -240,7 +216,7 @@
       "id": "webdev",
       "title": "Full Stack Web Developer",
       "emoji": "🌐",
-      "url": "https://brainstack-com.vercel.app/roadmaps/web-dev.html",
+      "url": "https://brainstack-com.vercel.app/web-development/full-stack-development.pdf",
       "keywords": ["web developer","full stack","frontend developer","backend developer","web development career"],
       "steps": ["Learn HTML & CSS basics","Master JavaScript","Learn a framework like React or Vue","Learn Node.js & Express for backend","Learn a database — MySQL or MongoDB","Build 3–5 real projects","Deploy on Vercel or Netlify"]
     },
@@ -248,7 +224,7 @@
       "id": "aiml",
       "title": "AI & Machine Learning Engineer",
       "emoji": "🤖",
-      "url": "https://brainstack-com.vercel.app/roadmaps/ai-ml.html",
+      "url": "https://brainstack-com.vercel.app/engineering-pdf/all-about-machine-learning.pdf",
       "keywords": ["ai engineer","machine learning engineer","data scientist","deep learning","artificial intelligence career"],
       "steps": ["Learn Python thoroughly","Study Mathematics — Linear Algebra & Statistics","Learn NumPy, Pandas, Matplotlib","Study Machine Learning with scikit-learn","Learn Deep Learning — TensorFlow or PyTorch","Work on real datasets and Kaggle projects","Build an AI portfolio"]
     },
@@ -256,7 +232,7 @@
       "id": "cyber",
       "title": "Cyber Security",
       "emoji": "🔒",
-      "url": "https://brainstack-com.vercel.app/roadmaps/cyber.html",
+      "url": "https://brainstack-com.vercel.app/engineering-pdf/cybersecurity-basics.pdf",
       "keywords": ["cyber security","ethical hacker","security engineer","penetration tester","hacking career"],
       "steps": ["Learn Networking fundamentals — TCP/IP, DNS, HTTP","Study Linux and command line tools","Learn Python for security scripting","Study ethical hacking concepts and tools","Practice on TryHackMe and HackTheBox","Get certified — CEH or CompTIA Security+","Build a home lab for practice"]
     },
@@ -264,23 +240,15 @@
       "id": "python_dev",
       "title": "Python Developer",
       "emoji": "🐍",
-      "url": "https://brainstack-com.vercel.app/roadmaps/python.html",
+      "url": "https://brainstack-com.vercel.app/programming-languages/all-about-python.pdf",
       "keywords": ["python developer","python programmer","django developer","flask developer","python career"],
       "steps": ["Learn Python basics — variables, loops, functions","Learn OOP in Python","Study key libraries — NumPy, Pandas","Learn Django or Flask framework","Work with databases — SQL and MongoDB","Build and deploy Python projects"]
     },
     {
-      "id": "dsa_cp",
-      "title": "DSA & Competitive Programming",
-      "emoji": "📊",
-      "url": "https://brainstack-com.vercel.app/roadmaps/dsa.html",
-      "keywords": ["dsa roadmap","competitive programming","coding interview","leetcode","placement preparation","data structures career"],
-      "steps": ["Learn a language — C++, Java, or Python","Master Arrays, Strings, Math tricks","Learn Recursion and Sorting algorithms","Study Trees, Graphs, and Hashing","Dynamic Programming — memoization & tabulation","Practice daily on LeetCode and Codeforces"]
-    },
-    {
       "id": "android",
-      "title": "Android App Developer",
+      "title": "App Developer",
       "emoji": "📱",
-      "url": "https://brainstack-com.vercel.app/roadmaps/android.html",
+      "url": "https://brainstack-com.vercel.app/engineering-pdf/app-development.pdf",
       "keywords": ["android developer","mobile developer","app developer","kotlin","flutter","mobile app career"],
       "steps": ["Learn Java or Kotlin basics","Set up Android Studio","Build simple UI apps — buttons, layouts","Learn Activities, Fragments, Intents","Study local databases — SQLite or Room","Learn API integration and Firebase","Publish your app on Play Store"]
     }
