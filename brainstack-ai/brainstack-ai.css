@@ -478,7 +478,7 @@ body {
 @media (min-width:1600px){
 
   body{
-    font-size:18px;
+    font-size:20px;
   }
 
   .logo{
@@ -512,7 +512,7 @@ body {
   }
 
   .bubble{
-    font-size:17px;
+    font-size:18px;
     line-height:1.9;
   }
 
@@ -530,21 +530,21 @@ body {
   }
 
   #user-input{
-    font-size:17px;
+    font-size:18px;
   }
 
   #input-hint{
-    font-size:14px;
+    font-size:16px;
   }
 
   .pdf-title,
   .rm-title{
-    font-size:15px;
+    font-size:16px;
   }
 
   .pdf-cat,
   .rm-sub{
-    font-size:13px;
+    font-size:15px;
   }
 
 }
@@ -751,7 +751,7 @@ body {
   }
 
   #input-hint{
-    font-size:9px;
+    font-size:10px;
   }
 
 }
