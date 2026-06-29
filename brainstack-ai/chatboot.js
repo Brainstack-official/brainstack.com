@@ -155,6 +155,7 @@ function getReply(rawMessage) {
   return replyFallback();
 }
 
+
 // ============================================================
 // INTENT HELPERS
 // ============================================================
@@ -396,18 +397,12 @@ function getChips(key) {
 
 
 
-
-
 // ============================================================
-// BRAINSTACK AI: HIGH-INTELLIGENCE EXPERT SYSTEM (v5 - DATA ACCURACY PATCH)
-// 🚀 Paste this at the absolute bottom of your chatbot.js file
+// BRAINSTACK AI: HIGH-INTELLIGENCE EXPERT SYSTEM (v5.2 - DYNAMIC PDF CARDS)
 // ============================================================
 
-console.log("BrainStack Intelligence Engine v5: Expert Data Map Active ✅");
+console.log("BrainStack Intelligence Engine v5.2: Dynamic B.Sc PDF Linking Active ✅");
 
-// --------------------------------------------------------
-// THE EXPERT DATA DICTIONARY (Ensures unique, perfect field data)
-// --------------------------------------------------------
 const BRAINSTACK_DOMAINS = {
   "Web Development": {
     analogy: "building a modern digital restaurant. The frontend is the dining room where users sit, HTML/CSS is the decor, and Javascript is the interactive waiter taking orders.",
@@ -428,6 +423,16 @@ const BRAINSTACK_DOMAINS = {
     ],
     roadmap: "Phase 1: Foundational Programming Languages (C/C++ or Python) & Discrete Math (Month 1) | Phase 2: Core Data Structures, Sorting Algorithms, and Time Complexity (Months 2-3) | Phase 3: Operating Systems, Computer Networks, and Database Designs (Months 4-5) | Phase 4: Systems Architecture, Distributed Computing, or AI/ML Specializations (Month 6+).",
     plan: "Week 1: Object-oriented concepts and memory tracking metrics | Week 2: Linear data storage architectures (LinkedLists, Stacks, Queues) | Week 3: Advanced data trees, key hash patterns, and custom traversal logic | Week 4: Analyzing time complexities ($O(n)$ metrics) and standard algorithm tuning."
+  },
+  "App Development": {
+    analogy: "building a portable digital tool that lives right inside a user's pocket. The layout must handle varying screen profiles, touch inputs, and device battery optimization dynamically.",
+    pillars: [
+      "Native & Cross-Platform: Constructing interfaces via platforms like Flutter, React Native, Swift, or Kotlin layouts.",
+      "State Management: Coordinating background app execution cycles, persistent local storage, and real-time state reactivity.",
+      "Device Integration: Communicating with device hardware layers like system notifications, cameras, and GPS tracking coordinates."
+    ],
+    roadmap: "Phase 1: UI Design Basics, Layout Widgets, and Programming Fundamentals (Month 1) | Phase 2: State Tracking architectures and local device navigation layouts (Months 2-3) | Phase 3: Live API data fetching, asynchronous state tasks, and storage management (Months 4-5) | Phase 4: Production performance optimizations, app store distribution, and testing rules (Month 6+).",
+    plan: "Week 1: Core layout tree setups, widget parameters, and basic UI design metrics | Week 2: User input event handlers, form inputs, and multiple application page routing views | Week 3: Background state handling systems and caching network variables locally | Week 4: Debugging memory leaks, compiling application binaries, and emulating device sizes."
   },
   "B.Sc Botany": {
     analogy: "the biological blueprint of plant life forms. It maps out how cellular networks photosynthesize solar energy, process mineral nutrients, maintain ecosystem structures, and evolve over millennia.",
@@ -477,20 +482,27 @@ const BRAINSTACK_DOMAINS = {
       "Linear Algebra & Geometry: Solving matrix transformations, vector configurations, linear spaces, and multi-dimensional calculations."
     ],
     roadmap: "Phase 1: Calculus Foundations, Limits, Convergence Tests, and Analytical Solid Geometry (Month 1) | Phase 2: Advanced Real Analysis, Sequence Limits, and Ordinary Differential Equations (Months 2-3) | Phase 3: Abstract Group Theories, Rings, Vector Subspaces, and Matrix Transformations (Months 4-5) | Phase 4: Complex Variable Analysis, Partial Differential Systems, and Numerical Math Approximations (Month 6+).",
-    plan: "Week 1: Limits ($ \epsilon - \delta $ method), continuity criteria, and fundamental derivatives | Week 2: Sequences tests (ratio, root tests), convergence behaviors, and integration methods | Week 3: Matrix ranks, vector independence spaces, and determining eigenvalues/eigenvectors | Week 4: Group structures, modular arithmetic loops, and cyclic group properties."
+    plan: "Week 1: Limits ($ \\epsilon - \delta $ method), continuity criteria, and fundamental derivatives | Week 2: Sequences tests (ratio, root tests), convergence behaviors, and integration methods | Week 3: Matrix ranks, vector independence spaces, and determining eigenvalues/eigenvectors | Week 4: Group structures, modular arithmetic loops, and cyclic group properties."
+  },
+  "B.Sc Computer Science": {
+    analogy: "the bridge between software programming logic and mathematical foundations. It focuses on computation design, information processing structures, and database optimization paradigms.",
+    pillars: [
+      "Computation Theories: Understanding data logic algorithms, complexity values, and data structures.",
+      "Database Administration: Writing stable queries, designing schemas, and configuring system management pipelines.",
+      "System Programming: Designing software parameters close to the operating environment hardware layers."
+    ],
+    roadmap: "Phase 1: Programming Fundamentals with Python or C++, Architecture Layouts (Month 1) | Phase 2: Data Structures, Algorithmic Analysis, and System Paradigms (Months 2-3) | Phase 3: Database Architectures (DBMS), Software Engineering, and Operating Environments (Months 4-5) | Phase 4: Applied Network Protocols, Cyber Architectures, and Framework Deployments (Month 6+).",
+    plan: "Week 1: Algorithmic structures, pseudo-coding layouts, and control expressions | Week 2: Array models, search protocols, and collection storage configurations | Week 3: Relational tables structure, key mappings, and indexing performance rules | Week 4: Building an interactive terminal script applying data logic patterns."
   }
 };
 
-// --------------------------------------------------------
-// THE HIGH-INTELLIGENCE CORE MATCH ROUTER
-// --------------------------------------------------------
 if (typeof getReply === 'function') {
   const baseEngine = getReply;
 
   getReply = function(rawMessage) {
     const msg = rawMessage.toLowerCase().trim();
     
-    // 1. CORE NAVIGATION ROUTING (Fixes library misfires)
+    // 1. CORE NAVIGATION ROUTING
     if (msg.includes("library") || msg === "brainstack library") {
       return {
         text: `Welcome to the **BrainStack Library**! 📚 Here, we catalog core syllabus materials, notes, and academic resources into clean directories.\n\n• Use the system menus to jump straight into **Engineering Hub**, **Bachelor of Science**, or **Programming**.\n• Or type your specific topic (e.g., *B.Sc Zoology*, *Web Development roadmap*) for instantly generated assistance!`,
@@ -530,24 +542,43 @@ if (typeof getReply === 'function') {
     // 3. INTENT DETECTION FLAGS
     const isPlan = /\b(plan|study plan|schedule|routine|timetable|track)\b/.test(msg);
     const isRoadmap = /\b(roadmap|road map|path|career|learning path)\b/.test(msg);
-    const isExplanation = /\b(explain|what is|how does|define|tell me about|teach me)\b/.test(msg);
+    const isPDFSearch = /\b(pdf|notes|resources|study material|books|download|find notes|get pdf|give.*notes)\b/.test(msg);
 
-    // 4. DETECT CURRENT TARGET DOMAIN FROM MESSAGE
+ // 4. DETECT CURRENT TARGET DOMAIN FROM MESSAGE
     let domainKey = null;
-    let isBscStream = false;
 
-    if (msg.includes("web dev") || msg.includes("web development") || msg.includes("full stack")) domainKey = "Web Development";
-    else if (msg.includes("computer science") || msg.includes("cse")) domainKey = "Computer Science Engineering";
-    else if (msg.includes("botany")) { domainKey = "B.Sc Botany"; isBscStream = true; }
-    else if (msg.includes("zoology")) { domainKey = "B.Sc Zoology"; isBscStream = true; }
-    else if (msg.includes("physics")) { domainKey = "B.Sc Physics"; isBscStream = true; }
-    else if (msg.includes("chemistry")) { domainKey = "B.Sc Chemistry"; isBscStream = true; }
-    else if (msg.includes("mathematics") || msg.includes("maths") || msg.includes("math")) { domainKey = "B.Sc Mathematics"; isBscStream = true; }
-
-    // 5. IF VALID MATCH FOUND IN DATA DICTIONARY -> GENERATE UNIQUE ENGAGING OUTPUT
+    if (msg.includes("web dev") || msg.includes("web development") || msg.includes("full stack")) {
+      domainKey = "Web Development";
+    } 
+    else if (msg.includes("app dev") || msg.includes("app development") || msg.includes("mobile dev") || msg.includes("android") || msg.includes("ios")) {
+      domainKey = "App Development";
+    }
+    else if (msg.includes("computer science") || msg.includes("cse")) {
+      if (msg.includes("bsc") || msg.includes("b.sc")) {
+        domainKey = "B.Sc Computer Science";
+      } else {
+        domainKey = "Computer Science Engineering";
+      }
+    }
+    else if (msg.includes("botany")) domainKey = "B.Sc Botany";
+    else if (msg.includes("zoology")) domainKey = "B.Sc Zoology";
+    else if (msg.includes("physics")) domainKey = "B.Sc Physics";
+    else if (msg.includes("chemistry")) domainKey = "B.Sc Chemistry";
+    else if (msg.includes("mathematics") || msg.includes("maths") || msg.includes("math")) domainKey = "B.Sc Mathematics";
+    else if (msg.includes("bsc") || msg.includes("b.sc") || msg.includes("bachelor of science")) domainKey = "B.Sc Mathematics";
+ 
+    // 5. IF VALID MATCH FOUND IN DATA DICTIONARY -> GENERATE EXPLANATION WITH ACTUAL PDF LINKS
     if (domainKey && BRAINSTACK_DOMAINS[domainKey]) {
       const data = BRAINSTACK_DOMAINS[domainKey];
       let outputText = "";
+
+      // DYNAMIC SEARCH INTO DB.PDFS FOR CLICKABLE CARD RENDERING
+      const cleanSearchTerm = domainKey.toLowerCase().replace("b.sc ", "");
+      const matchedPDFs = DB && DB.pdfs ? DB.pdfs.filter(p => {
+        return p.title.toLowerCase().includes(cleanSearchTerm) || 
+               p.topics.some(t => cleanSearchTerm.includes(t.toLowerCase())) ||
+               (domainKey.startsWith("B.Sc") && p.category.toLowerCase().includes("b.sc"));
+      }).slice(0, 2) : [];
 
       if (isPlan) {
         outputText = `Mapping out a study plan for **${domainKey}** is a brilliant move! Let's break this down into a highly efficient, high-impact 4-week schedule. 🚀\n\n### 📅 Your 4-Week Master Plan\n\n` +
@@ -567,28 +598,24 @@ if (typeof getReply === 'function') {
                      `--- \nWould you like me to map out a dedicated day-by-day learning timetable based on this timeline?`;
       } 
       else {
-        // Dynamic Explanation
-        outputText = `Let's demystify **${domainKey}**! It sounds intimidating at first, but it becomes completely clear when broken down into fundamental building blocks. 🧠\n\n` +
+        outputText = `Let's demystify **${domainKey}**! It becomes completely clear when broken down into fundamental building blocks. 🧠\n\n` +
                      `### 🔍 The Big Picture\nAt its absolute core, ${data.analogy}\n\n` +
                      `### 🛠️ The 3 Core Pillars\n` +
                      `1. **${data.pillars[0].split(": ")[0]}:** ${data.pillars[0].split(": ")[1]}\n` +
                      `2. **${data.pillars[1].split(": ")[0]}:** ${data.pillars[1].split(": ")[1]}\n` +
-                     `3. **${data.pillars[2].split(": ")[0]}:** ${data.pillars[2].split(": ")[1]}`;
-      }
-
-      if (isBscStream) {
-        outputText += `\n\n📢 **BrainStack Notice:** Core resource curriculum data sheets and PDF materials for **${domainKey}** are currently being processed. Dynamic roadmap systems are fully active, and downloadable files will launch on your panel shortly! 📚`;
+                     `3. **${data.pillars[2].split(": ")[0]}:** ${data.pillars[2].split(": ")[1]}\n\n` +
+                     `📥 **Academic Resources:** Tap the interactive panels below to load your custom study notes directly from the BrainStack directory!`;
       }
 
       return {
         text: typeof formatHTML === 'function' ? formatHTML(outputText) : outputText,
-        pdfs: [],
+        pdfs: matchedPDFs, // Binds actual matching elements from your data data.json dynamically!
         roadmap: null,
         chips: isPlan ? [`Show roadmap for ${domainKey}`] : [`Give me a study plan for ${domainKey}`]
       };
     }
 
-    // 6. ABSTRACT FALLBACK LOOP FOR NON-DICTIONARY ITEMS (e.g. "Quantum Computing")
+    // 6. ABSTRACT FALLBACK LOOP FOR NON-DICTIONARY ITEMS
     let abstractSubject = msg
       .replace(/\b(give me a|show me a|how to become a|how to learn|roadmap for|study plan for|explain|what is|tell me about|notes for|course for|can you explain|i want to learn|i need a)\b/g, "")
       .replace(/\b(a|an|the|about|in|of|for|need|want|to|with)\b/g, "")
@@ -600,59 +627,6 @@ if (typeof getReply === 'function') {
       if (isRoadmap) return { text: `### 🗺️ Learning Roadmap: ${formattedAbstract}\n\n• Phase 1: Foundational Prerequisites (Month 1)\n• Phase 2: Intermediate Tools & Workflows (Months 2-3)\n• Phase 3: Real-World Portfolio Scaling (Months 4-5)\n• Phase 4: Production Architecture Deployment (Month 6+).`, pdfs: [], roadmap: null, chips: [] };
     }
 
-    // Default fallback to your base JSON code logic
     return baseEngine(rawMessage);
   };
-}
-
-// ============================================================
-// DYNAMIC INTELLIGENCE RESPONDERS
-// ============================================================
-
-function generateDynamicStudyPlan(topic) {
-  const text = `Mapping out a study plan for **${topic}** is a brilliant move! Let's break this down into a highly efficient 4-week schedule so you don't burn out. 🚀\n\n` +
-    `### 📅 Your 4-Week Master Plan\n\n` +
-    `• **Week 1: Core Architecture & Syntax**\n` +
-    `  Focus purely on baseline fundamentals, terminology, and setting up environments. Spend 45 minutes daily breaking down basic concepts.\n\n` +
-    `• **Week 2: Component Interactions**\n` +
-    `  Transition from reading to doing. Work through structural operations, learning how distinct modules connect with each other.\n\n` +
-    `• **Week 3: Mini Implementations**\n` +
-    `  Stop consuming tutorials. Build 2-3 mini-scale micro projects or tackle interactive exercises from scratch to test your limits.\n\n` +
-    `• **Week 4: Optimization & Review**\n` +
-    `  Go back, clean up your code, fix weak points, and summarize everything you learned out loud to anchor the knowledge.\n\n` +
-    `--- \n` +
-    `💡 **Pro-Tip:** Consistency beats intensity every single time. Good luck!`;
-
-  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Explain ${topic}`] };
-}
-
-function generateDynamicRoadmap(topic) {
-  const text = `I've mapped out the industry-standard learning path for **${topic}** for you. This is your definitive blueprint from zero to capable production level. 🗺️\n\n` +
-    `### 🗺️ The ${topic} Competency Roadmap\n\n` +
-    `• **Phase 1: Absolute Fundamentals (Month 1)**\n` +
-    `  Master the prerequisite theory, baseline tooling, ecosystem regulations, and foundational rules native to the domain.\n\n` +
-    `• **Phase 2: Intermediate Tools & Structures (Months 2-3)**\n` +
-    `  Learn how professionals scale architectures, hook up third-party auxiliary libraries, and manage complex systems.\n\n` +
-    `• **Phase 3: Portfolio Simulation & Real-World Building (Months 4-5)**\n` +
-    `  Apply the abstract theory on real target systems. Focus heavily on clean optimization patterns and standardized formatting.\n\n` +
-    `• **Phase 4: Advanced Deployments & Scaling (Month 6+)**\n` +
-    `  Deep dive into specialized custom frameworks, platform production scaling, or advanced security controls.\n\n` +
-    `--- \n` +
-    `Would you like a specialized micro-project to start testing Phase 1 right now?`;
-
-  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Give me a study plan for ${topic}`] };
-}
-
-function generateDynamicExplanation(topic) {
-  const text = `Let's demystify **${topic}**! It sounds complex initially, but it becomes completely clear when broken into fundamental building blocks. 🧠\n\n` +
-    `### 🔍 The Big Picture\n` +
-    `At its absolute heart, **${topic}** is an operational framework built to resolve processing friction, automate repetitive logic, and maintain complete system stability.\n\n` +
-    `### 💡 Real-World Analogy\n` +
-    `Think of it like a **traffic controller** at a massive intersection. Without it, components crash into each other trying to use the same roads at the same time. This architectural concept makes sure every transaction takes its turn systematically without freezing the machine.\n\n` +
-    `### 🛠️ The 3 Core Pillars\n` +
-    `1. **Inbound Streams:** How the layout captures and validates input commands.\n` +
-    `2. **Processing Pipeline:** The mathematical rules or instructions applied to morph that data safely.\n` +
-    `3. **State Management:** Tracking variations and retaining structural integrity over time.`;
-
-  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Show roadmap for ${topic}`] };
 }
