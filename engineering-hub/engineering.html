@@ -125,79 +125,7 @@ body{
     background:#1F2937;
 }
 
-  /* ==========================
-   BrainStack Floating AI
-========================== */
 
-#brainstackAI{
-
-position:fixed;
-
-bottom:22px;
-
-right:22px;
-
-z-index:99999;
-
-}
-
-#aiFab{
-
-display:flex;
-
-align-items:center;
-
-gap:10px;
-
-padding:14px 20px;
-
-border:none;
-
-border-radius:60px;
-
-cursor:pointer;
-
-background:#1e293b;
-
-color:#fff;
-
-font-size:16px;
-
-font-weight:600;
-
-box-shadow:0 10px 35px rgba(0,0,0,.25);
-
-transition:.3s;
-
-font-family:Poppins,sans-serif;
-
-}
-
-#aiFab:hover{
-
-transform:translateY(-4px);
-
-background:#2563eb;
-
-}
-
-.ai-icon{
-
-font-size:22px;
-
-animation:brainPulse 2s infinite;
-
-}
-
-@keyframes brainPulse{
-
-0%{transform:scale(1)}
-
-50%{transform:scale(1.15)}
-
-100%{transform:scale(1)}
-
-}
 
 /* Mobile */
 
@@ -382,37 +310,6 @@ transform:translateY(0);
 
   gtag('config', 'G-C3J27V16D2');
 
-  document.getElementById("aiFab").onclick = function(){
-
-window.location.href="../brainstack-ai/brainstack-ai.html";
-
-};
-
-  window.addEventListener("load",()=>{
-
-if(localStorage.getItem("brainstackAiHint")) return;
-
-setTimeout(()=>{
-
-const tip=document.createElement("div");
-
-tip.innerHTML="👋 Need help? Ask BrainStack AI";
-
-tip.className="aiHint";
-
-document.body.appendChild(tip);
-
-setTimeout(()=>{
-
-tip.remove();
-
-},5000);
-
-localStorage.setItem("brainstackAiHint","yes");
-
-},2500);
-
-});
 </script>
   
 
@@ -495,20 +392,6 @@ Open resources
 </table>
 
 </div>
-
-  <!-- =========================
-     BrainStack AI Floating Button
-========================= -->
-
-<div id="brainstackAI">
-
-    <button id="aiFab">
-
-        <span class="ai-icon">🤖</span>
-
-        <span class="ai-text">Ask AI</span>
-
-    </button>
 
 </div>
 
