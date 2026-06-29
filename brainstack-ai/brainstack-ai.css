@@ -8,20 +8,20 @@
 
 /* --- TOKENS --- */
 :root {
-  --blue:        #2563EB;
-  --blue-dark:   #1D4ED8;
-  --blue-light:  #EFF6FF;
-  --blue-mid:    #DBEAFE;
-  --purple:      #7C3AED;
-  --green:       #10B981;
-  --red:         #EF4444;
-  --dark:        #0F172A;
-  --mid:         #334155;
-  --muted:       #94A3B8;
-  --border:      #E2E8F0;
-  --bg:          #F1F5F9;
-  --white:       #FFFFFF;
-  --code-bg:     #1E293B;
+  --blue:        #2D6A4F; /* Deep Forest Green (Primary Buttons & Links) */
+  --blue-dark:   #1B4332; 
+  --blue-light:  #E8F5E9; /* Ultra-light Mint Tint (Active backgrounds) */
+  --blue-mid:    #C8E6C9; /* Light Sage Accent Border */
+  --purple:      #52B788; /* Vibrant Mint/Green Highlight */
+  --green:       #40916C; 
+  --red:         #E63946; 
+  --dark:        #081C15; /* Crisp Dark Ivy for ultra-readable text */
+  --mid:         #2D6A4F; 
+  --muted:       #5E7A6E; 
+  --border:      #D8E2DC; 
+  --bg:          #F4F7F5; /* Crisp Off-White with a hint of green tint */
+  --white:       #FFFFFF; 
+  --code-bg:     #081C15; 
   --font:        'Inter', sans-serif;
   --mono:        'JetBrains Mono', monospace;
   --radius:      16px;
