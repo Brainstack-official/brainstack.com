@@ -379,3 +379,208 @@ function getChips(key) {
   };
   return map[key] || ['Give me a project','Show roadmap','Find PDF notes'];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ============================================================
+// BRAINSTACK AI: HIGH-INTELLIGENCE GROUPED ENGINE (v4)
+// 🚀 Paste this at the absolute bottom of your chatbot.js file
+// ============================================================
+
+console.log("BrainStack Intelligence Engine v4: Grouped & Connected ✅");
+
+if (typeof getReply === 'function') {
+  const baseEngine = getReply;
+
+  getReply = function(rawMessage) {
+    console.log("Intercepted user query:", rawMessage);
+    const msg = rawMessage.toLowerCase().trim();
+    
+    // --------------------------------------------------------
+    // GROUP 1: CORE NAVIGATION BUTTON MATCHES (Fixes Screenshot Misfires)
+    // --------------------------------------------------------
+    if (msg.includes("library") || msg === "brainstack library") {
+      return {
+        text: `Welcome to the **BrainStack Library**! 📚 Here, we organize core study materials, notes, and academic assets into clean, accessible directories.\n\n` +
+              `• Use the categories above to jump straight into **Engineering Hub**, **Bachelor of Science**, or **Programming**.\n` +
+              `• If you are looking for specific reference files, tell me your course name (e.g., *B.Sc Botany notes* or *Python programming resource*).\n\n` +
+              `What specific area can I help you pull up right now?`,
+        pdfs: [], roadmap: null, chips: ["Engineering Hub", "Bachelor of Science", "Programming"]
+      };
+    }
+    
+    if (msg === "projects" || msg.includes("give me projects") || msg.includes("show projects")) {
+      return {
+        text: `Let's build something awesome! 🛠️ Practical application is where real skills are made. I have projects ready across different difficulty tiers.\n\n` +
+              `Tell me what field you want to practice in (e.g., *Web Development projects*, *Python mini-apps*, or *AI architectures*), and I will break down a task checklist with clear milestones for you!`,
+        pdfs: [], roadmap: null, chips: ["Web Dev projects", "Python projects", "AI projects"]
+      };
+    }
+
+    if (msg === "roadmaps" || msg === "show roadmaps") {
+      return {
+        text: `Looking for a clear path forward? 🗺️ I can generate structured, step-by-step career and skill roadmaps for any domain.\n\n` +
+              `Just type your target area, like **"Roadmap for Cyber Security"** or **"Web development road map"** to get a structured blueprint right now.`,
+        pdfs: [], roadmap: null, chips: ["Web dev roadmap", "AI roadmap", "B.Sc Physics roadmap"]
+      };
+    }
+
+    // --------------------------------------------------------
+    // GROUP 2: BASIC FAQS & CASUAL CONNECTIONS (Empathetic Conversational Layer)
+    // --------------------------------------------------------
+    if (/\b(hello|hi|hey|greetings|good morning|good afternoon)\b/.test(msg)) {
+      return {
+        text: `Hey there! 👋 Welcome to BrainStack. I'm your dedicated study partner and academic guide. Whether you need a 4-week study routine, a deep career path roadmap, or plain-English explanations for complex concepts, I've got your back. What are we diving into today?`,
+        pdfs: [], roadmap: null, chips: ["Bachelor of Science", "Web Dev Roadmap", "Explain AI"]
+      };
+    }
+
+    if (/\b(thank you|thanks|awesome|great|helper|perfect)\b/.test(msg)) {
+      return {
+        text: `You're incredibly welcome! 😊 Learning something new can be a steep hill to climb, but you're taking all the right steps. I'm right here whenever you need another breakdown, roadmap, or timetable. Keep pushing forward! 🚀`,
+        pdfs: [], roadmap: null, chips: ["Show Roadmaps", "BrainStack Library"]
+      };
+    }
+
+    if (msg.includes("who created") || msg.includes("creator") || msg.includes("developed by")) {
+      return {
+        text: `**BrainStack** was conceptualized and meticulously built by **Shaik Mohammed Rehan**! 🚀 It was engineered as an educational environment designed to simplify student learning curves, provide instant high-intelligence resource mapping, and deliver structure to academic journeys.`,
+        pdfs: [], roadmap: null, chips: ["BrainStack Library", "Engineering Hub"]
+      };
+    }
+
+    // --------------------------------------------------------
+    // GROUP 3: ACADEMIC & SUBJECT DOMAIN INTERCEPTIONS (Precision Routing)
+    // --------------------------------------------------------
+    let subject = msg
+      .replace(/\b(give me a|show me a|how to become a|how to learn|roadmap for|study plan for|explain|what is|tell me about|notes for|course for|can you explain|i want to learn|i need a)\b/g, "")
+      .replace(/\b(a|an|the|about|in|of|for|need|want|to|with)\b/g, "")
+      .replace(/[?.!]/g, "")
+      .trim()
+      .replace(/\b(roadmap|road map|study plan|plan|schedule|timetable)\b/g, "")
+      .trim();
+    
+    const formattedSubject = subject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+    let domain = null;
+    let isBscStream = false;
+
+    if (msg.includes("web dev") || msg.includes("web development") || msg.includes("full stack")) {
+      domain = "Web Development";
+    } else if (msg.includes("computer science") || msg.includes("cse") || msg.includes("bsc cse")) {
+      domain = "Computer Science Engineering";
+    } else if (msg.includes("civil")) {
+      domain = "Civil Engineering";
+    } else if (msg.includes("mechanical") || msg.includes("thermodynamics")) {
+      domain = "Mechanical Engineering";
+    } 
+    // Bachelor of Science Stream Checkers
+    else if (msg.includes("botany")) { domain = "B.Sc Botany"; isBscStream = true; }
+    else if (msg.includes("zoology")) { domain = "B.Sc Zoology"; isBscStream = true; }
+    else if (msg.includes("physics")) { domain = "B.Sc Physics"; isBscStream = true; }
+    else if (msg.includes("chemistry")) { domain = "B.Sc Chemistry"; isBscStream = true; }
+    else if (msg.includes("mathematics") || msg.includes("maths") || msg.includes("math")) { domain = "B.Sc Mathematics"; isBscStream = true; }
+    else if (msg.includes("bachelor of science") || msg.includes("bsc")) { domain = "Bachelor of Science"; isBscStream = true; }
+
+    const isPlan = /\b(plan|study plan|schedule|routine|timetable|track)\b/.test(msg);
+    const isRoadmap = /\b(roadmap|road map|path|career|learning path)\b/.test(msg);
+    const isExplanation = /\b(explain|what is|how does|define|tell me about|teach me)\b/.test(msg);
+
+    if (domain) {
+      let result;
+      if (isPlan) result = generateDynamicStudyPlan(domain);
+      else if (isRoadmap) result = generateDynamicRoadmap(domain);
+      else result = generateDynamicExplanation(domain);
+
+      if (isBscStream) {
+        result.text += `\n\n📢 **BrainStack Notice:** Core resource curriculum data sheets and PDF materials for **${domain}** are systematically being cataloged. Dynamic roadmap frameworks are accessible, and downloadable files will launch on your panel shortly! 📚`;
+      }
+      return result;
+    }
+
+    // --------------------------------------------------------
+    // GROUP 4: ABSTRACT TOPIC RESOLUTION (Fallback Generator)
+    // --------------------------------------------------------
+    if (subject.length > 1) {
+      if (isPlan) return generateDynamicStudyPlan(formattedSubject);
+      if (isRoadmap) return generateDynamicRoadmap(formattedSubject);
+      if (isExplanation) {
+        const localResult = baseEngine(rawMessage);
+        if (localResult && localResult.text && DB && !DB.responses.fallbacks.includes(localResult.text)) {
+          return localResult;
+        }
+        return generateDynamicExplanation(formattedSubject);
+      }
+    }
+
+    // Fall back cleanly to the primary system loop if no matches occurred
+    return baseEngine(rawMessage);
+  };
+}
+// ============================================================
+// DYNAMIC INTELLIGENCE RESPONDERS
+// ============================================================
+
+function generateDynamicStudyPlan(topic) {
+  const text = `Mapping out a study plan for **${topic}** is a brilliant move! Let's break this down into a highly efficient 4-week schedule so you don't burn out. 🚀\n\n` +
+    `### 📅 Your 4-Week Master Plan\n\n` +
+    `• **Week 1: Core Architecture & Syntax**\n` +
+    `  Focus purely on baseline fundamentals, terminology, and setting up environments. Spend 45 minutes daily breaking down basic concepts.\n\n` +
+    `• **Week 2: Component Interactions**\n` +
+    `  Transition from reading to doing. Work through structural operations, learning how distinct modules connect with each other.\n\n` +
+    `• **Week 3: Mini Implementations**\n` +
+    `  Stop consuming tutorials. Build 2-3 mini-scale micro projects or tackle interactive exercises from scratch to test your limits.\n\n` +
+    `• **Week 4: Optimization & Review**\n` +
+    `  Go back, clean up your code, fix weak points, and summarize everything you learned out loud to anchor the knowledge.\n\n` +
+    `--- \n` +
+    `💡 **Pro-Tip:** Consistency beats intensity every single time. Good luck!`;
+
+  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Explain ${topic}`] };
+}
+
+function generateDynamicRoadmap(topic) {
+  const text = `I've mapped out the industry-standard learning path for **${topic}** for you. This is your definitive blueprint from zero to capable production level. 🗺️\n\n` +
+    `### 🗺️ The ${topic} Competency Roadmap\n\n` +
+    `• **Phase 1: Absolute Fundamentals (Month 1)**\n` +
+    `  Master the prerequisite theory, baseline tooling, ecosystem regulations, and foundational rules native to the domain.\n\n` +
+    `• **Phase 2: Intermediate Tools & Structures (Months 2-3)**\n` +
+    `  Learn how professionals scale architectures, hook up third-party auxiliary libraries, and manage complex systems.\n\n` +
+    `• **Phase 3: Portfolio Simulation & Real-World Building (Months 4-5)**\n` +
+    `  Apply the abstract theory on real target systems. Focus heavily on clean optimization patterns and standardized formatting.\n\n` +
+    `• **Phase 4: Advanced Deployments & Scaling (Month 6+)**\n` +
+    `  Deep dive into specialized custom frameworks, platform production scaling, or advanced security controls.\n\n` +
+    `--- \n` +
+    `Would you like a specialized micro-project to start testing Phase 1 right now?`;
+
+  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Give me a study plan for ${topic}`] };
+}
+
+function generateDynamicExplanation(topic) {
+  const text = `Let's demystify **${topic}**! It sounds complex initially, but it becomes completely clear when broken into fundamental building blocks. 🧠\n\n` +
+    `### 🔍 The Big Picture\n` +
+    `At its absolute heart, **${topic}** is an operational framework built to resolve processing friction, automate repetitive logic, and maintain complete system stability.\n\n` +
+    `### 💡 Real-World Analogy\n` +
+    `Think of it like a **traffic controller** at a massive intersection. Without it, components crash into each other trying to use the same roads at the same time. This architectural concept makes sure every transaction takes its turn systematically without freezing the machine.\n\n` +
+    `### 🛠️ The 3 Core Pillars\n` +
+    `1. **Inbound Streams:** How the layout captures and validates input commands.\n` +
+    `2. **Processing Pipeline:** The mathematical rules or instructions applied to morph that data safely.\n` +
+    `3. **State Management:** Tracking variations and retaining structural integrity over time.`;
+
+  return { text: typeof formatHTML === 'function' ? formatHTML(text) : text, pdfs: [], roadmap: null, chips: [`Show roadmap for ${topic}`] };
+}
