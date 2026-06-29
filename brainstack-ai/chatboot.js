@@ -399,140 +399,212 @@ function getChips(key) {
 
 
 // ============================================================
-// BRAINSTACK AI: HIGH-INTELLIGENCE GROUPED ENGINE (v4)
+// BRAINSTACK AI: HIGH-INTELLIGENCE EXPERT SYSTEM (v5 - DATA ACCURACY PATCH)
 // 🚀 Paste this at the absolute bottom of your chatbot.js file
 // ============================================================
 
-console.log("BrainStack Intelligence Engine v4: Grouped & Connected ✅");
+console.log("BrainStack Intelligence Engine v5: Expert Data Map Active ✅");
 
+// --------------------------------------------------------
+// THE EXPERT DATA DICTIONARY (Ensures unique, perfect field data)
+// --------------------------------------------------------
+const BRAINSTACK_DOMAINS = {
+  "Web Development": {
+    analogy: "building a modern digital restaurant. The frontend is the dining room where users sit, HTML/CSS is the decor, and Javascript is the interactive waiter taking orders.",
+    pillars: [
+      "Frontend Engineering: Mastery of HTML5, responsive CSS grids, framework components, and UI state tracking.",
+      "Backend Architectures: RESTful APIs, routing servers (Node.js/Python), data validation, and secure authentication flows.",
+      "Database Layer: Storing structured datasets natively using relational engines (SQL) or flexible collections (NoSQL)."
+    ],
+    roadmap: "Phase 1: Pure HTML, CSS, and basic JavaScript UI control (Month 1) | Phase 2: Frontend Frameworks like React/Vue and State Management (Months 2-3) | Phase 3: Backend APIs with Node.js/Express and Database systems like MongoDB/PostgreSQL (Months 4-5) | Phase 4: Full Stack deployments, security hardening, and Cloud setups (Month 6+).",
+    plan: "Week 1: Visual interfaces, CSS layouts, and semantic tags | Week 2: JavaScript syntax arrays, objects, and DOM tracking event listeners | Week 3: Asynchronous logic, fetching live network APIs, and rendering data | Week 4: Building a functional multi-tier portfolio application from scratch."
+  },
+  "Computer Science Engineering": {
+    analogy: "the systematic study of calculation, information processing, and systemic architecture. It represents the underlying invisible math and physical logic structures that power software.",
+    pillars: [
+      "Algorithms & Complexities: Writing optimal logic structures to calculate heavy parameters with minimal system overhead.",
+      "Data Structures: Organising raw data into clean operational trees, heaps, matrices, queues, and graph systems.",
+      "System Internals: Understanding assembly compilers, OS memory operations, processing threads, and microchips."
+    ],
+    roadmap: "Phase 1: Foundational Programming Languages (C/C++ or Python) & Discrete Math (Month 1) | Phase 2: Core Data Structures, Sorting Algorithms, and Time Complexity (Months 2-3) | Phase 3: Operating Systems, Computer Networks, and Database Designs (Months 4-5) | Phase 4: Systems Architecture, Distributed Computing, or AI/ML Specializations (Month 6+).",
+    plan: "Week 1: Object-oriented concepts and memory tracking metrics | Week 2: Linear data storage architectures (LinkedLists, Stacks, Queues) | Week 3: Advanced data trees, key hash patterns, and custom traversal logic | Week 4: Analyzing time complexities ($O(n)$ metrics) and standard algorithm tuning."
+  },
+  "B.Sc Botany": {
+    analogy: "the biological blueprint of plant life forms. It maps out how cellular networks photosynthesize solar energy, process mineral nutrients, maintain ecosystem structures, and evolve over millennia.",
+    pillars: [
+      "Plant Physiology & Biochemistry: The study of chemical cycles, enzymatic actions, photosynthetic pathways ($C_3/C_4$), and plant growth hormones.",
+      "Anatomy & Histology: Investigating the cellular composition, xylem/phloem transport tissues, and structural layers of plant systems.",
+      "Taxonomy & Ecology: Cataloging and classifying plant species into distinct families and identifying their biological balance within environments."
+    ],
+    roadmap: "Phase 1: Basic Plant Morphology, Cryptogams, and Microscopic Cellular Anatomy (Month 1) | Phase 2: Advanced Plant Physiology, Metabolic Photosynthesis Pathways, and Genetics (Months 2-3) | Phase 3: Plant Pathology, Ecology Ecosystem Dynamics, and Applied Biotechnology (Months 4-5) | Phase 4: Advanced Phytochemistry, Molecular Biology, and Taxonomy Systems (Month 6+).",
+    plan: "Week 1: Microscopy setup, cellular walls, and classification rules of simple non-flowering plants | Week 2: Vascular plant tissue functions, root layouts, and structural anatomy variants | Week 3: Cellular respiration cycles, light/dark reactions, and enzyme activities | Week 4: Studying local ecosystem distributions and plant-pathogen defense systems."
+  },
+  "B.Sc Zoology": {
+    analogy: "the complete structural mechanics and behavioral biology of the animal kingdom. It breaks down how animal species survive, consume energy, adapt structures, and process physiological functions.",
+    pillars: [
+      "Invertebrate & Vertebrate Biology: Tracing anatomical progression from unicellular organisms up to complex mammalian networks.",
+      "Animal Physiology & Endocrinology: Investigating nervous system grids, digestive tracks, respiratory functions, and hormonal signaling.",
+      "Evolutionary Genetics: Mapping out chromosomes, cell divisions (Mitosis/Meiosis), inherited variations, and natural survival tracks."
+    ],
+    roadmap: "Phase 1: Non-Chordate Taxonomies, Microscopic Cell Biology, and Tissue Architectures (Month 1) | Phase 2: Chordate Morphology, Comparative Vertebrate Anatomy, and Histology (Months 2-3) | Phase 3: Human/Animal Physiology, Complex Metabolic Pathways, and Developmental Embryology (Months 4-5) | Phase 4: Molecular Genetics, Applied Wildlife Conservation, and Animal Behaviorism (Month 6+).",
+    plan: "Week 1: Phylum classifications, animal structural hierarchies, and base cell functions | Week 2: Comparative study of organ architectures (heart, lungs, nervous systems) across species | Week 3: Enzymatic digestion kinetics, reproductive biology, and endocrine gland paths | Week 4: Genetic cross-mapping, hereditary mutations, and ecological adaptive behaviors."
+  },
+  "B.Sc Physics": {
+    analogy: "the foundational rules governing space, time, matter, and energy. It answers how everything in our reality interacts, from subatomic quantum states to massive cosmic bodies.",
+    pillars: [
+      "Classical Mechanics & Dynamics: The math backing movement, force calculations, inertia, wave frequencies, and rotational fields.",
+      "Thermodynamics & Electromagnetism: Exploring thermal dynamics, entropy laws, magnetic charges, circuit fields, and light optics.",
+      "Modern Physics & Quantum Fields: Breaking down relativity vectors, nuclear structures, atom splits, and wave-particle behavior models."
+    ],
+    roadmap: "Phase 1: Vector Calculus, Classical Mechanics, Newtonian Motion Laws, and Wave Oscillations (Month 1) | Phase 2: Kinetic Thermodynamics, Thermal Systems, Optics, and Basic Electromagnetism (Months 2-3) | Phase 3: Mathematical Physics, Electrostatics, Electronic Circuit Layouts, and Analog Devices (Months 4-5) | Phase 4: Quantum Physics, Special Relativity Mechanics, and Atomic/Nuclear Physics (Month 6+).",
+    plan: "Week 1: Differential equations, rigid body movements, and rotational mechanics math | Week 2: Wave propagation paths, interference interference models, and geometric lens configurations | Week 3: Electric potentials, magnetic flux variables, and circuit loop analysis calculations | Week 4: Blackbody radiation foundations, photon interactions, and introductory quantum numbers."
+  },
+  "B.Sc Chemistry": {
+    analogy: "the molecular code of matter. It looks closely at how atoms bond together, share electrons, form elements, create compounds, and experience structural transformations during reactions.",
+    pillars: [
+      "Organic Chemistry: Tracking carbon chains, functional group mechanisms, reaction profiles, and synthetic compounds.",
+      "Inorganic Chemistry: Studying periodic elements, chemical bonding architectures, metal coordinates, and crystalline systems.",
+      "Physical Chemistry: The mathematical calculations of chemical kinetics, thermodynamics, balance variables, and atomic structures."
+    ],
+    roadmap: "Phase 1: Fundamental Atomic Architectures, Periodic Table Rules, and Chemical Gas Laws (Month 1) | Phase 2: Functional Organic Stereochemistry, Reaction Intermediates, and Solid-State Fields (Months 2-3) | Phase 3: Coordination Chemistry, Electrochemistry Systems, and Reaction Kinetics Equations (Months 4-5) | Phase 4: Advanced Analytical Spectroscopy, Quantum Molecular Modeling, and Polymer Synthesis (Month 6+).",
+    plan: "Week 1: Periodic trends, electronic configurations, and molecular orbital diagrams | Week 2: Hydrocarbon naming rules, resonance models, and electrophilic substitution paths | Week 3: Reaction rate models, balancing equilibrium Constants ($K_c$), and activation energy shifts | Week 4: Laboratory purification workflows, titration calculations, and acid-base buffers."
+  },
+  "B.Sc Mathematics": {
+    analogy: "the universal language of abstract relationships and patterns. It creates the deductive logic systems used to calculate multi-dimensional problems, changes, structures, and spaces.",
+    pillars: [
+      "Real Analysis & Calculus: Evaluating infinity patterns, convergence limits, continuity behaviors, and advanced integration systems.",
+      "Abstract Algebra: Exploring group configurations, ring architectures, field theories, and symmetric layouts.",
+      "Linear Algebra & Geometry: Solving matrix transformations, vector configurations, linear spaces, and multi-dimensional calculations."
+    ],
+    roadmap: "Phase 1: Calculus Foundations, Limits, Convergence Tests, and Analytical Solid Geometry (Month 1) | Phase 2: Advanced Real Analysis, Sequence Limits, and Ordinary Differential Equations (Months 2-3) | Phase 3: Abstract Group Theories, Rings, Vector Subspaces, and Matrix Transformations (Months 4-5) | Phase 4: Complex Variable Analysis, Partial Differential Systems, and Numerical Math Approximations (Month 6+).",
+    plan: "Week 1: Limits ($ \epsilon - \delta $ method), continuity criteria, and fundamental derivatives | Week 2: Sequences tests (ratio, root tests), convergence behaviors, and integration methods | Week 3: Matrix ranks, vector independence spaces, and determining eigenvalues/eigenvectors | Week 4: Group structures, modular arithmetic loops, and cyclic group properties."
+  }
+};
+
+// --------------------------------------------------------
+// THE HIGH-INTELLIGENCE CORE MATCH ROUTER
+// --------------------------------------------------------
 if (typeof getReply === 'function') {
   const baseEngine = getReply;
 
   getReply = function(rawMessage) {
-    console.log("Intercepted user query:", rawMessage);
     const msg = rawMessage.toLowerCase().trim();
     
-    // --------------------------------------------------------
-    // GROUP 1: CORE NAVIGATION BUTTON MATCHES (Fixes Screenshot Misfires)
-    // --------------------------------------------------------
+    // 1. CORE NAVIGATION ROUTING (Fixes library misfires)
     if (msg.includes("library") || msg === "brainstack library") {
       return {
-        text: `Welcome to the **BrainStack Library**! 📚 Here, we organize core study materials, notes, and academic assets into clean, accessible directories.\n\n` +
-              `• Use the categories above to jump straight into **Engineering Hub**, **Bachelor of Science**, or **Programming**.\n` +
-              `• If you are looking for specific reference files, tell me your course name (e.g., *B.Sc Botany notes* or *Python programming resource*).\n\n` +
-              `What specific area can I help you pull up right now?`,
+        text: `Welcome to the **BrainStack Library**! 📚 Here, we catalog core syllabus materials, notes, and academic resources into clean directories.\n\n• Use the system menus to jump straight into **Engineering Hub**, **Bachelor of Science**, or **Programming**.\n• Or type your specific topic (e.g., *B.Sc Zoology*, *Web Development roadmap*) for instantly generated assistance!`,
         pdfs: [], roadmap: null, chips: ["Engineering Hub", "Bachelor of Science", "Programming"]
       };
     }
     
-    if (msg === "projects" || msg.includes("give me projects") || msg.includes("show projects")) {
+    if (msg === "projects" || msg.includes("give me projects")) {
       return {
-        text: `Let's build something awesome! 🛠️ Practical application is where real skills are made. I have projects ready across different difficulty tiers.\n\n` +
-              `Tell me what field you want to practice in (e.g., *Web Development projects*, *Python mini-apps*, or *AI architectures*), and I will break down a task checklist with clear milestones for you!`,
+        text: `Let's build something awesome! 🛠️ Practical applications are where skills are made. Tell me your target field (e.g., *Web Dev projects*, *Botany experiments*, *Python apps*) and I'll generate a custom task blueprint for you!`,
         pdfs: [], roadmap: null, chips: ["Web Dev projects", "Python projects", "AI projects"]
       };
     }
 
     if (msg === "roadmaps" || msg === "show roadmaps") {
       return {
-        text: `Looking for a clear path forward? 🗺️ I can generate structured, step-by-step career and skill roadmaps for any domain.\n\n` +
-              `Just type your target area, like **"Roadmap for Cyber Security"** or **"Web development road map"** to get a structured blueprint right now.`,
-        pdfs: [], roadmap: null, chips: ["Web dev roadmap", "AI roadmap", "B.Sc Physics roadmap"]
+        text: `Looking for a clear path forward? 🗺️ I can generate structured, step-by-step career and learning blueprints for any course. Just type your field, like **"Roadmap for Physics"** or **"Web development roadmap"**!`,
+        pdfs: [], roadmap: null, chips: ["Web dev roadmap", "B.Sc Botany roadmap", "Computer Science roadmap"]
       };
     }
 
-    // --------------------------------------------------------
-    // GROUP 2: BASIC FAQS & CASUAL CONNECTIONS (Empathetic Conversational Layer)
-    // --------------------------------------------------------
-    if (/\b(hello|hi|hey|greetings|good morning|good afternoon)\b/.test(msg)) {
+    // 2. CASUAL CONVERSATION & CREATOR ROUTING
+    if (/\b(hello|hi|hey|greetings|good morning)\b/.test(msg)) {
       return {
-        text: `Hey there! 👋 Welcome to BrainStack. I'm your dedicated study partner and academic guide. Whether you need a 4-week study routine, a deep career path roadmap, or plain-English explanations for complex concepts, I've got your back. What are we diving into today?`,
-        pdfs: [], roadmap: null, chips: ["Bachelor of Science", "Web Dev Roadmap", "Explain AI"]
-      };
-    }
-
-    if (/\b(thank you|thanks|awesome|great|helper|perfect)\b/.test(msg)) {
-      return {
-        text: `You're incredibly welcome! 😊 Learning something new can be a steep hill to climb, but you're taking all the right steps. I'm right here whenever you need another breakdown, roadmap, or timetable. Keep pushing forward! 🚀`,
-        pdfs: [], roadmap: null, chips: ["Show Roadmaps", "BrainStack Library"]
+        text: `Hey there! 👋 Welcome to BrainStack. I'm your dedicated study partner. Whether you need a 4-week study routine, a deep career roadmap, or clear explanations for your topics, I've got your back. What field are we exploring today?`,
+        pdfs: [], roadmap: null, chips: ["Bachelor of Science", "Web Dev Roadmap", "Programming"]
       };
     }
 
     if (msg.includes("who created") || msg.includes("creator") || msg.includes("developed by")) {
       return {
-        text: `**BrainStack** was conceptualized and meticulously built by **Shaik Mohammed Rehan**! 🚀 It was engineered as an educational environment designed to simplify student learning curves, provide instant high-intelligence resource mapping, and deliver structure to academic journeys.`,
+        text: `**BrainStack** was conceptualized and engineered by **Shaik Mohammed Rehan**! 🚀 It was built as a high-intelligence learning hub designed to simplify student learning curves, map professional roadmaps, and provide clear structure to academic journeys.`,
         pdfs: [], roadmap: null, chips: ["BrainStack Library", "Engineering Hub"]
       };
     }
 
-    // --------------------------------------------------------
-    // GROUP 3: ACADEMIC & SUBJECT DOMAIN INTERCEPTIONS (Precision Routing)
-    // --------------------------------------------------------
-    let subject = msg
-      .replace(/\b(give me a|show me a|how to become a|how to learn|roadmap for|study plan for|explain|what is|tell me about|notes for|course for|can you explain|i want to learn|i need a)\b/g, "")
-      .replace(/\b(a|an|the|about|in|of|for|need|want|to|with)\b/g, "")
-      .replace(/[?.!]/g, "")
-      .trim()
-      .replace(/\b(roadmap|road map|study plan|plan|schedule|timetable)\b/g, "")
-      .trim();
-    
-    const formattedSubject = subject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-
-    let domain = null;
-    let isBscStream = false;
-
-    if (msg.includes("web dev") || msg.includes("web development") || msg.includes("full stack")) {
-      domain = "Web Development";
-    } else if (msg.includes("computer science") || msg.includes("cse") || msg.includes("bsc cse")) {
-      domain = "Computer Science Engineering";
-    } else if (msg.includes("civil")) {
-      domain = "Civil Engineering";
-    } else if (msg.includes("mechanical") || msg.includes("thermodynamics")) {
-      domain = "Mechanical Engineering";
-    } 
-    // Bachelor of Science Stream Checkers
-    else if (msg.includes("botany")) { domain = "B.Sc Botany"; isBscStream = true; }
-    else if (msg.includes("zoology")) { domain = "B.Sc Zoology"; isBscStream = true; }
-    else if (msg.includes("physics")) { domain = "B.Sc Physics"; isBscStream = true; }
-    else if (msg.includes("chemistry")) { domain = "B.Sc Chemistry"; isBscStream = true; }
-    else if (msg.includes("mathematics") || msg.includes("maths") || msg.includes("math")) { domain = "B.Sc Mathematics"; isBscStream = true; }
-    else if (msg.includes("bachelor of science") || msg.includes("bsc")) { domain = "Bachelor of Science"; isBscStream = true; }
-
+    // 3. INTENT DETECTION FLAGS
     const isPlan = /\b(plan|study plan|schedule|routine|timetable|track)\b/.test(msg);
     const isRoadmap = /\b(roadmap|road map|path|career|learning path)\b/.test(msg);
     const isExplanation = /\b(explain|what is|how does|define|tell me about|teach me)\b/.test(msg);
 
-    if (domain) {
-      let result;
-      if (isPlan) result = generateDynamicStudyPlan(domain);
-      else if (isRoadmap) result = generateDynamicRoadmap(domain);
-      else result = generateDynamicExplanation(domain);
+    // 4. DETECT CURRENT TARGET DOMAIN FROM MESSAGE
+    let domainKey = null;
+    let isBscStream = false;
+
+    if (msg.includes("web dev") || msg.includes("web development") || msg.includes("full stack")) domainKey = "Web Development";
+    else if (msg.includes("computer science") || msg.includes("cse")) domainKey = "Computer Science Engineering";
+    else if (msg.includes("botany")) { domainKey = "B.Sc Botany"; isBscStream = true; }
+    else if (msg.includes("zoology")) { domainKey = "B.Sc Zoology"; isBscStream = true; }
+    else if (msg.includes("physics")) { domainKey = "B.Sc Physics"; isBscStream = true; }
+    else if (msg.includes("chemistry")) { domainKey = "B.Sc Chemistry"; isBscStream = true; }
+    else if (msg.includes("mathematics") || msg.includes("maths") || msg.includes("math")) { domainKey = "B.Sc Mathematics"; isBscStream = true; }
+
+    // 5. IF VALID MATCH FOUND IN DATA DICTIONARY -> GENERATE UNIQUE ENGAGING OUTPUT
+    if (domainKey && BRAINSTACK_DOMAINS[domainKey]) {
+      const data = BRAINSTACK_DOMAINS[domainKey];
+      let outputText = "";
+
+      if (isPlan) {
+        outputText = `Mapping out a study plan for **${domainKey}** is a brilliant move! Let's break this down into a highly efficient, high-impact 4-week schedule. 🚀\n\n### 📅 Your 4-Week Master Plan\n\n` +
+                     `• **Week 1: Core Fundamentals & Framework Rules**\n  ${data.plan.split(" | ")[0]}\n\n` +
+                     `• **Week 2: Deep Structure Mechanics**\n  ${data.plan.split(" | ")[1]}\n\n` +
+                     `• **Week 3: Practical Projects & Application Exercises**\n  ${data.plan.split(" | ")[2]}\n\n` +
+                     `• **Week 4: Review, Edge Cases & Synthesis**\n  ${data.plan.split(" | ")[3]}\n\n` +
+                     `--- \n💡 **Pro-Tip:** Consistency beats intensity every single time. 45 minutes every day is 10x better than an 8-hour marathon once a week. You've got this!`;
+      } 
+      else if (isRoadmap) {
+        const phases = data.roadmap.split(" | ");
+        outputText = `I've mapped out the industry-standard learning path for **${domainKey}** for you. This is your definitive blueprint from zero to professional capability. 🗺️\n\n### 🗺️ The Competency Roadmap\n\n` +
+                     `• **${phases[0].split(": ")[0]}**\n  ${phases[0].split(": ")[1]}\n\n` +
+                     `• **${phases[1].split(": ")[0]}**\n  ${phases[1].split(": ")[1]}\n\n` +
+                     `• **${phases[2].split(": ")[0]}**\n  ${phases[2].split(": ")[1]}\n\n` +
+                     `• **${phases[3].split(": ")[0]}**\n  ${phases[3].split(": ")[1]}\n\n` +
+                     `--- \nWould you like me to map out a dedicated day-by-day learning timetable based on this timeline?`;
+      } 
+      else {
+        // Dynamic Explanation
+        outputText = `Let's demystify **${domainKey}**! It sounds intimidating at first, but it becomes completely clear when broken down into fundamental building blocks. 🧠\n\n` +
+                     `### 🔍 The Big Picture\nAt its absolute core, ${data.analogy}\n\n` +
+                     `### 🛠️ The 3 Core Pillars\n` +
+                     `1. **${data.pillars[0].split(": ")[0]}:** ${data.pillars[0].split(": ")[1]}\n` +
+                     `2. **${data.pillars[1].split(": ")[0]}:** ${data.pillars[1].split(": ")[1]}\n` +
+                     `3. **${data.pillars[2].split(": ")[0]}:** ${data.pillars[2].split(": ")[1]}`;
+      }
 
       if (isBscStream) {
-        result.text += `\n\n📢 **BrainStack Notice:** Core resource curriculum data sheets and PDF materials for **${domain}** are systematically being cataloged. Dynamic roadmap frameworks are accessible, and downloadable files will launch on your panel shortly! 📚`;
+        outputText += `\n\n📢 **BrainStack Notice:** Core resource curriculum data sheets and PDF materials for **${domainKey}** are currently being processed. Dynamic roadmap systems are fully active, and downloadable files will launch on your panel shortly! 📚`;
       }
-      return result;
+
+      return {
+        text: typeof formatHTML === 'function' ? formatHTML(outputText) : outputText,
+        pdfs: [],
+        roadmap: null,
+        chips: isPlan ? [`Show roadmap for ${domainKey}`] : [`Give me a study plan for ${domainKey}`]
+      };
     }
 
-    // --------------------------------------------------------
-    // GROUP 4: ABSTRACT TOPIC RESOLUTION (Fallback Generator)
-    // --------------------------------------------------------
-    if (subject.length > 1) {
-      if (isPlan) return generateDynamicStudyPlan(formattedSubject);
-      if (isRoadmap) return generateDynamicRoadmap(formattedSubject);
-      if (isExplanation) {
-        const localResult = baseEngine(rawMessage);
-        if (localResult && localResult.text && DB && !DB.responses.fallbacks.includes(localResult.text)) {
-          return localResult;
-        }
-        return generateDynamicExplanation(formattedSubject);
-      }
+    // 6. ABSTRACT FALLBACK LOOP FOR NON-DICTIONARY ITEMS (e.g. "Quantum Computing")
+    let abstractSubject = msg
+      .replace(/\b(give me a|show me a|how to become a|how to learn|roadmap for|study plan for|explain|what is|tell me about|notes for|course for|can you explain|i want to learn|i need a)\b/g, "")
+      .replace(/\b(a|an|the|about|in|of|for|need|want|to|with)\b/g, "")
+      .replace(/[?.!]/g, "").replace(/\b(roadmap|road map|study plan|plan|schedule|timetable)\b/g, "").trim();
+    
+    if (abstractSubject.length > 1) {
+      const formattedAbstract = abstractSubject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      if (isPlan) return { text: `### 📅 Custom Study Plan: ${formattedAbstract}\n\n• Week 1: Core Fundamentals & Basic Syntax\n• Week 2: Intermediate Implementation Mechanics\n• Week 3: Practical Micro-Projects\n• Week 4: Deep Optimization and Review.`, pdfs: [], roadmap: null, chips: [] };
+      if (isRoadmap) return { text: `### 🗺️ Learning Roadmap: ${formattedAbstract}\n\n• Phase 1: Foundational Prerequisites (Month 1)\n• Phase 2: Intermediate Tools & Workflows (Months 2-3)\n• Phase 3: Real-World Portfolio Scaling (Months 4-5)\n• Phase 4: Production Architecture Deployment (Month 6+).`, pdfs: [], roadmap: null, chips: [] };
     }
 
-    // Fall back cleanly to the primary system loop if no matches occurred
+    // Default fallback to your base JSON code logic
     return baseEngine(rawMessage);
   };
 }
+
 // ============================================================
 // DYNAMIC INTELLIGENCE RESPONDERS
 // ============================================================
