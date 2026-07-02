@@ -299,7 +299,36 @@
     "category": "Botany",
     "url": "bsc-pdfs/economic-botany.pdf"
   },
-  
+  {
+    "title": "All about BSc in Zoology.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/all-about-bsc-zoology.pdf"
+  },
+  {
+    "title": "Cell biology & Genetics.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/cell-biology-genetics.pdf"
+  },
+  {
+    "title": "Animal Physiology.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/animal-physiology.pdf"
+  },
+ {
+    "title": "Developmental Biology.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/developmental-biology.pdf"
+  },
+  {
+    "title": "Evolution.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/evolution.pdf"
+  },
+  {
+    "title": "Chordates & Non-Chordates.pdf",
+    "category": "Zoology",
+    "url": "bsc-pdfs/non-chordates-chordates.pdf"
+  },
   {
     "title": "Startup with AI.pdf",
     "category": "Library",
