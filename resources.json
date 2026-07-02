@@ -270,6 +270,37 @@
     "url": "bsc-pdfs/all-about-bsc-in-cse.pdf"
   },
   {
+    "title": "Computer Organization.pdf",
+    "category": "BSc in CSE",
+    "url": "bsc-pdfs/computer-organization.pdf"
+  },
+  {
+    "title": "All about BSc in Botany.pdf",
+    "category": "Botany",
+    "url": "bsc-pdfs/all-about-botany.pdf"
+  },
+  {
+    "title": "Plant Diversity.pdf",
+    "category": "Botany",
+    "url": "bsc-pdfs/plant-diversity.pdf"
+  },
+  {
+    "title": "Plant Physiology.pdf",
+    "category": "Botany",
+    "url": "bsc-pdfs/plant-physiology.pdf"
+  },
+  {
+    "title": "Plant Anatomy.pdf",
+    "category": "Botany",
+    "url": "bsc-pdfs/plant-anatomy.pdf"
+  },
+  {
+    "title": "Economic Botany.pdf",
+    "category": "Botany",
+    "url": "bsc-pdfs/economic-botany.pdf"
+  },
+  
+  {
     "title": "Startup with AI.pdf",
     "category": "Library",
     "url": "digital-library/startup-with-ai.pdf"
