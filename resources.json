@@ -329,6 +329,66 @@
     "category": "Zoology",
     "url": "bsc-pdfs/non-chordates-chordates.pdf"
   },
+ {
+    "title": "All about BSc in Physics.pdf",
+    "category": "Physics",
+    "url": "bsc-pdfs/all-about-physics.pdf"
+  },
+ {
+    "title": "Thermal Physics.pdf",
+    "category": "Physics",
+    "url": "bsc-pdfs/thermal-physics.pdf"
+  },
+ {
+    "title": "Waves Optics.pdf",
+    "category": "Physics",
+    "url": "bsc-pdfs/waves-optics.pdf"
+  },
+ {
+    "title": "Quantum Mechanics.pdf",
+    "category": "Physics",
+    "url": "bsc-pdfs/quantum-mechanics.pdf"
+  },
+ {
+    "title": "Electricity & Magnetism.pdf",
+    "category": "Physics",
+    "url": "bsc-pdfs/electricity-magnetism.pdf"
+  },
+ {
+    "title": "All about BSc in Chemistry.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/all-about-chemistry.pdf"
+  },
+ {
+    "title": "Organic Chemistry basics.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/organic-chemistry.pdf"
+  },
+ {
+    "title": "In-Organic Chemistry basics.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/inorganic-chemistry.pdf"
+  },
+  {
+    "title": "Physical Chemistry.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/physical-chemistry.pdf"
+  },
+  {
+    "title": "Bio-Chemistry.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/biochemistry.pdf"
+  },
+  {
+    "title": "Environmental Chemistry.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/environmental-chemistry.pdf"
+  },
+  {
+    "title": "Chemistry Formula-List.pdf",
+    "category": "Chemistry",
+    "url": "bsc-pdfs/chemical-calculation.pdf"
+  },
   {
     "title": "Startup with AI.pdf",
     "category": "Library",
