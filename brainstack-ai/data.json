@@ -15,15 +15,13 @@
   },
 
   "pdfs": [
-
-
     {
       "id": "mech",
       "title": "Mechanical Engineering Notes",
       "category": "Engineering Hub",
       "emoji": "⚙️",
       "url": "https://brainstack-com.vercel.app/engineering-hub/mechanical-resources.html",
-      "topics": ["mechanical","thermodynamics","fluid mechanics","heat transfer","manufacturing","cad","machine design","kinematics","dynamics","strength of materials","rankine","carnot","bernoulli"]
+      "topics": ["mechanical","thermodynamics","fluid mechanics","heat transfer","manufacturing","cad","machine design","kinematics","dynamics","strength of materials","rankine","carnot","bernoulli","robotic engineering","communication system","automobile engineering","material science","mechatronics and robotics","engineering physics","thermal physics","waves optics"]
     },
     {
       "id": "civil",
@@ -31,7 +29,7 @@
       "category": "Engineering Hub",
       "emoji": "🏗️",
       "url": "https://brainstack-com.vercel.app/engineering-hub/civil-resources.html",
-      "topics": ["civil","construction","structural","concrete","surveying","bridge","road","geotechnical","hydraulics","rcc","steel structure","soil mechanics"]
+      "topics": ["civil","construction","structural","concrete","surveying","bridge","road","geotechnical","hydraulics","rcc","steel structure","soil mechanics","building construction","concrete technology"]
     },
     {
       "id": "ece",
@@ -39,7 +37,7 @@
       "category": "Engineering Hub",
       "emoji": "📡",
       "url": "https://brainstack-com.vercel.app/engineering-hub/ece-resources.html",
-      "topics": ["electronics","communication","ece","circuit","signal","microcontroller","arduino","embedded","semiconductor","amplifier","transistor","diode","analog","digital","vlsi","antenna","modulation"]
+      "topics": ["electronics","communication","ece","circuit","signal","microcontroller","arduino","embedded","semiconductor","amplifier","transistor","diode","analog","digital","vlsi","antenna","modulation","fundamentals of electronics","internet of things","5g technology"]
     },
     {
       "id": "cse",
@@ -47,7 +45,7 @@
       "category": "Engineering Hub",
       "emoji": "💻",
       "url": "https://brainstack-com.vercel.app/engineering-hub/cs-resources.html",
-      "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","computer architecture","theory of computation","software development"]
+      "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","computer architecture","theory of computation","software development","sql basics","website deployment","github","operating system","basic structure of computer"]
     },
     {
       "id": "aiml_eng",
@@ -55,16 +53,7 @@
       "category": "Engineering Hub",
       "emoji": "🤖",
       "url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",
-      "topics": ["ai engineering","ml engineering","aiml","ai ml","artificial intelligence engineering"]
-    },
-
-    {
-      "id": "bsc_math",
-      "title": "B.Sc Mathematics Notes",
-      "category": "Bachelor of Science",
-      "emoji": "📐",
-      "url": "https://brainstack-com.vercel.app/bsc/math.html",
-      "topics": ["bsc mathematics","bsc maths","calculus","algebra","trigonometry","statistics","differentiation","integration","matrices","probability","vectors","sequences","series","limits","bsc math"]
+      "topics": ["ai engineering","ml engineering","aiml","ai ml","artificial intelligence engineering","prompt engineering","chat gpt vs perplexity","how to do startup with ai","brainstake ai"]
     },
     {
       "id": "bsc_phy",
@@ -72,7 +61,7 @@
       "category": "Bachelor of Science",
       "emoji": "⚛️",
       "url": "https://brainstack-com.vercel.app/bsc/physics.html",
-      "topics": ["bsc physics","physics","optics","quantum","relativity","waves","electricity","magnetism","nuclear physics","laws of motion","newton","gravitation","light","sound","thermodynamics physics"]
+      "topics": ["bsc physics","physics","optics","quantum","relativity","waves","electricity","magnetism","nuclear physics","laws of motion","newton","gravitation","light","sound","thermodynamics physics","engineering physics","what is bachelor of physics","thermal physics","waves optics","quantum mechanics","electricity and magnetism"]
     },
     {
       "id": "bsc_chem",
@@ -80,7 +69,7 @@
       "category": "Bachelor of Science",
       "emoji": "🧪",
       "url": "https://brainstack-com.vercel.app/bsc/chemistry.html",
-      "topics": ["bsc chemistry","chemistry","organic","inorganic","physical chemistry","reaction","periodic table","bonding","electrochemistry","polymer","acid","base","mole","benzene","alkane","functional group"]
+      "topics": ["bsc chemistry","chemistry","organic","inorganic","physical chemistry","reaction","periodic table","bonding","electrochemistry","polymer","acid","base","mole","benzene","alkane","functional group","engineering chemistry","bachelor of chemistry","organic chemistry","inorganic chemistry","physical chemistry","biochemistry","environment chemistry","chemistry formula list"]
     },
     {
       "id": "bsc_bot",
@@ -88,7 +77,7 @@
       "category": "Bachelor of Science",
       "emoji": "🌿",
       "url": "https://brainstack-com.vercel.app/bsc/botany.html",
-      "topics": ["bsc botany","botany","plant","plant biology","cell","photosynthesis","ecology","morphology","taxonomy","plant physiology","genetics botany"]
+      "topics": ["bsc botany","botany","plant","plant biology","cell","photosynthesis","ecology","morphology","taxonomy","plant physiology","genetics botany","bachelor of botany","plant diversity","plant anatomy","economic botany"]
     },
     {
       "id": "bsc_zoo",
@@ -96,18 +85,8 @@
       "category": "Bachelor of Science",
       "emoji": "🦁",
       "url": "https://brainstack-com.vercel.app/bsc/zoology.html",
-      "topics": ["bsc zoology","zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification"]
+      "topics": ["bsc zoology","zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification","bachelor of zoology","cell biology and genetic","animal physiology"]
     },
-    {
-      "id": "bsc_cse",
-      "title": "B.Sc Computer Science Notes",
-      "category": "Bachelor of Science",
-      "emoji": "🖥️",
-      "url": "https://brainstack-com.vercel.app/bsc/cse.html",
-      "topics": ["bsc cse","bsc computer science","bsc it","bsc computer","bsc cs"]
-    },
-
-
     {
       "id": "python",
       "title": "Python Programming Guide",
@@ -140,7 +119,6 @@
       "url": "https://brainstack-com.vercel.app/engineering-pdf/cybersecurity-basics.pdf",
       "topics": ["cyber security","hacking","ethical hacking","network security","firewall","encryption","malware","penetration testing","kali linux","vulnerability","phishing","ddos","cryptography","security"]
     },
-
     {
       "id": "html_css",
       "title": "HTML & CSS Complete Guide",
@@ -173,7 +151,6 @@
       "url": "https://brainstack-com.vercel.app/web-dev/nodejs.html",
       "topics": ["nodejs","node","express","backend","rest api","server","npm","full stack","middleware","authentication","jwt","api development","expressjs"]
     },
-
     {
       "id": "ai",
       "title": "Artificial Intelligence Guide",
@@ -198,17 +175,14 @@
       "url": "https://brainstack-com.vercel.app/ai-lab/prompt-engineering.pdf",
       "topics": ["Prompt Engineering","prompt-engineering","visualization","matplotlib","seaborn","pandas","numpy","jupyter","statistics","eda","exploratory data analysis","data cleaning","feature selection"]
     },
-
     {
       "id": "lib",
       "title": "BrainStack Digital Library",
       "category": "BrainStack Library",
       "emoji": "📚",
       "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",
-      "topics": ["library","ebook","book","reference","textbook","notes collection","pdf collection","study material","all books","all notes"]
+      "topics": ["library","ebook","book","reference","textbook","notes collection","pdf collection","study material","all books","all notes","english for engineering","resume template with copy paste example","entrepreneurship","personal branding","resume templates copy paste","business ideas for student","time management","leadership quality","problem solving","creativity","aptitude","communication skills"]
     }
-
-   
   ],
 
   "roadmaps": [
@@ -263,155 +237,416 @@
     "categories": ["categories","what categories","what subjects","what topics","all subjects","show categories","list categories","what sections"],
 
     "topics": {
-
       "thermodynamics": {
-        "keywords": ["thermodynamics","heat transfer","carnot","rankine","entropy","enthalpy","first law","second law","zeroth law","third law","heat engine","refrigerator cycle"],
-        "explanation": "**Thermodynamics** is the branch of physics and engineering that studies heat, work, and energy transformations.\n\n**4 Laws of Thermodynamics:**\n• **Zeroth Law** — If A and B are in thermal equilibrium with C, then A and B are in equilibrium with each other\n• **First Law** — Energy cannot be created or destroyed: ΔU = Q − W\n• **Second Law** — Entropy of the universe always increases\n• **Third Law** — Entropy approaches zero as temperature approaches absolute zero\n\n**Key Concepts:**\n• Heat (Q), Work (W), Internal Energy (U)\n• Enthalpy H = U + PV\n• Entropy S — measure of disorder\n• Carnot Cycle — the most efficient possible heat engine\n\n**Important Formulas:**\n• First Law: ΔU = Q − W\n• Carnot Efficiency = 1 − (T_cold / T_hot)\n• For ideal gas: PV = nRT\n\n💡 **Exam Tip:** Learn all 4 laws and the Carnot cycle — they appear in almost every exam!",
+        "keywords": ["thermodynamics","heat engine","refrigerator cycle"],
+        "explanation": "**Thermodynamics**\n📖 Simple definition: The science of heat, work, and energy transformations.\n🧠 Beginner-friendly explanation: It explains how heat transfers from a hot coffee cup to the cool air, or how car engines convert thermal combustion into moving wheel forces.\n🎯 Why it's important: Crucial for building spacecraft, engines, power generators, and efficient cooling systems.\n🛣 Learning roadmap: Fundamental Laws → Ideal Gases → Pure Substance Properties → Thermodynamic Cycles.\n🚀 Next skill to learn: Heat Mass Transfer and Fluid Mechanics Dynamics.",
         "pdfIds": ["mech","bsc_phy"]
       },
-
       "laws of motion": {
-        "keywords": ["laws of motion","newton","newton's laws","first law motion","second law motion","third law motion","inertia","force mass acceleration","action reaction","momentum"],
-        "explanation": "**Newton's Three Laws of Motion** are the foundation of classical mechanics.\n\n**First Law — Law of Inertia:**\nAn object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force.\n• Example: A ball rolling on a frictionless surface keeps rolling forever\n\n**Second Law — F = ma:**\nForce = Mass × Acceleration\n• The greater the force, the greater the acceleration\n• The greater the mass, the less the acceleration for the same force\n• Example: Pushing a heavy box needs more force than a light box\n\n**Third Law — Action & Reaction:**\nFor every action, there is an equal and opposite reaction\n• Example: A rocket pushes gas downward → gas pushes rocket upward\n• Example: When you walk, you push the ground backward → ground pushes you forward\n\n**Key Formulas:**\n• F = ma\n• Momentum p = mv\n• Impulse = F × t = Δp\n• Weight W = mg (g = 9.8 m/s²)\n\n💡 **Tip:** Understand the real-world examples — they help you apply the laws in numerical problems!",
+        "keywords": ["laws of motion","newton","inertia","force mass acceleration","action reaction","momentum"],
+        "explanation": "**Newton's Laws of Motion**\n📖 Simple definition: Core principles describing the relationship between an object's mass, movement, and forces acting upon it.\n🧠 Beginner-friendly explanation: 1) Things stay still unless kicked. 2) Heavy items need harder kicks to slide. 3) Kicking a wall pushes back against your foot with identical strength.\n🎯 Why it's important: The basic structural code behind all structural calculations and mechanical systems.\n🛣 Learning roadmap: Kinematics Basics → Vector Force Analysis → Momentum Conserving Principles → Rotational Dynamics Calculus.\n🚀 Next skill to learn: Structural Stress Dynamics Analysis.",
         "pdfIds": ["bsc_phy","mech"]
       },
-
       "mechanics": {
         "keywords": ["mechanics","motion","kinematics","dynamics","velocity","acceleration","displacement","projectile","circular motion","work energy","power","friction"],
-        "explanation": "**Mechanics** is the study of motion and the forces that cause it.\n\n**Kinematics — Equations of Motion:**\n• v = u + at\n• s = ut + ½at²\n• v² = u² + 2as\n• s = (u + v)/2 × t\n\n**Key Concepts:**\n• Displacement — change in position (vector)\n• Velocity — rate of change of displacement\n• Acceleration — rate of change of velocity\n• Projectile Motion — horizontal + vertical motion combined\n• Circular Motion — centripetal force = mv²/r\n\n**Work, Energy & Power:**\n• Work W = F × d × cosθ\n• Kinetic Energy KE = ½mv²\n• Potential Energy PE = mgh\n• Power P = Work / Time\n• Conservation of Energy: KE + PE = constant\n\n💡 **Tip:** Draw free body diagrams for every problem — it makes solving much easier!",
+        "explanation": "**Mechanics**\n📖 Simple definition: The field of physics centering on physical bodies under forces or displacements.\n🧠 Beginner-friendly explanation: It calculates path tracking curves when kicking a ball, sliding weights down ramps, or computing friction requirements for car braking steps.\n🎯 Why it's important: Helps engineers design stable moving parts and vehicles.\n🛣 Learning roadmap: Standard Vectors → Static System Balances → Kinematic Paths Analysis → Energy Conversions Calculations.\n🚀 Next skill to learn: Analytical Advanced Kinematics Systems.",
         "pdfIds": ["bsc_phy","mech"]
       },
-
       "civil engineering": {
-        "keywords": ["civil engineering","construction","structural","concrete","rcc","steel","surveying","soil","foundation","beam","column","bridge","road","dam","irrigation"],
-        "explanation": "**Civil Engineering** is one of the oldest engineering branches — it deals with designing and building infrastructure.\n\n**Major Branches:**\n• **Structural Engineering** — designing buildings, bridges, dams\n• **Geotechnical Engineering** — soil mechanics, foundations\n• **Transportation Engineering** — roads, highways, traffic\n• **Environmental Engineering** — water treatment, waste management\n• **Hydraulics** — water flow, dams, irrigation\n• **Surveying** — measuring and mapping land\n\n**Key Concepts:**\n• RCC (Reinforced Cement Concrete) — concrete + steel bars\n• Bending Moment and Shear Force in beams\n• Factor of Safety = Failure Load / Working Load\n• Soil bearing capacity for foundations\n• Slump test — measures concrete workability\n\n**Important Materials:**\n• Cement grades — OPC 33, 43, 53\n• Steel — Fe 415, Fe 500 (yield strength)\n• Concrete grades — M15, M20, M25, M30\n\n💡 **Tip:** Practice drawing BMD and SFD diagrams — they come in every civil exam!",
+        "keywords": ["civil engineering","structural","surveying","soil","foundation","beam","column","bridge","road","dam","irrigation"],
+        "explanation": "**Civil Engineering**\n📖 Simple definition: Designing, constructing, and maintaining infrastructure environments.\n🧠 Beginner-friendly explanation: The physical logic explaining how cities build massive highways, skyscrapers, and clean water pipelines that withstand earthquakes.\n🎯 Why it's important: Dictates structural safety guidelines across global real-world cities.\n🛣 Learning roadmap: Architectural Drafting → Construction Material Properties → Structural Systems Calculations → Surveying Systems.\n🚀 Next skill to learn: Concrete Technology Frameworks.",
         "pdfIds": ["civil"]
       },
-
       "electronics": {
-        "keywords": ["electronics","ece","circuit","transistor","diode","amplifier","analog","digital","op amp","logic gate","microcontroller","signal","semiconductor","mosfet","bjt","rectifier"],
-        "explanation": "**Electronics Engineering** deals with circuits, signals, and electronic devices.\n\n**Basic Components:**\n• Resistor — opposes current flow (Ohm's law: V = IR)\n• Capacitor — stores electric charge (C = Q/V)\n• Inductor — stores magnetic energy\n• Diode — allows current in one direction only\n• Transistor (BJT/MOSFET) — amplification and switching\n\n**Key Topics:**\n• **Analog Electronics** — amplifiers, oscillators, filters\n• **Digital Electronics** — logic gates, flip-flops, counters\n• **Communication** — AM/FM modulation, antennas, signals\n• **Microcontrollers** — Arduino, 8051, ARM\n• **VLSI** — designing integrated circuits\n\n**Logic Gates:**\n• AND: output 1 only if all inputs are 1\n• OR: output 1 if any input is 1\n• NOT: inverts input\n• NAND, NOR, XOR — combinations\n\n**Op-Amp Golden Rules:**\n• Input terminals draw no current\n• Output adjusts to make inputs equal (in feedback)\n\n💡 **Tip:** Start with basic Ohm's law and KVL/KCL — everything else builds on these!",
+        "keywords": ["electronics","circuit","transistor","diode","amplifier","analog","digital","op amp","logic gate","microcontroller","signal","semiconductor","mosfet","bjt","rectifier"],
+        "explanation": "**Electronics Engineering**\n📖 Simple definition: Controlling electric flow currents through semiconductors to process logical signals.\n🧠 Beginner-friendly explanation: Managing electricity like tiny pipes, where microchip switches toggle currents to process digital computing tasks.\n🎯 Why it's important: Powers hardware components like smartphones, laptops, and solar grids.\n🛣 Learning roadmap: Basic Circuit Laws (Ohm's/KVL) → Semiconductor Diodes → Transistors Logic Swapping → Digital Circuits.\n🚀 Next skill to learn: Embedded Internet of Things Layouts.",
         "pdfIds": ["ece"]
       },
-
       "mechanical engineering": {
-        "keywords": ["mechanical engineering","machine design","manufacturing","cad","fluid mechanics","heat","material science","turbine","engine","stress","strain"],
-        "explanation": "**Mechanical Engineering** is the branch that deals with machines, energy, and materials.\n\n**Core Subjects:**\n• **Thermodynamics** — heat and energy systems\n• **Fluid Mechanics** — behavior of liquids and gases\n• **Machine Design** — designing mechanical components\n• **Manufacturing** — production processes and techniques\n• **Strength of Materials** — stress, strain, deformation\n• **Theory of Machines** — kinematics & dynamics of machinery\n• **Heat Transfer** — conduction, convection, radiation\n\n**Key Formulas:**\n• Stress σ = Force / Area\n• Strain ε = Change in Length / Original Length\n• Young's Modulus E = σ / ε\n• Fluid pressure P = ρgh\n• Bernoulli's equation: P + ½ρv² + ρgh = constant\n\n**CAD Tools used:**\n• AutoCAD, SolidWorks, CATIA, ANSYS\n\n💡 **Tip:** Mechanical exams focus heavily on numericals — practice formulas daily!",
+        "keywords": ["mechanical engineering","machine design","manufacturing","cad","turbine","engine","stress","strain"],
+        "explanation": "**Mechanical Engineering**\n📖 Simple definition: Designing, manufacturing, and operating heavy machinery and thermal kinetic units.\n🧠 Beginner-friendly explanation: Creating mechanical assemblies with moving linkages, gear systems, thermal power conversions, and solid structural integrity.\n🎯 Why it's important: Forms the industrial design backbone of aerospace, robotic arms, and assembly plants.\n🛣 Learning roadmap: Engineering Graphics Drafting → Solid Statics Analysis → Kinematic Machine Linkages → Production Tooling.\n🚀 Next skill to learn: Mechatronics Automation and Robotics Control Systems.",
         "pdfIds": ["mech"]
       },
-
       "chemistry": {
-        "keywords": ["chemistry","organic chemistry","inorganic chemistry","physical chemistry","reaction","periodic table","bonding","mole","acid","base","ph","electrochemistry","polymer","benzene","alkane","functional group","isomer"],
-        "explanation": "**Chemistry** is the science of matter — what it's made of and how it changes.\n\n**3 Main Branches:**\n• **Organic Chemistry** — carbon compounds, reactions\n• **Inorganic Chemistry** — metals, minerals, non-metals\n• **Physical Chemistry** — thermodynamics, kinetics, equilibrium\n\n**Key Concepts:**\n• **Periodic Table** — 118 elements arranged by atomic number\n• **Chemical Bonding** — ionic, covalent, metallic, hydrogen\n• **Mole Concept** — 1 mole = 6.022 × 10²³ particles (Avogadro's number)\n• **Acid-Base** — pH scale 0-14, acids < 7, bases > 7\n• **Redox Reactions** — oxidation (loss of e⁻), reduction (gain of e⁻)\n\n**Important Formulas:**\n• Molarity M = moles of solute / liters of solution\n• pH = −log[H⁺]\n• PV = nRT (Ideal Gas Law)\n\n**Organic Chemistry Tips:**\n• Learn functional groups: −OH (alcohol), −COOH (acid), −NH₂ (amine)\n• IUPAC naming rules\n• Reaction mechanisms: SN1, SN2, E1, E2\n\n💡 **Tip:** Make flashcards for organic reactions — there are many to memorize!",
+        "keywords": ["chemistry","reaction","periodic table","bonding","mole","acid","base","ph","electrochemistry","polymer","benzene","alkane","functional group","isomer"],
+        "explanation": "**Chemistry**\n📖 Simple definition: Studying elemental properties, atomic bonds, and matter reactions.\n🧠 Beginner-friendly explanation: Viewing nature like structural building blocks, tracking how atoms link up or react into unique substances.\n🎯 Why it's important: Helps develop pharmaceuticals, composite materials, and clean fuels.\n🛣 Learning roadmap: Atomic Structure Logic → Periodic Element Laws → Chemical Equilibrium Reactions → Analytical Spectroscopy.\n🚀 Next skill to learn: Molecular Organic Chemical Synthesis.",
         "pdfIds": ["bsc_chem"]
       },
-
       "physics": {
         "keywords": ["physics","optics","quantum","relativity","electricity","magnetism","nuclear","gravitation","waves","sound","light","reflection","refraction"],
-        "explanation": "**Physics** explains how the universe works through laws, equations, and experiments.\n\n**Major Branches:**\n• **Mechanics** — motion, force, energy\n• **Optics** — light, reflection, refraction, lenses\n• **Electricity & Magnetism** — Ohm's law, Faraday's law, Maxwell's equations\n• **Waves & Sound** — frequency, amplitude, Doppler effect\n• **Modern Physics** — quantum mechanics, relativity, nuclear physics\n\n**Optics Key Concepts:**\n• Reflection: angle of incidence = angle of reflection\n• Refraction: n₁sinθ₁ = n₂sinθ₂ (Snell's law)\n• Lens formula: 1/v − 1/u = 1/f\n\n**Electricity:**\n• Ohm's Law: V = IR\n• Power: P = VI = I²R = V²/R\n• Kirchhoff's Laws — KVL and KCL\n\n**Waves:**\n• Speed = frequency × wavelength (v = fλ)\n• Doppler Effect — change in frequency due to motion\n\n💡 **Tip:** Derive every formula at least once — it helps you remember and understand it!",
+        "explanation": "**Physics**\n📖 Simple definition: Testing foundational equations governing space, time, matter, and force vectors.\n🧠 Beginner-friendly explanation: Uncovering nature's underlying rules, from massive celestial paths down to subatomic quantum particle movements.\n🎯 Why it's important: Forms the bedrock equations for all modern engineering and scientific discoveries.\n🛣 Learning roadmap: Classical Particle Mechanics → Wave Properties & Optics Fields → Electromagnetism Potentials → Nuclear Physics.\n🚀 Next skill to learn: High Energy Quantum Field Mechanics Systems.",
         "pdfIds": ["bsc_phy"]
       },
-
-      "mathematics": {
-        "keywords": ["mathematics","calculus","algebra","trigonometry","statistics","differentiation","integration","matrix","probability","limit","derivative","integral","vector","fourier","laplace"],
-        "explanation": "**Mathematics** is the language of science, engineering, and technology.\n\n**Calculus:**\n• **Differentiation** — rate of change\n  - d/dx(xⁿ) = nxⁿ⁻¹\n  - d/dx(sin x) = cos x\n  - d/dx(eˣ) = eˣ\n• **Integration** — area under curve\n  - ∫xⁿ dx = xⁿ⁺¹/(n+1) + C\n  - ∫sin x dx = −cos x + C\n\n**Trigonometry:**\n• sin²θ + cos²θ = 1\n• tan θ = sin θ / cos θ\n• sin(A+B) = sinA cosB + cosA sinB\n\n**Statistics:**\n• Mean = sum / count\n• Standard Deviation = √(Σ(x−x̄)² / n)\n• Normal Distribution — bell curve\n\n**Matrices:**\n• Addition, multiplication, transpose\n• Determinant and inverse\n• Eigenvalues and eigenvectors\n\n**Probability:**\n• P(A) = favorable outcomes / total outcomes\n• P(A∪B) = P(A) + P(B) − P(A∩B)\n\n💡 **Tip:** Practice 10 problems daily — mathematics improves only by doing, not just reading!",
-        "pdfIds": ["bsc_math"]
-      },
-
       "botany": {
         "keywords": ["botany","plant","plant biology","cell","photosynthesis","ecology","morphology","taxonomy","plant physiology","chlorophyll","transpiration","osmosis","mitosis","meiosis"],
-        "explanation": "**Botany** is the scientific study of plants — their structure, growth, reproduction, and classification.\n\n**Key Topics:**\n• **Cell Biology** — plant cell structure (cell wall, chloroplast, vacuole)\n• **Photosynthesis** — 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂\n• **Transpiration** — water loss through stomata\n• **Osmosis** — movement of water through semi-permeable membrane\n• **Plant Taxonomy** — classification of plants\n• **Morphology** — study of external structure (root, stem, leaf, flower)\n• **Ecology** — relationship of plants with environment\n\n**Cell Division:**\n• **Mitosis** — cell divides into 2 identical cells (growth)\n• **Meiosis** — cell divides into 4 cells with half chromosomes (reproduction)\n\n**Photosynthesis Stages:**\n• Light reactions — in thylakoid, produces ATP and NADPH\n• Dark reactions (Calvin cycle) — in stroma, produces glucose\n\n💡 **Tip:** Draw diagrams for photosynthesis and cell structure — visuals make memorization much easier!",
+        "explanation": "**Botany**\n📖 Simple definition: The biological study of plant ecosystems and life cycles.\n🧠 Beginner-friendly explanation: Discovering how plants absorb solar rays, transport groundwater minerals, fight disease, and regulate global oxygen levels.\n🎯 Why it's important: Vital for sustainable farming, environmental security, and plant-derived medicine.\n🛣 Learning roadmap: Plant Microscopic Morphology → Cellular Anatomy Structures → Biochemical Pathways Analysis → Plant Taxonomy.\n🚀 Next skill to learn: Molecular Agricultural Gene Modification Technologies.",
         "pdfIds": ["bsc_bot"]
       },
-
       "zoology": {
         "keywords": ["zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification","darwin","chromosome","gene","dna"],
-        "explanation": "**Zoology** is the scientific study of animals — their structure, behavior, classification, and evolution.\n\n**Key Topics:**\n• **Animal Kingdom Classification:**\n  - Phylum Porifera (sponges)\n  - Phylum Cnidaria (jellyfish)\n  - Phylum Platyhelminthes (flatworms)\n  - Phylum Annelida (earthworms)\n  - Phylum Arthropoda (insects, crabs)\n  - Phylum Chordata (vertebrates — fish, amphibians, reptiles, birds, mammals)\n\n• **Genetics:**\n  - DNA carries genetic information\n  - Mendel's Laws — Law of Segregation, Law of Independent Assortment\n  - Chromosomes — humans have 46 (23 pairs)\n\n• **Evolution:**\n  - Darwin's Theory — survival of the fittest\n  - Natural selection drives evolution over generations\n\n• **Physiology:**\n  - Digestive, respiratory, circulatory, nervous, excretory systems\n\n• **Embryology:**\n  - Stages: zygote → cleavage → blastula → gastrula → organogenesis\n\n💡 **Tip:** Learn the animal kingdom classification with mnemonics — it's asked in every exam!",
+        "explanation": "**Zoology**\n📖 Simple definition: The biological study of animal structure, behavior, and evolution.\n🧠 Beginner-friendly explanation: Tracking animal adaptations, tracking organ mutations, and assessing how diverse species maintain balance within ecosystems.\n🎯 Why it's important: Core science for managing ecosystems, veterinary care, and genetic mapping.\n🛣 Learning roadmap: Structural Animal Invertebrates Taxonomy → Vertebrate Comparative Layouts → Metabolic Animal Physiology → Evolutionary Genetics.\n🚀 Next skill to learn: Advanced Immunology and Population Genetics.",
         "pdfIds": ["bsc_zoo"]
       },
-
       "machine learning": {
         "keywords": ["machine learning","ml","supervised","unsupervised","regression","classification","clustering","model","training","feature","scikit","overfitting","underfitting","bias variance","cross validation"],
-        "explanation": "**Machine Learning** is a branch of AI where computers learn patterns from data without being explicitly programmed.\n\n**Types of ML:**\n• **Supervised Learning** — learns from labeled data\n  - Regression: predicting numbers (house prices)\n  - Classification: predicting categories (spam or not)\n• **Unsupervised Learning** — finds patterns in unlabeled data\n  - Clustering: grouping similar data (K-Means)\n  - Dimensionality Reduction (PCA)\n• **Reinforcement Learning** — learns by reward and punishment (games, robots)\n\n**Key Algorithms:**\n• Linear Regression — predicting continuous values\n• Logistic Regression — binary classification\n• Decision Trees — tree-based decisions\n• Random Forest — multiple decision trees\n• SVM — finds best boundary between classes\n• K-Nearest Neighbors (KNN) — classifies by closest neighbors\n• K-Means — clustering algorithm\n\n**ML Workflow:**\n1. Collect & clean data\n2. Explore data (EDA)\n3. Choose and train model\n4. Evaluate with metrics\n5. Tune hyperparameters\n6. Deploy model\n\n💡 **Tip:** Start with scikit-learn in Python — easiest library for ML beginners!",
+        "explanation": "**Machine Learning**\n📖 Simple definition: Giving computing algorithms the power to recognize structural data patterns autonomously.\n🧠 Beginner-friendly explanation: Showing a script 10,000 car pictures until it can identify a car in brand new photos on its own.\n🎯 Why it's important: Underpins recommendation engines, financial forecasting, and diagnostics.\n🛣 Learning roadmap: Core Python Scripts → Linear Statistics Models → Supervised Classifications → Unsupervised Groupings.\n🚀 Next skill to learn: Deep Artificial Neural Networks Architecture.",
         "pdfIds": ["ml","ds","ai"]
       },
-
       "artificial intelligence": {
         "keywords": ["artificial intelligence","ai","expert system","turing test","ai history","problem solving ai","search algorithm","knowledge representation","planning","agent","intelligent system"],
-        "explanation": "**Artificial Intelligence (AI)** is the simulation of human intelligence in machines.\n\n**What AI Can Do:**\n• Recognize speech and images\n• Translate languages\n• Play games (chess, Go)\n• Drive cars autonomously\n• Diagnose diseases\n• Generate text, images, music\n\n**Types of AI:**\n• **Narrow AI** — does one specific task (Siri, Google Maps)\n• **General AI** — human-level intelligence (not achieved yet)\n• **Super AI** — smarter than humans (theoretical)\n\n**Key Concepts:**\n• **Turing Test** — if you can't tell it's a machine, it's intelligent\n• **Search Algorithms** — BFS, DFS, A* for problem solving\n• **Expert Systems** — rule-based AI (early AI systems)\n• **Machine Learning** — AI that learns from data\n• **Deep Learning** — neural networks with many layers\n• **NLP** — AI that understands human language\n\n**Famous AI Models:**\n• ChatGPT — language model by OpenAI\n• Gemini — AI by Google\n• DALL-E — image generation AI\n\n💡 **Tip:** AI = broad field. ML is a subset of AI. Deep Learning is a subset of ML!",
+        "explanation": "**Artificial Intelligence**\n📖 Simple definition: Computer systems executing tasks that typically require human cognition.\n🧠 Beginner-friendly explanation: Creating digital smart agents capable of parsing speech, making complex choices, and translating languages instantly.\n🎯 Why it's important: Re-shaping global industry structures via fully automated smart platforms.\n🛣 Learning roadmap: Algorithmic Logic Logic Searches → Data Extraction Methods → Predictive ML Systems → Neural Generative Models.\n🚀 Next skill to learn: Large Language Optimization Prompt Engineering.",
         "pdfIds": ["ai","ml","dl"]
       },
-
       "deep learning": {
         "keywords": ["deep learning","neural network","cnn","rnn","lstm","tensorflow","pytorch","keras","backpropagation","epoch","layer","activation","nlp","computer vision","transformer","bert","gpt"],
-        "explanation": "**Deep Learning** uses neural networks with many layers to learn complex patterns from large amounts of data.\n\n**How Neural Networks Work:**\n• **Input Layer** — receives data (pixels, words, numbers)\n• **Hidden Layers** — extract patterns and features\n• **Output Layer** — gives final prediction\n• **Weights** — adjusted during training\n• **Backpropagation** — updates weights to reduce error\n\n**Types of Networks:**\n• **CNN (Convolutional Neural Network)** — best for images\n• **RNN (Recurrent Neural Network)** — best for sequences and time series\n• **LSTM** — improved RNN, handles long sequences\n• **Transformer** — powers ChatGPT, BERT, modern NLP\n• **GAN** — generates fake realistic images\n\n**Activation Functions:**\n• ReLU — most common in hidden layers\n• Sigmoid — used in binary classification\n• Softmax — used in multi-class output\n\n**Frameworks:**\n• TensorFlow + Keras — Google, easier to learn\n• PyTorch — Facebook, more flexible, popular in research\n\n💡 **Tip:** Learn Keras first — you can build a neural network in just 10 lines of code!",
+        "explanation": "**Deep Learning**\n📖 Simple definition: Training multi-layered neural networks to solve complex processing tasks.\n🧠 Beginner-friendly explanation: Structuring code nodes like biological brain networks to process video streams or audio fields.\n🎯 Why it's important: Powers tools like autonomous driving cameras, text generators, and live audio transcription.\n🛣 Learning roadmap: Multilayer Perceptron Nodes → Backpropagation Calculations → Convolutional Visual Grids → Transformer Networks.\n🚀 Next skill to learn: Generative Model Tuning Deployments.",
         "pdfIds": ["dl","ml"]
       },
-
       "data science": {
         "keywords": ["data science","data analysis","visualization","eda","statistics","pandas","matplotlib","seaborn","jupyter","dataset","insight","correlation","data cleaning","feature engineering","exploratory"],
-        "explanation": "**Data Science** is about extracting meaningful insights from raw data using statistics, programming, and visualization.\n\n**The Data Science Process:**\n1. **Define the Problem** — what question are we answering?\n2. **Collect Data** — databases, APIs, web scraping\n3. **Clean Data** — handle missing values, duplicates, outliers\n4. **Explore (EDA)** — understand data with statistics and charts\n5. **Model** — apply ML algorithms\n6. **Communicate Results** — visualizations and reports\n\n**Key Python Libraries:**\n• **Pandas** — data manipulation (DataFrames)\n• **NumPy** — numerical computing\n• **Matplotlib / Seaborn** — data visualization\n• **Scikit-learn** — machine learning\n• **Jupyter Notebook** — interactive coding\n\n**Example — Basic EDA:**\n```python\nimport pandas as pd\ndf = pd.read_csv('data.csv')\nprint(df.head())          # first 5 rows\nprint(df.describe())      # statistics\nprint(df.isnull().sum())  # missing values\ndf['column'].hist()       # histogram\n```\n\n💡 **Tip:** EDA is the most important step — the better you understand your data, the better your model!",
+        "explanation": "**Data Science**\n📖 Simple definition: Extracting strategic insights from raw information using math, programming, and charts.\n🧠 Beginner-friendly explanation: Sifting through thousands of spreadsheet rows to uncover trends and patterns, like predicting which items will sell out next month.\n🎯 Why it's important: Helps businesses make smarter decisions based on real evidence rather than guesswork.\n🛣 Learning roadmap: Structural SQL queries → Pandas Data Pipelines → Statistical Charts → Predictive Experiments.\n🚀 Next skill to learn: Operational ML Deployment Pipelines.",
         "pdfIds": ["ds","ml","python"]
       },
-
       "python": {
         "keywords": ["python","py","django","flask","pandas","numpy","pip","list","dictionary","class","function","lambda","decorator","python basics","python project"],
-        "explanation": "**Python** is the most popular and beginner-friendly programming language — used in web dev, AI, automation, and data science.\n\n**Why Python?**\n• Clean, readable syntax — no semicolons or braces needed\n• Huge library ecosystem — pandas, numpy, Django, Flask\n• Used everywhere — Google, Netflix, NASA, Instagram\n\n**Key Concepts:**\n• Variables, Data Types — int, float, str, list, dict, tuple, set\n• Control Flow — if/elif/else, for, while loops\n• Functions — def, *args, **kwargs, lambda\n• OOP — classes, objects, inheritance\n• File Handling — open(), read(), write()\n• Modules & Packages — import, pip install\n\n**Example — Python Class:**\n```python\nclass Student:\n    def __init__(self, name, marks):\n        self.name = name\n        self.marks = marks\n\n    def grade(self):\n        if self.marks >= 90:\n            return 'A+'\n        elif self.marks >= 80:\n            return 'A'\n        else:\n            return 'B'\n\ns = Student('Rehan', 95)\nprint(f'{s.name} got grade: {s.grade()}')\n```\n\n💡 **Tip:** Python is the best first language — learn it and you can do web dev, AI, automation — everything!",
+        "explanation": "**Python**\n📖 Simple definition: A highly readable, multi-purpose computer programming language.\n🧠 Beginner-friendly explanation: Writing programs with simple, English-like text commands rather than cryptic code blocks.\n🎯 Why it's important: The premier programming language for AI development, data pipelines, and server automation.\n🛣 Learning roadmap: Syntax Data Loops → Object Oriented Classes → Package Managers (pip) → API framework builds.\n🚀 Next skill to learn: Data Pipeline Structuring via Pandas/NumPy packages.",
         "pdfIds": ["python","ml","ds"]
       },
-
       "javascript": {
         "keywords": ["javascript","js","es6","dom","async","await","promise","fetch","arrow function","closure","scope","event","callback","spread","destructuring","prototype"],
-        "explanation": "**JavaScript** is the programming language of the web — it makes websites interactive and dynamic.\n\n**Key Concepts:**\n• **Variables** — let, const (avoid var)\n• **Functions** — regular and arrow functions\n• **DOM Manipulation** — getElementById, querySelector, addEventListener\n• **Events** — click, submit, keydown, mouseover\n• **Arrays** — map, filter, reduce, forEach\n• **Objects** — key-value pairs, destructuring\n• **Async JS** — Promises, async/await, Fetch API\n• **ES6+** — spread operator, template literals, modules\n\n**Example — Fetch API:**\n```javascript\nasync function getUsers() {\n  const response = await fetch('https://api.example.com/users');\n  const data = await response.json();\n  console.log(data);\n}\n\ngetUsers();\n```\n\n**Common Uses:**\n• Form validation\n• Dynamic content (show/hide elements)\n• Calling APIs\n• Building web apps with React\n\n💡 **Tip:** Master DOM manipulation and async/await first — they are used in 90% of web projects!",
+        "explanation": "**JavaScript**\n📖 Simple definition: The core interactive scripting engine of web browsing applications.\n🧠 Beginner-friendly explanation: If HTML sets up text fields and CSS applies colors, JavaScript acts like the manager processing clicks and showing notifications.\n🎯 Why it's important: Essential for building responsive, interactive websites and web applications.\n🛣 Learning roadmap: Core Logic Syntax → Browser DOM Tracking Events → Async Promise Fetching Protocols → Component Architectures.\n🚀 Next skill to learn: Multi-tier UI state frameworks like React.",
         "pdfIds": ["js","react","node"]
       },
-
       "data structures": {
         "keywords": ["data structure","dsa","array","linked list","stack","queue","tree","graph","heap","hash","sorting","algorithm","recursion","dynamic programming","big o","time complexity","binary search","greedy"],
-        "explanation": "**Data Structures & Algorithms** are the foundation of computer science and every coding interview!\n\n**Key Data Structures:**\n• **Array** — fixed size, O(1) access by index\n• **Linked List** — dynamic size, O(n) access, O(1) insert at head\n• **Stack** — Last In First Out (LIFO) — use for undo, brackets\n• **Queue** — First In First Out (FIFO) — use for scheduling\n• **Tree** — hierarchical — BST, AVL, Heap, Trie\n• **Graph** — nodes + edges — directed, undirected, weighted\n• **Hash Table** — key-value, O(1) average lookup\n\n**Key Algorithms:**\n• **Sorting** — Bubble O(n²), Merge O(nlogn), Quick O(nlogn)\n• **Searching** — Linear O(n), Binary O(logn)\n• **Graph** — BFS, DFS, Dijkstra's shortest path\n• **Dynamic Programming** — memoization, tabulation, knapsack\n• **Greedy** — activity selection, Huffman coding\n\n**Time Complexities to Know:**\n• O(1) — constant — best\n• O(log n) — binary search\n• O(n) — linear scan\n• O(n log n) — merge sort\n• O(n²) — nested loops — avoid\n\n💡 **Tip:** Solve 2 LeetCode problems daily — consistency beats cramming!",
+        "explanation": "**Data Structures & Algorithms**\n📖 Simple definition: Organizing and manipulating computer data with optimal speed and efficiency.\n🧠 Beginner-friendly explanation: Choosing the best way to store information—like stacking trays for quick top access vs. indexing items for instant lookups.\n🎯 Why it's important: Essential for passing technical code interviews and building fast, scalable software.\n🛣 Learning roadmap: Simple Array Formats → Linear Chains/Stacks → Complex Graph Nodes → Big O performance tuning.\n🚀 Next skill to learn: Dynamic Programming Optimization Matrices.",
         "pdfIds": ["dsa","java","cpp"]
       },
-
       "database": {
         "keywords": ["database","sql","mysql","mongodb","nosql","query","normalization","dbms","postgresql","joins","transactions","er diagram","acid","relational","schema","index"],
-        "explanation": "**Databases** store, organize, and retrieve data efficiently. Every app needs a database!\n\n**Types:**\n• **Relational (SQL)** — MySQL, PostgreSQL, SQLite — tables with rows & columns\n• **NoSQL** — MongoDB, Redis, Cassandra — flexible documents or key-value\n\n**SQL Commands:**\n• DDL — CREATE, ALTER, DROP (structure)\n• DML — SELECT, INSERT, UPDATE, DELETE (data)\n• DCL — GRANT, REVOKE (permissions)\n\n**SQL Joins:**\n• INNER JOIN — only matching rows\n• LEFT JOIN — all left + matching right\n• RIGHT JOIN — all right + matching left\n• FULL JOIN — all rows from both\n\n**Example:**\n```sql\nSELECT s.name, s.marks\nFROM students s\nINNER JOIN courses c ON s.course_id = c.id\nWHERE s.marks > 80\nORDER BY s.marks DESC;\n```\n\n**ACID Properties:**\n• **A**tomicity — all or nothing\n• **C**onsistency — data stays valid\n• **I**solation — transactions don't interfere\n• **D**urability — committed data is permanent\n\n**Normalization:**\n• 1NF — no repeating groups\n• 2NF — no partial dependencies\n• 3NF — no transitive dependencies\n\n💡 **Tip:** Learn SQL first — it's used in almost every company and project!",
+        "explanation": "**Database Management Systems**\n📖 Simple definition: Specialized software architectures meant to securely hold, modify, and search application records.\n🧠 Beginner-friendly explanation: Digital filing cabinets designed to safely store millions of user accounts without crashing or losing records.\n🎯 Why it's important: Preserves critical data for systems like bank logs, user profiles, and application records.\n🛣 Learning roadmap: Table Relations Schemas → SQL Query Language Filters → DB Normalizations Rules → Caching Methods.\n🚀 Next skill to learn: NoSQL Unstructured Distributed Frameworks (MongoDB).",
         "pdfIds": ["dbms","cse"]
       },
-
       "cyber security": {
         "keywords": ["cyber security","hacking","ethical hacking","network security","firewall","encryption","malware","penetration testing","kali linux","vulnerability","phishing","ddos","cryptography"],
-        "explanation": "**Cyber Security** protects computers, networks, and data from digital attacks.\n\n**Key Areas:**\n• **Network Security** — firewalls, VPNs, intrusion detection systems\n• **Application Security** — secure coding, OWASP Top 10 vulnerabilities\n• **Cryptography** — AES, RSA, SHA encryption algorithms\n• **Ethical Hacking** — finding vulnerabilities before attackers do\n• **Incident Response** — handling and recovering from breaches\n\n**Common Cyber Threats:**\n• **Phishing** — fake emails to steal credentials\n• **Malware** — viruses, ransomware, spyware, trojans\n• **SQL Injection** — attacking databases via input fields\n• **Man-in-the-Middle** — intercepting communications\n• **DDoS** — overwhelming server with fake traffic\n• **Zero-Day** — exploiting unknown vulnerabilities\n\n**OWASP Top 3 Vulnerabilities:**\n1. Broken Access Control\n2. Cryptographic Failures\n3. Injection (SQL, XSS)\n\n**Tools Used:**\n• Kali Linux — ethical hacking operating system\n• Nmap — network scanner\n• Wireshark — packet analyzer\n• Metasploit — penetration testing framework\n• Burp Suite — web app security testing\n\n💡 **Important:** Always practice ethical hacking only on systems you own or have written permission to test. Unauthorized hacking is illegal!",
+        "explanation": "**Cyber Security**\n📖 Simple definition: Protecting interconnected networks, servers, and devices from unauthorized digital intrusions.\n🧠 Beginner-friendly explanation: Setting up digital locks, checking firewall filters, and testing system security to catch hackers before they can steal data.\n🎯 Why it's important: Keeps private information safe across banking, defense, and healthcare systems.\n🛣 Learning roadmap: Network Port Routing IP Rules → Linux Shell Systems → Cryptography Encryptions → Pen Testing Tools.\n🚀 Next skill to learn: Advanced Application Security Code Audit Protocols.",
         "pdfIds": ["cyber"]
       },
-
       "react": {
         "keywords": ["react","reactjs","component","hooks","usestate","useeffect","props","jsx","redux","context","next.js","virtual dom","spa","react router","react native"],
-        "explanation": "**React** is the most popular JavaScript library for building fast, interactive user interfaces.\n\n**Core Concepts:**\n• **Components** — reusable UI building blocks (functions or classes)\n• **JSX** — HTML-like syntax inside JavaScript\n• **Props** — passing data from parent to child component\n• **State** — dynamic data inside a component\n• **Virtual DOM** — React's trick for fast updates\n\n**Essential Hooks:**\n• **useState** — manage component state\n• **useEffect** — side effects (API calls, timers)\n• **useContext** — global state without prop drilling\n• **useRef** — reference DOM elements\n• **useCallback / useMemo** — performance optimization\n\n**Example — Counter:**\n```jsx\nimport { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return (\n    <div>\n      <h2>Count: {count}</h2>\n      <button onClick={() => setCount(count + 1)}>+1</button>\n      <button onClick={() => setCount(count - 1)}>-1</button>\n    </div>\n  );\n}\n\nexport default Counter;\n```\n\n💡 **Tip:** Master useState and useEffect first — they cover 80% of React use cases!",
+        "explanation": "**React**\n📖 Simple definition: A component-focused frontend user interface library.\n🧠 Beginner-friendly explanation: Building websites like Lego sets by combining modular, reusable blocks that update instantly when data changes.\n🎯 Why it's important: Used by major tech companies like Meta and Netflix to build fast, modern web apps.\n🛣 Learning roadmap: JSX Elements Layouts → Component Props Tracking → State Hooks (useState/useEffect) → Global Context managers.\n🚀 Next skill to learn: Next.js Production Scale Framework Engine setups.",
         "pdfIds": ["react","js","node"]
       },
-
       "nodejs": {
         "keywords": ["nodejs","node","express","backend","rest api","server","npm","middleware","jwt","authentication","expressjs","api","http"],
-        "explanation": "**Node.js** lets you run JavaScript on the server. Combined with **Express.js** you can build powerful REST APIs.\n\n**Why Node.js?**\n• Same language (JavaScript) for frontend and backend\n• Non-blocking I/O — handles many requests at once\n• Huge NPM ecosystem — 2 million+ packages\n• Used by Netflix, LinkedIn, PayPal, Uber\n\n**Express.js Example — REST API:**\n```javascript\nconst express = require('express');\nconst app = express();\napp.use(express.json());\n\n// GET all students\napp.get('/students', (req, res) => {\n  res.json([{ id:1, name:'Rehan' }, { id:2, name:'Ali' }]);\n});\n\n// POST add student\napp.post('/students', (req, res) => {\n  const { name } = req.body;\n  res.json({ message: `Added ${name} successfully!` });\n});\n\napp.listen(3000, () => console.log('Server running on port 3000'));\n```\n\n**Key Concepts:**\n• Middleware — runs between request and response\n• JWT — JSON Web Tokens for authentication\n• REST API — GET, POST, PUT, DELETE methods\n• Environment Variables — .env files for secrets\n\n💡 **Tip:** Learn Node.js + Express + MongoDB together — they form the MERN stack!",
+        "explanation": "**Node.js**\n📖 Simple definition: An open-source runtime environment that lets you run JavaScript on servers.\n🧠 Beginner-friendly explanation: Using JavaScript to build backend servers, manage files, and handle database updates, not just frontend designs.\n🎯 Why it's important: Enables developers to build complete full-stack apps using a single programming language.\n🛣 Learning roadmap: Event Loop Models → Node Core Module APIs → Express Route Systems → JWT Verification steps.\n🚀 Next skill to learn: Production Database Connection Mappings.",
         "pdfIds": ["node","js","dbms"]
       },
-
       "html": {
         "keywords": ["html","hypertext","markup","tags","elements","forms","tables","semantic","html5","attributes","href","src"],
-        "explanation": "**HTML (HyperText Markup Language)** is the backbone of every website — it gives structure to web content.\n\n**Basic Structure:**\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>My Page</title>\n</head>\n<body>\n  <h1>Hello World!</h1>\n  <p>Welcome to BrainStack!</p>\n</body>\n</html>\n```\n\n**Important Tags:**\n• Headings — h1 to h6\n• Paragraph — p\n• Links — a href\n• Images — img src\n• Lists — ul, ol, li\n• Tables — table, tr, th, td\n• Forms — form, input, button, select\n• Divs — div, span\n\n**Semantic HTML5 Tags:**\n• header, nav, main, section, article, aside, footer\n• These help SEO and screen readers\n\n**HTML Forms:**\n```html\n<form action=\"/submit\" method=\"POST\">\n  <input type=\"text\" name=\"name\" placeholder=\"Your name\">\n  <input type=\"email\" name=\"email\" placeholder=\"Email\">\n  <button type=\"submit\">Submit</button>\n</form>\n```\n\n💡 **Tip:** Always use semantic HTML — it makes your code meaningful and helps SEO!",
+        "explanation": "**HTML**\n📖 Simple definition: The structural building blocks used to format web content.\n🧠 Beginner-friendly explanation: The structural skeleton of a webpage that organizes content into clear headings, paragraphs, buttons, and input fields.\n🎯 Why it's important: The mandatory starting point for anyone looking to build websites or web apps.\n🛣 Learning roadmap: Text Layout Tags → Image Link Properties → Form Input Systems → Semantic SEO Layout Elements.\n🚀 Next skill to learn: Cascading Style Sheets Layouts (CSS).",
         "pdfIds": ["html_css","js"]
       },
-
       "css": {
         "keywords": ["css","styling","flexbox","grid","responsive","bootstrap","tailwind","animation","selector","media query","css3","hover","transition"],
-        "explanation": "**CSS (Cascading Style Sheets)** makes websites beautiful — it controls colors, fonts, layout, and animations.\n\n**Selectors:**\n• Element — `p { }`, `h1 { }`\n• Class — `.card { }`, `.btn { }`\n• ID — `#header { }`\n• Pseudo — `a:hover { }`, `li:first-child { }`\n\n**Box Model:**\n• Content → Padding → Border → Margin\n\n**Flexbox — 1D Layout:**\n```css\n.container {\n  display: flex;\n  justify-content: center;  /* horizontal */\n  align-items: center;       /* vertical */\n  gap: 16px;\n}\n```\n\n**CSS Grid — 2D Layout:**\n```css\n.grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n```\n\n**Responsive Design:**\n```css\n@media (max-width: 768px) {\n  .grid {\n    grid-template-columns: 1fr;\n  }\n}\n```\n\n**Animations:**\n```css\n.btn {\n  transition: all 0.3s ease;\n}\n.btn:hover {\n  transform: scale(1.05);\n  background: #1D4ED8;\n}\n```\n\n💡 **Tip:** Master Flexbox and Grid — they solve 90% of layout problems!",
+        "explanation": "**CSS**\n📖 Simple definition: The styling rules used to customize the visual appearance of web pages.\n🧠 Beginner-friendly explanation: The design layer that adds colors, fonts, spacing, animations, and responsive layouts to plain text pages.\n🎯 Why it's important: Transforms basic layouts into beautiful, professional, and mobile-friendly user interfaces.\n🛣 Learning roadmap: Box Model Properties → CSS Selector Specifics → Flexbox Responsive Layouts → Grid Systems.\n🚀 Next skill to learn: Client Interaction Scripting via JavaScript.",
         "pdfIds": ["html_css"]
       },
-
       "java": {
         "keywords": ["java","oops","object oriented","class","object","inheritance","polymorphism","abstraction","encapsulation","interface","spring","collections","exception","multithreading","java 8"],
-        "explanation": "**Java** is one of the most widely used programming languages — used in Android apps, enterprise software, and backend systems.\n\n**4 Pillars of OOP:**\n• **Encapsulation** — hiding data inside a class (private fields)\n• **Inheritance** — child class inherits from parent class\n• **Polymorphism** — same method, different behavior\n• **Abstraction** — showing only essential details, hiding complexity\n\n**Example — Inheritance & Polymorphism:**\n```java\nclass Animal {\n    void speak() {\n        System.out.println(\"Animal speaks\");\n    }\n}\n\nclass Dog extends Animal {\n    @Override\n    void speak() {\n        System.out.println(\"Dog says: Woof! 🐕\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.speak(); // Dog says: Woof!\n    }\n}\n```\n\n**Java Collections:**\n• ArrayList — dynamic array\n• LinkedList — doubly linked list\n• HashMap — key-value pairs\n• HashSet — unique elements\n• TreeMap — sorted map\n\n**Exception Handling:**\n```java\ntry {\n    int result = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.println(\"Error: \" + e.getMessage());\n} finally {\n    System.out.println(\"Always runs\");\n}\n```\n\n💡 **Tip:** Java is great for placements — most IT companies use Java in backend interviews!",
+        "explanation": "**Java**\n📖 Simple definition: A reliable, object-oriented programming language designed to run anywhere without recompiling.\n🧠 Beginner-friendly explanation: A strict, dependable coding language that groups functionality into real-world concepts like objects and classes.\n🎯 Why it's important: Powers enterprise software, large-scale financial backends, and Android applications.\n🛣 Learning roadmap: System Types Syntax → OOP Architecture Pillars → Collections Collections Frameworks → Exception Handling.\n🚀 Next skill to learn: Enterprise Backend Architectures via Spring Boot Frameworks.",
         "pdfIds": ["java","dsa"]
+      },
+
+      "5g technology": {
+        "keywords": ["5g technology", "5g", "cellular network", "mmwave"],
+        "explanation": "**5G Technology**\n📖 Simple definition: The fifth-generation standard for cellular networks, delivering faster speeds and lower latency.\n🧠 Beginner-friendly explanation: A super-fast wireless highway that lets you download entire movies in seconds and connects smart devices instantly without lag.\n🎯 Why it's important: Enables advanced technologies like autonomous vehicles, smart city grids, and real-time remote surgeries.\n🛣 Learning roadmap: Radio Frequency Basics → 4G LTE Architectures → 5G Architecture (NSA/SA) → Millimeter Wave (mmWave) Spectrum.\n🚀 Next skill to learn: Edge Computing & Internet of Things (IoT) Integration.",
+        "pdfIds": ["mech", "ece"]
+      },
+      "building construction": {
+        "keywords": ["building construction", "construction process", "foundation build", "structural execution"],
+        "explanation": "**Building Construction**\n📖 Simple definition: The step-by-step process of assembling structures like houses, offices, and infrastructure.\n🧠 Beginner-friendly explanation: Translating architectural drawings into physical reality, starting with excavation, pouring foundations, framing walls, and finishing interiors.\n🎯 Why it's important: Ensures real-world buildings are durable, safe, and energy-efficient.\n🛣 Learning roadmap: Site Surveying & Soil Analysis → Blueprint Reading → Load-Bearing Structural Design → Project Management.\n🚀 Next skill to learn: Concrete Technology & Smart Materials.",
+        "pdfIds": ["civil"]
+      },
+      "communication system": {
+        "keywords": ["communication system", "telecommunication", "signal transmission", "modulation paths"],
+        "explanation": "**Communication System**\n📖 Simple definition: A collection of hardware and software components designed to transfer data from a source to a destination.\n🧠 Beginner-friendly explanation: The tech behind sending data across distances—like a phone converting your voice into digital signals, transmitting it over waves, and decoding it for a listener.\n🎯 Why it's important: Forms the global backbone for internet routing, broadcasting, and mobile networks.\n🛣 Learning roadmap: Signal Vectors (Analog/Digital) → Transmitter Modulation Steps → Noise Filtering → Receiver Demodulation.\n🚀 Next skill to learn: 5G Network Protocols & Optical Fiber Communications.",
+        "pdfIds": ["mech", "ece"]
+      },
+      "english for engineering": {
+        "keywords": ["english for engineering", "technical english", "engineering communication", "technical writing"],
+        "explanation": "**English for Engineering**\n📖 Simple definition: Specialized professional English tailored for precise technical communication and reporting.\n🧠 Beginner-friendly explanation: Learning to explain complex engineering problems clearly and concisely without using confusing jargon or long sentences.\n🎯 Why it's important: Crucial for writing project reports, presenting research, and collaborating with international teams.\n🛣 Learning roadmap: Technical Vocabulary → Clear Report Structures → Active vs Passive Expression Rules → Project Proposals.\n🚀 Next skill to learn: Professional Presentation & Technical Documentation.",
+        "pdfIds": ["lib"]
+      },
+      "sql basics": {
+        "keywords": ["sql basics", "learn sql", "sql queries", "relational database data"],
+        "explanation": "**SQL Basics**\n📖 Simple definition: The fundamental commands used to communicate with and query relational databases.\n🧠 Beginner-friendly explanation: Learning simple, text-based queries to ask a database for specific information, like filtering users by age or location.\n🎯 Why it's important: Essential for data analysis, backend development, and product management.\n🛣 Learning roadmap: Relational Database Concepts → SELECT Data Filters → INSERT/UPDATE Commands → Database Joins.\n🚀 Next skill to learn: Advanced Database Indexing & Optimization.",
+        "pdfIds": ["cse"]
+      },
+      "heat transfer": {
+        "keywords": ["heat transfer", "conduction", "convection", "radiation thermal"],
+        "explanation": "**Heat Transfer**\n📖 Simple definition: The movement of thermal energy from a high-temperature zone to a lower-temperature zone.\n🧠 Beginner-friendly explanation: Exploring the three ways heat moves: direct contact (conduction), fluid movement (convection), or electromagnetic waves (radiation).\n🎯 Why it's important: Critical for designing efficient cooling systems for electronics, car engines, and home insulation.\n🛣 Learning roadmap: Thermal Conductivity Equations → Convective Flow Boundary Layers → Blackbody Radiation Physics → Heat Exchanger Design.\n🚀 Next skill to learn: Fluid Mechanics & Computational Fluid Dynamics (CFD).",
+        "pdfIds": ["mech"]
+      },
+      "fluid mechanic": {
+        "keywords": ["fluid mechanic", "fluid dynamics", "bernoulli flow", "hydrostatics"],
+        "explanation": "**Fluid Mechanics**\n📖 Simple definition: The study of how fluids (liquids and gases) behave at rest and in motion.\n🧠 Beginner-friendly explanation: Understanding how airplanes get lift from airflow, how water flows through pipes, and why heavy ships can float on water.\n🎯 Why it's important: Vital for designing hydraulic machinery, water systems, and aerodynamic vehicles.\n🛣 Learning roadmap: Hydrostatic Pressures → Fluid Kinematics → Bernoulli & Navier-Stokes Equations → Turbulent Boundary Flows.\n🚀 Next skill to learn: Aerodynamics & Turbo-machinery.",
+        "pdfIds": ["mech"]
+      },
+      "manufacturing industry": {
+        "keywords": ["manufacturing industry", "production techniques", "industrial manufacturing", "automation plant"],
+        "explanation": "**Manufacturing Industry**\n📖 Simple definition: Transforming raw materials into finished products using tools, machinery, and automated chemical processing.\n🧠 Beginner-friendly explanation: The factories, assembly lines, and automated processes that turn raw steel and plastic into products like smartphones and cars.\n🎯 Why it's important: Drives global industrial economies and supplies consumer products at scale.\n🛣 Learning roadmap: Material Extraction Processes → Traditional Machining (Lathes/Mills) → CNC Automation Systems → Lean Manufacturing Principles.\n🚀 Next skill to learn: Industry 4.0 Industrial Automation & Robotics.",
+        "pdfIds": ["mech"]
+      },
+      "website diployment": {
+        "keywords": ["website diployment", "website deployment", "hosting website", "deploy site"],
+        "explanation": "**Website Deployment**\n📖 Simple definition: Publishing a local website onto a public web server so users worldwide can access it via the internet.\n🧠 Beginner-friendly explanation: Moving code files from your personal laptop to an always-on public server, making it accessible through a custom link.\n🎯 Why it's important: The essential final step to launch web projects, web applications, and digital platforms.\n🛣 Learning roadmap: Domain Name Registration & DNS setups → Static Web Hosting (Vercel/Netlify) → Cloud Servers (AWS/GCP) → CI/CD Deployment Pipelines.\n🚀 Next skill to learn: DevOps Containerization via Docker.",
+        "pdfIds": ["cse"]
+      },
+      "automobile engineering": {
+        "keywords": ["automobile engineering", "automotive systems", "car design", "engine layouts"],
+        "explanation": "**Automobile Engineering**\n📖 Simple definition: Designing, manufacturing, and operating vehicles like cars, trucks, and motorcycles.\n🧠 Beginner-friendly explanation: Exploring how automotive systems work together, from the engine and transmission to the suspension, brakes, and electrical systems.\n🎯 Why it's important: Drives innovation in transportation safety, vehicle performance, and electric vehicle (EV) tech.\n🛣 Learning roadmap: Internal Combustion Engine Mechanics → Drivetrain & Gearboxes → Suspension Geometry → Electric Vehicle (EV) Powertrains.\n🚀 Next skill to learn: Autonomous Driving Sensor Fusion Arrays.",
+        "pdfIds": ["mech"]
+      },
+      "concrete technology": {
+        "keywords": ["concrete technology", "cement mixes", "concrete properties", "aggregates chemistry"],
+        "explanation": "**Concrete Technology**\n📖 Simple definition: Structural science analyzing properties, mix designs, and durability vectors of concrete structures.\n🧠 Beginner-friendly explanation: Fine-tuning water, cement, and gravel ratios to mix durable concrete that can support immense weight without cracking.\n🎯 Why it's important: Ensures safety and structural integrity for critical infrastructure like bridges and dams.\n🛣 Learning roadmap: Cement Chemistry Grades → Aggregate Particle Packings → Admixture Properties → Structural Failure Troubleshooting.\n🚀 Next skill to learn: Reinforced Concrete Structural Designs.",
+        "pdfIds": ["civil"]
+      },
+      "electrical engineering": {
+        "keywords": ["electrical engineering", "power grids", "transformers electrical", "ac dc circuits"],
+        "explanation": "**Electrical Engineering**\n📖 Simple definition: The design and application of electrical equipment, power grids, and large-scale power transmission.\n🧠 Beginner-friendly explanation: Managing large-scale electricity to power cities, electrical grids, transformers, and industrial motors.\n🎯 Why it's important: Power and electrifies global infrastructure, manufacturing, and electronic systems.\n🛣 Learning roadmap: AC/DC Network Matrix Analyses → Magnetic Circuit Potentials → Power Transformers Components → Grid Transmission Operations.\n🚀 Next skill to learn: High Voltage Power System Protection controls.",
+        "pdfIds": ["ece"]
+      },
+      "material science": {
+        "keywords": ["material science", "crystal structures", "materials engineering", "metallurgy properties"],
+        "explanation": "**Material Science**\n📖 Simple definition: Investigating how internal atomic arrangements dictate a material's strength, flexibility, and conductivity.\n🧠 Beginner-friendly explanation: Discovering why carbon fibers are incredibly lightweight yet strong, and how modifying atomic bonds can create better electronics.\n🎯 Why it's important: Enables the creation of stronger, lighter, and smarter materials for space travel and electronics.\n🛣 Learning roadmap: Crystal Lattice Geometries → Stress-Strain Failure States → Phase Diagram Thermodynamics → Nano-materials.\n🚀 Next skill to learn: Solid State Structural Characterizations.",
+        "pdfIds": ["mech"]
+      },
+      "mechatronics and robotics": {
+        "keywords": ["mechatronics and robotics", "mechatronics", "robotic control", "automation circuits"],
+        "explanation": "**Mechatronics and Robotics**\n📖 Simple definition: The integration of mechanical engineering, electronics, and smart computer control systems.\n🧠 Beginner-friendly explanation: Building intelligent machines, like robotic arms, that use electronic sensors to read environments and mechanical joints to perform tasks.\n🎯 Why it's important: Essential for modern industrial automation, advanced medical devices, and self-driving vehicles.\n🛣 Learning roadmap: Microcontroller Interfacings → Sensor Signal Filters → Actuator/Motor Drives → Closed-Loop Control Mathematics.\n🚀 Next skill to learn: Computer Vision Processing & Autonomous Motion Path Planning.",
+        "pdfIds": ["mech"]
+      },
+      "engineering chemistry": {
+        "keywords": ["engineering chemistry", "industrial chemistry", "water treatment processes", "corrosion chemistry"],
+        "explanation": "**Engineering Chemistry**\n📖 Simple definition: Applying chemical principles to address real-world industrial and engineering challenges.\n🧠 Beginner-friendly explanation: Utilizing chemical insights to prevent rust on steel bridges, treat industrial wastewater, and extend battery lifespans.\n🎯 Why it's important: Vital for selecting durable materials and maintaining safety across industrial processes.\n🛣 Learning roadmap: Water Softening Analysis → Electrochemistry & Corrosion Protections → High-Performance Polymers → Alternative Clean Energy Fuels.\n🚀 Next skill to learn: Chemical Engineering Process Dynamics.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "engineering physics": {
+        "keywords": ["engineering physics", "applied physics", "laser mechanics", "semiconductor physics"],
+        "explanation": "**Engineering Physics**\n📖 Simple definition: Bridging fundamental physics theories with advanced practical engineering applications.\n🧠 Beginner-friendly explanation: Utilizing physics core principles—like quantum mechanics or wave optics—to develop next-generation tech like fiber-optic lasers and advanced microchips.\n🎯 Why it's important: Drives breakthroughs in quantum computing, laser systems, and semiconductor technology.\n🛣 Learning roadmap: Relativistic Kinematics Matrices → Wave Interference Interference Optics → Quantum Wave Equations → Solid Semiconductor Mechanics.\n🚀 Next skill to learn: Nanotechnology Fabrication Protocols.",
+        "pdfIds": ["mech", "bsc_phy"]
+      },
+      "operating system": {
+        "keywords": ["operating system", "kernel architecture", "process scheduling", "memory allocation os"],
+        "explanation": "**Operating System**\n📖 Simple definition: Core software that manages computer hardware resources and provides common services for applications.\n🧠 Beginner-friendly explanation: The master software—like Windows, macOS, or Linux—that coordinates app processes, mouse clicks, memory, and storage.\n🎯 Why it's important: Essential for writing optimized software that utilizes system memory and processors efficiently.\n🛣 Learning roadmap: Kernel Architecture Paradigms → Process Scheduling Loops → Virtual Memory Allocations → Concurrent Thread File Allocations.\n🚀 Next skill to learn: System Architecture & Distributed Systems.",
+        "pdfIds": ["cse"]
+      },
+      "what is github": {
+        "keywords": ["what is github", "github", "git version control", "repository workflows"],
+        "explanation": "**What is GitHub**\n📖 Simple definition: A cloud-based platform for version control and collaboration, letting developers track code changes using Git.\n🧠 Beginner-friendly explanation: An online repository that saves older versions of your code and helps teams collaborate on open-source projects without overwriting each other's work.\n🎯 Why it's important: Industry-standard tool for developer code review, portfolio building, and team collaboration.\n🛣 Learning roadmap: Git Repository Commands (commit/push) → Branch Merging Strategies → GitHub Issue Tracking → CI/CD Actions Workflows.\n🚀 Next skill to learn: DevOps Automation Pipelines.",
+        "pdfIds": ["cse"]
+      },
+      "fundamentals of electronics": {
+        "keywords": ["fundamentals of electronics", "electronics basics", "basic circuits", "semiconductor devices"],
+        "explanation": "**Fundamentals of Electronics**\n📖 Simple definition: The study of fundamental electronic components and how they manipulate current in circuits.\n🧠 Beginner-friendly explanation: Learning how resistors, capacitors, and diodes function together to control electric currents and power basic devices.\n🎯 Why it's important: The essential foundational step for anyone designing hardware circuits or embedded systems.\n🛣 Learning roadmap: Passive Component Behaviors → Ohm's & Kirchhoff's Circuit Laws → Diode Rectifier Configurations → BJT Switching States.\n🚀 Next skill to learn: Operational Amplifier (Op-Amp) Circuit Architectures.",
+        "pdfIds": ["ece"]
+      },
+      "internet of things": {
+        "keywords": ["internet of things", "iot", "smart devices","IOT", "sensor networking"],
+        "explanation": "**Internet of Things**\n📖 Simple definition: Connecting everyday physical objects to the internet so they can gather data and communicate with other devices.\n🧠 Beginner-friendly explanation: Connecting everyday items to the web—like smart thermostats or fitness trackers that sync data automatically.\n🎯 Why it's important: Powers modern automation, smart homes, and industrial tracking systems.\n🛣 Learning roadmap: Embedded Microcontroller Circuits (ESP32) → Sensor Interface Protocols → MQTT/HTTP Networks → Cloud Data Storage.\n🚀 Next skill to learn: Embedded AI Analytics.",
+        "pdfIds": ["ece"]
+      },
+      "robotic engineering": {
+        "keywords": ["robotic engineering", "robotics fabrication", "inverse kinematics", "motor control sensors"],
+        "explanation": "**Robotic Engineering**\n📖 Simple definition: The multidisciplinary design, construction, and programming of automated robotic systems.\n🧠 Beginner-friendly explanation: Building automated machines that can sense their surroundings, make decisions, and execute physical tasks automatically.\n🎯 Why it's important: Automates dangerous or repetitive tasks across factories, space exploration, and surgical rooms.\n🛣 Learning roadmap: Spatial Linkage Transformations → Inverse Kinematics Controls → Microcontroller Interfacing → Feedback Loop Tuning.\n🚀 Next skill to learn: Robotic Operating System (ROS) Frameworks.",
+        "pdfIds": ["ece"]
+      },
+      "prompt engineering": {
+        "keywords": ["prompt engineering", "ai prompting", "large language model optimization", "llm prompting"],
+        "explanation": "**Prompt Engineering**\n📖 Simple definition: Structuring text instructions precisely to guide AI models to generate optimal, accurate responses.\n🧠 Beginner-friendly explanation: Learning the best way to word your questions to AI systems to get high-quality, targeted answers every time.\n🎯 Why it's important: Crucial for optimizing AI workflows, automating text tasks, and building smart software tools.\n🛣 Learning roadmap: Role-Based Instruction Layouts → Few-Shot Context Examples → Chain-of-Thought Logical Prompts → Automated AI Agents.\n🚀 Next skill to learn: LLM API Application Integrations.",
+        "pdfIds": ["aiml_eng", "ds"]
+      },
+      "chat gpt vs perplexity": {
+        "keywords": ["chat gpt vs perplexity", "chatgpt vs perplexity", "llm comparison", "ai search engines"],
+        "explanation": "**ChatGPT vs Perplexity AI**\n📖 Simple definition: A comparison between a generative, conversational assistant and a source-focused, real-time AI search engine.\n🧠 Beginner-friendly explanation: ChatGPT acts like a creative writer and programmer, while Perplexity functions as a smart research assistant that searches the web and cites its sources instantly.\n🎯 Why it's important: Helps you choose the right tool for specific workflows, whether you're brainstorming code or searching for real-time citations.\n🛣 Learning roadmap: Large Language Model Architectures → Vector Search Mechanics → Multi-Agent Workflows → Productivity Integrations.\n🚀 Next skill to learn: Retrieval-Augmented Generation (RAG) Systems.",
+        "pdfIds": ["aiml_eng"]
+      },
+      "how to do startup with ai": {
+        "keywords": ["how to do startup with ai", "ai startup", "ai business", "launching ai app"],
+        "explanation": "**How to Do Startup with AI**\n📖 Simple definition: Launching a business venture centered around solving specific user problems using artificial intelligence tools.\n🧠 Beginner-friendly explanation: Finding a painful business problem, using an AI model to automate the solution, and building a simple web app around it for customers.\n🎯 Why it's important: Provides a clear path to launching scalable software businesses in the AI space.\n🛣 Learning roadmap: Problem Scoping & Validation → AI Model API Prototyping → Minimum Viable Product (MVP) Build → SaaS Scaling Strategy.\n🚀 Next skill to learn: API Costs Management & Venture Capital Structuring.",
+        "pdfIds": ["aiml_eng"]
+      },
+      "entrepreneurship": {
+        "keywords": ["entrepreneurship", "business startup", "venture creation", "mvp validation"],
+        "explanation": "**Entrepreneurship**\n📖 Simple definition: Designing, launching, and managing a new business venture to address market needs and turn a profit.\n🧠 Beginner-friendly explanation: Betting on your own ideas, building a product, and taking risks to create a successful business from scratch.\n🎯 Why it's important: Drives economic growth, creates job opportunities, and introduces new innovations to the market.\n🛣 Learning roadmap: Market Opportunity Analysis → Lean Startup MVP Testing → Customer Acquisition Strategies → Corporate Finance Management.\n🚀 Next skill to learn: Venture Capital & Scale-Up Strategy.",
+        "pdfIds": ["lib"]
+      },
+      "personal branding": {
+        "keywords": ["personal branding", "professional branding", "linkedin strategy", "audience building"],
+        "explanation": "**Personal Branding**\n📖 Simple definition: Strategically showcasing your professional skills, unique experiences, and values to establish authority in your industry.\n🧠 Beginner-friendly explanation: Curating an online presence—like a polished LinkedIn profile or a technical blog—so opportunities and job offers find you naturally.\n🎯 Why it's important: Enhances career opportunities, establishes authority, and helps secure client contracts.\n🛣 Learning roadmap: Niche Focus Definition → Content Creation Strategy → LinkedIn Profile Optimization → Networking Outreach workflows.",
+        "pdfIds": ["lib"]
+      },
+      "resume template with copy paste example": {
+        "keywords": ["resume template with copy paste example", "copy paste resume", "resume text templates", "cv text code"],
+        "explanation": "**Resume Template With Copy Paste Example**\n📖 Simple definition: A structured, ATS-optimized text layout designed to be copied, customized, and used to land interviews.\n🧠 Beginner-friendly explanation: A clean, text-based resume layout that highlights skills and metrics clearly, ensuring hiring managers and automated filters can read it easily.\n🎯 Why it's important: Helps your resume clear automated Applicant Tracking System (ATS) filters to get reviewed by actual recruiters.\n🛣 Learning roadmap: ATS Formatting Constraints → Strong Action Verb Selection → Quantifying Career Metrics → Portfolio Mappings.\n🚀 Next skill to learn: Cover Letter Customization Workflows.",
+        "pdfIds": ["lib"]
+      },
+      "basic structure of computer": {
+        "keywords": ["basic structure of computer", "von neumann architecture", "cpu memory layout", "hardware components"],
+        "explanation": "**Basic Structure of Computer**\n📖 Simple definition: The foundational hardware layout of a computer, detailing how the CPU, memory, and input/output systems interact.\n🧠 Beginner-friendly explanation: Examining how a computer's components interact—how the CPU reads instructions from RAM, processes data, and displays results on your screen.\n🎯 Why it's important: Essential foundational knowledge for assembly programming and optimizing hardware performance.\n🛣 Learning roadmap: Von Neumann Architecture Layouts → CPU Control Units & Arithmetic Logic Units (ALU) → Cache Hierarchies → System Bus Protocols.\n🚀 Next skill to learn: Computer Architecture Design & Assembly Programming.",
+        "pdfIds": ["cse"]
+      },
+      "what is bachelor of physics": {
+        "keywords": ["what is bachelor of physics", "bachelor of physics", "b.sc physics overview", "physics degree course"],
+        "explanation": "**What is Bachelor of Physics (B.Sc Physics)**\n📖 Simple definition: An undergraduate academic program focusing on the foundational laws governing energy, matter, and space.\n🧠 Beginner-friendly explanation: A dedicated degree program that covers the mathematical and physical laws of reality, from quantum mechanics to astrophysics.\n🎯 Why it's important: Prepares you for careers in research labs, engineering, and data science fields.\n🛣 Learning roadmap: Classical Mechanics Fundamentals → Optics & Waves Experiments → Mathematical Physics Vector Calculus → Modern Physics Laboratories.\n🚀 Next skill to learn: Advanced Quantum Field Analysis.",
+        "pdfIds": ["bsc_phy"]
+      },
+      "thermal physics": {
+        "keywords": ["thermal physics", "kinetic theory of gases", "thermodynamics physical", "entropy variables"],
+        "explanation": "**Thermal Physics**\n📖 Simple definition: The study of heat, temperature, and statistical behaviors of large molecular systems.\n🧠 Beginner-friendly explanation: Exploring the physics of temperature, like how gas molecules move faster when heated and create pressure inside containers.\n🎯 Why it's important: Essential for materials research, chemistry, and aerospace engineering calculations.\n🛣 Learning roadmap: Kinetic Theory of Gases → Thermodynamic State Variable Laws → Phase Transformations Properties → Statistical Ensemble Mechanics.\n🚀 Next skill to learn: Statistical Mechanics & Computational Physics.",
+        "pdfIds": ["mech", "bsc_phy"]
+      },
+      "waves optics": {
+        "keywords": ["waves optics", "wave optics", "light interference", "diffraction optics"],
+        "explanation": "**Waves and Optics**\n📖 Simple definition: The study of wave behaviors and how light propagates and interacts with materials.\n🧠 Beginner-friendly explanation: Discovering how light behaves as a wave, creating colorful interference patterns and bending through glass lenses.\n🎯 Why it's important: Core tech behind lasers, camera lenses, microscopes, and high-speed fiber-optic internet.\n🛣 Learning roadmap: Simple Wave Equations → Light Interference Models (Young's Slit) → Diffraction Grating Patterns → Laser Polarization States.\n🚀 Next skill to learn: Quantum Electrodynamics & Laser Physics.",
+        "pdfIds": ["mech", "bsc_phy"]
+      },
+      "quantum mechanics": {
+        "keywords": ["quantum mechanics", "schrodinger wave equation", "quantum physics states", "subatomic uncertainty"],
+        "explanation": "**Quantum Mechanics**\n📖 Simple definition: The branch of physics governing subatomic particles where energy and momentum are quantized.\n🧠 Beginner-friendly explanation: The physics of the ultra-small world where particles can exist in multiple states at once and pass through solid barriers.\n🎯 Why it's important: Powers modern technologies like transistors, medical lasers, and quantum computers.\n🛣 Learning roadmap: Blackbody Radiation Discrepancies → Wave-Particle Duality Concepts → Schrödinger Wave Equation Solutions → Quantum Spin Matrix Operators.\n🚀 Next skill to learn: Solid State Physics & Quantum Computing.",
+        "pdfIds": ["bsc_phy"]
+      },
+      "electricity and magnetism": {
+        "keywords": ["electricity and magnetism", "maxwell equations", "electrostatics", "magnetic fields lines"],
+        "explanation": "**Electricity and Magnetism**\n📖 Simple definition: The physics of electric charges, currents, magnetic fields, and their interactions.\n🧠 Beginner-friendly explanation: Exploring how moving electric currents create magnetic fields, which powers everything from electric motors to massive power grids.\n🎯 Why it's important: The foundational physics behind all electrical wiring, power generation, and communications tech.\n🛣 Learning roadmap: Coulomb's Law & Electrostatic Potentials → Ampere's Magnetic Induction → Faraday's Law Calculations → Maxwell's Electromagnetic Field Equations.\n🚀 Next skill to learn: Electrodynamics & Antenna Wave Propagations.",
+        "pdfIds": ["bsc_phy"]
+      },
+      "bachelor of chemistry": {
+        "keywords": ["bachelor of chemistry", "b.sc chemistry overview", "chemistry degree path", "bachelor chemical sciences"],
+        "explanation": "**Bachelor of Chemistry (B.Sc Chemistry)**\n📖 Simple definition: An undergraduate academic degree program focusing on molecular science, reactions, and material analysis.\n🧠 Beginner-friendly explanation: A comprehensive degree tracking molecular bonds, chemical reactions, laboratory testing, and periodic trends.\n🎯 Why it's important: Essential credential for chemical research, pharmaceutical development, and material design fields.\n🛣 Learning roadmap: Basic Laboratory Techniques → General Inorganic Configurations → Organic Mechanism Frameworks → Quantum Chemistry Equations.\n🚀 Next skill to learn: Advanced Chemical Synthesis & Instrumental Spectroscopy Analysis.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "organic chemistry": {
+        "keywords": ["organic chemistry", "carbon compound synthesis", "iupac naming reactions", "reaction mechanisms carbon"],
+        "explanation": "**Organic Chemistry**\n📖 Simple definition: The sub-discipline of chemistry focused entirely on the structure, properties, and reactions of carbon-based compounds.\n🧠 Beginner-friendly explanation: Exploring how carbon chains combine with other elements to form everything from plastics to human DNA.\n🎯 Why it's important: The core science behind pharmaceutical design, polymer synthesis, and biotechnology tools.\n🛣 Learning roadmap: IUPAC Nomenclature Rules → Stereochemistry Models → Reaction Intermediates (Carbocations) → Synthetic Sequence Plannings.\n🚀 Next skill to learn: Advanced Medicinal Chemistry & Spectroscopic Structure Identifications.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "inorganic chemistry": {
+        "keywords": ["inorganic chemistry", "periodic coordination metal", "crystalline ligand fields", "non carbon bonding"],
+        "explanation": "**Inorganic Chemistry**\n📖 Simple definition: The study of properties and reactions of inorganic compounds, including metals, minerals, and organometallic elements.\n🧠 Beginner-friendly explanation: Examining the periodic table beyond carbon—looking at how metals bond and how crystals form structures.\n🎯 Why it's important: Critical for catalyst development, metallurgy, semiconductor materials, and solar cells.\n🛣 Learning roadmap: Atomic VSEPR Geometries → Periodic Trend Periodicity → Transition Metal Coordination Chemistry → Ligand Field Calculations.\n🚀 Next skill to learn: Organometallic Catalysis Chemistry.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "physical chemistry": {
+        "keywords": ["physical chemistry", "chemical kinetics rate", "electrochemistry thermodynamics", "quantum molecular behaviors"],
+        "explanation": "**Physical Chemistry**\n📖 Simple definition: Applying the laws of physics to chemical systems, focusing on thermodynamics, kinetics, and quantum behaviors.\n🧠 Beginner-friendly explanation: The math and physics behind chemical reactions, calculating exactly how fast reactions happen and how much energy they release.\n🎯 Why it's important: Critical for engineering chemical plants, scaling battery tech, and calculating reaction balances.\n🛣 Learning roadmap: Chemical Thermodynamics Laws → Reaction Rate Laws → Electrochemical Cell Potentials → Quantum Molecular Models.\n🚀 Next skill to learn: Statistical Thermodynamics & Molecular Modeling.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "biochemistry": {
+        "keywords": ["biochemistry", "enzymatic kinetics metabolic", "dna replication structures", "cellular protein pathways"],
+        "explanation": "**Biochemistry**\n📖 Simple definition: The study of chemical structures and reactions occurring inside living organisms.\n🧠 Beginner-friendly explanation: Studying the chemical reactions behind biological life, like how your body digests food into energy or replicates DNA molecules.\n🎯 Why it's important: Critical for medical research, genetic engineering, and pharmaceutical development.\n🛣 Learning roadmap: Amino Acid & Protein Structures → Enzymatic Catalysis Kinetics → Metabolic Pathways (Krebs/Glycolysis) → Molecular DNA Replication.\n🚀 Next skill to learn: Molecular Genetics & Recombinant DNA Technology.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "environment chemistry": {
+        "keywords": ["environment chemistry", "environmental chemistry", "atmospheric chemical cycles", "pollutant degradation metrics"],
+        "explanation": "**Environmental Chemistry**\n📖 Simple definition: The study of chemical reactions, transport pathways, and effects of human activity on air, soil, and water systems.\n🧠 Beginner-friendly explanation: Studying how pollutants spread through ecosystems, tracking greenhouse gases, and designing chemical solutions to treat contaminated groundwater.\n🎯 Why it's important: Vital for managing pollution, designing water treatment systems, and climate research.\n🛣 Learning roadmap: Atmospheric Chemical Equilibrium → Soil Hydrocarbon Reactions → Water Contamination Assessment → Remediation Technologies.\n🚀 Next skill to learn: Ecotoxicology & Industrial Green Chemistry Processes.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "chemistry formula list": {
+        "keywords": ["chemistry formula list", "chemical formulas sheet", "molarity equations reference", "gas laws guide"],
+        "explanation": "**Chemistry Formula List**\n📖 Simple definition: A centralized reference compilation of essential equations across stoichiometry, gas laws, thermodynamics, and kinetics.\n🧠 Beginner-friendly explanation: A quick-reference cheat sheet for key chemistry math, from calculating solution concentrations to tracking ideal gas behaviors.\n🎯 Why it's important: Essential tool for solving numerical problems quickly during chemistry exams.\n🛣 Learning roadmap: Mole & Molarity Foundations → Ideal Gas Law Variances → Thermodynamic Enthalpy Balances → Arrhenius Kinetic Equations.\n🚀 Next skill to learn: Quantitative Chemical Analysis & Titration Calculus.",
+        "pdfIds": ["bsc_chem"]
+      },
+      "bachelor of botany": {
+        "keywords": ["bachelor of botany", "b.sc botany overview", "plant science degree", "botany course metrics"],
+        "explanation": "**Bachelor of Botany (B.Sc Botany)**\n📖 Simple definition: An undergraduate degree program covering plant biology, physiological processes, taxonomy, and ecosystem dynamics.\n🧠 Beginner-friendly explanation: A comprehensive degree track covering everything from micro-algae anatomy to complex plant genetics and ecosystems.\n🎯 Why it's important: Foundational step for careers in forestry, agricultural sciences, and biotech labs.\n🛣 Learning roadmap: Cryptogamic Plant Varieties → Histological Tissue Splittings → Angiosperm Classification Systems → Plant Biotechnology Protocols.\n🚀 Next skill to learn: Plant Phytochemistry & Molecular Plant Genetics.",
+        "pdfIds": ["bsc_bot"]
+      },
+      "plant diversity": {
+        "keywords": ["plant diversity", "evolutionary plant taxonomy", "algae fungi bryophytes", "pteridophytes gymnosperms"],
+        "explanation": "**Plant Diversity**\n📖 Simple definition: The classification and evolutionary study across plant groups, from simple algae to complex flowering plants.\n🧠 Beginner-friendly explanation: Tracking the plant family tree—exploring how plants evolved from simple underwater algae to mosses, ferns, and towering trees.\n🎯 Why it's important: Crucial for conservation mapping, botanical classification, and protecting biodiversity.\n🛣 Learning roadmap: Algae & Fungi Classifications → Bryophytes Adaptations → Vascular Pteridophytes Morphologies → Gymnosperms Seed Layouts.\n🚀 Next skill to learn: Angiosperm Taxonomy & Floral Structural Evolution.",
+        "pdfIds": ["bsc_bot"]
+      },
+      "plant physiology": {
+        "keywords": ["plant physiology", "photosynthetic carbon cycles", "transpiration water transport", "auxins gibberellins hormones"],
+        "explanation": "**Plant Physiology**\n📖 Simple definition: The study of internal metabolic mechanisms, water transport, and growth regulations in plants.\n🧠 Beginner-friendly explanation: Studying how plants function—how they draw water through roots, photosynthesize sunlight, and use growth hormones to lean toward light sources.\n🎯 Why it's important: Crucial for optimizing crop yields, developing fertilizers, and farming research.\n🛣 Learning roadmap: Water Potentials & Xylem Transport Dynamics → Photosynthetic Light/Dark Carbon Cycles → Nitrogen Fixation Processes → Plant Growth Hormones (Auxins).\n🚀 Next skill to learn: Plant Biochemistry & Stress Adaptation Mechanics.",
+        "pdfIds": ["bsc_bot"]
+      },
+      "plant anatomy": {
+        "keywords": ["plant anatomy", "meristematic tissue organization", "secondary growth cambium", "stomata cellular structures"],
+        "explanation": "**Plant Anatomy**\n📖 Simple definition: The microscopic study of internal cellular structures, tissues, and organ arrangements in plants.\n🧠 Beginner-friendly explanation: Examining plant tissues under a microscope to see how vascular bundles transport nutrients and how protective bark layers form.\n🎯 Why it's important: Helps identify plant species and diagnose crop diseases through structural analysis.\n🛣 Learning roadmap: Meristematic Tissue Identification → Dicot vs Monocot Structural Framing → Vascular Cambium Secondary Growth → Stomatal Cellular Openings.\n🚀 Next skill to learn: Plant Histochemical Staining Methods.",
+        "pdfIds": ["bsc_bot"]
+      },
+      "economic botany": {
+        "keywords": ["economic botany", "crop domestication uses", "medicinal ethnobotany compounds", "industrial plant products"],
+        "explanation": "**Economic Botany**\n📖 Simple definition: Exploring how human societies utilize specific plant species for food, medicine, textiles, and building materials.\n🧠 Beginner-friendly explanation: Studying the commercial value of plants—looking at the science behind cultivating spices, harvesting timber, and extracting medicine from roots.\n🎯 Why it's important: Foundational for agricultural business, global trade, and developing plant-based pharmaceuticals.\n🛣 Learning roadmap: Crop Domestication Histories → Cereal & Legume Cultivations → Essential Oil & Resin Extractions → Ethnobotany Pharmacognosy Analysis.\n🚀 Next skill to learn: Pharmacognosy & Bio-prospecting Applications.",
+        "pdfIds": ["bsc_bot"]
+      },
+      "bachelor of zoology": {
+        "keywords": ["bachelor of zoology", "b.sc zoology overview", "animal biology degree", "zoology track frameworks"],
+        "explanation": "**Bachelor of Zoology (B.Sc Zoology)**\n📖 Simple definition: An undergraduate degree program dedicated to the study of animal physiology, genetics, behaviors, and evolution.\n🧠 Beginner-friendly explanation: A complete degree pathway focusing on animal life, anatomy, wildlife tracking, and evolutionary traits.\n🎯 Why it's important: Essential qualification for roles in veterinary sciences, wildlife protection, and research labs.\n🛣 Learning roadmap: Non-Chordate Classifications → Chordate Comparative Dissections → Histological Tissue Groupings → Molecular Genetics Laboratories.\n🚀 Next skill to learn: Wildlife Biology & Conservation Genetics Protocols.",
+        "pdfIds": ["bsc_zoo"]
+      },
+      "cell biology and genetic": {
+        "keywords": ["cell biology and genetic", "cell biology and genetics", "organelle cellular functions", "mendelian inheritance laws", "mitosis meiosis mechanisms"],
+        "explanation": "**Cell Biology and Genetics**\n📖 Simple definition: The study of cellular organelles alongside the hereditary mechanisms that pass traits across generations.\n🧠 Beginner-friendly explanation: Studying cell components under a microscope and exploring how DNA combinations dictate traits like eye color.\n🎯 Why it's important: The foundational science behind medical engineering, cloning, and treating hereditary diseases.\n🛣 Learning roadmap: Cellular Organelle Functions → Mitosis/Meiosis Divisions → Mendelian Cross Laws → Chromosomal Mutation Maps.\n🚀 Next skill to learn: Recombinant DNA Technologies & Gene Editing.",
+        "pdfIds": ["bsc_zoo"]
+      },
+      "animal physiology": {
+        "keywords": ["animal physiology", "neuromuscular signaling systems", "cardiovascular homeostatic operations", "renal osmotic filtering"],
+        "explanation": "**Animal Physiology**\n📖 Simple definition: The study of internal organs, regulatory systems, and metabolic loops that keep animals alive.\n🧠 Beginner-friendly explanation: Discovering how animal bodies work—how hearts pump blood, nerves fire signals, and kidneys filter waste to maintain internal balance.\n🎯 Why it's important: Critical for understanding animal health, veterinary medicine, and evolutionary adaptations.\n🛣 Learning roadmap: Digestive Enzyme Kinetics → Cardiovascular Homeostatic Pumps → Neuromuscular Synaptic Actions → Renal Osmotic Filterings.\n🚀 Next skill to learn: Comparative Endocrinology Systems.",
+        "pdfIds": ["bsc_zoo"]
+      },
+      "evolution": {
+        "keywords": ["evolution", "natural selection dynamics", "speciation genetic drift", "fossil lineage tracking"],
+        "explanation": "**Evolution**\n📖 Simple definition: The gradual change in the genetic makeup of populations over successive generations, driven by natural selection.\n🧠 Beginner-friendly explanation: Studying how life adapts over millions of years, tracking how small genetic variations help species survive changing environments.\n🎯 Why it's important: The foundational framework that unifies all biological sciences and maps the history of life.\n🛣 Learning roadmap: Lamarckian vs Darwinian Arguments → Mutation & Genetic Drift Forces → Speciation Isolating Vectors → Fossil Lineage Analyses.\n🚀 Next skill to learn: Molecular Phylogenetics & Population Genetics.",
+        "pdfIds": ["bsc_zoo"]
+      },
+      "aptitude": {
+        "keywords": ["aptitude", "quantitative aptitude", "logical reasoning puzzles", "placement exam math"],
+        "explanation": "**Aptitude**\n📖 Simple definition: The systematic logical and mathematical problem-solving skills tested during professional hiring exams.\n🧠 Beginner-friendly explanation: Solving logic puzzles, pattern matching, and quick math word problems to prove your analytical thinking skills.\n🎯 Why it's important: The mandatory primary screening layer to pass corporate engineering job placements.\n🛣 Learning roadmap: Quantitative Math (Ratios/Percentages) → Logical Reasoning Arrays → Data Interpretation Graphs → Verbal Logic Constraints.\n🚀 Next skill to learn: Competitive Coding Algorithms.",
+        "pdfIds": ["lib"]
+      },
+      "communication skills": {
+        "keywords": ["communication skills", "professional communication", "corporate interview speaking", "active listening habits"],
+        "explanation": "**Communication Skills**\n📖 Simple definition: The ability to convey information clearly, concisely, and persuasively across professional environments.\n🧠 Beginner-friendly explanation: Learning to express your ideas confidently, listen actively, and clear technical interviews without rambling.\n🎯 Why it's important: A critical soft skill needed to pass management interviews and lead engineering teams effectively.\n🛣 Learning roadmap: Assertive Speaking Articulations → Active Listening Methods → Non-Verbal Body Logic → Conflict Resolution Layouts.\n🚀 Next skill to learn: Executive Negotiation & Leadership Strategies.",
+        "pdfIds": ["lib"]
+      },
+      "resume templates copy paste": {
+        "keywords": ["resume templates copy paste", "resume format copy paste", "cv body layout", "ready resume template"],
+        "explanation": "**Resume Templates Copy Paste**\n📖 Simple definition: A collection of production-ready, text-based CV outlines engineered for quick copy-pasting into processors.\n🧠 Beginner-friendly explanation: Clean, ready-to-use resume templates where you just replace placeholder text with your personal project details and experience.\n🎯 Why it's important: Saves time and ensures your resume follows professional layout standards that pass corporate filters.\n🛣 Learning roadmap: ATS Scanner Optimization Rules → Skill Keyword Density → Project Descriptions Formatting → Profile Synopses.\n🚀 Next skill to learn: LinkedIn Profile Brand Enhancements.",
+        "pdfIds": ["lib"]
+      },
+      "business ideas for student": {
+        "keywords": ["business ideas for student", "student side hustle", "campus startup models", "low cost freelance projects"],
+        "explanation": "**Business Ideas for Student**\n📖 Simple definition: Low-capital, high-flexibility business models tailored for students to launch alongside academic schedules.\n🧠 Beginner-friendly explanation: High-margin side hustles—like freelance coding, AI consulting, or micro-SaaS design—that you can run right from your dorm room.\n🎯 Why it's important: Builds practical experience, financial independence, and entrepreneurial skills before graduation.\n🛣 Learning roadmap: Skills Inventory Mapping → Automated SaaS Prototypings → Freelance Platform Profiles → Micro-Billing Setups.\n🚀 Next skill to learn: Growth Marketing & Digital Conversion funnels.",
+        "pdfIds": ["lib"]
+      },
+      "time management": {
+        "keywords": ["time management", "pomodoro technique scheduling", "eisenhower priority matrix", "student productivity habits"],
+        "explanation": "**Time Management**\n📖 Simple definition: The strategic planning and control of time spent on specific tasks to optimize daily productivity.\n🧠 Beginner-friendly explanation: Balancing studying, side projects, and life without burning out, using smart scheduling tools and priority frameworks.\n🎯 Why it's important: Essential skill for balancing heavy engineering workloads and personal side projects.\n🛣 Learning roadmap: Eisenhower Priority Matrices → Pomodoro Interval Implementations → Time-Blocking Schedules → Eliminating Distractions.\n🚀 Next skill to learn: Agile Sprint Planning & Personal OKR Trackings.",
+        "pdfIds": ["lib"]
+      },
+      "leadership quality": {
+        "keywords": ["leadership quality", "team management leadership", "agile project leadership", "emotional intelligence workplace"],
+        "explanation": "**Leadership Quality**\n📖 Simple definition: The ability to guide, inspire, and manage teams to successfully achieve collective project goals.\n🧠 Beginner-friendly explanation: Leading by example—helping teams stay organized, resolving disagreements calmly, and keeping everyone focused on the goal.\n🎯 Why it's important: Essential for advancing from technical developer roles into high-level project manager positions.\n🛣 Learning roadmap: Emotional Intelligence Development → Task Delegation Workflows → Constructive Feedback Loops → Strategic Project Visioning.\n🚀 Next skill to learn: Organizational Scaling & Cross-Functional Team Operations.",
+        "pdfIds": ["lib"]
+      },
+      "problem solving": {
+        "keywords": ["problem solving", "root cause engineering", "first principles reasoning", "debugging logical frameworks"],
+        "explanation": "**Problem Solving**\n📖 Simple definition: The structured approach to analyzing complex challenges and developing optimal, logical solutions.\n🧠 Beginner-friendly explanation: Breaking down overwhelming problems into smaller, manageable pieces to find the true root cause, rather than just treating symptoms.\n🎯 Why it's important: The most critical core capability required by top-tier engineering teams and tech firms globally.\n🛣 Learning roadmap: First-Principles Logical Thinking → Root Cause Isolation (5 Whys) → Brainstorming Alternative Solutions → Risk Assessment Trade-offs.\n🚀 Next skill to learn: Systems Engineering Thinking Models.",
+        "pdfIds": ["lib"]
+      },
+      "creativity": {
+        "keywords": ["creativity", "lateral design thinking", "divergent brainstorming methods", "innovative feature designs"],
+        "explanation": "**Creativity**\n📖 Simple definition: The cognitive capacity to connect unrelated ideas to generate unique, valuable solutions to problems.\n🧠 Beginner-friendly explanation: Thinking outside the box—combining ideas from different fields to design unexpected and innovative solutions.\n🎯 Why it's important: Drives product differentiation, innovative startup ideas, and breakthroughs in engineering designs.\n🛣 Learning roadmap: Divergent Ideation Brainstormings → Lateral Design Association Techniques → Prototyping Experiments → Iterative Feedback Loops.\n🚀 Next skill to learn: User Experience (UX) Innovation Frameworks.",
+        "pdfIds": ["lib"]
+      },
+      "brainstake ai": {
+        "keywords": ["brainstake ai", "brainstake", "brain stack artificial intelligence", "brainstack chat system"],
+        "explanation": "**BrainStack AI**\n📖 Simple definition: A localized, high-intelligence education engine engineered to provide students with instant study plans, roadmaps, and academic PDFs entirely offline.\n🧠 Beginner-friendly explanation: Your personal, built-in study partner that instantly structures complex courses, generates working project code, and locates the right hosted PDFs without needing paid API keys.\n🎯 Why it's important: Democratic student platform built by Shaik Mohammed Rehan to streamline learning curves completely for free.\n🛣 Learning roadmap: Platform Navigation Menus → Query Parameter Keywords → Reviewing Generated Project Blueprints → Accessing Hosted PDF Documents.\n🚀 Next skill to learn: Full-Stack Application Scaling Workflows.",
+        "pdfIds": ["aiml_eng"]
       }
     },
 
