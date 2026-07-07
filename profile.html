@@ -7,6 +7,41 @@
   <link rel="icon" type="image/png" href="brainstack.png">
 <style>
 
+  /* -------------------------
+   VARIABLES
+------------------------- */
+
+:root{
+
+--primary:#16a34a;
+--primary-dark:#15803d;
+--primary-light:#22c55e;
+
+--secondary:#f0fdf4;
+
+--background:#ffffff;
+--surface:#f8fafc;
+
+--text:#0f172a;
+--text-light:#64748b;
+
+--border:#e2e8f0;
+
+--shadow-sm:0 4px 14px rgba(15,23,42,.05);
+--shadow:0 12px 35px rgba(15,23,42,.08);
+--shadow-lg:0 20px 60px rgba(15,23,42,.12);
+
+--radius:18px;
+--radius-lg:28px;
+
+--transition:.30s ease;
+
+}
+
+/* -------------------------
+   RESET
+------------------------- */
+
 *{
     margin:0;
     padding:0;
@@ -14,73 +49,157 @@
 }
 
 body{
+
     font-family:'Poppins',sans-serif;
-    background:#F9FAFB;
+
+    background:linear-gradient(180deg,#ffffff,#f8fafc);
+
     min-height:100vh;
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     padding:20px;
+
+    color:var(--text);
+
 }
+
+/* -------------------------
+   PROFILE CARD
+------------------------- */
 
 .profile-card{
 
     width:100%;
-    max-width:450px;
+    max-width:460px;
 
-    background:white;
+    background:var(--background);
 
-    border-radius:25px;
+    border-radius:var(--radius-lg);
 
-    padding:35px;
+    padding:40px;
 
     text-align:center;
 
-    border:1px solid #E5E7EB;
+    border:1px solid var(--border);
 
-    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    box-shadow:var(--shadow);
+
 }
+
+/* -------------------------
+   PROFILE IMAGE
+------------------------- */
 
 .profile-img{
 
     width:120px;
+
     height:120px;
 
     border-radius:50%;
 
     object-fit:cover;
 
-    border:4px solid #111827;
+    border:4px solid var(--primary);
+
+    padding:4px;
+
+    background:#fff;
 
     margin-bottom:20px;
+
+    box-shadow:0 10px 25px rgba(22,163,74,.18);
+
 }
 
-.profile-email{
+/* -------------------------
+   NAME
+------------------------- */
 
-    font-size:18px;
+#fullName{
 
-    color:#111827;
+    margin-bottom:25px;
 
-    font-weight:600;
+    color:var(--primary-dark);
 
-    margin-bottom:30px;
+    font-size:1.7rem;
 
-    word-break:break-word;
+    font-weight:700;
+
 }
+
+/* -------------------------
+   INFO BOXES
+------------------------- */
+
+.info-box{
+
+    background:var(--surface);
+
+    padding:15px 18px;
+
+    border:1px solid var(--border);
+
+    border-radius:14px;
+
+    margin-bottom:14px;
+
+    text-align:left;
+
+    transition:var(--transition);
+
+}
+
+.info-box:hover{
+
+    border-color:var(--primary-light);
+
+    background:var(--secondary);
+
+}
+
+.info-box strong{
+
+    color:var(--text);
+
+}
+
+.info-box span{
+
+    float:right;
+
+    color:var(--text-light);
+
+    font-weight:500;
+
+}
+
+/* -------------------------
+   DASHBOARD
+------------------------- */
 
 .dashboard{
 
     display:flex;
+
     flex-direction:column;
 
-    gap:15px;
+    gap:16px;
 
-    margin-bottom:30px;
+    margin:30px 0;
+
 }
 
 .dashboard-item{
 
-    background:#F3F4F6;
+    background:var(--surface);
+
+    border:1px solid var(--border);
 
     padding:16px;
 
@@ -88,19 +207,31 @@ body{
 
     text-align:left;
 
-    font-weight:500;
+    font-weight:600;
 
-    color:#111827;
+    color:var(--text);
 
     cursor:pointer;
 
-    transition:.3s;
+    transition:var(--transition);
+
 }
 
 .dashboard-item:hover{
 
-    background:#E5E7EB;
+    background:var(--secondary);
+
+    border-color:var(--primary);
+
+    color:var(--primary-dark);
+
+    transform:translateY(-2px);
+
 }
+
+/* -------------------------
+   LOGOUT BUTTON
+------------------------- */
 
 .logout-btn{
 
@@ -112,56 +243,62 @@ body{
 
     border-radius:14px;
 
-    background:#111827;
+    background:var(--primary);
 
-    color:white;
+    color:#fff;
 
     font-size:16px;
 
     font-weight:600;
 
     cursor:pointer;
+
+    transition:var(--transition);
+
 }
 
 .logout-btn:hover{
 
-    opacity:.9;
-}
-    #fullName{
-    margin-bottom:20px;
-    color:#111827;
-}
+    background:var(--primary-dark);
 
-.info-box{
+    transform:translateY(-2px);
 
-    background:#F3F4F6;
-
-    padding:14px;
-
-    border-radius:12px;
-
-    margin-bottom:12px;
-
-    text-align:left;
 }
 
-.info-box span{
-    float:right;
-    color:#6B7280;
-}
+/* -------------------------
+   MOBILE
+------------------------- */
 
 @media(max-width:600px){
 
 .profile-card{
-    padding:25px;
+
+    padding:28px;
+
 }
 
 .profile-img{
+
     width:100px;
+
     height:100px;
+
+}
+
+#fullName{
+
+    font-size:1.45rem;
+
+}
+
+.info-box{
+
+    font-size:14px;
+
 }
 
 }
+
 </style>
 
   <!-- Google Analytics -->
