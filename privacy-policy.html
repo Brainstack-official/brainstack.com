@@ -9,86 +9,251 @@
   <link rel="icon" type="image/png" href="../brainstack.png">
 <style>
 
+:root{
+
+--primary:#16a34a;
+--primary-dark:#15803d;
+--primary-light:#22c55e;
+
+--secondary:#f0fdf4;
+
+--background:#ffffff;
+--surface:#f8fafc;
+
+--text:#0f172a;
+--text-light:#64748b;
+
+--border:#e2e8f0;
+
+--shadow-sm:0 4px 14px rgba(15,23,42,.05);
+--shadow:0 12px 35px rgba(15,23,42,.08);
+--shadow-lg:0 20px 60px rgba(15,23,42,.12);
+
+--radius:18px;
+--radius-lg:28px;
+
+--transition:.30s ease;
+
+}
+
+/* -------------------------
+   RESET
+------------------------- */
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    font-family:'Poppins',sans-serif;
-    background:#F9FAFB;
-    color:#111827;
-    line-height:1.8;
+
+font-family:'Poppins',sans-serif;
+
+background:var(--surface);
+
+color:var(--text);
+
+line-height:1.8;
+
 }
 
+/* -------------------------
+   NAVBAR
+------------------------- */
+
 .navbar{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:#FFFFFF;
-    border-bottom:1px solid #E5E7EB;
-    padding:18px 8%;
-    z-index:1000;
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+background:var(--background);
+
+border-bottom:1px solid var(--border);
+
+padding:18px 8%;
+
+box-shadow:var(--shadow-sm);
+
+z-index:1000;
+
 }
 
 .logo{
-    font-size:1.7rem;
-    font-weight:700;
+
+font-size:1.8rem;
+
+font-weight:700;
+
 }
 
 .logo a{
-    text-decoration:none;
-    color:#111827;
+
+text-decoration:none;
+
+color:var(--primary-dark);
+
+transition:var(--transition);
+
 }
+
+.logo a:hover{
+
+color:var(--primary);
+
+}
+
+/* -------------------------
+   CONTAINER
+------------------------- */
 
 .container{
-    max-width:900px;
-    margin:auto;
-    padding:120px 20px 60px;
+
+max-width:900px;
+
+margin:40px auto;
+
+padding:120px 35px 60px;
+
+background:var(--background);
+
+border:1px solid var(--border);
+
+border-radius:var(--radius-lg);
+
+box-shadow:var(--shadow);
+
 }
 
+/* -------------------------
+   HEADINGS
+------------------------- */
+
 h1{
-    font-size:2.5rem;
-    margin-bottom:20px;
+
+font-size:2.6rem;
+
+margin-bottom:20px;
+
+color:var(--primary-dark);
+
 }
 
 h2{
-    margin-top:35px;
-    margin-bottom:15px;
+
+margin-top:35px;
+
+margin-bottom:15px;
+
+font-size:1.5rem;
+
+color:var(--primary);
+
 }
 
+/* -------------------------
+   TEXT
+------------------------- */
+
 p{
-    margin-bottom:15px;
-     font-size:1.1rem;
+
+margin-bottom:18px;
+
+font-size:1.05rem;
+
+color:var(--text-light);
+
 }
 
 ul{
-    padding-left:20px;
-    margin-bottom:15px;
+
+padding-left:25px;
+
+margin-bottom:20px;
+
 }
 
-footer{
-    text-align:center;
-    padding:40px 20px;
-    background:#1F2937;
-    color:white;
-    margin-top:50px;
+li{
+
+margin-bottom:10px;
+
+color:var(--text);
+
 }
+
+/* -------------------------
+   FOOTER
+------------------------- */
+
+footer{
+
+text-align:center;
+
+padding:35px 20px;
+
+background:#0f172a;
+
+color:#e2e8f0;
+
+margin-top:50px;
+
+}
+
+footer p{
+
+margin:0;
+
+color:#cbd5e1;
+
+font-size:15px;
+
+}
+
+/* -------------------------
+   MOBILE
+------------------------- */
 
 @media(max-width:768px){
 
-    h1{
-        font-size:2rem;
-    }
+.container{
 
-    .container{
-        padding-top:100px;
-    }
+margin:20px;
+
+padding:100px 25px 40px;
 
 }
 
+h1{
+
+font-size:2rem;
+
+}
+
+h2{
+
+font-size:1.3rem;
+
+}
+
+p{
+
+font-size:1rem;
+
+}
+
+.logo{
+
+font-size:1.5rem;
+
+}
+
+}
+  
 </style>
 
 </head>
