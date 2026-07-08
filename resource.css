@@ -1432,6 +1432,7 @@ h2{
     flex-direction:column;
     text-align:center;
     gap:30px;
+   
 }
 
 .footer-links{
@@ -1441,6 +1442,11 @@ h2{
     gap:20px;
 }
 
+.footer-logo{
+    text-align:center;
+   font-size:14px;
+}
+   
 .footer-links div{
     text-align:center;
 }
