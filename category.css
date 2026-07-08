@@ -696,6 +696,80 @@ background:#f0fdf4;
 
 
 /* ===================================================
+   MOBILE
+=================================================== */
+
+@media(max-width:900px){
+
+.category-hero .container{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+    margin:auto;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-card{
+
+    max-width:100%;
+
+}
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.topics-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-card{
+
+    padding:25px;
+
+}
+
+.hero-icon{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:28px;
+
+}
+
+}
+
+/* ===================================================
    BrainStack Category V2
    Part 3
    Roadmap • Career • Videos • Skills
@@ -1011,6 +1085,80 @@ background:#f0fdf4;
 
 }
 
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.section-title h2{
+
+    font-size:2rem;
+
+}
+
+.roadmap::before{
+
+    left:22px;
+
+}
+
+.roadmap-item{
+
+    gap:18px;
+
+}
+
+.step-number{
+
+    width:48px;
+
+    height:48px;
+
+    min-width:48px;
+
+    font-size:1rem;
+
+}
+
+.step-content{
+
+    padding:20px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.career-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.video-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.skills-grid{
+
+    justify-content:flex-start;
+
+}
+
+.skills-grid span{
+
+    font-size:.9rem;
+
+    padding:12px 18px;
+
+}
+
+}
 
 /* =====================================================
    PDF SECTION
@@ -1651,6 +1799,95 @@ border-radius:50px;
 background:#16a34a;
 
 }
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:900px){
+
+.ai-container{
+    grid-template-columns:1fr;
+}
+
+.footer-container{
+    grid-template-columns:1fr;
+}
+
+.footer-links{
+    grid-template-columns:1fr;
+}
+
+.community-box{
+    padding:45px 25px;
+}
+
+.community-box h2{
+    font-size:2rem;
+}
+
+}
+
+@media(max-width:768px){
+
+.newsletter-box{
+    flex-direction:column;
+}
+
+.newsletter-box input,
+.newsletter-box button{
+    width:100%;
+}
+
+.floating-ai span{
+    display:none;
+}
+
+.floating-ai{
+    width:62px;
+    height:62px;
+    justify-content:center;
+    padding:0;
+    border-radius:50%;
+}
+
+.tip-card,
+.latest-card,
+.career-card,
+.topic-card{
+    padding:24px;
+}
+
+}
+
+@media(max-width:500px){
+
+.community-buttons{
+    flex-direction:column;
+}
+
+.community-buttons a{
+    width:100%;
+}
+
+.hero-content h1{
+    font-size:2.4rem;
+}
+
+.newsletter-content h2{
+    font-size:2rem;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer-brand{
+    margin-bottom:30px;
+}
+
+}
+
 /* ===========================
    MOBILE RESPONSIVE
 =========================== */
@@ -1704,7 +1941,6 @@ background:#16a34a;
 .hero-container{
     display:flex;
     flex-direction:column;
-   align-items:center;
     gap:30px;
 }
 
@@ -1863,6 +2099,3 @@ background:#16a34a;
 }
 
 }
-
-
-
