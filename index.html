@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BrainStack</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BrainStack | Learn • Build • Grow</title>
 
 <meta name="description"
-content="BrainStack provides engineering notes, programming resources, AI learning materials and career guidance for students.">
+content="BrainStack is Modern learning platform for Engineering, Programming, AI, Career Skills and Student Resources.">
 
 <meta name="keywords"
-content="engineering notes, mechanical engineering, programming, AI resources, student resources">
+content="BrainStack, Engineering, Programming, AI, Student Platform">
 
 <meta name="author"
 content="BrainStack">
 
-	
-	<link rel="icon" type="png" href="brainstack.png">
+<link rel="icon" href="logo.png">
 
-  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,272 +100,998 @@ localStorage.setItem("brainstackAiHint","yes");
 	
 </script>
 </head>
+
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
+<!-- ========================= -->
+<!-- NAVBAR -->
+<!-- ========================= -->
 
-    <div class="logo">
-      BrainStack
-    </div>
+<header class="header">
 
-    <div class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#resources">Resources</a>
-      <a href="#footer">Contact</a>
+<nav class="navbar">
 
-    </div>
-	
-    <div class="nav-right">
-        <a href="profile.html">
-    <img id="userPhoto">
+<div class="logo">
+
+<img src="logo.png">
+
+<span>BrainStack</span>
+
+</div>
+
+<div class="nav-links">
+
+<a href="#">Home</a>
+
+<a href="#footer">
+
+Contact
+
 </a>
-    </div>
+
+</div>
+
+<div class="nav-right">
+
+<a href="profile.html">
+
+<img
+id="userPhoto"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+</a>
+
+</div>
 
 </nav>
 
-  <!-- HERO SECTION -->
-  <section class="hero" id="home">
+</header>
 
-    <div class="hero-overlay"></div>
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
 
-    <div class="hero-content">
+<section class="hero">
 
-      <h1>
-        Learn Smarter with BrainStack
-      </h1>
-		
+<div class="hero-left">
+
+<div class="hero-badge">
+
+🟢 Powered by BrainStack
+
+</div>
+
+<h1>
+
+Learn Smarter with BrainStack
+
+</h1>
+
 <p>
-BrainStack helps students learn Engineering, AI , Programming,
-Career Skills and Technology through free study materials, and guides.
+
+Master Engineering, Programming, Artificial Intelligence, Career Skills and Real Projects from one intelligent platform designed for students.
+
 </p>
 
-     <!-- SEARCH -->
-<!-- SEARCH -->
-     <div class="search-container">
+<div class="search-container">
 
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Search resources..."
-    >
+    <div class="search-box">
+
+        <input
+            id="searchInput"
+            placeholder="Search notes, roadmaps..."
+            autocomplete="off">
+
+    </div>
+
     <div id="searchResults"></div>
 
 </div>
-    </div>
 
-  </section>
+<div class="hero-buttons">
 
+<a href="#resources" class="primary-btn">
 
-  
+Explore Resources
 
-  <!-- RESOURCE SECTION -->
-  <section class="resources-section" id="resources">
+</a>
 
-    <div class="section-title">
-      <h2>Explore Resources</h2>
-      <p>Search instantly across learning materials</p>
-    </div>
+<a
+href="brainstack-ai/brainstack-ai.html"
+class="secondary-btn">
 
-    <div class="resource-grid" id="resourceGrid">
+Open BrainStack AI
 
-      <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="Engineering Hub">
-
-        
-        <h3> ⚙️ Engineering Hub </h3>
-
-        <p>
-          Engineering notes, and other resources
-        </p>
-
-        <div class="tags">
-          <span> ME </span>
-          <span> CE </span>
-          <span> CSE </span>
-	  <span> ECE </span>
-	
-        </div>
-
-        <a href="engineering-hub/engineering.html">Open Resource</a>
-
-      </div>
-
-		 <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="Engineering Hub">
-
-        
-        <h3> 🧪 Bachelor of Science </h3>
-
-        <p>
-        Resources in CSE, Botany and Zoology
-        </p>
-
-        <div class="tags">
-          <span> Physics </span>
-          <span> Mathematics </span>
-	  <span> Chemistry </span>
-	
-        </div>
-
-        <a href="bsc/bsc.html">Open Resource</a>
-
-      </div>
-
-
-
-      <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="Programming Languages">
-
-        
-        <h3> 💻 Programming Languages </h3>
-
-        <p>
-          Beginner to advanced programming resources.
-        </p>
-
-        <div class="tags">
-          <span> Python </span>
-          <span> Java </span>
-          <span> C </span>
-        </div>
-
-        <a href="programming-languages/programming.html">Open Resource</a>
-
-      </div>
-
-
-      <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="Web development">
-
-        
-
-        <h3> 🌐 Web development </h3>
-
-        <p>
-         HTML • CSS • JavaScript • Firebase
-        </p>
-
-        <div class="tags">
-          <span> Frontend </span>
-          <span> Backend </span>
-	<span> GitHub </span>
-        </div>
-
-        <a href="web-development/web-development.html">Open Resource</a>
-
-      </div>
-
-
-
-      <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="AI Lab">
-
-        
-        <h3> 🤖 Artificial Intelligence </h3>
-
-        <p>
-         AI Tools • Prompting • Productivity
-        </p>
-
-        <div class="tags">
-          <span> Tools </span>
-		<span> ChatGPT </span>
-          <span> Productivity </span>
-        </div>
-
-        <a href="ai-lab/artificial-intelligence.html">Open Resource</a>
-
-      </div>
-
- <!-- RESOURCE CARD -->
-      <div class="resource-card" data-search="Digital Library">
-		  
-        <h3> 📚 BrainStack Library</h3>
-
-        <p>
-         Personal growth • Startup • And More
-        </p>
-
-        <div class="tags">
-          <span> Personal growth </span>
-          <span> Library </span>
-        </div>
-
-        <a href="digital-library/digital-labrary.html">Open Resource</a>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-<!-- CONTACT SECTION -->
-<section id="contact" class="contact-section">
-
-    <div class="section-title">
-        <h2> Contact BrainStack </h2>
-        <p>Connect with us for support, suggestions and collaborations</p>
-    </div>
-
-    <div class="contact-container">
-
-       <div class="contact-card">
-            <h3> ▶ YouTube </h3>
-            <p> brainstack-academy </p>
-        </div>
-		
-		
-		<div class="contact-card">
-            <h3> 📸 Instagram</h3>
-            <p> brainstack_official </p>
-        </div>
-
-
-		<div class="contact-card">
-            <h3> ✉️ Email</h3>
-            <p> brainstack.com@gmail.com </p>
-        </div>
-
-    </div>
-
-</section>
-
-	<!-- =========================
-     BrainStack AI Floating Button
-========================= -->
-
-<div id="brainstackAI">
-
-    <button id="aiFab">
-
-        <span class="ai-icon">🤖</span>
-
-        <span class="ai-text">Ask AI</span>
-
-    </button>
+</a>
 
 </div>
 
+</div>
 
-  <!-- FOOTER -->
- <footer id="footer">
+<div class="hero-right">
 
-    <div class="footer-links">
-        <a href="about.html">About Us</a>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms.html">Terms & Conditions</a>
-        <a href="disclaimer.html">Disclaimer</a>
-    </div>
+<div class="hero-card">
 
-    <p>© 2026 BrainStack. All Rights Reserved.</p>
+<h3>
+
+BrainStack AI
+
+</h3>
+
+<p>
+
+Your personal AI learning assistant.
+
+</p>
+
+<div class="chat-preview">
+
+<div>
+
+👋 Hello!
+
+</div>
+
+<div>
+
+Explain Fluid Mechanics
+
+</div>
+
+<div>
+
+📖 Definition
+
+🎯 Importance
+
+🛣 Roadmap
+
+📚 PDFs
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- RESOURCE CATEGORIES -->
+<!-- ========================================= -->
+
+<section class="resources-section" id="resources">
+
+<div class="section-header">
+
+<span class="section-badge">
+
+Explore Learning
+
+</span>
+
+<h2>
+
+Choose Your Learning Path
+
+</h2>
+
+<p>
+
+Discover organized resources, projects and learning roadmaps designed for every student.
+
+</p>
+
+</div>
+
+<div class="resource-grid">
+
+<!-- Engineering -->
+
+<a href="engineering-hub\engineering.html" class="resource-card">
+
+<div class="resource-icon">
+
+⚙️
+
+</div>
+
+<h3>
+
+Engineering Hub
+
+</h3>
+
+<p>
+
+Mechanical, Civil, Computer Science and Electronics engineering resources.
+
+</p>
+
+<div class="resource-footer">
+
+<span>Notes</span>
+
+<span>Roadmaps</span>
+
+<span>Projects</span>
+
+</div>
+
+</a>
+
+<!-- Bachelor of Science -->
+
+<a href="bachelor-of-science\bsc.html" class="resource-card">
+
+<div class="resource-icon">
+
+🧪
+
+</div>
+
+<h3>
+
+Bachelor of Science
+
+</h3>
+
+<p>
+
+Physics, Chemistry, Botany and Zoology learning resources.
+
+</p>
+
+<div class="resource-footer">
+
+<span>PDFs</span>
+
+<span>Guides</span>
+
+<span>Career</span>
+
+</div>
+
+</a>
+
+<!-- Programming -->
+
+<a href="programming-languages/programming.html"
+
+class="resource-card">
+
+<div class="resource-icon">
+
+💻
+
+</div>
+
+<h3>
+
+Programming
+
+</h3>
+
+<p>
+
+Learn Python, Java and C with beginner-friendly notes and projects.
+
+</p>
+
+<div class="resource-footer">
+
+<span>Python</span>
+
+<span>Java</span>
+
+<span>C</span>
+
+</div>
+
+</a>
+
+<!-- Web Development -->
+
+<a href="web-development/web-development.html"
+
+class="resource-card">
+
+<div class="resource-icon">
+
+🌐
+
+</div>
+
+<h3>
+
+Web Development
+
+</h3>
+
+<p>
+
+HTML, CSS, JavaScript, Firebase, GitHub and website deployment.
+
+</p>
+
+<div class="resource-footer">
+
+<span>Frontend</span>
+
+<span>Backend</span>
+
+<span>Projects</span>
+
+</div>
+
+</a>
+
+<!-- AI -->
+
+<a href="ai-lab/artificial-intelligence.html"
+
+class="resource-card">
+
+<div class="resource-icon">
+
+🤖
+
+</div>
+
+<h3>
+
+Artificial Intelligence
+
+</h3>
+
+<p>
+
+Prompt Engineering, AI tools, productivity and modern workflows.
+
+</p>
+
+<div class="resource-footer">
+
+<span>AI Tools</span>
+
+<span>Prompting</span>
+
+<span>Productivity</span>
+
+</div>
+
+</a>
+
+<!-- Library -->
+
+<a href="BrainStack-labrary\digital-labrary.html"
+
+class="resource-card">
+
+<div class="resource-icon">
+
+📚
+
+</div>
+
+<h3>
+
+BrainStack Library
+
+</h3>
+
+<p>
+
+Personal growth, entrepreneurship, communication skills and business.
+
+</p>
+
+<div class="resource-footer">
+
+<span>Books</span>
+
+<span>Startup</span>
+
+<span>Skills</span>
+
+</div>
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- BRAINSTACK AI PREVIEW -->
+<!-- ========================================= -->
+
+<section class="brainstack-ai-section">
+
+<div class="ai-container">
+
+<div class="ai-left">
+
+<span class="section-badge">
+BrainStack AI
+</span>
+
+<h2>
+Your Personal AI Learning Assistant
+</h2>
+
+<p>
+Ask any Engineering, Programming, AI or Career question.
+BrainStack AI explains concepts in simple language,
+recommends learning resources and guides your next step.
+</p>
+
+<a href="brainstack-ai/brainstack-ai.html" class="primary-btn">
+Open BrainStack AI
+</a>
+
+</div>
+
+<div class="ai-preview">
+
+<div class="chat-bubble">
+👋 Hello! What would you like to learn today?
+</div>
+
+<div class="chat-bubble user">
+Explain Fluid Mechanics
+</div>
+
+<div class="chat-bubble">
+Sure! I can explain:
+<br><br>
+📘 Definition<br>
+⭐ Importance<br>
+🛣 Roadmap<br>
+📄 Recommended PDFs
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- LEARNING JOURNEY -->
+<!-- ========================================= -->
+
+<section class="learning-journey">
+
+<div class="section-header">
+
+<span class="section-badge">
+
+Learning Journey
+
+</span>
+
+<h2>
+
+Start Learning in Four Simple Steps
+
+</h2>
+
+<p>
+
+BrainStack is designed to guide students from discovering a topic to building real-world skills.
+
+</p>
+
+</div>
+
+<div class="journey-grid">
+
+<div class="journey-card">
+
+<div class="step-number">
+
+01
+
+</div>
+
+<div class="journey-icon">
+
+🔍
+
+</div>
+
+<h3>
+
+Search
+
+</h3>
+
+<p>
+
+Find Engineering, Programming, AI or Career topics instantly using BrainStack Search.
+
+</p>
+
+</div>
+
+<div class="journey-card">
+
+<div class="step-number">
+
+02
+
+</div>
+
+<div class="journey-icon">
+
+📚
+
+</div>
+
+<h3>
+
+Learn
+
+</h3>
+
+<p>
+
+Read structured notes, download PDFs and understand concepts with beginner-friendly explanations.
+
+</p>
+
+</div>
+
+<div class="journey-card">
+
+<div class="step-number">
+
+03
+
+</div>
+
+<div class="journey-icon">
+
+💻
+
+</div>
+
+<h3>
+
+Practice
+
+</h3>
+
+<p>
+
+Build HTML, CSS, JavaScript and Python projects to gain practical experience.
+
+</p>
+
+</div>
+
+<div class="journey-card">
+
+<div class="step-number">
+
+04
+
+</div>
+
+<div class="journey-icon">
+
+🚀
+
+</div>
+
+<h3>
+
+Grow
+
+</h3>
+
+<p>
+
+Use BrainStack AI, career roadmaps and skill development resources to prepare for your future.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- COMMUNITY -->
+<!-- ========================================= -->
+
+<section class="community-section">
+
+<div class="community-left">
+
+<span class="section-badge">
+
+Growing Platform
+
+</span>
+
+<h2>
+
+Built for Students.
+Growing Every Day.
+
+</h2>
+
+<p>
+
+BrainStack is continuously expanding with new resources, projects, AI improvements and learning roadmaps.
+
+Our goal is to make quality education simple, practical and accessible for every student.
+
+</p>
+
+<div class="community-stats">
+
+<div>
+
+<h3>
+
+100+
+
+</h3>
+
+<span>
+
+Resources
+
+</span>
+
+</div>
+
+<div>
+
+<h3>
+
+10+
+
+</h3>
+
+<span>
+
+Roadmaps
+
+</span>
+
+</div>
+
+<div>
+
+<h3>
+
+Daily
+
+</h3>
+
+<span>
+
+Updates
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="community-right">
+
+<div class="community-card">
+
+<div class="community-top">
+
+🌱
+
+</div>
+
+<h3>
+
+Always Improving
+
+</h3>
+
+<p>
+
+Every update adds new learning materials, better AI responses and improved student experience.
+
+</p>
+
+</div>
+
+<div class="community-card">
+
+<div class="community-top">
+
+🤖
+
+</div>
+
+<h3>
+
+BrainStack AI
+
+</h3>
+
+<p>
+
+Ask questions, understand concepts, discover roadmaps and get recommended learning resources instantly.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<footer class="footer" id="footer">
+
+<div class="footer-grid">
+
+<div class="footer-brand">
+
+<img src="logo.png" alt="BrainStack">
+
+<h2>
+
+BrainStack
+
+</h2>
+
+<p>
+
+Learn • Build • Grow
+
+</p>
+
+<p>
+
+India's modern learning platform for Engineering,
+Programming, AI and Career Skills.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>
+
+Platform
+
+</h3>
+
+<a href="#resources">
+
+Resources
+
+</a>
+
+<a href="brainstack-ai/brainstack-ai.html">
+
+BrainStack AI
+
+</a>
+
+
+<a href="about.html">
+
+About
+
+</a>
+
+</div>
+
+<div>
+
+<h3>
+
+Legal
+
+</h3>
+
+<a href="privacy-policy.html">
+
+Privacy Policy
+
+</a>
+
+<a href="terms.html">
+
+Terms & Conditions
+
+</a>
+
+<a href="disclaimer.html">
+
+Disclaimer
+
+</a>
+
+</div>
+
+<div>
+
+<h3>
+
+Connect
+
+</h3>
+
+<a href="https://youtube.com/@brainstack-academy?si=4u_4NwE5xXvtJOFb">
+
+YouTube
+
+</a>
+
+<a href="https://www.instagram.com/brainstack_official?igsh=ZnpwbTJkaGlveDBw">
+
+Instagram
+
+</a>
+
+<a href="mailto:brainstack.com@gmail.com">
+
+Email
+
+</a>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 BrainStack. All Rights Reserved.
+
+</p>
+
+</div>
 
 </footer>
+
+<!-- ========================================= -->
+<!-- FLOATING AI BUTTON -->
+<!-- ========================================= -->
+
+<a
+
+href="brainstack-ai/brainstack-ai.html"
+
+class="floating-ai">
+
+<div class="floating-icon">
+
+🤖
+
+</div>
+
+<span>
+
+Ask AI
+
+</span>
+
+</a>
+
+<!-- ========================================= -->
+<!-- MOBILE BOTTOM NAVIGATION -->
+<!-- ========================================= -->
+
+<nav class="mobile-nav">
+
+<a href="#home">
+
+🏠
+
+<span>
+
+Home
+
+</span>
+
+</a>
+
+<a href="#resources">
+
+📚
+
+<span>
+
+Resources
+
+</span>
+
+</a>
+
+<a href="brainstack-ai/brainstack-ai.html">
+
+🤖
+
+<span>
+
+AI
+
+</span>
+
+</a>
+
+<a href="profile.html">
+
+👤
+
+<span>
+
+Profile
+
+</span>
+
+</a>
+
+</nav>
+
+<!-- ========================================= -->
+<!-- LOADER -->
+<!-- ========================================= -->
+
+<div id="loader">
+
+<div class="loader-box">
+
+<img
+src="logo.png"
+class="loader-logo">
+
+<h2>
+
+BrainStack
+
+</h2>
+
+<p>
+
+Preparing your learning experience...
+
+</p>
+
+<div class="loader-line">
+
+<div class="loader-progress">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 <script src="script.js"></script>
 
 <script src="search.js"></script>
 
 </body>
+
 </html>
