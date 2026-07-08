@@ -1982,7 +1982,7 @@ section{
 }
 
 .search-container{
-    max-width:90%;
+    max-width:100%;
 }
 
 .search-box input{
@@ -1992,12 +1992,12 @@ section{
 
 .hero-buttons{
     flex-direction:column;
-    width:90%;
+    width:100%;
 }
 
 .primary-btn,
 .secondary-btn{
-    width:90%;
+    width:100%;
 }
 
 /* Right Card */
