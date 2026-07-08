@@ -2039,7 +2039,11 @@ h2{
 }
 
 .step-number{
-    margin-bottom:15px;
+    margin-bottom:11px;
+   font-size:12px;
+}
+   .step-content{
+   font-size:12px;
 }
 
 /* Career */
