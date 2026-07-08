@@ -763,7 +763,7 @@ background:#f0fdf4;
 
     height:60px;
 
-    font-size:28px;
+    font-size:24px;
 
 }
 
@@ -1094,7 +1094,7 @@ background:#f0fdf4;
 
 .section-title h2{
 
-    font-size:2rem;
+    font-size:1.5rem;
 
 }
 
@@ -1871,11 +1871,11 @@ background:#16a34a;
 }
 
 .hero-content h1{
-    font-size:2.4rem;
+    font-size:1.5rem;
 }
 
 .newsletter-content h2{
-    font-size:2rem;
+    font-size:1.2rem;
 }
 
 .footer{
@@ -1914,12 +1914,12 @@ background:#16a34a;
 }
 
 .nav-links a{
-    font-size:16px;
+    font-size:13px;
 }
 
 #userPhoto{
-    width:46px;
-    height:46px;
+    width:44px;
+    height:44px;
 }
 
 
@@ -1954,13 +1954,13 @@ background:#16a34a;
 }
 
 .hero-content h1{
-    font-size:2.3rem;
+    font-size:1.5rem;
     line-height:1.2;
 }
 
 .hero-content p{
-    font-size:17px;
-    line-height:1.7;
+    font-size:15px;
+    line-height:1.5;
 }
 
 /* Search */
@@ -1971,7 +1971,7 @@ background:#16a34a;
 
 .search-box input{
     width:100%;
-    font-size:16px;
+    font-size:15px;
 }
 
 /* Buttons */
@@ -2001,17 +2001,17 @@ background:#16a34a;
 }
 
 .hero-mini-card div{
-    font-size:16px;
+    font-size:15px;
 }
 
 /* Section */
 
 .section-title h2{
-    font-size:2rem;
+    font-size:1.2rem;
 }
 
 .section-title p{
-    font-size:16px;
+    font-size:14px;
 }
 
 /* PDF Table */
@@ -2025,12 +2025,12 @@ background:#16a34a;
 .pdf-table th,
 .pdf-table td{
     padding:15px;
-    font-size:15px;
+    font-size:12px;
 }
 
 .view-btn{
     padding:12px 18px;
-    font-size:14px;
+    font-size:12px;
 }
 
 /* Roadmap */
@@ -2059,7 +2059,7 @@ background:#16a34a;
 
 .skills-grid span{
     text-align:center;
-    font-size:14px;
+    font-size:13px;
 }
 
 /* Footer */
@@ -2074,7 +2074,7 @@ background:#16a34a;
     width:100%;
     display:grid;
     grid-template-columns:1fr;
-    gap:25px;
+    gap:22px;
 }
 
 .footer-links div{
@@ -2082,7 +2082,7 @@ background:#16a34a;
 }
 
 .footer-bottom{
-    font-size:14px;
+    font-size:12px;
 }
 
 /* Floating AI */
