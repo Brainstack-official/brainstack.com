@@ -3,8 +3,24 @@ async function searchResources() {
     const searchInput = document.getElementById("searchInput");
     const resultsContainer = document.getElementById("searchResults");
 
-    const response = await fetch("resources.json");
-    const resources = await response.json();
+    if (!searchInput || !resultsContainer) return;
+
+    let resources = [];
+
+    // Try current folder first
+    try {
+        let response = await fetch("./resources.json");
+
+        if (!response.ok) {
+            response = await fetch("../resources.json");
+        }
+
+        resources = await response.json();
+
+    } catch (error) {
+        console.error("Cannot load resources.json", error);
+        return;
+    }
 
     searchInput.addEventListener("input", function () {
 
@@ -12,12 +28,22 @@ async function searchResources() {
 
         resultsContainer.innerHTML = "";
 
-        if (query === "") return;
+        if (query === "") {
+            resultsContainer.style.display = "none";
+            return;
+        }
 
-        const matches = resources.filter(resource =>
-            resource.title.toLowerCase().includes(query) ||
-            resource.category.toLowerCase().includes(query)
-        );
+        const matches = resources
+            .filter(resource =>
+                resource.title.toLowerCase().includes(query) ||
+                resource.category.toLowerCase().includes(query)
+            )
+            .slice(0, 8);
+
+        if (matches.length === 0) {
+            resultsContainer.style.display = "none";
+            return;
+        }
 
         matches.forEach(resource => {
 
@@ -33,7 +59,19 @@ async function searchResources() {
             `;
 
             resultsContainer.appendChild(item);
+
         });
+
+        resultsContainer.style.display = "block";
+
+    });
+
+    // Hide results when clicking outside
+    document.addEventListener("click", function (e) {
+
+        if (!e.target.closest(".search-container")) {
+            resultsContainer.style.display = "none";
+        }
 
     });
 
