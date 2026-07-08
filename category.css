@@ -1984,7 +1984,7 @@ background:#16a34a;
 
 .primary-btn,
 .secondary-btn{
-    width:90%;
+    width:100%;
     text-align:center;
 }
 
@@ -2007,11 +2007,11 @@ background:#16a34a;
 /* Section */
 
 .section-title h2{
-    font-size:1rem;
+    font-size:1.1rem;
 }
 
 .section-title p{
-    font-size:14px;
+    font-size:13px;
 }
 
 /* PDF Table */
