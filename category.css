@@ -1987,12 +1987,15 @@ background:#16a34a;
 
 .hero-card{
     width:100%;
-    padding:24px;
+    padding:20px;
+   
 }
-
+h2{
+    font-size:1.2rem;
+}
 .hero-mini-card{
     grid-template-columns:1fr;
-    gap:12px;
+    gap:10px;
 }
 
 .hero-mini-card div{
