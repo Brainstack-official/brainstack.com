@@ -1920,11 +1920,11 @@ section{
 }
 
 .section-header h2{
-    font-size:1.8rem;
+    font-size:1.4rem;
 }
 
 .section-header p{
-    font-size:0.95rem;
+    font-size:0.8rem;
 }
 
 /* Header */
@@ -1939,12 +1939,12 @@ section{
 }
 
 .logo img{
-    width:42px;
-    height:42px;
+    width:40px;
+    height:40px;
 }
 
 .logo h2{
-    font-size:1.6rem;
+    font-size:1.4rem;
 }
 
 .nav-menu{
@@ -1952,8 +1952,8 @@ section{
 }
 
 #userPhoto{
-    width:42px;
-    height:42px;
+    width:40px;
+    height:40px;
 }
 
 /* Hero */
@@ -1974,30 +1974,30 @@ section{
 }
 
 .hero h1{
-    font-size:2.2rem;
+    font-size:1.5rem;
 }
 
 .hero p{
-    font-size:0.95rem;
+    font-size:0.8rem;
 }
 
 .search-container{
-    max-width:100%;
+    max-width:90%;
 }
 
 .search-box input{
-    font-size:15px;
+    font-size:13px;
     padding:14px 16px;
 }
 
 .hero-buttons{
     flex-direction:column;
-    width:100%;
+    width:90%;
 }
 
 .primary-btn,
 .secondary-btn{
-    width:100%;
+    width:90%;
 }
 
 /* Right Card */
@@ -2053,7 +2053,7 @@ section{
 }
 
 .ai-left h2{
-    font-size:2rem;
+    font-size:1.3rem;
 }
 
 .ai-preview{
@@ -2082,7 +2082,7 @@ section{
 }
 
 .community-left h2{
-    font-size:2rem;
+    font-size:1.3rem;
 }
 
 .community-stats{
@@ -2101,11 +2101,11 @@ section{
 }
 
 .final-cta h2{
-    font-size:2rem;
+    font-size:1.3rem;
 }
 
 .final-cta p{
-    font-size:0.95rem;
+    font-size:0.9rem;
 }
 
 .cta-buttons{
@@ -2139,7 +2139,7 @@ section{
 }
 
 .footer-brand h2{
-    font-size:1.5rem;
+    font-size:1.3rem;
 }
 
 .footer-brand p{
@@ -2204,42 +2204,42 @@ section{
 @media (max-width:480px){
 
 .hero h1{
-    font-size:1.9rem;
+    font-size:1.4rem;
 }
 
 .hero p{
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 
 .section-header h2{
-    font-size:1.5rem;
+    font-size:1.1rem;
 }
 
 .ai-left h2,
 .community-left h2{
-    font-size:1.7rem;
+    font-size:1rem;
 }
 
 .final-cta h2{
-    font-size:1.6rem;
+    font-size:1rem;
 }
 
 .logo h2{
-    font-size:1.35rem;
+    font-size:1rem;
 }
 
 .primary-btn,
 .secondary-btn{
     padding:14px 20px;
-    font-size:15px;
+    font-size:13px;
 }
 
 .footer-brand h2{
-    font-size:1.3rem;
+    font-size:1.1rem;
 }
 
 .footer-bottom{
-    font-size:12px;
+    font-size:13px;
 }
 
 }
