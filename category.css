@@ -1,0 +1,1890 @@
+/* ===================================================
+   BrainStack Category V2
+   Part 1
+   Reset • Variables • Navbar • Hero
+=================================================== */
+
+/* ---------- RESET ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#0f172a;
+    overflow-x:hidden;
+    line-height:1.7;
+}
+
+/* ---------- VARIABLES ---------- */
+
+:root{
+
+    --primary:#16a34a;
+    --primary-dark:#15803d;
+
+    --secondary:#2563eb;
+
+    --text:#0f172a;
+    --text-light:#64748b;
+
+    --border:#e2e8f0;
+
+    --white:#ffffff;
+
+    --section:#f8fafc;
+
+    --shadow:
+    0 12px 35px rgba(15,23,42,.08);
+
+    --shadow-hover:
+    0 20px 45px rgba(15,23,42,.14);
+
+    --radius:22px;
+
+}
+
+/* ---------- CONTAINER ---------- */
+
+.container{
+
+    width:min(1200px,92%);
+    margin:auto;
+
+}
+
+/* ===================================================
+   NAVBAR
+=================================================== */
+
+.header{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    z-index:9999;
+
+    background:rgba(255,255,255,.85);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.navbar{
+
+    width:min(1300px,94%);
+
+    height:78px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* ---------- LOGO ---------- */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-size:1.45rem;
+
+    font-weight:700;
+
+}
+
+.logo img{
+
+    width:44px;
+
+    height:44px;
+
+    object-fit:contain;
+
+}
+
+/* ---------- MENU ---------- */
+
+.nav-links{
+
+    display:flex;
+
+    align-items:right;
+
+    gap:35px;
+
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+/* ---------- PROFILE ---------- */
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+#userPhoto{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:2px solid #e5e7eb;
+
+    transition:.3s;
+
+}
+
+#userPhoto:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* ===================================================
+   HERO
+=================================================== */
+
+.category-hero{
+
+    padding-top:150px;
+
+    padding-bottom:90px;
+
+    background:
+    linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ecfdf5 100%
+    );
+
+}
+
+.hero-content{
+
+    max-width:760px;
+
+}
+
+/* ---------- BADGE ---------- */
+
+.category-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    background:#dcfce7;
+
+    color:#166534;
+
+    padding:10px 22px;
+
+    border-radius:999px;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    margin-bottom:22px;
+
+}
+
+/* ---------- TITLE ---------- */
+
+.hero-content h1{
+
+    font-size:4rem;
+
+    line-height:1.15;
+
+    font-weight:800;
+
+    color:var(--text);
+
+    margin-bottom:25px;
+
+}
+
+/* ---------- DESCRIPTION ---------- */
+
+.hero-content p{
+
+    font-size:1.1rem;
+
+    color:var(--text-light);
+
+    max-width:720px;
+
+    margin-bottom:35px;
+
+}
+
+/* ===================================================
+   SEARCH BOX
+=================================================== */
+
+.search-container{
+    position:relative;
+    width:100%;
+    max-width:650px;
+}
+
+.search-box{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:720px;
+
+    margin-bottom:35px;
+
+}
+
+#searchInput{
+
+    width:100%;
+
+    padding:20px 26px;
+
+    border-radius:60px;
+
+    border:1px solid var(--border);
+
+    outline:none;
+
+    background:white;
+
+    font-size:16px;
+
+    font-family:'Poppins',sans-serif;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+#searchInput:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:
+    0 0 0 5px rgba(22,163,74,.12);
+
+}
+
+/* ---------- SEARCH RESULTS ---------- */
+
+#searchResults{
+
+    position:absolute;
+
+    top:100%;
+
+    left:0;
+
+    width:100%;
+
+    margin-top:10px;
+
+    background:#fff;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+    overflow:hidden;
+
+    z-index:9999;
+
+    display:none;
+
+}
+
+
+.search-result a{
+
+display:block;
+
+padding:16px 22px;
+
+text-decoration:none;
+
+color:#0f172a;
+
+border-bottom:1px solid #eef2f7;
+
+transition:.25s;
+
+}
+
+.search-result a:hover{
+
+background:#f0fdf4;
+
+}
+
+
+
+/* ===================================================
+   HERO BUTTONS
+=================================================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.primary-btn{
+
+    display:inline-block;
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.primary-btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+
+}
+
+.secondary-btn{
+
+    display:inline-block;
+
+    background:white;
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+    padding:15px 30px;
+
+    border-radius:999px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.secondary-btn:hover{
+
+    background:#f1f5f9;
+
+}
+
+/* ===================================================
+   BrainStack Category V2
+   Part 2
+   Hero Right • Stats • Featured Topics
+=================================================== */
+
+
+/* ==========================================
+   HERO LAYOUT
+========================================== */
+
+.category-hero .container{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+
+/* ==========================================
+   HERO RIGHT
+========================================== */
+
+.hero-image{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hero-card{
+
+    width:100%;
+
+    max-width:420px;
+
+    background:#ffffff;
+
+    border-radius:28px;
+
+    padding:35px;
+
+    border:1px solid #e5e7eb;
+
+    box-shadow:0 25px 60px rgba(15,23,42,.08);
+
+    transition:.35s;
+
+}
+
+.hero-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 35px 70px rgba(15,23,42,.12);
+
+}
+
+
+/* ==========================================
+   HERO ICON
+========================================== */
+
+.hero-icon{
+
+    width:75px;
+
+    height:75px;
+
+    border-radius:22px;
+
+    background:#dcfce7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:34px;
+
+    margin-bottom:22px;
+
+}
+
+.hero-card h3{
+
+    font-size:1.8rem;
+
+    margin-bottom:15px;
+
+    color:#0f172a;
+
+}
+
+.hero-card p{
+
+    color:#64748b;
+
+    margin-bottom:28px;
+
+}
+
+
+/* ==========================================
+   MINI FEATURES
+========================================== */
+
+.hero-mini-card{
+
+    display:grid;
+
+    gap:12px;
+
+}
+
+.hero-mini-card div{
+
+    background:#f8fafc;
+
+    border:1px solid #e5e7eb;
+
+    padding:14px 18px;
+
+    border-radius:14px;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.hero-mini-card div:hover{
+
+    background:#ecfdf5;
+
+    border-color:#16a34a;
+
+}
+
+
+
+
+
+/* ===================================================
+   FEATURED TOPICS
+=================================================== */
+
+.topics-section{
+
+    padding:90px 0;
+
+    background:#f8fafc;
+
+}
+
+.topics-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:26px;
+
+}
+
+.topic-card{
+
+    background:#ffffff;
+
+    border-radius:24px;
+
+    border:1px solid #e5e7eb;
+
+    padding:32px;
+
+    transition:.3s;
+
+}
+
+.topic-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 50px rgba(15,23,42,.08);
+
+}
+
+
+/* ==========================================
+   TOPIC ICON
+========================================== */
+
+.topic-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    background:#dcfce7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.topic-card h3{
+
+    font-size:1.35rem;
+
+    margin-bottom:12px;
+
+    color:#0f172a;
+
+}
+
+.topic-card p{
+
+    color:#64748b;
+
+    line-height:1.7;
+
+}
+
+
+/* ===================================================
+   MOBILE
+=================================================== */
+
+@media(max-width:900px){
+
+.category-hero .container{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+    margin:auto;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-card{
+
+    max-width:100%;
+
+}
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.topics-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-card{
+
+    padding:25px;
+
+}
+
+.hero-icon{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:28px;
+
+}
+
+}
+
+/* ===================================================
+   BrainStack Category V2
+   Part 3
+   Roadmap • Career • Videos • Skills
+===================================================*/
+
+
+/* ==========================================
+   ROADMAP
+========================================== */
+
+.roadmap-section{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:2.6rem;
+
+    color:#0f172a;
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    color:#64748b;
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+}
+
+.roadmap{
+
+    max-width:900px;
+
+    margin:auto;
+
+    position:relative;
+
+}
+
+.roadmap::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:25px;
+
+    top:0;
+
+    bottom:0;
+
+    width:4px;
+
+    background:#dcfce7;
+
+}
+
+.roadmap-item{
+
+    display:flex;
+
+    gap:30px;
+
+    margin-bottom:45px;
+
+    position:relative;
+
+}
+
+.step-number{
+
+    min-width:55px;
+
+    height:55px;
+
+    background:#16a34a;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+    font-size:1.2rem;
+
+    z-index:2;
+
+}
+
+.step-content{
+
+    background:#ffffff;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    width:100%;
+
+    transition:.3s;
+
+}
+
+.step-content:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+}
+
+.step-content h3{
+
+    margin-bottom:12px;
+
+    color:#0f172a;
+
+}
+
+.step-content p{
+
+    color:#64748b;
+
+}
+
+
+/* ==========================================
+   CAREER SECTION
+========================================== */
+
+.career-section{
+
+    padding:100px 0;
+
+    background:#f8fafc;
+
+}
+
+.career-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+.career-card{
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    border-radius:22px;
+
+    padding:30px;
+
+    transition:.3s;
+
+}
+
+.career-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 45px rgba(15,23,42,.08);
+
+}
+
+.career-card h3{
+
+    margin-bottom:15px;
+
+    color:#0f172a;
+
+}
+
+.career-card p{
+
+    color:#64748b;
+
+    line-height:1.7;
+
+}
+
+
+/* ==========================================
+   VIDEOS
+========================================== */
+
+.videos-section{
+
+    padding:100px 0;
+
+    background:white;
+
+}
+
+.video-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+.video-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    border:1px solid #e5e7eb;
+
+    padding:30px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.video-card:hover{
+
+    transform:translateY(-8px);
+
+    background:#ecfdf5;
+
+    border-color:#16a34a;
+
+}
+
+
+/* ==========================================
+   SKILLS
+========================================== */
+
+.skills-section{
+
+    padding:100px 0;
+
+    background:#f8fafc;
+
+}
+
+.skills-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:16px;
+
+    justify-content:center;
+
+}
+
+.skills-grid span{
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+
+    padding:14px 22px;
+
+    border-radius:999px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.skills-grid span:hover{
+
+    background:#16a34a;
+
+    color:white;
+
+    border-color:#16a34a;
+
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.section-title h2{
+
+    font-size:2rem;
+
+}
+
+.roadmap::before{
+
+    left:22px;
+
+}
+
+.roadmap-item{
+
+    gap:18px;
+
+}
+
+.step-number{
+
+    width:48px;
+
+    height:48px;
+
+    min-width:48px;
+
+    font-size:1rem;
+
+}
+
+.step-content{
+
+    padding:20px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.career-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.video-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.skills-grid{
+
+    justify-content:flex-start;
+
+}
+
+.skills-grid span{
+
+    font-size:.9rem;
+
+    padding:12px 18px;
+
+}
+
+}
+
+/* =====================================================
+   PDF SECTION
+===================================================== */
+
+.pdf-section{
+
+padding:90px 0;
+
+background:#f8fafc;
+
+}
+
+/* ---------- SECTION TITLE ---------- */
+
+.section-title{
+
+text-align:center;
+
+margin-bottom:50px;
+
+}
+
+.section-title h2{
+
+font-size:2.5rem;
+
+font-weight:700;
+
+color:var(--text);
+
+margin-bottom:15px;
+
+}
+
+.section-title p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:1.05rem;
+
+color:var(--text-light);
+
+}
+
+/* =====================================================
+   PDF TABLE
+===================================================== */
+
+.pdf-table{
+
+width:100%;
+
+background:var(--white);
+
+border-radius:24px;
+
+overflow:hidden;
+
+border:1px solid var(--border);
+
+border-collapse:collapse;
+
+box-shadow:var(--shadow);
+
+}
+
+/* ---------- TABLE HEADER ---------- */
+
+.pdf-table thead{
+
+background:linear-gradient(
+135deg,
+#16a34a
+);
+
+}
+
+.pdf-table th{
+
+padding:22px;
+
+font-size:1.15rem;
+
+font-weight:700;
+
+color:white;
+
+text-align:left;
+
+}
+
+/* ---------- TABLE BODY ---------- */
+
+.pdf-table td{
+
+padding:20px 22px;
+
+font-size:1rem;
+
+border-bottom:1px solid var(--border);
+
+transition:.3s;
+
+}
+
+.pdf-table tbody tr{
+
+transition:.3s;
+
+}
+
+.pdf-table tbody tr:hover{
+
+background:#b4d9c3;
+
+}
+
+.pdf-table tbody tr:last-child td{
+
+border-bottom:none;
+
+}
+
+/* =====================================================
+   OPEN PDF BUTTON
+===================================================== */
+
+.view-btn{
+
+display:inline-block;
+
+padding:11px 22px;
+
+background:linear-gradient(
+135deg,
+#16a34a,
+#22c55e
+);
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+border-radius:12px;
+
+transition:.3s;
+
+box-shadow:
+
+0 10px 25px rgba(22,163,74,.25);
+
+}
+
+.view-btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:
+
+0 16px 35px rgba(22,163,74,.35);
+
+}
+
+
+
+/* ==========================================
+   ROADMAP SECTION
+========================================== */
+
+.roadmap{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+
+.roadmap-item{
+    display:flex;
+    align-items:flex-start;
+    gap:24px;
+    padding:28px;
+    background:#fff;
+    border-radius:22px;
+    border:1px solid #e5e7eb;
+    transition:.3s;
+}
+
+.roadmap-item:hover{
+    transform:translateY(-5px);
+    box-shadow:0 18px 40px rgba(0,0,0,.08);
+}
+
+.step-number{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#16a34a;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.3rem;
+    font-weight:700;
+    flex-shrink:0;
+}
+
+.step-content h3{
+    font-size:1.35rem;
+    margin-bottom:8px;
+}
+
+.step-content p{
+    color:#64748b;
+}
+
+/* ==========================================
+   CAREER SECTION
+========================================== */
+
+.career-section{
+    background:#ffffff;
+}
+
+.career-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.career-card{
+    background:#fff;
+    padding:28px;
+    border-radius:20px;
+    border:1px solid #e5e7eb;
+    transition:.3s;
+}
+
+.career-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.career-card h3{
+    margin-bottom:10px;
+    font-size:1.25rem;
+}
+
+.career-card p{
+    color:#64748b;
+}
+
+.video-card:hover{
+    transform:translateY(-6px);
+    background:#f0fdf4;
+    border-color:#16a34a;
+}
+
+/* ==========================================
+   SKILLS
+========================================== */
+
+.skills-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+}
+
+.skills-grid span{
+    background:#dcfce7;
+    color:#166534;
+    padding:12px 22px;
+    border-radius:999px;
+    font-weight:600;
+}
+
+/* ==========================================
+   BRAINSTACK AI
+========================================== */
+
+.brainstack-ai{
+    background:linear-gradient(180deg,#ffffff,#f0fdf4);
+}
+
+.ai-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.ai-features{
+    display:grid;
+    gap:12px;
+    margin:30px 0;
+}
+
+.ai-features div{
+    font-weight:500;
+}
+
+.chat-preview{
+    background:#fff;
+    border-radius:24px;
+    padding:30px;
+    border:1px solid #e5e7eb;
+    box-shadow:0 25px 50px rgba(0,0,0,.08);
+}
+
+.chat{
+    background:#f8fafc;
+    padding:18px;
+    border-radius:16px;
+    margin-bottom:18px;
+    line-height:1.7;
+}
+
+.chat.user{
+    background:#16a34a;
+    color:#fff;
+    margin-left:70px;
+}
+
+/* ==========================================
+   LATEST RESOURCES
+========================================== */
+
+.latest-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.latest-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:28px;
+}
+
+.latest-card{
+    background:#fff;
+    padding:30px;
+    border-radius:22px;
+    border:1px solid #e5e7eb;
+    transition:.3s;
+    position:relative;
+}
+
+.latest-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 40px rgba(0,0,0,.08);
+}
+
+.new-badge{
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:999px;
+    background:#16a34a;
+    color:#fff;
+    font-size:.8rem;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.latest-card h3{
+    margin-bottom:10px;
+    font-size:1.35rem;
+}
+
+.latest-card p{
+    color:#64748b;
+}
+
+
+/* ==========================================
+   STUDENT TIPS
+========================================== */
+
+.tips-section{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.tips-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:24px;
+}
+
+.tip-card{
+    background:#fff;
+    padding:30px;
+    border-radius:22px;
+    border:1px solid #e5e7eb;
+    text-align:center;
+    transition:.3s;
+    font-size:42px;
+}
+
+.tip-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 18px 40px rgba(0,0,0,.08);
+}
+
+.tip-card h3{
+    margin:20px 0 10px;
+    font-size:1.3rem;
+}
+
+.tip-card p{
+    color:#64748b;
+}
+
+
+/* ==========================================
+   COMMUNITY
+========================================== */
+
+.community-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.community-box{
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+    color:#fff;
+    padding:70px;
+    border-radius:30px;
+    text-align:center;
+}
+
+.community-box h2{
+    font-size:2.6rem;
+    margin-bottom:20px;
+}
+
+.community-box p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:35px;
+    opacity:.95;
+}
+
+.community-buttons{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.community-buttons .secondary-btn{
+    background:#fff;
+}
+
+
+/* ==========================================
+   NEWSLETTER
+========================================== */
+
+.newsletter{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+}
+
+.newsletter-content h2{
+    font-size:2.4rem;
+    margin-bottom:20px;
+}
+
+.newsletter-content p{
+    color:#64748b;
+    margin-bottom:35px;
+}
+
+.newsletter-box{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.newsletter-box input{
+    flex:1;
+    min-width:280px;
+    padding:18px 22px;
+    border:1px solid #e5e7eb;
+    border-radius:999px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter-box button{
+    padding:18px 32px;
+    border:none;
+    border-radius:999px;
+    background:#16a34a;
+    color:#fff;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.newsletter-box button:hover{
+    background:#15803d;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+    background:#0f172a;
+    color:#fff;
+    padding-top:70px;
+}
+
+.footer-container{
+    width:min(1200px,92%);
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    gap:70px;
+}
+
+.footer-brand img{
+    width:70px;
+    margin-bottom:15px;
+}
+
+.footer-brand h2{
+    margin-bottom:10px;
+}
+
+.footer-brand p{
+    color:#cbd5e1;
+}
+
+.footer-links{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+}
+
+.footer-links h4{
+    margin-bottom:18px;
+}
+
+.footer-links a{
+    display:block;
+    color:#cbd5e1;
+    text-decoration:none;
+    margin-bottom:12px;
+    transition:.25s;
+}
+
+.footer-links a:hover{
+    color:#22c55e;
+}
+
+.footer-bottom{
+    margin-top:60px;
+    border-top:1px solid rgba(255,255,255,.08);
+    text-align:center;
+    padding:25px;
+    color:#94a3b8;
+}
+
+
+/* ==========================================
+   FLOATING AI BUTTON
+========================================== */
+
+.floating-ai{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#16a34a;
+    color:#fff;
+    padding:16px 22px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow:0 18px 40px rgba(0,0,0,.2);
+    z-index:9999;
+    transition:.3s;
+}
+
+.floating-ai:hover{
+    transform:translateY(-5px);
+    background:#15803d;
+}
+
+.floating-ai span{
+    font-size:15px;
+}
+
+
+/* =====================================================
+   CUSTOM SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+height:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#f1f5f9;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#16a34a;
+
+border-radius:50px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#16a34a;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:900px){
+
+.ai-container{
+    grid-template-columns:1fr;
+}
+
+.footer-container{
+    grid-template-columns:1fr;
+}
+
+.footer-links{
+    grid-template-columns:1fr;
+}
+
+.community-box{
+    padding:45px 25px;
+}
+
+.community-box h2{
+    font-size:2rem;
+}
+
+}
+
+@media(max-width:768px){
+
+.newsletter-box{
+    flex-direction:column;
+}
+
+.newsletter-box input,
+.newsletter-box button{
+    width:100%;
+}
+
+.floating-ai span{
+    display:none;
+}
+
+.floating-ai{
+    width:62px;
+    height:62px;
+    justify-content:center;
+    padding:0;
+    border-radius:50%;
+}
+
+.tip-card,
+.latest-card,
+.career-card,
+.topic-card{
+    padding:24px;
+}
+
+}
+
+@media(max-width:500px){
+
+.community-buttons{
+    flex-direction:column;
+}
+
+.community-buttons a{
+    width:100%;
+}
+
+.hero-content h1{
+    font-size:2.4rem;
+}
+
+.newsletter-content h2{
+    font-size:2rem;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer-brand{
+    margin-bottom:30px;
+}
+
+}
+
