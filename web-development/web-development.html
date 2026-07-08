@@ -1,217 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title> Web development Resources | BrainStack</title>
-  <link rel="icon" type="image/png" href="../brainstack.png">
-  <!-- GOOGLE FONT -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="UTF-8">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-}
+<title>Web Development | BrainStack</title>
 
-body{
-    background:#ffffff;
-    color:#111827;
-    padding:20px;
-}
+<meta name="description"
+content="Learn Web Development with free HTML, CSS, JavaScript, Firebase, GitHub and Full Stack Development resources on BrainStack.">
 
-/* NAVBAR */
-.navbar{
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
+<meta name="keywords"
+content="Web Development, HTML, CSS, JavaScript, Firebase, GitHub, Full Stack, BrainStack">
 
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+<meta name="author"
+content="BrainStack">
 
-  padding:18px 8%;
+<link rel="icon"
+type="image/png"
+href="../logo.png">
 
-  background:#ffffff;
+<link rel="stylesheet"
+href="../category.css">
 
-  backdrop-filter:blur(12px);
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
 
-  border-bottom: 1px solid #E5E7EB;
-  z-index:1000;
-}
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
 
-.logo{
-  font-size:1.7rem;
-  font-weight:650;
-  color: #111827;
-}
-
-
-.nav-links{
-  display:flex;
-  gap:25px;
-}
-
-.nav-links a{
-  text-decoration:none;
-  color: #111827;
-  transition:0.3s;
-   font-weight:650;
-}
-
-.nav-links a:hover{
-  color: #111827;
-}
-
-.container{
-    max-width:1000px;
-    margin:auto;
-}
-
-.page-title{
-    font-size:2rem;
-    font-weight:700;
-    margin-bottom:20px;
-}
-
-.pdf-table{
-    width:100%;
-    border-collapse:collapse;
-    background:#fff;
-    border:1px solid #e5e7eb;
-    border-radius:12px;
-    overflow:hidden;
-}
-
-.pdf-table th{
-    background:#f8fafc;
-    color:#111827;
-     font-size: 1.4rem;
-    text-align:left;
-    padding:16px;
-    border-bottom:1px solid #e5e7eb;
-}
-
-.pdf-table td{
-    padding:16px;
-    border-bottom:1px solid #e5e7eb;
-   font-size: 1.4rem;
-}
-
-.pdf-table tr:hover{
-    background:#f9fafb;
-}
-
-.view-btn{
-    display:inline-block;
-    background:#1F2937;
-    color:white;
-    text-decoration:none;
-    padding:10px 18px;
-    border-radius:8px;
-    font-weight:600;
-    transition:0.3s;
-}
-
-.view-btn:hover{
-    background:#1F2937;
-}
-
-/* FOOTER */
-
-#footer{
-    background:#1F2937;
-    padding:40px 20px;
-    text-align:center;
-}
-
-.footer-links{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:25px;
-    flex-wrap:wrap;
-    margin-bottom:20px;
-}
-
-.footer-links a{
-    color:white;
-    text-decoration:none;
-    font-size:23px;
-    font-weight:500;
-    transition:0.3s;
-}
-
-.footer-links a:hover{
-    color:#38BDF8;
-}
-
-#footer p{
-    color:white;
-    font-size:25px;
-    margin:0;
-}
-
-
-@media(max-width:768px){
-
-    .page-title{
-        font-size:1.6rem;
-    }
-
-    .pdf-table th,
-    .pdf-table td{
-        padding:12px;
-        font-size:12px;
-    }
-
-    .view-btn{
-        padding:8px 14px;
-        font-size:12px;
-    }
- /* FOOTER */
-
-.footer-links{
-        flex-direction:rows;
-        gap:12px;
-    }
-
-    .footer-links a{
-        font-size:13px;
-    }
-  #footer p{
-    font-size:0.9rem;
-  }
-
-}
-
-
-@media(max-width:480px){
-
-  .navbar{
-    padding:12px 4%;
-  }
-
-  .logo{
-    font-size:1.3rem;
-  }
-
-  .menu a{
-    font-size:15px;
-  }
-
-}
-
-
-</style>
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3J27V16D2"></script>
@@ -222,30 +45,211 @@ body{
 
   gtag('config', 'G-C3J27V16D2');
 </script>
-  
-
 </head>
 
 <body>
 
+<!-- ====================================== -->
 <!-- NAVBAR -->
+<!-- ====================================== -->
+
+<header class="header">
+
 <nav class="navbar">
 
-  <div class="logo">
-    BrainStack
-  </div>
+<a href="../index.html"
+class="logo">
 
-  <div class="nav-links">
-    <a href="../index.html">Home</a>
+<img
+src="../logo.png"
+alt="BrainStack Logo">
 
-  </div>
+<span>
+
+BrainStack
+
+</span>
+
+</a>
+
+<ul class="nav-links">
+
+<li>
+
+<a href="../index.html">
+
+Home
+
+</a>
+
+</li>
+
+</ul>
+
+<div class="nav-right">
+
+<a href="../profile.html">
+
+<img
+id="userPhoto"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+alt="Profile">
+
+</a>
+
+</div>
 
 </nav>
 
-  <br>
-  <br>
-  <br>
+</header>
+
+<!-- ====================================== -->
+<!-- HERO -->
+<!-- ====================================== -->
+
+<section class="category-hero">
+
 <div class="container">
+
+<div class="hero-content">
+
+<span class="category-badge">
+
+🌐 Web Development
+
+</span>
+
+<h1>
+
+Learn Modern Web Development
+
+</h1>
+
+<p>
+
+Master HTML, CSS, JavaScript, Firebase,
+GitHub, Full Stack Development,
+Website Deployment and real-world projects
+with BrainStack.
+
+</p>
+
+<!-- Search Box -->
+
+<div class="search-container">
+
+    <div class="search-box">
+
+        <input
+            id="searchInput"
+            placeholder="Search notes, PDFs, roadmaps..."
+            autocomplete="off">
+
+    </div>
+
+    <div id="searchResults"></div>
+
+</div>
+
+<div class="hero-buttons">
+
+<a
+href="../brainstack-ai/brainstack-ai.html"
+class="primary-btn">
+
+Ask BrainStack AI
+
+</a>
+
+<a
+href="../index.html#resources"
+class="secondary-btn">
+
+Explore Categories
+
+</a>
+
+</div>
+
+</div>
+
+<!-- HERO RIGHT -->
+
+<div class="hero-image">
+
+<div class="hero-card">
+
+<h3>
+
+Web Development
+
+</h3>
+
+<p>
+
+Build beautiful websites and web applications using modern technologies.
+
+</p>
+
+<div class="hero-mini-card">
+
+<div>
+
+🌐 HTML • CSS
+
+</div>
+
+<div>
+
+⚡ JavaScript
+
+</div>
+
+<div>
+
+🔥 Firebase
+
+</div>
+
+<div>
+
+🚀 GitHub & Deployment
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ========================================= -->
+<!-- PDF SECTION -->
+<!-- ========================================= -->
+
+<section class="pdf-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Available Resources
+
+</h2>
+
+<p>
+
+Browse the complete collection of Web Development resources available on BrainStack.
+
+</p>
+
+</div>
+
 <table class="pdf-table">
 
 <thead>
@@ -376,31 +380,325 @@ Open PDF
 
 </div>
 
-  
-  <br>
-<br>
-<br>
-  <br>
-<br>
-<br>
+</section>
 
+<!-- ====================================== -->
+<!-- LEARNING ROADMAP -->
+<!-- ====================================== -->
+
+<section class="roadmap-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Learning Roadmap</h2>
+
+<p>
+Follow this roadmap to become a professional Web Developer.
+</p>
+
+</div>
+
+<div class="roadmap">
+
+<div class="roadmap-item">
+<div class="step-number">1</div>
+
+<div class="step-content">
+<h3>HTML Fundamentals</h3>
+<p>Learn webpage structure, semantic tags, forms and accessibility.</p>
+</div>
+
+</div>
+
+<div class="roadmap-item">
+<div class="step-number">2</div>
+
+<div class="step-content">
+<h3>CSS & Responsive Design</h3>
+<p>Create beautiful responsive layouts using Flexbox and Grid.</p>
+</div>
+
+</div>
+
+<div class="roadmap-item">
+<div class="step-number">3</div>
+
+<div class="step-content">
+<h3>JavaScript</h3>
+<p>Add dynamic behaviour, DOM manipulation and API integration.</p>
+</div>
+
+</div>
+
+<div class="roadmap-item">
+<div class="step-number">4</div>
+
+<div class="step-content">
+<h3>Backend & Firebase</h3>
+<p>Authentication, Database, Hosting and Cloud Functions.</p>
+</div>
+
+</div>
+
+<div class="roadmap-item">
+<div class="step-number">5</div>
+
+<div class="step-content">
+<h3>GitHub & Deployment</h3>
+<p>Manage projects and deploy websites professionally.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ====================================== -->
+<!-- CAREER SECTION -->
+<!-- ====================================== -->
+
+<section class="career-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Career Opportunities</h2>
+
+<p>
+
+Popular career paths after learning Web Development.
+
+</p>
+
+</div>
+
+<div class="career-grid">
+
+<div class="career-card">
+
+<h3>Frontend Developer</h3>
+
+<p>
+
+Build responsive user interfaces using HTML, CSS and JavaScript.
+
+</p>
+
+</div>
+
+<div class="career-card">
+
+<h3>Backend Developer</h3>
+
+<p>
+
+Develop APIs, databases and server-side applications.
+
+</p>
+
+</div>
+
+<div class="career-card">
+
+<h3>Full Stack Developer</h3>
+
+<p>
+
+Handle both frontend and backend development.
+
+</p>
+
+</div>
+
+<div class="career-card">
+
+<h3>Freelancer</h3>
+
+<p>
+
+Build websites for clients worldwide.
+
+</p>
+
+</div>
+
+<div class="career-card">
+
+<h3>Startup Founder</h3>
+
+<p>
+
+Launch your own SaaS products and online businesses.
+
+</p>
+
+</div>
+
+<div class="career-card">
+
+<h3>UI Developer</h3>
+
+<p>
+
+Create premium interfaces for modern applications.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ====================================== -->
+<!-- SKILLS -->
+<!-- ====================================== -->
+
+<section class="skills-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Skills You'll Learn</h2>
+
+<p>
+
+Industry-ready skills every Web Developer should master.
+
+</p>
+
+</div>
+
+<div class="skills-grid">
+
+<span>HTML5</span>
+
+<span>CSS3</span>
+
+<span>Responsive Design</span>
+
+<span>JavaScript</span>
+
+<span>Git</span>
+
+<span>GitHub</span>
+
+<span>Firebase</span>
+
+<span>Hosting</span>
+
+<span>SEO Basics</span>
+
+<span>Web Performance</span>
+
+<span>Portfolio Building</span>
+
+<span>Problem Solving</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
 <!-- FOOTER -->
- <footer id="footer">
+<!-- ========================================= -->
 
-    <div class="footer-links">
-        <a href="../about.html">About Us</a>
-        <a href="../privacy-policy.html">Privacy Policy</a>
-        <a href="../terms.html">Terms & Conditions</a>
-        <a href="../disclaimer.html">Disclaimer</a>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <img src="../logo.png" alt="BrainStack">
+
+            <h2>BrainStack</h2>
+
+            <p>
+                Learn • Build • Grow
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+
+                <h4>Platform</h4>
+
+                <a href="../index.html">Home</a>
+                <a href="../brainstack-ai/brainstack-ai.html">BrainStack AI</a>
+                <a href="../about.html">About</a>
+
+            </div>
+
+            <div>
+
+                <h4>Resources</h4>
+
+                <a href="../engineering-hub/engineering.html">Engineering</a>
+                <a href="../programming-languages/programming.html">Programming</a>
+                <a href="../web-development/web-development.html">Web Development</a>
+
+            </div>
+
+            <div>
+
+                <h4>Legal</h4>
+
+                <a href="../privacy-policy.html">Privacy Policy</a>
+                <a href="../terms.html">Terms</a>
+                <a href="../disclaimer.html">Disclaimer</a>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <p>© 2026 BrainStack. All Rights Reserved.</p>
+    <div class="footer-bottom">
+
+        © 2026 BrainStack. Built for Students ❤️
+
+    </div>
 
 </footer>
 
- <script src="../script.js"></script>
-  
+
+<!-- ========================================= -->
+<!-- FLOATING AI BUTTON -->
+<!-- ========================================= -->
+
+<a
+href="../brainstack-ai/brainstack-ai.html"
+class="floating-ai">
+
+🤖
+
+<span>Ask AI</span>
+
+</a>
+
+
+
+<!-- ========================================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================================= -->
+
+<script src="../script.js"></script>
+
 <script src="../search.js"></script>
 
 </body>
+
 </html>
