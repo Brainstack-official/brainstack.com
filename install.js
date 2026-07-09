@@ -63,3 +63,13 @@ installBtn.style.display="none";
 console.log("BrainStack Installed");
 
 });
+
+document
+.getElementById("closeInstallGuide")
+.addEventListener("click",()=>{
+
+document
+.getElementById("installModal")
+.classList.remove("show");
+
+});
