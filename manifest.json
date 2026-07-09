@@ -2,7 +2,7 @@
   "name": "BrainStack",
   "short_name": "BrainStack",
   "description": "BrainStack is a free educational platform providing Engineering, Programming, AI, Business, Career and Digital Library resources for students.",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
