@@ -49,7 +49,7 @@ installBtn.addEventListener("click", async () => {
 
         installBtn.style.display="none";
 
-    }
+     } }
 
     deferredPrompt=null;
 
