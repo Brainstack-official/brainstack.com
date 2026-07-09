@@ -88,7 +88,7 @@ body{
 
     width:min(1300px,94%);
 
-    height:78px;
+    height:70px;
 
     margin:auto;
 
@@ -114,7 +114,7 @@ body{
 
     color:var(--text);
 
-    font-size:1.45rem;
+    font-size:1.6rem;
 
     font-weight:700;
 
@@ -153,6 +153,7 @@ body{
     font-weight:500;
 
     transition:.25s;
+    gap:30px;
 
 }
 
@@ -1921,7 +1922,7 @@ background:#16a34a;
 /* Hero */
 
 .category-hero{
-    padding:40px 0;
+    padding:35px 0;
 }
 
 .hero-content,
