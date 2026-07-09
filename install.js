@@ -35,17 +35,9 @@ installBtn.addEventListener("click", async () => {
 
     if(isIOS && isSafari){
 
-        alert(
-`Install BrainStack
-
-1. Tap Share
-2. Tap Add to Home Screen
-3. Tap Add`
-);
-
-        return;
-
-    }
+       document
+.getElementById("installModal")
+.classList.add("show");
 
     if(!deferredPrompt) return;
 
