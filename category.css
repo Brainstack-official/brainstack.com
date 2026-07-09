@@ -1924,10 +1924,7 @@ background:#16a34a;
 .hero-image{
     width:100%;
 }
-   .hero-badge{
-      margin-top:15px;
-   }
-
+   
 .container{
     padding:0 18px;
 }
@@ -1945,6 +1942,7 @@ background:#16a34a;
 .category-badge{
     font-size:12px;
     padding:10px 18px;
+   margin-top:15px;
 }
 
 .hero-content h1{
