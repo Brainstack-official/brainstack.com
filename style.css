@@ -1683,10 +1683,9 @@ font-size:.95rem;
 
 .install-btn{
 
-display:none;
+display:flex;
 
 align-items:center;
-
 justify-content:center;
 
 padding:12px 22px;
@@ -1695,17 +1694,19 @@ background:#16a34a;
 
 color:#fff;
 
-font-weight:600;
-
-font-size:13px;
-
 border-radius:999px;
+
+font-weight:600;
 
 cursor:pointer;
 
 transition:.3s;
 
-box-shadow:0 8px 20px rgba(22,163,74,.2);
+}
+
+.install-btn.hide{
+
+display:none;
 
 }
 
