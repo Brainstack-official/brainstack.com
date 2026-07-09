@@ -2105,39 +2105,152 @@ h2{
     display:none;
 }
    
-@media (max-width:768px){
+}
+
+/* ==========================================
+   MOBILE BOTTOM NAVIGATION
+========================================== */
+
+/* Hidden on Desktop */
 
 .mobile-nav{
-    display:flex;
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height:68px;
-    background:#fff;
-    justify-content:space-around;
-    align-items:center;
-    border-top:1px solid #e5e7eb;
-    box-shadow:0 -5px 20px rgba(0,0,0,.08);
-    z-index:9999;
+display:none;
 }
+
+@media (max-width:768px){
+
+body{
+padding-bottom:80px;
+}
+
+/* Navigation */
+
+.mobile-nav{
+
+position:fixed;
+
+bottom:0;
+
+left:0;
+
+width:100%;
+
+height:72px;
+
+background:rgba(255,255,255,.96);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+border-top:1px solid #e5e7eb;
+
+display:flex;
+
+justify-content:space-around;
+
+align-items:center;
+
+z-index:99999;
+
+box-shadow:0 -10px 25px rgba(0,0,0,.08);
+
+}
+
+/* Links */
 
 .mobile-nav a{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:4px;
-    font-size:11px;
-    font-weight:500;
-    color:#64748b;
-    text-decoration:none;
-    flex:1;
+
+flex:1;
+
+height:100%;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-decoration:none;
+
+color:#64748b;
+
+transition:.3s;
+
 }
+
+/* Icon */
+
+.nav-icon{
+
+font-size:16px;
+
+margin-bottom:3px;
+
+transition:.3s;
+
+}
+
+/* Text */
+
+.nav-text{
+
+font-size:12px;
+
+font-weight:600;
+
+}
+
+/* Hover */
 
 .mobile-nav a:hover{
-    color:#16a34a;
-}
+
+color:#16a34a;
 
 }
+
+/* Active Page */
+
+.mobile-nav a.active{
+
+color:#16a34a;
+
+}
+
+.mobile-nav a.active .nav-icon{
+
+transform:translateY(-3px) scale(1.1);
+
+}
+
+/* Green Indicator */
+
+.mobile-nav a.active::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+width:45px;
+
+height:3px;
+
+background:#16a34a;
+
+border-radius:50px;
+
+}
+
+/* Press Animation */
+
+.mobile-nav a:active{
+
+transform:scale(.95);
+
+}
+
 }
