@@ -3,101 +3,53 @@ let deferredPrompt;
 const installBtn = document.getElementById("installBtn");
 
 function isInstalled(){
-
-return window.matchMedia("(display-mode: standalone)").matches ||
-window.navigator.standalone === true;
-
+  return window.matchMedia("(display-mode: standalone)").matches ||
+         window.navigator.standalone === true;
 }
-
 
 // Detect install availability
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
 
-window.addEventListener("beforeinstallprompt",(e)=>{
-
-e.preventDefault();
-
-deferredPrompt=e;
-
-if(!isInstalled()){
-
-installBtn.classList.add("show");
-
-}
-
+  if(!isInstalled()){
+    installBtn.classList.add("show");
+  }
 });
-
-
 
 // Click install button
+installBtn.addEventListener("click", async () => {
+  // iPhone
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
 
-installBtn.addEventListener("click",async()=>{
+  if(isIOS){
+    document.getElementById("installModal").classList.add("show");
+    return;
+  }
 
+  // Android + Desktop
+  if(deferredPrompt){
+    deferredPrompt.prompt();
 
-// iPhone
+    const result = await deferredPrompt.userChoice;
 
-const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+    // CHANGED HERE: Uses classList instead of inline styles
+    if(result.outcome === "accepted"){
+      installBtn.classList.remove("show");
+    }
 
-
-if(isIOS){
-
-document
-.getElementById("installModal")
-.classList.add("show");
-
-return;
-
-}
-
-
-
-// Android + Desktop
-
-if(deferredPrompt){
-
-deferredPrompt.prompt();
-
-
-const result=await deferredPrompt.userChoice;
-
-
-if(result.outcome==="accepted"){
-
-installBtn.style.display="none";
-
-}
-
-
-deferredPrompt=null;
-
-
-}
-
+    deferredPrompt = null;
+  }
 });
-
-
 
 // After installation
-
-window.addEventListener("appinstalled",()=>{
-
-installBtn.style.display="none";
-
-console.log("BrainStack Installed");
-
+// CHANGED HERE: Uses classList instead of inline styles
+window.addEventListener("appinstalled", () => {
+  installBtn.classList.remove("show");
+  console.log("BrainStack Installed");
 });
 
-
-
 // Close iPhone guide
-
-document
-.getElementById("closeInstallGuide")
-.addEventListener("click",()=>{
-
-
-document
-.getElementById("installModal")
-.classList.remove("show");
-
-
+document.getElementById("closeInstallGuide").addEventListener("click", () => {
+  document.getElementById("installModal").classList.remove("show");
 });
