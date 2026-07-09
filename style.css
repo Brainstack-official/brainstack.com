@@ -1681,33 +1681,21 @@ font-size:.95rem;
    INSTALL BUTTON
 =================================== */
 
-.install-btn{
-
-display:flex;
-
-align-items:center;
-justify-content:center;
-
-padding:12px 22px;
-
-background:#16a34a;
-
-color:#fff;
-
-border-radius:999px;
-
-font-weight:600;
-
-cursor:pointer;
-
-transition:.3s;
-
+.install-btn {
+  display: none; /* Changed from flex to none */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  background: #16a34a;
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
 }
 
-.install-btn.hide{
-
-display:none;
-
+.install-btn.show {
+  display: inline-flex; /* This will reveal it when ready */
 }
 
 .install-btn:hover{
