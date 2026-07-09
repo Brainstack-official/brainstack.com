@@ -13,13 +13,13 @@
 
   "icons": [
     {
-      "src": "/logo-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/logo.png",
+      "src": "logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -37,10 +37,10 @@
     {
       "name": "BrainStack AI",
       "short_name": "AI",
-      "url": "/brainstack-ai/brainstack-ai.html",
+      "url": "brainstack-ai/brainstack-ai.html",
       "icons": [
         {
-          "src": "/logo-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -48,10 +48,10 @@
     {
       "name": "Engineering",
       "short_name": "Engineering",
-      "url": "/engineering-hub/engineering.html",
+      "url": "engineering-hub/engineering.html",
       "icons": [
         {
-          "src": "/logo-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
@@ -59,21 +59,21 @@
     {
       "name": "Programming",
       "short_name": "Programming",
-      "url": "/programming-languages/programming.html",
+      "url": "programming-languages/programming.html",
       "icons": [
         {
-          "src": "/logo-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
     },
     {
-      "name": "Digital Library",
+      "name": "BrainStack Library",
       "short_name": "Library",
-      "url": "/digital-library/library.html",
+      "url": "digital-library/digital-labrary.html",
       "icons": [
         {
-          "src": "/logo-192.png",
+          "src": "icon-192.png",
           "sizes": "192x192"
         }
       ]
