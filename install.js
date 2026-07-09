@@ -23,6 +23,8 @@ if (!isInstalled()) {
 
 }
 
+
+
 // Install button click
 installBtn.addEventListener("click", async () => {
 
