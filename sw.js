@@ -31,11 +31,24 @@ self.addEventListener('activate', (e) => {
   );
 });
 
-// Fetch handler required for PWA installation criteria
+
+// Updated Fetch Handler: Network-First Strategy
 self.addEventListener('fetch', (e) => {
   e.respondWith(
-    caches.match(e.request).then((cachedResponse) => {
-      return cachedResponse || fetch(e.request);
-    })
+    fetch(e.request)
+      .then((response) => {
+        // If the network request works, clone it and save the fresh version to the cache
+        if (response.status === 200) {
+          const responseClone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(e.request, responseClone);
+          });
+        }
+        return response;
+      })
+      .catch(() => {
+        // If the network fails (offline), grab it from the local cache instead
+        return caches.match(e.request);
+      })
   );
 });
