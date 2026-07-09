@@ -88,7 +88,7 @@ body{
 
     width:min(1300px,94%);
 
-    height:70px;
+    height:60px;
 
     margin:auto;
 
@@ -1902,12 +1902,7 @@ background:#16a34a;
 }
 
 .logo span{
-    font-size:1.2rem;
-}
-
-.logo img{
-    width:40px;
-    height:40px;
+    font-size:1.1rem;
 }
 
 .nav-links{
