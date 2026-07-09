@@ -1,5 +1,5 @@
 // 1. Increment this version name every time you push an update (e.g., v1 -> v2 -> v3)
-const CACHE_NAME = 'brainstack-cache-v2';
+const CACHE_NAME = 'brainstack-cache-v3';
 
 const ASSETS = [
   '/',
