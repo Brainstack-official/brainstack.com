@@ -1681,8 +1681,9 @@ font-size:.95rem;
    INSTALL BUTTON
 =================================== */
 
-.install-btn {
-  display: none; /* Changed from flex to none */
+/* Add #installBtn here so both the ID and the class share this style */
+.install-btn, #installBtn {
+  display: none; 
   align-items: center;
   justify-content: center;
   padding: 12px 22px;
@@ -1694,36 +1695,23 @@ font-size:.95rem;
   transition: .3s;
 }
 
-.install-btn.show {
-  display: inline-flex; /* This will reveal it when ready */
+/* Make sure the JavaScript .show class handles both targets */
+.install-btn.show, #installBtn.show {
+  display: inline-flex !important; 
 }
 
-.install-btn:hover{
-
-background:#15803d;
-
-transform:translateY(-2px);
-
-}
-
-.install-btn.show{
-
-display:inline-flex;
-
+/* Update your hover selector too */
+.install-btn:hover, #installBtn:hover {
+  background: #15803d;
+  transform: translateY(-2px);
 }
 
 @media(max-width:768px){
-
-.install-btn{
-
-padding:10px 18px;
-
-font-size:12px;
-
+  .install-btn, #installBtn {
+    padding: 10px 18px;
+    font-size: 12px;
+  }
 }
-
-}
-
 /* =====================================================
    BrainStack Platform V2
    Part 5 - Responsive + Floating AI + Loader
