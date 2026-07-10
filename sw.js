@@ -39,6 +39,14 @@ self.addEventListener('activate', (e) => {
 
 // Network-First Strategy: Inspect online server first, fall back to cache if offline
 self.addEventListener('fetch', (e) => {
+  // 👉 BYPASS CACHE FOR AD NETWORKS
+  // This checks if the request is going to an external site (like the ad networks)
+  // If it is, it fetches it live from the internet without touching your offline cache
+  if (!e.request.url.startsWith(self.location.origin)) {
+    e.respondWith(fetch(e.request));
+    return;
+  }
+
   e.respondWith(
     fetch(e.request)
       .then((response) => {
