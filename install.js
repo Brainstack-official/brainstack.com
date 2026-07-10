@@ -1,11 +1,14 @@
 // Initialize Supabase Connection
+// Change the initialization lines at the very top of install.js to this:
 const SUPABASE_URL = "https://waeeeyktjujpvpcprhbv.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_4HE-L3GRIKDq4wSIAxWyJw_vtnge..."; 
+const SUPABASE_ANON_KEY = "sb_publishable_4HE-L3GRIKDq4wSIaxWyJw_vtngeHdj"; 
 
+// Use window.supabase library loaded by your secondary cdn script tag
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 let deferredPrompt;
 const installBtn = document.getElementById("installBtn");
+// ... leave everything else in install.js exactly as it is below
 
 function isInstalled(){
   return window.matchMedia("(display-mode: standalone)").matches ||
