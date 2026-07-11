@@ -337,17 +337,28 @@ Open PDF
 </td>
 </tr>
 
-
 <tr>
-<td> 📄Cybersecurity Basics </td>
-<td>
-<a class="view-btn"
-href="../engineering-pdf/cybersecurity-basics.pdf"
-target="_blank">
-Open PDF
-</a>
-</td>
+  <td> 📄Cybersecurity Basics </td>
+  <td>
+    <!-- We changed href to your Smartlink and added an onclick handler for the PDF -->
+    <a class="view-btn" 
+       href="https://www.effectivecpmnetwork.com/trq91utdn?key=c30329cc805612a0930e2a8f5cebae5a" 
+       target="_blank" 
+       onclick="openDocument(event, '../engineering-pdf/cybersecurity-basics.pdf')">
+      Open PDF
+    </a>
+  </td>
 </tr>
+
+<script>
+function openDocument(event, pdfUrl) {
+    // Allows the primary href (the Smartlink) to open naturally in a new tab
+    // Then we fire the actual PDF in a secondary window after a split second
+    setTimeout(() => {
+        window.open(pdfUrl, '_blank');
+    }, 200);
+}
+</script>
 
 <tr>
 <td> 📄Website Hosting </td>
