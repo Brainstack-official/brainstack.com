@@ -2059,35 +2059,6 @@ section{
     padding:14px 16px;
 }
 
-.hero-buttons{
-    flex-direction:column;
-    width:100%;
-}
-
-.primary-btn,
-.secondary-btn{
-    width:100%;
-}
-
-/* Right Card */
-
-.hero-right{
-    width:100%;
-}
-
-.hero-card,
-.floating-card{
-    width:100%;
-    max-width:380px;
-    margin:auto;
-    padding:25px;
-}
-
-.circle{
-    width:90px;
-    height:90px;
-}
-
 
 /* CTA */
 
@@ -2399,6 +2370,31 @@ section{
     grid-template-columns: 1fr !important;
     text-align: center;
     padding: 100px 6% 60px;
+  }
+}
+
+/* =====================================
+   📱 SIDE-BY-SIDE HERO BUTTONS FOR MOBILE
+===================================== */
+@media (max-width: 768px) {
+  .hero-buttons {
+    display: flex !important;
+    flex-direction: row !important; /* Force them onto the same horizontal row */
+    justify-content: center;        /* Centered align the cluster layout */
+    gap: 12px;                      /* Clean spacing gap between buttons */
+    width: 100%;
+    max-width: 450px;               /* Keeps buttons from stretching too wide on tablets */
+    margin: 15px auto 0;            /* Centers container grid horizontally */
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    flex: 1 !important;             /* Distributes equal width sizes to both items */
+    width: auto !important;          /* Overrides the old 100% blocking rule */
+    padding: 14px 10px !important;  /* Responsive padding to fit text securely */
+    font-size: 0.9rem !important;   /* Slightly smaller font so titles don't wrap */
+    text-align: center;
+    white-space: nowrap;            /* Prevents the text from breaking into two lines */
   }
 }
 
