@@ -2081,14 +2081,14 @@ h2{
   }
 
   .career-section .section-title h2 {
-    font-size: 1.8rem !important;
+    font-size: 1.2rem !important;
   }
 
   /* 1. Force exactly 2 equal columns side-by-side on mobile devices */
   .career-grid {
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 14px !important;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   /* 2. Rescale the cards into uniform compact square tiles */
@@ -2105,10 +2105,10 @@ h2{
 
   /* 3. Style the heading text to fit beautifully inside the square */
   .career-card h3 {
-    font-size: 0.95rem !important;
-    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
     margin-bottom: 0 !important; /* Clears old padding space since text is hidden */
-    line-height: 1.4 !important;
+    line-height: 1.3 !important;
     color: #0f172a;
   }
 
