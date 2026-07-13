@@ -1039,58 +1039,6 @@ background:#f0fdf4;
 }
 
 
-/* ==========================================
-   RESPONSIVE
-========================================== */
-
-@media(max-width:768px){
-
-.section-title h2{
-
-    font-size:1.5rem;
-
-}
-
-.roadmap::before{
-
-    left:22px;
-
-}
-
-.roadmap-item{
-
-    gap:18px;
-
-}
-
-.step-number{
-
-    width:48px;
-
-    height:48px;
-
-    min-width:48px;
-
-    font-size:1rem;
-
-}
-
-.step-content{
-
-    padding:20px;
-
-}
-
-}
-
-@media(max-width:500px){
-
-.career-grid{
-
-    grid-template-columns:1fr;
-
-}
-
 .video-grid{
 
     grid-template-columns:1fr;
@@ -1982,20 +1930,6 @@ h2{
     font-size:12px;
 }
 
-/* Roadmap */
-
-.roadmap-item{
-    flex-direction:column;
-    text-align:center;
-}
-
-.step-number{
-    margin-bottom:11px;
-   font-size:14px;
-}
-   .step-content{
-   font-size:12px;
-}
 
 /* Career */
 
@@ -2068,6 +2002,61 @@ h2{
     display: none !important;
   }
 }
+
+/* =====================================
+   📱 MOBILE ROADMAP ADAPTATION (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  .roadmap-section {
+    padding: 60px 16px; /* Tighter padding so cards stretch well on phone glass */
+  }
+
+  .section-title h2 {
+    font-size: 2rem !important; /* Scale down heading title size slightly */
+  }
+
+  /* Reposition timeline guide line tightly to the left margin border */
+  .roadmap::before {
+    left: 18px !important;
+    width: 3px !important;
+  }
+
+  .roadmap-item {
+    gap: 16px !important;      /* Tighter horizontal layout gap spacing */
+    margin-bottom: 30px !important; /* Compact step gap stacking height */
+  }
+
+  /* Shrink step numbers while keeping them centered along the baseline vertical line */
+  .step-number {
+    min-width: 38px !important;
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 0.95rem !important;
+  }
+
+  /* Streamline the description bubble shapes */
+  .step-content {
+    padding: 16px 20px !important;
+    border-radius: 16px !important;
+  }
+
+  .step-content h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 6px !important;
+  }
+
+  .step-content p {
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Prevent heavy transform bounce states on simple scroll-touch gestures */
+  .step-content:hover {
+    transform: translateY(-2px) !important;
+  }
+}
+
+
 /* ==========================================
    MOBILE BOTTOM NAVIGATION
 ========================================== */
