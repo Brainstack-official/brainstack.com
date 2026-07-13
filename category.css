@@ -1754,39 +1754,8 @@ background:#16a34a;
 
 .tip-card,
 .latest-card,
-.career-card,
 .topic-card{
     padding:24px;
-}
-
-}
-
-
-
-@media(max-width:500px){
-
-.community-buttons{
-    flex-direction:column;
-}
-
-.community-buttons a{
-    width:100%;
-}
-
-.hero-content h1{
-    font-size:1.5rem;
-}
-
-.newsletter-content h2{
-    font-size:1.2rem;
-}
-
-.footer{
-    text-align:center;
-}
-
-.footer-brand{
-    margin-bottom:30px;
 }
 
 }
@@ -1930,12 +1899,6 @@ h2{
     font-size:12px;
 }
 
-
-/* Career */
-
-.career-grid{
-    grid-template-columns:1fr;
-}
 
 /* Skills */
 
@@ -2106,6 +2069,58 @@ h2{
     border-color: #22c55e !important;
     transform: translateY(-3px);
     transition: 0.25s ease;
+  }
+}
+
+/* =====================================
+   📱 COMPACT 2-COLUMN CAREERS GRID (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  .career-section {
+    padding: 50px 16px; /* Tighter padding for mobile screens */
+  }
+
+  .career-section .section-title h2 {
+    font-size: 1.8rem !important;
+  }
+
+  /* 1. Force exactly 2 equal columns side-by-side on mobile devices */
+  .career-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px !important;
+    margin-top: 30px;
+  }
+
+  /* 2. Rescale the cards into uniform compact square tiles */
+  .career-card {
+    padding: 20px 12px !important;
+    border-radius: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    aspect-ratio: 1 / 1 !important; /* Perfect square locking rule */
+  }
+
+  /* 3. Style the heading text to fit beautifully inside the square */
+  .career-card h3 {
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important; /* Clears old padding space since text is hidden */
+    line-height: 1.4 !important;
+    color: #0f172a;
+  }
+
+  /* 4. HIDE THE JOB DESCRIPTION PARAGRAPHS COMPLETELY */
+  .career-card p {
+    display: none !important;
+  }
+
+  /* 5. Clean, lighter interactive touch transition for mobile */
+  .career-card:hover {
+    transform: translateY(-4px) !important;
+    border-color: #22c55e !important;
   }
 }
 
