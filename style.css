@@ -2088,46 +2088,6 @@ section{
     height:90px;
 }
 
-/* Stats */
-
-.stats{
-    grid-template-columns:1fr;
-    gap:18px;
-    padding:40px 20px;
-}
-
-.stat{
-    padding:23px;
-}
-
-/* Resource */
-
-.resource-grid{
-    grid-template-columns:1fr;
-}
-
-.resource-card{
-    padding:23px;
-}
-
-/* AI */
-
-.ai-container{
-    grid-template-columns:1fr;
-    gap:45px;
-}
-
-.ai-left{
-    text-align:center;
-}
-
-.ai-left h2{
-    font-size:1.2rem;
-}
-
-.ai-preview{
-    width:100%;
-}
 
 /* Journey */
 
@@ -2267,6 +2227,55 @@ section{
     color:#64748b;
 }
 
+}
+
+/* =====================================
+   📱 MOBILE 2-COLUMN APP GRID (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  .resource-grid {
+    grid-template-columns: repeat(2, 1fr) !important; /* Forces exactly 2 columns side-by-side */
+    gap: 14px; /* Tighter padding for mobile screen edges */
+    margin-top: 30px;
+  }
+
+  .resource-card {
+    padding: 20px 12px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    aspect-ratio: 1 / 1; /* Forces cards into perfect uniform squares */
+    justify-content: center;
+  }
+
+  /* Shrink and center the icons */
+  .resource-top {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Shrink the headers to fit text neatly inside squares */
+  .resource-card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+
+  /* HIDE long descriptions and footer tags on mobile to make room */
+  .resource-card p,
+  .resource-footer {
+    display: none !important;
+  }
+  
+  /* Disable translation shifts on mobile viewports */
+  .resource-card:hover {
+    transform: translateY(-4px);
+  }
 }
 
 
