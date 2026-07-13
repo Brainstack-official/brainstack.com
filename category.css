@@ -1900,18 +1900,6 @@ h2{
 }
 
 
-/* Skills */
-
-.skills-grid{
-    grid-template-columns:repeat(2,1fr);
-    gap:12px;
-}
-
-.skills-grid span{
-    text-align:center;
-    font-size:13px;
-}
-
 /* Footer */
 
 .footer-container{
@@ -2121,6 +2109,16 @@ h2{
   .career-card:hover {
     transform: translateY(-4px) !important;
     border-color: #22c55e !important;
+  }
+}
+
+/* =====================================
+   📱 HIDE SKILLS SECTION ON MOBILE (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  /* Completely hides the entire skills section block from rendering on mobile layout screens */
+  .skills-section {
+    display: none !important;
   }
 }
 
