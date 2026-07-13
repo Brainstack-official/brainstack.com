@@ -1123,13 +1123,13 @@ text-align:center;
 
   /* Beautifully scales down the title size without text string fragmentation */
   .hero-left h1 {
-      font-size: 2.2rem !important; 
-      line-height: 1.25 !important;
+      font-size: 1.5rem !important; 
+      line-height: 1.2 !important;
       margin-bottom: 16px !important;
   }
 
   .hero-left p {
-      font-size: 0.95rem !important;
+      font-size: 0.9rem !important;
       line-height: 1.5 !important;
       margin-bottom: 25px !important;
       padding: 0 10px;
