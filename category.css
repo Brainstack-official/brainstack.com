@@ -1889,6 +1889,18 @@ background:#16a34a;
 
 }
 
+/* =====================================
+   📱 HIDE HERO IMAGE GRID ON MOBILE
+===================================== */
+@media (max-width: 768px) {
+  /* Targeted selector to hide the card container block completely */
+  .hero-image,
+  .hero-card,
+  .hero-mini-card {
+    display: none !important;
+  }
+}
+
 /* ===========================
    MOBILE RESPONSIVE
 =========================== */
