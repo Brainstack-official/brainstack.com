@@ -70,12 +70,15 @@ async function searchResources() {
             return;
         }
 
-        // Filter out up to 8 matched array indices
+        // Split the query into individual words (keywords)
+        const queryWords = query.split(/\s+/);
+
+        // Filter: EVERY word in the query must match either the title or category
         const matches = resources
-            .filter(resource =>
-                resource.title.toLowerCase().includes(query) ||
-                resource.category.toLowerCase().includes(query)
-            )
+            .filter(resource => {
+                const combinedText = `${resource.title.toLowerCase()} ${resource.category.toLowerCase()}`;
+                return queryWords.every(word => combinedText.includes(word));
+            })
             .slice(0, 8);
 
         if (matches.length === 0) {
