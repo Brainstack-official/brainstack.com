@@ -2089,29 +2089,6 @@ section{
 }
 
 
-/* Community */
-
-.community-section{
-    grid-template-columns:1fr;
-    gap:40px;
-}
-
-.community-left{
-    text-align:center;
-}
-
-.community-left h2{
-    font-size:1.2rem;
-}
-
-.community-stats{
-    justify-content:center;
-}
-
-.community-right{
-    gap:20px;
-}
-
 /* CTA */
 
 .final-cta{
@@ -2322,6 +2299,86 @@ section{
 
   /* Smooth touch transitions */
   .journey-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
+/* =====================================
+   📱 MOBILE COMMUNITY ADAPTATION (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  /* Collapse main layout to single stack */
+  .community-section {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+    padding: 60px 6%;
+    text-align: center;
+  }
+
+  .community-left h2 {
+    font-size: 2.2rem;
+  }
+
+  .community-left p {
+    margin-bottom: 25px;
+  }
+
+  /* Make stats bars stay side-by-side elegantly */
+  .community-stats {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .community-stats div {
+    padding: 15px 10px;
+    min-width: 95px;
+    flex: 1; /* Lets elements share width proportionally */
+  }
+
+  .community-stats h3 {
+    font-size: 1.5rem;
+  }
+
+  .community-stats span {
+    font-size: 0.8rem;
+  }
+
+  /* Turn right cards into matching 2-column square tiles */
+  .community-right {
+    flex-direction: row !important;
+    gap: 14px;
+    width: 100%;
+  }
+
+  .community-card {
+    flex: 1;
+    padding: 20px 12px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1; /* Keeps theme square symmetry */
+  }
+
+  .community-top {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .community-card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+
+  /* Hide description paragraphs to keep them compact */
+  .community-card p {
+    display: none !important;
+  }
+
+  .community-card:hover {
     transform: translateY(-4px);
   }
 }
