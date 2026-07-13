@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Document | BrainStack</title>
+    <link rel="stylesheet" href="/style.css"> <style>
+        .pdf-viewer-page { padding-top: 90px; background: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+        .ad-container { width: 100%; max-width: 1180px; margin: 15px auto; text-align: center; background: #fff; padding: 10px; border-radius: 12px; border: 1px solid #e2e8f0; }
+        .iframe-wrapper { width: min(1180px, 94%); height: 75vh; border-radius: 16px; overflow: hidden; box-shadow: 0 12px 35px rgba(15,23,42,.08); border: 1px solid #e2e8f0; margin-bottom: 30px; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+
+    <div class="pdf-viewer-page">
+        
+        <div class="ad-container">
+            <small style="color:#64748b; display:block; margin-bottom:4px;">Sponsored Advertisement</small>
+            <div id="adsterra_top_banner"></div> 
+        </div>
+
+        <div class="iframe-wrapper">
+            <iframe id="pdfFrame" src="" type="application/pdf"></iframe>
+        </div>
+
+        <div class="ad-container">
+            <small style="color:#64748b; display:block; margin-bottom:4px;">Sponsored Advertisement</small>
+            <div id="adsterra_bottom_banner"></div>
+        </div>
+
+    </div>
+
+    <script>
+        // Reads "?file=/engineering-pdf/filename.pdf" from URL and injects it into the iframe
+        const urlParams = new URLSearchParams(window.location.search);
+        const pdfUrl = urlParams.get('file');
+        
+        if (pdfUrl) {
+            document.getElementById('pdfFrame').src = pdfUrl;
+        } else {
+            // Fallback if no file is specified
+            document.body.innerHTML = "<h2 style='text-align:center; margin-top:100px;'>Document not found. <a href='/'>Go back Home</a></h2>";
+        }
+    </script>
+
+</body>
+</html>
