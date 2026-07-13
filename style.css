@@ -2043,7 +2043,7 @@ section{
 }
 
 .hero h1{
-    font-size:1.4rem;
+    font-size:1.6rem;
 }
 
 .hero p{
@@ -2401,7 +2401,7 @@ section{
 @media (max-width:480px){
 
 .hero h1{
-    font-size:1.2rem;
+    font-size:1.4rem;
 }
 
 .hero p{
@@ -2423,12 +2423,6 @@ section{
 
 .logo h2{
     font-size:1rem;
-}
-
-.primary-btn,
-.secondary-btn{
-    padding:14px 20px;
-    font-size:14px;
 }
 
 .footer-brand h2{
