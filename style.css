@@ -2089,16 +2089,6 @@ section{
 }
 
 
-/* Journey */
-
-.journey-grid{
-    grid-template-columns:1fr;
-}
-
-.journey-card{
-    padding:25px;
-}
-
 /* Community */
 
 .community-section{
@@ -2274,6 +2264,64 @@ section{
   
   /* Disable translation shifts on mobile viewports */
   .resource-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
+/* =====================================
+   📱 MOBILE 2-COLUMN JOURNEY GRID (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  .journey-grid {
+    /* Changes 4-column desktop line into a 2x2 grid on mobile */
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px;
+    margin-top: 30px;
+  }
+
+  .journey-card {
+    padding: 20px 12px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1 / 1; /* Keeps them perfectly square like your categories */
+  }
+
+  /* Shrink and center the icons */
+  .journey-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Shrink step numbers so they don't overlap layout text */
+  .step-number {
+    top: 12px;
+    right: 14px;
+    font-size: 0.75rem;
+  }
+
+  /* Clean headings up neatly */
+  .journey-card h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+
+  /* HIDE step paragraph text to fit beautifully inside tiny screens */
+  .journey-card p {
+    display: none !important;
+  }
+
+  /* Smooth touch transitions */
+  .journey-card:hover {
     transform: translateY(-4px);
   }
 }
