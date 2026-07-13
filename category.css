@@ -669,7 +669,7 @@ background:#f0fdf4;
 @media(max-width: 900px){
     .category-hero .container{
         grid-template-columns: 1fr;
-        gap: 45px;
+        gap: 40px;
     }
     .hero-content{
         text-align: center;
@@ -694,7 +694,7 @@ background:#f0fdf4;
     /* Forces exactly 2 equal columns side-by-side on mobile screens */
     .topics-grid {
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 14px !important;
+        gap: 10px !important;
         padding: 0 16px;
     }
     
@@ -708,12 +708,12 @@ background:#f0fdf4;
     .topic-icon {
         width: 50px !important;
         height: 50px !important;
-        font-size: 22px !important;
-        margin-bottom: 10px !important;
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
     }
     
     .topic-card h3 {
-        font-size: 0.95rem !important;
+        font-size: 0.9rem !important;
         line-height: 1.3 !important;
     }
     
@@ -2013,7 +2013,7 @@ h2{
   }
 
   .section-title h2 {
-    font-size: 1rem !important;
+    font-size: 1.15rem !important;
     line-height: 1.3;
   }
   
@@ -2073,8 +2073,8 @@ h2{
 
   /* 6. Style the title topics clearly inside the card */
   .step-content h3 {
-    font-size: 0.8rem !important;
-    font-weight: 700 !important;
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
     color: #0f172a !important;
     margin: 0 !important;
     line-height: 1.3 !important;
