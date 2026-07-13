@@ -2383,6 +2383,24 @@ section{
   }
 }
 
+/* =====================================
+   📱 HIDE HERO CARDS ON MOBILE (Max 768px)
+===================================== */
+@media (max-width: 768px) {
+  /* Hides the entire right column layout wrapper and card contents */
+  .hero-right, 
+  .hero-card,
+  .floating-card {
+    display: none !important;
+  }
+
+  /* Make the left-side text take up full layout width on mobile since right-side is gone */
+  .hero {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    padding: 100px 6% 60px;
+  }
+}
 
 @media (max-width:480px){
 
