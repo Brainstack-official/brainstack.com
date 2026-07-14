@@ -6,11 +6,11 @@
     "tagline": "Your All-in-One Learning Hub for Students",
     "categories": [
       { "name": "Engineering Hub",        "url": "https://brainstack-com.vercel.app/engineering-hub/engineering.html",  "emoji": "⚙️" },
-      { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",                      "emoji": "🔬" },
-      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming-languages/programming.html",       "emoji": "💻" },
-      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-development/web-development.html",                  "emoji": "🌐" },
-      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",                    "emoji": "🤖" },
-      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",                      "emoji": "📚" }
+      { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",  "emoji": "🔬" },
+      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming-languages/programming.html",  "emoji": "💻" },
+      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-development/web-development.html",  "emoji": "🌐" },
+      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",  "emoji": "🤖" },
+      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",  "emoji": "📚" }
     ]
   },
 
@@ -21,7 +21,7 @@
       "category": "Engineering Hub",
       "emoji": "⚙️",
       "url": "https://brainstack-com.vercel.app/engineering-hub/mechanical-resources.html",
-      "topics": ["mechanical","thermodynamics","fluid mechanics","heat transfer","manufacturing","cad","machine design","kinematics","dynamics","strength of materials","rankine","carnot","bernoulli","robotic engineering","communication system","automobile engineering","material science","mechatronics and robotics","engineering physics","thermal physics","waves optics"]
+      "topics": ["mechanical","thermodynamics","fluid mechanics","heat transfer","manufacturing","machine design","dynamics","strength of materials","robotic engineering","automobile engineering","material science","mechatronics and robotics","thermal physics","waves optics"]
     },
     {
       "id": "civil",
@@ -29,7 +29,7 @@
       "category": "Engineering Hub",
       "emoji": "🏗️",
       "url": "https://brainstack-com.vercel.app/engineering-hub/civil-resources.html",
-      "topics": ["civil","construction","structural","concrete","surveying","bridge","road","geotechnical","hydraulics","rcc","steel structure","soil mechanics","building construction","concrete technology"]
+      "topics": ["civil","construction","structural","concrete","surveying","bridge","road","rcc","steel structure","soil mechanics","building construction","concrete technology"]
     },
     {
       "id": "ece",
@@ -37,7 +37,7 @@
       "category": "Engineering Hub",
       "emoji": "📡",
       "url": "https://brainstack-com.vercel.app/engineering-hub/ece-resources.html",
-      "topics": ["electronics","communication","ece","circuit","signal","microcontroller","arduino","embedded","semiconductor","amplifier","transistor","diode","analog","digital","vlsi","antenna","modulation","fundamentals of electronics","internet of things","5g technology"]
+      "topics": ["electronics","ece","communication system","circuit","signal","microcontroller","arduino","semiconductor","amplifier","transistor","diode","analog","digital","antenna","fundamentals of electronics","internet of things","5g technology"]
     },
     {
       "id": "cse",
@@ -45,7 +45,7 @@
       "category": "Engineering Hub",
       "emoji": "💻",
       "url": "https://brainstack-com.vercel.app/engineering-hub/cs-resources.html",
-      "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","computer architecture","theory of computation","software development","sql basics","website deployment","github","operating system","basic structure of computer"]
+      "topics": ["computer science","cse","software engineering","operating system","computer networks","compiler","software development","sql basics","website deployment","github","operating system","basic structure of computer"]
     },
     {
       "id": "aiml_eng",
@@ -53,7 +53,7 @@
       "category": "Engineering Hub",
       "emoji": "🤖",
       "url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",
-      "topics": ["ai engineering","ml engineering","aiml","ai ml","artificial intelligence engineering","prompt engineering","chat gpt vs perplexity","how to do startup with ai","brainstake ai"]
+      "topics": ["ai engineering","ml engineering","aiml","artificial intelligence engineering","prompt engineering","chat gpt vs perplexity","how to do startup with ai","brainstake ai"]
     },
     {
       "id": "bsc_phy",
@@ -136,27 +136,11 @@
       "topics": ["javascript","js","es6","async","await","promise","event","dom","json","fetch","arrow function","closure","prototype","scope","hoisting","callback","spread","destructuring"]
     },
     {
-      "id": "react",
-      "title": "React & Frontend Frameworks",
-      "category": "Web Development",
-      "emoji": "⚛️",
-      "url": "https://brainstack-com.vercel.app/web-dev/react.html",
-      "topics": ["react","vue","angular","component","hooks","usestate","useeffect","props","jsx","redux","context","next.js","virtual dom","spa","react router"]
-    },
-    {
-      "id": "node",
-      "title": "Node.js & Backend Guide",
-      "category": "Web Development",
-      "emoji": "🖧",
-      "url": "https://brainstack-com.vercel.app/web-dev/nodejs.html",
-      "topics": ["nodejs","node","express","backend","rest api","server","npm","full stack","middleware","authentication","jwt","api development","expressjs"]
-    },
-    {
       "id": "ai",
       "title": "Artificial Intelligence Guide",
       "category": "Artificial Intelligence",
       "emoji": "🤖",
-      "url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",
+      "url": "https://brainstack-com.vercel.app/ai-lab/ai-complete-guide.pdf",
       "topics": ["artificial intelligence","ai","expert system","search algorithm","problem solving","knowledge representation","planning ai","turing test","ai history"]
     },
     {
