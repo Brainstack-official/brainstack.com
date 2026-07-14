@@ -6,11 +6,11 @@
     "tagline": "Your All-in-One Learning Hub for Students",
     "categories": [
       { "name": "Engineering Hub",        "url": "https://brainstack-com.vercel.app/engineering-hub/engineering.html",  "emoji": "⚙️" },
-      { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",  "emoji": "🔬" },
-      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming-languages/programming.html",  "emoji": "💻" },
-      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-development/web-development.html",  "emoji": "🌐" },
-      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",  "emoji": "🤖" },
-      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",  "emoji": "📚" }
+      { "name": "Bachelor of Science",    "url": "https://brainstack-com.vercel.app/bsc/bsc.html",                      "emoji": "🔬" },
+      { "name": "Programming",            "url": "https://brainstack-com.vercel.app/programming-languages/programming.html",       "emoji": "💻" },
+      { "name": "Web Development",        "url": "https://brainstack-com.vercel.app/web-development/web-development.html",                  "emoji": "🌐" },
+      { "name": "Artificial Intelligence","url": "https://brainstack-com.vercel.app/ai-lab/artificial-intelligence.html",                    "emoji": "🤖" },
+      { "name": "BrainStack Library",     "url": "https://brainstack-com.vercel.app/digital-library/digital-labrary.html",                      "emoji": "📚" }
     ]
   },
 
@@ -631,7 +631,328 @@
         "keywords": ["brainstake ai", "brainstake", "brain stack artificial intelligence", "brainstack chat system"],
         "explanation": "**BrainStack AI**\n📖 Simple definition: A localized, high-intelligence education engine engineered to provide students with instant study plans, roadmaps, and academic PDFs entirely offline.\n🧠 Beginner-friendly explanation: Your personal, built-in study partner that instantly structures complex courses, generates working project code, and locates the right hosted PDFs without needing paid API keys.\n🎯 Why it's important: Democratic student platform built by Shaik Mohammed Rehan to streamline learning curves completely for free.\n🛣 Learning roadmap: Platform Navigation Menus → Query Parameter Keywords → Reviewing Generated Project Blueprints → Accessing Hosted PDF Documents.\n🚀 Next skill to learn: Full-Stack Application Scaling Workflows.",
         "pdfIds": ["aiml_eng"]
+      },
+      "hey": {
+        "keywords": ["hey", "hi", "hello", "yo", "sup", "greetings"],
+        "explanation": "**Hello there!**\n📖 Simple definition: A friendly, welcoming greeting to kickstart your learning session.\n🧠 Beginner-friendly explanation: Just a warm virtual wave! I am always awake and ready to help you learn.\n🎯 Why it's important: Great interactions start with a friendly greeting.\n🛣 Learning roadmap: Say Hello → Type your topic → Explore resources → Learn smarter!\n🚀 Next skill to learn: Discovering BrainStack AI capabilities.",
+        "pdfIds": []
+      },
+      "good morning": {
+        "keywords": ["good morning", "morning", "gm"],
+        "explanation": "**Good Morning!** ☀️\n📖 Simple definition: A cheerful morning greeting to start your daily study routine.\n🧠 Beginner-friendly explanation: Sunrise means a fresh start! Grab a cup of coffee or tea, clear your desk, and let's tackle today's learning goals together.\n🎯 Why it's important: Setting a positive tone in the morning boosts focus and productivity all day.\n🛣 Learning roadmap: Set Daily Goal → Quick Review → Deep Work Session → Brain Break.\n🚀 Next skill to learn: Setting productive daily study roadmaps.",
+        "pdfIds": []
+      },
+      "good afternoon": {
+        "keywords": ["good afternoon", "afternoon"],
+        "explanation": "**Good Afternoon!** 🌤️\n📖 Simple definition: A mid-day greeting to keep your momentum going.\n🧠 Beginner-friendly explanation: The middle of the day is perfect for maintaining your study rhythm or pushing past that afternoon slump!\n🎯 Why it's important: Staying consistent during the day ensures you finish your tasks on time.\n🛣 Learning roadmap: Mid-day Progress Check → Solve Hard Problems → Organize Notes.\n🚀 Next skill to learn: Problem Solving models.",
+        "pdfIds": []
+      },
+      "good evening": {
+        "keywords": ["good evening", "evening"],
+        "explanation": "**Good Evening!** 🌙\n📖 Simple definition: An evening greeting to wrap up your day or start a quiet night session.\n🧠 Beginner-friendly explanation: The quiet evening is a wonderful time to study without distractions and review what you learned today.\n🎯 Why it's important: Night reviews help consolidate information into your long-term memory.\n🛣 Learning roadmap: Daily Progress Review → Gentle Reading → Plan Tomorrow's Tasks.\n🚀 Next skill to learn: Retaining knowledge through active recall.",
+        "pdfIds": []
+      },
+      "who are you": {
+        "keywords": ["who are you", "your name", "introduce yourself", "what is your name"],
+        "explanation": "**Meet BrainStack AI**\n📖 Simple definition: Your friendly, adaptive, and highly intelligent digital learning assistant.\n🧠 Beginner-friendly explanation: Think of me as your personal, 24/7 study partner who is deeply connected to all the engineering, CS, and BSc resources on BrainStack!\n🎯 Why it's important: Knowing your assistant helps you ask better questions to get the exact study guides you need.\n🛣 Learning roadmap: Learn about BrainStack → Connect with study modules → Start interactive quizzes.\n🚀 Next skill to learn: How to use BrainStack search tools.",
+        "pdfIds": []
+      },
+      "what is brainstack ai": {
+        "keywords": ["what is brainstack ai", "brainstack ai definition", "about brainstack ai"],
+        "explanation": "**What is BrainStack AI?**\n📖 Simple definition: An intelligent, context-aware AI companion designed to guide students through the BrainStack learning platform.\n🧠 Beginner-friendly explanation: I am the brain of this website! I don't just search; I explain complex terms, guide you to the right PDFs, and map out paths to help you succeed.\n🎯 Why it's important: Traditional searching is slow. BrainStack AI makes finding and understanding notes fast and conversational.\n🛣 Learning roadmap: Ask Questions → Get Curated Key Concepts → Access Instantly mapped PDFs.\n🚀 Next skill to learn: Effective search querying.",
+        "pdfIds": []
+      },
+      "what can you do": {
+        "keywords": ["what can you do", "features", "capabilities", "how can you help", "help me"],
+        "explanation": "**BrainStack AI Capabilities**\n📖 Simple definition: The suite of helpful tasks this AI assistant can perform to accelerate your studies.\n🧠 Beginner-friendly explanation: I can explain engineering concepts, break down complex CS algorithms, suggest matching digital library books, and direct you to the exact PDF you need.\n🎯 Why it's important: Maximizing these features saves hours of manual research.\n🛣 Learning roadmap: Concept Explanations → Roadmap Generation → PDF Routing → Career Advice.\n🚀 Next skill to learn: Lateral Design Thinking & Creativity.",
+        "pdfIds": []
+      },
+      "can you help me study": {
+        "keywords": ["can you help me study", "help me study", "study guide", "exam prep"],
+        "explanation": "**Personalized Study Assistance**\n📖 Simple definition: Tailored guidance to help you prepare for exams, understand assignments, and master subjects.\n🧠 Beginner-friendly explanation: Yes, absolutely! Tell me what subject you are studying (like Fluid Mechanics, SQL, or Botany) and I will break it down step-by-step.\n🎯 Why it's important: Having an AI study partner keeps you motivated and provides instant clarity whenever you get stuck.\n🛣 Learning roadmap: Choose Subject → Define Weak Spots → Ask Explanations → Practice Problems.\n🚀 Next skill to learn: Critical thinking and deep study methods.",
+        "pdfIds": []
+      },
+      "are you free": {
+        "keywords": ["are you free", "is this free", "pricing", "cost of brainstack", "free search"],
+        "explanation": "**100% Free Access**\n📖 Simple definition: BrainStack's commitment to providing high-quality study resources at zero cost.\n🧠 Beginner-friendly explanation: Yes! Every roadmap, guide, PDF, and AI chat here is completely free for students. We keep the lights on with non-intrusive sponsor ads.\n🎯 Why it's important: Education should be accessible to every student, everywhere, without financial barriers.\n🛣 Learning roadmap: Register/Visit Platform → Search Resources → Download & Learn for Free.\n🚀 Next skill to learn: Finding resources in the Digital Library.",
+        "pdfIds": ["lib"]
+      },
+      "how do i use brainstack": {
+        "keywords": ["how do i use brainstack", "how to use", "getting started", "tutorial", "user guide"],
+        "explanation": "**How to Use BrainStack**\n📖 Simple definition: A quick guide to navigating and getting the most out of our student platform.\n🧠 Beginner-friendly explanation: Use the global search bar to instantly find notes, or tap on your specific Engineering branch or B.Sc specialization. Click 'Explore' to see the full list of guides!\n🎯 Why it's important: Knowing your way around the platform ensures you never miss out on valuable study resources.\n🛣 Learning roadmap: Choose Discipline → Search Key Topics → View Monetized PDFs → Consult BrainStack AI.\n🚀 Next skill to learn: Time management and structured learning.",
+        "pdfIds": []
+      },
+      "thank you": {
+        "keywords": ["thank you", "thanks", "ty", "appreciate it", "awesome"],
+        "explanation": "**You are very welcome!**\n📖 Simple definition: A warm response expressing mutual appreciation for a successful learning session.\n🧠 Beginner-friendly explanation: It's my absolute pleasure! Helping you learn and succeed is exactly what I was built for. Keep up the awesome effort!\n🎯 Why it's important: Expressing gratitude builds positive habits and encourages continued collaboration.\n🛣 Learning roadmap: Celebrate Small Wins → Apply Learned Concepts → Return with New Questions.\n🚀 Next skill to learn: Goal-oriented study persistence.",
+        "pdfIds": []
+      },
+      "bye": {
+        "keywords": ["bye", "goodbye", "see ya", "talk to you later", "exit"],
+        "explanation": "**Goodbye!** 👋\n📖 Simple definition: A friendly send-off at the end of your study session.\n🧠 Beginner-friendly explanation: Great job studying today! Rest your brain, get some fresh air, and I will be right here waiting whenever you are ready to learn more.\n🎯 Why it's important: Ending a session cleanly gives you a sense of completion.\n🛣 Learning roadmap: Save your progress → Close tabs → Relax → Come back refreshed!\n🚀 Next skill to learn: Balancing screen time with healthy rest cycles.",
+        "pdfIds": []
+      },
+      "which engineering branch is best": {
+        "keywords": ["which engineering branch is best", "best engineering branch", "highest paying branch", "choose branch"],
+        "explanation": "**Choosing the Right Engineering Branch**\n📖 Simple definition: Selecting an engineering discipline based on your interests, career goals, and job market demand.\n🧠 Beginner-friendly explanation: There is no single 'best' branch! If you love coding, choose CS. If you love machinery, choose Mechanical. If you like buildings, Civil is for you.\n🎯 Why it's important: Aligning your career path with your natural strengths ensures long-term job satisfaction.\n🛣 Learning roadmap: Explore Core Disciplines → Build Small Mini-Projects → Analyze Job Trends → Pick Specialization.\n🚀 Next skill to learn: Factual evaluation of industry career paths.",
+        "pdfIds": [""]
+      },
+      "what subjects should i study": {
+        "keywords": ["what subjects should i study", "engineering subjects", "core subjects", "syllabus"],
+        "explanation": "**Core Academic Subjects**\n📖 Simple definition: The essential theoretical and practical modules required to pass engineering or science university degrees.\n🧠 Beginner-friendly explanation: Focus heavily on your branch's foundational subjects (like Physics for Mechanical, Data Structures for CS, or concrete analysis for Civil).\n🎯 Why it's important: Mastery of baseline university subjects is the key to passing exams and clearing technical interviews.\n🛣 Learning roadmap: Clear Academic Syllabus → Reference Standard Handbooks → Review Lecture Notes → Solve Past Papers.\n🚀 Next skill to learn: Effective textbook reading and note-taking.",
+        "pdfIds": []
+      },
+      "what skills should an engineer have": {
+        "keywords": ["what skills should an engineer have", "engineering skills", "technical skills", "soft skills"],
+        "explanation": "**Core Engineering Skills**\n📖 Simple definition: A combination of technical proficiency and professional behavioral attributes required to solve real-world problems.\n🧠 Beginner-friendly explanation: An engineer needs technical skills (like math, coding, or CAD design) combined with soft skills (like teamwork, clear communication, and problem-solving).\n🎯 Why it's important: Technical skills get you hired; communication and project execution skills get you promoted.\n🛣 Learning roadmap: Problem Solving Frameworks → Technical Specialization → Team Collaboration → Public Speaking.\n🚀 Next skill to learn: Agile project management methodologies.",
+        "pdfIds": [""]
+      },
+      "what software should engineers learn": {
+        "keywords": ["what software should engineers learn", "engineering software", "tools to learn", "cad", "matlab", "vs code"],
+        "explanation": "**Essential Engineering Software**\n📖 Simple definition: Industry-standard computer applications used to design, simulate, write, or model technical engineering assets.\n🧠 Beginner-friendly explanation: Mechanical/Civil students must learn CAD software (AutoCAD, SolidWorks). CS/Programming students must master IDEs (Visual Studio Code).\n🎯 Why it's important: Companies look for candidates who already know how to operate the day-to-day software tools used in their workflows.\n🛣 Learning roadmap: Install Basic IDE/CAD Tools → Follow Practical Video Workthroughs → Replicate Sample Designs → Earn Certifications.\n🚀 Next skill to learn: Version control via Git and GitHub.",
+        "pdfIds": [""]
+      },
+      "what are engineering projects": {
+        "keywords": ["what are engineering projects", "engineering projects", "final year projects", "mini projects"],
+        "explanation": "**Engineering Projects**\n📖 Simple definition: Practical, hands-on assignments where students design, build, and test solutions to tangible problems.\n🧠 Beginner-friendly explanation: Applying what you read in textbooks to make a real device, website, or mechanism—like an automated irrigation system or a custom app.\n🎯 Why it's important: Projects prove to future recruiters that your knowledge isn't just memorized theory, but actionable talent.\n🛣 Learning roadmap: Problem Identification → Blueprinting & Architecture → Prototype Fabrication → Testing & Validation.\n🚀 Next skill to learn: Technical research documentation.",
+        "pdfIds": [""]
+      },
+      "what is programming": {
+        "keywords": ["what is programming", "coding basics", "introduction to programming", "what is coding"],
+        "explanation": "**Understanding Programming**\n📖 Simple definition: The process of writing step-by-step instructions in a language a computer understands to perform specific tasks.\n🧠 Beginner-friendly explanation: Think of it like writing a recipe. You tell the computer exactly what ingredients to take and what actions to execute in order.\n🎯 Why it's important: Forms the entire digital foundation of the modern internet, apps, automation, and aerospace systems.\n🛣 Learning roadmap: Logical Thinking Foundations → Basic Syntax Mastery → Control Structures (Loops/Ifs) → Algorithm Architecture.\n🚀 Next skill to learn: Choosing your primary programming language.",
+        "pdfIds": [""]
+      },
+      "which language should i learn first": {
+        "keywords": ["which language should i learn first", "first programming language", "start coding", "python or java"],
+        "explanation": "**Your First Programming Language**\n📖 Simple definition: The introductory code syntax selected to learn fundamental computing concepts easily.\n🧠 Beginner-friendly explanation: Pick Python if you want something simple and love AI/Data. Pick JavaScript if you want to make websites immediately. Pick C++ for deep software logic.\n🎯 Why it's important: Learning your first language correctly builds the mental programming muscles needed to learn any other language later.\n🛣 Learning roadmap: Pick Syntax → Write 'Hello World' → Master Variables → Write Simple Custom Scripts.\n🚀 Next skill to learn: Object-Oriented Programming (OOP) concepts.",
+        "pdfIds": [""]
+      },
+      "which language is easiest": {
+        "keywords": ["which language is easiest", "easiest programming language", "simplest code"],
+        "explanation": "**The Easiest Programming Language**\n📖 Simple definition: A coding language with highly readable syntax that resembles plain English instructions.\n🧠 Beginner-friendly explanation: Python is widely considered the absolute easiest language because it has very little complex punctuation and reads beautifully.\n🎯 Why it's important: Starting with an easy language prevents frustration and keeps beginner developers motivated.\n🛣 Learning roadmap: Basic Variables → Conditional Flow Control → Python Functions → Simple Text Automations.\n🚀 Next skill to learn: Advanced data analysis with code arrays.",
+        "pdfIds": [""]
+      },
+      "how do i become a programmer": {
+        "keywords": ["how do i become a programmer", "become a coder", "software engineering path", "learn development"],
+        "explanation": "**Becoming a Professional Programmer**\n📖 Simple definition: The evolutionary roadmap from a non-technical beginner to an engineer capable of deploying scalable software packages.\n🧠 Beginner-friendly explanation: Learn one core language deeply, build 3 to 5 real-world personal projects, upload them to GitHub, and solve algorithmic logic puzzles.\n🎯 Why it's important: High global industry demand for engineers who possess verified, practical code-writing capabilities.\n🛣 Learning roadmap: Language Foundations → Version Control (Git) → Data Structures & Algorithms → Project Portfolio Development.\n🚀 Next skill to learn: Full-Stack dynamic web development architectures.",
+        "pdfIds": [""]
+      },
+      "how do websites work": {
+        "keywords": ["how do websites work", "web basics", "dns client server", "how internet works"],
+        "explanation": "**How Websites Function**\n📖 Simple definition: The system where a client browser requests files across the internet from a remote server hosting those files.\n🧠 Beginner-friendly explanation: Your browser (Client) asks a computer elsewhere (Server) for files. The server sends back text files (HTML/CSS) which your browser renders into a visual layout.\n🎯 Why it's important: Vital baseline knowledge required before attempting to construct custom, fast web apps.\n🛣 Learning roadmap: Browser Requests → IP Addresses & DNS Routing → Server Responses → Client Rendering Engine.\n🚀 Next skill to learn: Basic markup with HTML elements.",
+        "pdfIds": [""]
+      },
+      "how do i create a website": {
+        "keywords": ["how do i create a website", "build a website", "web development guide", "make a web page"],
+        "explanation": "**Creating Your First Website**\n📖 Simple definition: The process of building visual web elements using code and placing them online for global access.\n🧠 Beginner-friendly explanation: Start by creating an HTML file for layout text, style it with a CSS file, and use JavaScript to add interactive clickable buttons.\n🎯 Why it's important: A foundational rite of passage for every computer science and web development engineer.\n🛣 Learning roadmap: Basic HTML Skeleton → CSS Typography & Colors → JavaScript Event Loops → Deployment.\n🚀 Next skill to learn: Responsive UI design layouts.",
+        "pdfIds": [""]
+      },
+      "what is frontend": {
+        "keywords": ["what is frontend", "client side development", "html css javascript developer"],
+        "explanation": "**Frontend Development Explained**\n📖 Simple definition: The user-facing layer of a website or application that visitors directly see, touch, and interact with.\n🧠 Beginner-friendly explanation: Everything on your screen right now—buttons, colors, images, fonts, and sliding bars—is built by the frontend developer using HTML, CSS, and JS.\n🎯 Why it's important: A great frontend ensures users stay on your page longer because the site looks crisp and operates smoothly.\n🛣 Learning roadmap: Semantic HTML Layouts → Modern Flexbox/Grid CSS Styles → Client JavaScript DOM Manipulations → UI Libraries (React/Tailwind).\n🚀 Next skill to learn: API consumption models.",
+        "pdfIds": [""]
+      },
+      "what is backend": {
+        "keywords": ["what is backend", "server side engineering", "databases and apis", "node express"],
+        "explanation": "**Backend Development Explained**\n📖 Simple definition: The server-side code engine, database layer, and logic controls operating invisibly behind the scenes of an application.\n🧠 Beginner-friendly explanation: The 'brain' behind the website. When you enter a password or make a purchase, the backend checks the database securely and returns an confirmation message.\n🎯 Why it's important: Protects sensitive user data and calculates core platform logic securely away from curious eyes.\n🛣 Learning roadmap: Server Environments (NodeJS/Python) → API Endpoints (REST) → SQL Database Schemas → Encryption Security.\n🚀 Next skill to learn: Server-side database integration workflows.",
+        "pdfIds": [""]
+      },
+      "how do i host a website": {
+        "keywords": ["how do i host a website", "deploy website", "put site online", "cloud hosting"],
+        "explanation": "**Website Deployment & Hosting**\n📖 Simple definition: Uploading local project code assets to specialized, constantly-running web servers so the site is accessible via a public URL.\n🧠 Beginner-friendly explanation: Taking code from your personal laptop and placing it on a cloud machine so anyone in the world can open it at any time.\n🎯 Why it's important: A website sitting only on your personal hard drive cannot bring you traffic, visibility, or ad revenue.\n🛣 Learning roadmap: Local Git Repositories → Cloud Provider Linking → Domain Name Routing → Free SSL Certificate Provisioning.\n🚀 Next skill to learn: Cloud optimization pipelines via Vercel.",
+        "pdfIds": [""]
+      },
+      "what is vercel": {
+        "keywords": ["what is vercel", "vercel deployment", "frontend cloud hosting"],
+        "explanation": "**Vercel Cloud Deployment**\n📖 Simple definition: A specialized modern cloud hosting architecture optimized for lighting-fast deployment of frontend web systems.\n🧠 Beginner-friendly explanation: An incredible platform where you connect your GitHub repository, and it automatically builds, publishes, and keeps your web apps online for free.\n🎯 Why it's important: Streamlines web deployment down to a single command line or an automated Git push action.\n🛣 Learning roadmap: GitHub Account Creation → Vercel Workspace Linking → Production Git Deployments → Environmental Variables configuration.\n🚀 Next skill to learn: Headless CMS and serverless cloud functions.",
+        "pdfIds": [""]
+      },
+      "what is firebase": {
+        "keywords": ["what is firebase", "google backend as a service", "baas database"],
+        "explanation": "**Google Firebase Architecture**\n📖 Simple definition: A fully managed Cloud Backend-as-a-Service (BaaS) providing real-time data storage, authentication, and analytics infrastructure without custom servers.\n🧠 Beginner-friendly explanation: Instead of spending weeks coding a custom secure login system or database, you plug in Firebase to handle users and storage instantly.\n🎯 Why it's important: Accelerates product development loops so engineering teams can validate startup creations rapidly.\n🛣 Learning roadmap: Firebase Console Setup → SDK Client Integrations → NoSQL Firestore Implementations → User Auth Rules.\n🚀 Next skill to learn: Storing unstructured binary assets inside cloud buckets.",
+        "pdfIds": [""]
+      },
+      "what is supabase": {
+        "keywords": ["what is supabase", "open source firebase alternative", "postgres database"],
+        "explanation": "**Supabase Cloud Infrastructure**\n📖 Simple definition: An open-source, highly scalable Backend-as-a-Service architecture built natively on top of the relational Postgres database framework.\n🧠 Beginner-friendly explanation: Similar to Firebase, but utilizes clean, classic tables (SQL) instead of messy nested documents, making it perfect for complex apps.\n🎯 Why it's important: Standardizes rapid database creation while retaining strict relational enterprise data structures.\n🛣 Learning roadmap: Relational SQL Tables Design → Supabase Auth Hooks → Real-time Row Streaming Listeners → Edge Script Functions.\n🚀 Next skill to learn: Database relation scaling concepts.",
+        "pdfIds": [""]
+      },
+      "what is responsive design": {
+        "keywords": ["what is responsive design", "mobile friendly styles", "css media queries", "mobile layout optimization"],
+        "explanation": "**Responsive UI Design**\n📖 Simple definition: A web styling methodology that ensures standard pages adjust, resize, and re-flow dynamically across all mobile, tablet, and desktop monitors.\n🧠 Beginner-friendly explanation: Designing your code so it looks flawless on a large computer screen, yet automatically transforms into a clean, easy-to-read list when opened on a small phone.\n🎯 Why it's important: Over 60% of modern internet traffic originates from mobile devices. If your platform breaks on phones, you lose users instantly.\n🛣 Learning roadmap: CSS Viewport Units → Fluid Layout Grids → Mobile-First CSS Media Queries → Multi-device testing parameters.\n🚀 Next skill to learn: Interactive layout debugging techniques via Developer Tools.",
+        "pdfIds": [""]
+      },
+      "can ai replace programmers": {
+        "keywords": ["can ai replace programmers", "will coding die", "ai engineering replacement", "future of developers"],
+        "explanation": "**AI Impact on Programming Careers**\n📖 Simple definition: An objective assessment of whether deep learning models will make human software engineering talent obsolete.\n🧠 Beginner-friendly explanation: No, AI will not replace human engineers. It acts as a super-powered calculator that eliminates boring work, allowing you to build software much faster.\n🎯 Why it's important: Understanding this prevents anxiety and shifts your focus toward becoming an AI-assisted, highly efficient engineer.\n🛣 Learning roadmap: Analyze LLM Limitations → Master Prompt Engineering → Automate Repetitive Debugging → Code Architectural Systems Design.\n🚀 Next skill to learn: Integrating generative AI into software pipelines.",
+        "pdfIds": [""]
+      },
+      "can ai replace engineers": {
+        "keywords": ["can ai replace engineers", "future of mechanical civil", "automation engineering jobs"],
+        "explanation": "**AI Impact on Physical Engineering Fields**\n📖 Simple definition: The evaluation of artificial intelligence systems in taking over traditional manufacturing, civil building, or electrical design operations.\n🧠 Beginner-friendly explanation: AI cannot physically build bridges, inspect jet engines, or troubleshoot manufacturing pipelines on the factory floor. It is purely a tool to assist human innovation.\n🎯 Why it's important: Emphasizes that traditional engineering fields remain highly secure, future-proof career selections.\n🛡 Safety Warning: Always double-check AI-generated calculations; hallucinated metrics in engineering designs can cause real structural structural failures.\n🛣 Learning roadmap: Automated CAD Ideations → Data-driven Stress Simulations → Material Choice Optimization Models.\n🚀 Next skill to learn: Systems automation loops.",
+        "pdfIds": [""]
+      },
+      "what ai tools should i learn": {
+        "keywords": ["what ai tools should i learn", "ai developer software", "copilot chatgpt perplexity"],
+        "explanation": "**Essential Professional AI Applications**\n📖 Simple definition: The industry-standard generative artificial intelligence ecosystems used to supercharge research, drafting, and programming workflows.\n🧠 Beginner-friendly explanation: Master GitHub Copilot for code assistance, Perplexity for cited engineering research, and ChatGPT for general explanations.\n🎯 Why it's important: Mastering these platforms makes you 3x faster at completing assignments and solving complex engineering problems.\n🛣 Learning roadmap: Contextual Prompt Architecture → Bug Isolation Prompts → API Token Management → Advanced Code Reviews.\n🚀 Next skill to learn: Creative prompt engineering methods.",
+        "pdfIds": [""]
+      },
+      "how do ai chatbots work": {
+        "keywords": ["how do ai chatbots work", "llm explanations", "neural networks training", "generative weights"],
+        "explanation": "**How AI Models Generate Text**\n📖 Simple definition: Large Language Models (LLMs) that process immense datasets to predict the most logical next word in a sentence using math equations.\n🧠 Beginner-friendly explanation: They don't actually 'think'. Instead, they review thousands of books and articles to instantly guess what word should come next based on what you asked.\n🎯 Why it's important: Helps you write better prompts because you understand that clear context results in better mathematical predictions.\n🛣 Learning roadmap: Machine Learning Basics → Transformer Core Infrastructures → Text Tokenization Sequences → Fine-tuning models.\n🚀 Next skill to learn: Python data science basics.",
+        "pdfIds": [""]
+      },
+      "how do i make a resume": {
+        "keywords": ["how do i make a resume", "engineering cv preparation", "resume building tips", "ats optimization"],
+        "explanation": "**Building an Engineering Resume**\n📖 Simple definition: A clean, structured single-page professional profile detailing your projects, technical skills, and academic history.\n🧠 Beginner-friendly explanation: Keep it simple! Use a clean layout with no fancy graphics, list your programming or design skills clearly at the top, and describe your hands-on projects using action verbs.\n🎯 Why it's important: A professional resume gets you past Applicant Tracking Systems (ATS) to land real engineering job interviews.\n🛣 Learning roadmap: Choose ATS-friendly Templates → Write Impactful Bullet Points → Highlight Practical Projects → Proofread for Bugs.\n🚀 Next skill to learn: Technical portfolio development.",
+        "pdfIds": [""]
+      },
+      "how do i prepare for interviews": {
+        "keywords": ["how do i prepare for interviews", "technical interview questions", "coding mock test"],
+        "explanation": "**Technical Interview Mastery**\n📖 Simple definition: The systematic preparation routine required to clear programming challenges and engineering behavioral loops.\n🧠 Beginner-friendly explanation: Practice solving data problems on paper, review core branch definitions, and practice explaining your personal projects calmly out loud.\n🎯 Why it's important: Knowing the theory isn't enough; you must be able to solve problems clearly under pressure while explaining your thought process to an interviewer.\n🛣 Learning roadmap: Study Core Technical Definitions → Solve Algorithmic Practice Puzzles → Conduct Mock Peer Interactions → Refine Project Explanations.\n🚀 Next skill to learn: Strategic public speaking under stress metrics.",
+        "pdfIds": [""]
+      },
+      "what skills should i learn": {
+        "keywords": ["what skills should i learn", "most valued corporate assets", "future proof study plans"],
+        "explanation": "**High-Value Skill Acquisition**\n📖 Simple definition: Prioritizing long-term technical and behavioral talents that carry immense economic value in the global job market.\n🧠 Beginner-friendly explanation: Focus on skills that require deep problem-solving, such as full-stack coding, AI data pipelines, dynamic CAD manufacturing, or strong team management.\n🎯 Why it's important: Studying outdated tools wastes precious time. Learning highly valued, future-proof skills ensures you stay ahead of the curve.\n🛣 Learning roadmap: Research High-Growth Industries → Dedicate 1 Hour Daily → Build Real Micro-Tools → Showcase Progress Publicly.\n🚀 Next skill to learn: Setting up daily learning routines.",
+        "pdfIds": [""]
+      },
+      "how do i get internships": {
+        "keywords": ["how do i get internships", "student placement guide", "apply engineering trainee"],
+        "explanation": "**Securing Professional Internships**\n📖 Simple definition: The strategy of landing short-term professional training roles within engineering companies while completing your studies.\n🧠 Beginner-friendly explanation: Don't just apply blindly online. Build cool projects, share them on LinkedIn, and message engineers working at your dream companies to show them what you built.\n🎯 Why it's important: Internships give you invaluable real-world experience and often lead directly to full-time job offers before graduation.\n🛣 Learning roadmap: Build 3 Standout Projects → Draft Targeted Resumes → Target Mid-Sized Tech Firms → Network Directly with Engineering Managers.\n🚀 Next skill to learn: Designing professional LinkedIn profiles.",
+        "pdfIds": [""]
+      },
+      "how do i improve communication": {
+        "keywords": ["how do i improve communication", "public speaking engineering", "soft skills networking"],
+        "explanation": "**Improving Professional Communication**\n📖 Simple definition: The ability to articulate complex technical ideas simply and clearly to both engineering peers and non-technical stakeholders.\n🧠 Beginner-friendly explanation: Avoid confusing jargon. Speak clearly, listen carefully without interrupting, and learn to explain complex problems using simple, real-world analogies.\n🎯 Why it's important: The best technical ideas are useless if you can't explain them clearly to clients, managers, or interviewers.\n🛣 Learning roadmap: Active Listening Practices → Structured Presentation Framing → Writing Clear Engineering Reports → Peer Group Speaking Exercises.\n🚀 Next skill to learn: Effective team collaboration strategies.",
+        "pdfIds": [""]
+      },
+      "what is linkedin": {
+        "keywords": ["what is linkedin", "professional social media profile", "networking online"],
+        "explanation": "**Professional LinkedIn Development**\n📖 Simple definition: A business-oriented social networking platform used by professionals to share achievements, expand networks, and recruit talent.\n🧠 Beginner-friendly explanation: Think of it like a professional Facebook where your profile acts as your live resume. Use a clean photo, list your projects, and share updates about things you are building.\n🎯 Why it's important: Over 85% of corporate recruiters actively use LinkedIn to hunt for talented engineering students and programmers.\n🛣 Learning roadmap: Optimize Profile Imagery/Taglines → Add Structural Project Documentation → Connect with Industry Leads → Share Consistent Learning Updates.\n🚀 Next skill to learn: Constructing clean personal portfolio assets.",
+        "pdfIds": [""]
+      },
+      "how do i build a portfolio": {
+        "keywords": ["how do i build a portfolio", "developer project page", "showcase project metrics"],
+        "explanation": "**Constructing a Project Portfolio**\n📖 Simple definition: A dedicated personal website or repository that displays your best technical creations to potential employers.\n🧠 Beginner-friendly explanation: Build a single clean webpage that includes a short introduction, links to your best projects, code samples, and a clear download link for your resume.\n🎯 Why it's important: A live portfolio serves as definitive visual proof of your engineering capabilities, instantly setting you apart from other applicants.\n🛣 Learning roadmap: Gather Top Project Assets → Build Clean Portfolio Page Layout → Deploy Site Freely Online → Include Live URLs in Resumes.\n🚀 Next skill to learn: Deploying web apps via Vercel cloud architecture.",
+        "pdfIds": [""]
+      },
+      "how do i become a software engineer": {
+        "keywords": ["how do i become a software engineer", "swe roadmap", "computer developer job", "cs career path"],
+        "explanation": "**Software Engineering Professional Track**\n📖 Simple definition: The structural educational and practical pipeline required to secure modern enterprise software developer positions.\n🧠 Beginner-friendly explanation: Master data structure logic, study computer networking foundations, build complex web/app projects, and practice resolving technical algorithmic challenges consistently.\n🎯 Why it's important: One of the fastest-growing and highest-paying career landscapes globally.\n🛣 Learning roadmap: Algorithm Foundations → Language Specialization → System Architecture Design → Technical Interview Drills.\n🚀 Next skill to learn: Advanced system architecture patterns.",
+        "pdfIds": [""]
+      },
+      "how do i become an ai engineer": {
+        "keywords": ["how do i become an ai engineer", "artificial intelligence engineering", "data science analytics ml"],
+        "explanation": "**Artificial Intelligence Career Path**\n📖 Simple definition: The specialized engineering track focusing on building neural data networks, training models, and deploying artificial intelligence features.\n🧠 Beginner-friendly explanation: Learn Python deeply, study linear math and statistics, master data libraries (NumPy, Pandas), and learn to train machine learning models via PyTorch.\n🎯 Why it's important: Capitalizes on the massive, growing global corporate investment in automated machine learning architectures.\n🛣 Learning roadmap: Python Data Processing → Statistical Modeling Foundations → Deep Learning Architecture Setup → Model Fine-tuning pipelines.\n🚀 Next skill to learn: Advanced model prompt optimization strategies.",
+        "pdfIds": [""]
+      },
+      "what career should i choose": {
+        "keywords": ["what career should i choose", "career choice guidance", "engineering future planning"],
+        "explanation": "**Strategic Career Direction Choice**\n📖 Simple definition: Evaluating market compensation data, long-term industry stability, and your personal skill sets to pick a lifelong career path.\n🧠 Beginner-friendly explanation: Spend time trying out small projects in a few different areas. You will naturally discover whether you prefer writing software code, designing physical objects, or analyzing data arrays.\n🎯 Why it's important: Making an intentional, well-researched career choice prevents you from burning out down the road.\n🛣 Learning roadmap: Identify Personal Core Strengths → Experiment Across Technical Fields → Network with Industry Pros → Pick and Commit to a Specialization.\n🚀 Next skill to learn: Developing long-term career resilience models.",
+        "pdfIds": [""]
+      },
+      "how do i stay motivated": {
+        "keywords": ["how do i stay motivated", "burnout recovery", "study motivation drivers"],
+        "explanation": "**Sustaining Long-Term Study Motivation**\n📖 Simple definition: The psychological frameworks required to maintain energy and dedication to your study goals over long periods.\n🧠 Beginner-friendly explanation: Don't rely on fleeting bursts of inspiration. Break large topics down into small, bite-sized tasks and celebrate small wins to keep your momentum going.\n🎯 Why it's important: Motivation naturally goes up and down. Building reliable study routines is what keeps you moving forward on days when you feel uninspired.\n🛣 Learning roadmap: Define Core Objectives → Establish Mini Milestones → Build Reward Loops → Connect with Peer Support Networks.\n🚀 Next skill to learn: Designing automated habit tracking loops.",
+        "pdfIds": [""]
+      },
+      "how do i avoid distractions": {
+        "keywords": ["how do i avoid distractions", "stop scrolling phone", "deep focus blocks"],
+        "explanation": "**Eliminating Study Distractions**\n📖 Simple definition: Intentionally modifying your environment to protect your attention span and maintain deep concentration.\n🧠 Beginner-friendly explanation: Put your phone in another room, close unnecessary browser tabs, put on some focus music, and use app blockers to keep your attention on your work.\n🎯 Why it's important: Every time you check a text or social media notification, your brain loses momentum, adding hours to your study sessions.\n🛣 Learning roadmap: Conduct Digital Distraction Audits → Isolate Study Environments → Utilize App Blocking Tools → Practice Focused Pomodoro Sessions.\n🚀 Next skill to learn: Implementing deep work focus models.",
+        "pdfIds": [""]
+      },
+      "how do i build habits": {
+        "keywords": ["how do i build habits", "atomic habits engineering", "routine setup"],
+        "explanation": "**Habit Formation Mechanics**\n📖 Simple definition: Automating daily productive behaviors by linking routine tasks to specific environmental triggers.\n🧠 Beginner-friendly explanation: Want to study code daily? Do it right after your morning tea. Keep the task tiny at first—just 15 minutes—and build from there.\n🎯 Why it's important: Once a productive routine becomes a natural habit, it requires zero willpower or struggle to sit down and get to work.\n🛣 Learning roadmap: Identify Existing Daily Anchors → Attach Tiny Habits → Remove Obstacles from Your Environment → Track Daily Progress Constantly.\n🚀 Next skill to learn: Optimizing long-term schedule management.",
+        "pdfIds": [""]
+      },
+      "how do i manage time": {
+        "keywords": ["how do i manage time", "student schedule organization", "time boxing techniques"],
+        "explanation": "**Effective Time Management**\n📖 Simple definition: Allocating specific chunks of your day to distinct tasks to maximize study output and reduce stress.\n🧠 Beginner-friendly explanation: Stop multitasking! Use a digital calendar to block out specific hours for study, assignments, exercise, and relaxation, then stick to that plan.\n🎯 Why it's important: Proper planning allows you to complete assignments ahead of schedule, completely eliminating late-night cram sessions.\n🛣 Learning roadmap: Audit Daily Time Usage → Apply Time-Boxing Schedules → Rank Tasks by Importance → Delegate Secondary Priorities.\n🚀 Next skill to learn: Task prioritization frameworks.",
+        "pdfIds": [""]
+      },
+      "how do i stop overthinking": {
+        "keywords": ["how do i stop overthinking", "imposter syndrome coping", "anxiety control loops"],
+        "explanation": "**Reducing Cognitive Overthinking**\n📖 Simple definition: Breaking free from loops of worry and self-doubt that delay action and drain your mental energy.\n🧠 Beginner-friendly explanation: Stop waiting for everything to be perfect before you start. Write a messy first draft of code or notes. Making errors is how you learn!\n🎯 Why it's important: Overthinking causes procrastination. Taking swift action builds confidence and gets projects done.\n🛣 Learning roadmap: Recognize Overthinking Triggers → Write Out Worries Clearly → Focus on Immediate Next Steps → Embrace Imperfect Initial Drafts.\n🚀 Next skill to learn: Designing fast testing loops.",
+        "pdfIds": ["lib"]
+      },
+      "how do i learn faster": {
+        "keywords": ["how do i learn faster", "feynman technique study", "active recall methods"],
+        "explanation": "**Accelerated Learning Strategies**\n📖 Simple definition: Using cognitive science techniques to master complex technical concepts in half the usual time.\n🧠 Beginner-friendly explanation: Don't just re-read textbooks. Read a section once, close the book, and try to explain the concept in simple terms to an imaginary 10-year-old.\n🎯 Why it's important: Active recall forces your brain to store information deeply, creating solid long-term memory connections.\n🛣 Learning roadmap: Implement Feynman Techniques → Build Active Recall Cards → Use Spaced Repetition Schedules → Practice Varied Problem Solving.\n🚀 Next skill to learn: Designing efficient mind map layouts.",
+        "pdfIds": [""]
+      },
+      "how do i stay consistent": {
+        "keywords": ["how do i stay consistent", "daily discipline habits", "long term consistency tracking"],
+        "explanation": "**Maintaining Daily Consistency**\n📖 Simple definition: The discipline to show up and make progress toward your goals every single day, regardless of how you feel.\n🧠 Beginner-friendly explanation: It's much better to study for 30 minutes every single day than to skip the whole week and try to cram for 7 hours straight on Sunday.\n🎯 Why it's important: Small, daily efforts compound over time into massive technical skills and impressive academic results.\n🛣 Learning roadmap: Lower Initial Daily Expectations → Track Consistency Visual Patterns → Build Accountability Partnerships → Focus on Systems Over End Goals.\n🚀 Next skill to learn: Adapting schedule design parameters.",
+        "pdfIds": [""]
+      },
+      "how do i increase focus": {
+        "keywords": ["how do i increase focus", "deep work engine", "attention span repair"],
+        "explanation": "**Maximizing Deep Focus**\n📖 Simple definition: Training your mind to stay fully locked on a single complex task without letting your attention drift.\n🧠 Beginner-friendly explanation: Think of focus like a muscle. Start with 25-minute study sprints, followed by 5-minute breaks. Gradually increase the work blocks as you get stronger.\n🎯 Why it's important: High-level engineering tasks require long blocks of deep focus that cannot be achieved in short, interrupted bursts.\n🛣 Learning roadmap: Clear Workspace Environments → Use the Pomodoro Technique → Practice Mindful Deep Breathing → Protect Attention Assets.\n🚀 Next skill to learn: Designing distraction-free workspaces.",
+        "pdfIds": [""]
+      },
+      "what should i do daily": {
+        "keywords": ["what should i do daily", "optimal student routines", "daily performance checklists"],
+        "explanation": "**The Ideal Daily Student Routine**\n📖 Simple definition: A well-structured daily habit stack that balances academic progress, physical health, and rest.\n🧠 Beginner-friendly explanation: Review your calendar in the morning, complete 1 to 2 hours of deep study, move your body, and plan out tomorrow's tasks before bed.\n🎯 Why it's important: A solid daily routine eliminates guesswork, giving you a clear roadmap for your time and energy every day.\n🛣 Learning roadmap: Structure Morning Routines → Allocate Deep Work Blocks → Include Physical Exercise → Review Achievements Daily.\n🚀 Next skill to learn: Strategic weekly review frameworks.",
+        "pdfIds": [""]
+      },
+      "how do successful students study": {
+        "keywords": ["how do successful students study", "top rankers study habits", "effective exam strategies"],
+        "explanation": "**Study Secrets of Top Students**\n📖 Simple definition: Scientifically proven study methods used by top-performing students to excel with less stress.\n🧠 Beginner-friendly explanation: Top students don't spend all day memorizing notes. They study early, test themselves with mock exams, ask questions when stuck, and prioritize sleep.\n🎯 Why it's important: Working smarter allows you to achieve top grades while leaving plenty of free time for hobbies and friends.\n🛣 Learning roadmap: Ditch Passive Highlighting → Test Yourself with Mock Exams → Analyze Mistake Patterns → Prioritize Quality Sleep cycles.\n🚀 Next skill to learn: Advanced test-taking strategies.",
+        "pdfIds": [""]
+      },
+      "what is the internet": {
+        "keywords": ["what is the internet", "networking basics", "how global web connects"],
+        "explanation": "**The Internet Demystified**\n📖 Simple definition: A massive global network linking millions of computers together via undersea cables to instantly share data.\n🧠 Beginner-friendly explanation: A giant worldwide web of connected computers that can talk to each other and share files at blazing-fast speeds.\n🎯 Why it's important: The essential baseline infrastructure that powers all modern software, cloud apps, and digital systems.\n🛣 Learning roadmap: Hardware Cable Routings → Packet Switching Protocols → IP Address Allocation → HTTP Data Exchange Structures.\n🚀 Next skill to learn: Modern web communication technologies.",
+        "pdfIds": [""]
+      },
+      "what is cloud computing": {
+        "keywords": ["what is cloud computing", "aws azure cloud storage", "remote servers infrastructure"],
+        "explanation": "**Understanding Cloud Computing**\n📖 Simple definition: Running software programs and storing data on remote servers managed by tech providers rather than on your local computer.\n🧠 Beginner-friendly explanation: Renting space on super-powerful computers owned by Amazon (AWS) or Google instead of running heavy applications on your own laptop.\n🎯 Why it's important: Allows apps to scale seamlessly to handle millions of users worldwide without requiring expensive physical servers.\n🛣 Learning roadmap: Virtual Server Infrastructure → Cloud Data Storage Buckets → Serverless Execution Architectures → Global CDN Deployments.\n🚀 Next skill to learn: Automated cloud hosting pipelines.",
+        "pdfIds": [""]
+      },
+      "what is cyber security": {
+        "keywords": ["what is cyber security", "ethical hacking protocols", "encryption pen testing"],
+        "explanation": "**Introduction to Cybersecurity**\n📖 Simple definition: The practice of protecting digital networks, servers, and sensitive data from unauthorized access or malicious attacks.\n🧠 Beginner-friendly explanation: Playing defense on the internet—using firewalls, encryption, and clever coding practices to keep hackers from stealing user passwords.\n🎯 Why it's important: Essential for protecting personal privacy, corporate secrets, and national banking and defense systems.\n🛣 Learning roadmap: Encryption Baseline Concepts → Common Vector Threat Analysis → Firewall Rule Settings → Pen Testing Simulations.\n🚀 Next skill to learn: Writing secure backend code integrations.",
+        "pdfIds": [""]
+      },
+      "what is data science": {
+        "keywords": ["what is data science", "big data analytics data sets", "python data parsing"],
+        "explanation": "**Understanding Data Science**\n📖 Simple definition: Combining programming, math, and analytics to uncover valuable hidden insights within massive, raw datasets.\n🧠 Beginner-friendly explanation: Sorting through mountains of raw digital information to find patterns that help businesses make smarter choices.\n🎯 Why it's important: Powers everything from Netflix's movie recommendations to predicting financial market trends and managing supply chains.\n🛣 Learning roadmap: Python Data Extraction Libraries → Statistical Probability Frameworks → Interactive Data Visualizations → Predictive Machine Learning Models.\n🚀 Next skill to learn: Automated machine learning pipelines.",
+        "pdfIds": [""]
+      },
+      "what is blockchain": {
+        "keywords": ["what is blockchain", "decentralized ledger ledgers", "cryptography nodes"],
+        "explanation": "**Blockchain Technology Explained**\n📖 Simple definition: A secure, decentralized digital ledger that records data across a network of computers, making it impossible to alter or hack.\n🧠 Beginner-friendly explanation: A digital ledger shared by a huge network of computers. Once a transaction is approved and written down, it can never be changed or erased.\n🎯 Why it's important: Forms the core infrastructure behind secure digital currencies, smart tracking systems, and transparent digital voting.\n🛣 Learning roadmap: Cryptographic Hash Formations → Distributed Network Consensus Rules → Smart Contract Programming → Decentralized Web App Setups.\n🚀 Next skill to learn: Advanced platform security paradigms.",
+        "pdfIds": [""]
+      },
+      "what is iot": {
+        "keywords": ["what is iot", "internet of things electronics", "smart devices sensors"],
+        "explanation": "**The Internet of Things (IoT)**\n📖 Simple definition: Connecting everyday physical objects—like light bulbs, watches, or cars—to the internet so they can send data and be controlled remotely.\n🧠 Beginner-friendly explanation: Giving everyday items 'brains' by adding sensors and connecting them to the internet so they can talk to your phone.\n🎯 Why it's important: Powers modern smart homes, automated factory lines, and real-time medical monitoring devices.\n🛣 Learning roadmap: Microcontroller Pin Configurations (Arduino/Raspberry Pi) → Sensor Data Processing → Wireless Network Protocols → Cloud Dashboard Overviews.\n🚀 Next skill to learn: Embedded software development practices.",
+        "pdfIds": [""]
+      },
+      "what is linux": {
+        "keywords": ["what is linux", "open source kernel command line", "bash terminal basics"],
+        "explanation": "**The Linux Operating System**\n📖 Simple definition: A powerful, free, open-source operating system favored by engineers for running cloud servers and development workflows.\n🧠 Beginner-friendly explanation: An operating system like Windows, but highly customizable, lightweight, and operated entirely through text commands inside a terminal.\n🎯 Why it's important: Over 90% of the world's cloud servers run on Linux. Mastering it is essential for any backend developer or systems engineer.\n🛣 Learning roadmap: Terminal Navigation Syntaxes → User Permission Management → Writing Automation Bash Scripts → Managing Server Processes.\n🚀 Next skill to learn: Advanced command-line tool operations.",
+        "pdfIds": [""]
+      },
+      "what is an operating system": {
+        "keywords": ["what is an operating system", "os system kernel windows", "hardware memory managers"],
+        "explanation": "**Operating Systems Explained**\n📖 Simple definition: The core software engine that manages a computer's hardware resources and provides a platform for applications to run.\n🧠 Beginner-friendly explanation: The manager of your computer. It connects the physical components (like your screen or keyboard) to the apps you want to run (like Chrome or games).\n🎯 Why it's important: Fundamental computer science knowledge required to understand how programs execute and use memory resources.\n🛣 Learning roadmap: Process Execution Lifecycles → Memory Management Policies → File System Architecture → Device Driver Hooks.\n🚀 Next skill to learn: System process handling methods.",
+        "pdfIds": [""]
+      },
+      "what is ram": {
+        "keywords": ["what is ram", "random access memory hardware", "volatile computer components"],
+        "explanation": "**Understanding Random Access Memory (RAM)**\n📖 Simple definition: A computer's short-term digital workspace used to store the temporary data needed by active, open applications.\n🧠 Beginner-friendly explanation: The computer's scratchpad. It holds the data for the apps you are using right now so the processor can access it instantly.\n🎯 Why it's important: More RAM allows your machine to run multiple heavy programming tools and browser tabs at the same time without slowing down.\n🛣 Learning roadmap: Volatile Memory Hardware Layouts → Speed Metrics & Data Latency → Dual-Channel Configurations → Software RAM Allocation Patterns.\n🚀 Next skill to learn: Optimizing hardware memory usage.",
+        "pdfIds": [""]
+      },
+      "what is a cpu": {
+        "keywords": ["what is a cpu", "central processing unit silicon", "processor clock cycles cores"],
+        "explanation": "**The Central Processing Unit (CPU)**\n📖 Simple definition: The primary processor chip inside a computer that executes software code instructions and handles mathematical logic.\n🧠 Beginner-friendly explanation: The engine of your computer. It reads your code line-by-line, performs the calculations, and tells the rest of the hardware what to do.\n🎯 Why it's important: Understanding processor clock cycles and multi-core systems helps you write code that runs significantly faster and uses less energy.\n🛣 Learning roadmap: Binary Logic Gates → The Fetch-Decode-Execute Cycle → Core Count & Thread Management → Processor Cooling Systems.\n🚀 Next skill to learn: Advanced computer architecture designs.",
+        "pdfIds": [""]
       }
+
     },
 
     "projects": {
