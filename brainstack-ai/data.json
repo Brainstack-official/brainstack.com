@@ -267,7 +267,7 @@
         "pdfIds": ["bsc_bot"]
       },
       "zoology": {
-        "keywords": ["zoology","animal","animal biology","genetics","evolution","physiology","embryology","ecology zoology","animal kingdom","classification","darwin","chromosome","gene","dna"],
+        "keywords": ["zoology","animal","animal biology","embryology","animal kingdom","darwin","chromosome","gene","dna"],
         "explanation": "**Zoology**\n📖 Simple definition: The biological study of animal structure, behavior, and evolution.\n🧠 Beginner-friendly explanation: Tracking animal adaptations, tracking organ mutations, and assessing how diverse species maintain balance within ecosystems.\n🎯 Why it's important: Core science for managing ecosystems, veterinary care, and genetic mapping.\n🛣 Learning roadmap: Structural Animal Invertebrates Taxonomy → Vertebrate Comparative Layouts → Metabolic Animal Physiology → Evolutionary Genetics.\n🚀 Next skill to learn: Advanced Immunology and Population Genetics.",
         "pdfIds": ["bsc_zoo"]
       },
@@ -996,7 +996,488 @@
         "keywords": ["which skill should i learn", "best career after mechanical", "highest paying skills", "future jobs", "ai career"],
         "explanation": "**Strategic Engineering Skills Mapping**\n📖 Simple definition: Evaluating high-demand skills like AI, automation, and advanced manufacturing to target fast-growing, highly paid career paths.\n🧠 Beginner-friendly explanation: Choosing the best cutting-edge skills to learn alongside your degree so you are prepared for future high-paying jobs.\n🎯 Why it's important: Helps you avoid out-of-date fields and guides your focus toward skills that industry companies actively need right now.\n🛣 Learning roadmap: Core Domain Fundamentals → Software & Data Automation Literacy → Multi-Disciplinary Specializations → Professional Portfolio Building.\n🚀 Next skill to learn: Advanced system design and operational frameworks.",
         "pdfIds": ["mech"]
+      },
+      "machine design": {
+        "keywords": ["machine design", "mechanical component design", "factor of safety calculation", "fatigue failure design"],
+        "explanation": "**Machine Design**\n📖 Simple definition: The systematic process of planning, sizing, and configuring mechanical components to safely perform mechanical work under loads.\n🧠 Beginner-friendly explanation: Drawing and calculating the dimensions of parts like gears, shafts, and keys so they don't break when a machine runs.\n🎯 Why it's important: Prevents unexpected industrial machinery failures and ensures safety limits across all structural mechanisms.\n🛣 Learning roadmap: Static Loading Stress Factors → Fatigue Failure Principles → Component Geometry Sizing (Shafts, Fasteners) → Assembly Configuration Frameworks.\n🚀 Next skill to learn: Finite Element Analysis (FEA) testing methods.",
+        "pdfIds": ["mech"]
+      },
+      "cad cam": {
+        "keywords": ["cad cam", "computer aided design", "computer aided manufacturing", "g code parsing"],
+        "explanation": "**CAD/CAM Systems**\n📖 Simple definition: Software integrations used to digitally design parts (CAD) and systematically translate those shapes into automated tool paths for machines (CAM).\n🧠 Beginner-friendly explanation: Creating a 3D model of an object on a computer and turning that design into commands that a manufacturing robot can build automatically.\n🎯 Why it's important: Links technical design teams straight to factory floors, heavily lowering processing costs and boosting manufacturing speeds.\n🛣 Learning roadmap: 3D Geometrical Modeling Concepts → Toolpath Generation Matrixes → Feed and Speed Optimization Profiles → G-Code Synthesis Operations.\n🚀 Next skill to learn: Multi-axis high-speed machining tactics.",
+        "pdfIds": ["mech"]
+      },
+      "solid edge": {
+        "keywords": ["solid edge", "synchronous modeling technology", "siemens mechanical cad", "sheet metal toolsets"],
+        "explanation": "**Solid Edge Modeling Software**\n📖 Simple definition: A premium 3D design software platform engineered by Siemens featuring synchronous feature adjustments and advanced sheet metal workflows.\n🧠 Beginner-friendly explanation: A powerful computer tool used to draw and assemble 3D parts fast without getting bogged down by traditional feature trees.\n🎯 Why it's important: Widely used across global engineering teams to accelerate product updates and structural drafting speeds.\n🛣 Learning roadmap: Synchronous Component Sketching → Part Assembly Modeling Matrices → Sheet Metal Design Parameters → Production Engineering Drawing Projections.\n🚀 Next skill to learn: Synchronous assembly design extensions.",
+        "pdfIds": ["mech"]
+      },
+      "autocad": {
+        "keywords": ["autocad", "2d industrial drafting", "autodesk drafting layer configurations", "dwg coordinate systems"],
+        "explanation": "**AutoCAD Software**\n📖 Simple definition: The foundational industry-standard 2D and 3D computer-aided drafting software suite utilized to map structural blueprints.\n🧠 Beginner-friendly explanation: A digital drafting board used to create exact engineering blueprints, floor plans, and flat structural shapes with precise dimensions.\n🎯 Why it's important: The most common software platform used worldwide for reading, sharing, and standardizing floor plans and component designs.\n🛣 Learning roadmap: Geometric Drafting Coordinates → Layer Structure Architectures → Orthographic Dimensioning Standards → Block Implementations & Template Management.\n🚀 Next skill to learn: Dynamic block script operations.",
+        "pdfIds": ["mech"]
+      },
+      "catia": {
+        "keywords": ["catia", "surface modeling design", "dassault mechanical environments", "aerospace model assemblies"],
+        "explanation": "**CATIA Engineering Suite**\n📖 Simple definition: An enterprise-grade 3D product lifecycle suite favored by automotive and aerospace industries for advanced surface styling.\n🧠 Beginner-friendly explanation: High-end 3D software used by car and airplane manufacturers to design smooth outer shells and massive, complex engine parts.\n🎯 Why it's important: Crucial software baseline requirement for landing technical jobs in elite aerospace and automotive companies.\n🛣 Learning roadmap: Wireframe Geometry Modeling → Generative Shape Design Arrays → Large Scale Assembly Implementations → Generative Structural Part Stressing.\n🚀 Next skill to learn: Advanced aerodynamic surfacing shapes.",
+        "pdfIds": ["mech"]
+      },
+      "ansys": {
+        "keywords": ["ansys", "fea mesh operations", "structural stress analysis simulation", "cfd fluids matrixes"],
+        "explanation": "**ANSYS Simulation Software**\n📖 Simple definition: An advanced computational system engineered to run simulations tracking structural stress, thermal loads, and fluid mechanics behavior.\n🧠 Beginner-friendly explanation: A testing simulator that checks where a part will bend, melt, or snap before you build it in real life.\n🎯 Why it's important: Saves millions in physical manufacturing costs by highlighting structural mistakes during digital simulation runs.\n🛣 Learning roadmap: Geometry Mesh Cleanups → Boundary Limit Constraint Settings → Load Case Evaluation Profiles → Deformation Contour Review.\n🚀 Next skill to learn: Non-linear material stress evaluations.",
+        "pdfIds": ["mech"]
+      },
+      "robotics": {
+        "keywords": ["robotics", "kinematics frame transformations", "actuator torque profiles", "robotic control networks"],
+        "explanation": "**Robotics Systems Engineering**\n📖 Simple definition: The multi-disciplinary engineering field combining spatial mechanics, circuit hardware, and code systems to deploy automated machines.\n🧠 Beginner-friendly explanation: Combining mechanical links, electronic motors, and code brains to build robots that move and navigate on their own.\n🎯 Why it's important: Powerhouse core framework driving modern autonomous delivery units, vehicle assembly lines, and medical support tools.\n🛣 Learning roadmap: Forward & Inverse Kinematic Equations → Actuator Torque Configurations → Sensor Feedback Network Feeds → Real-Time Microprocessor Code Control.\n🚀 Next skill to learn: Ros (Robot Operating System) node architectures.",
+        "pdfIds": ["mech"]
+      },
+      "cnc programming": {
+        "keywords": ["cnc programming", "g code standard codes", "m code machine codes", "cnc lathe coordinates"],
+        "explanation": "**CNC Programming**\n📖 Simple definition: Writing directional code layouts using G & M text instructions to control industrial automation cutting machinery.\n🧠 Beginner-friendly explanation: Writing exact point commands that tell an automated carving machine exactly how to cut out a metal part.\n🎯 Why it's important: Critical for turning abstract engineering ideas into high-precision metal parts at scale.\n🛣 Learning roadmap: Machine Origin Point Coordinate System → G-Code Geometry Directions → M-Code System Action Settings → Tool Radius Adjustment Matrices.\n🚀 Next skill to learn: Multi-axis mill-turn manufacturing tracks.",
+        "pdfIds": ["mech"]
+      },
+      "welding": {
+        "keywords": ["welding", "mig tig electric arc", "welding joint dynamics", "thermal zone distortions"],
+        "explanation": "**Welding Technology**\n📖 Simple definition: A foundational manufacturing process used to join metal parts permanently through high-heat material fusion.\n🧠 Beginner-friendly explanation: Fusing two pieces of metal together by melting their edges with an electrical heat spark so they cool into one strong piece.\n🎯 Why it's important: The vital manufacturing bridge required to construct skyscraper skeletons, vehicle chassis frames, and aerospace frameworks.\n🛣 Learning roadmap: Arc Physics Mechanics → Joint Geometric Selection Models → Shielding Gas Flux Balance Profiles → Heat Affected Zone Structure Inquiries.\n🚀 Next skill to learn: Non-destructive structural inspection protocols.",
+        "pdfIds": ["mech"]
+      },
+      "metrology": {
+        "keywords": ["metrology", "gauge calibration tolerances", "vernier micrometer measurement", "precision measurement errors"],
+        "explanation": "**Engineering Metrology**\n📖 Simple definition: The scientific study of highly accurate dimensional measurements, quality inspections, and machine calibration parameters.\n🧠 Beginner-friendly explanation: The science of using ultra-precise tools like calipers and micrometers to check if parts match their exact plan dimensions down to the millimeter.\n🎯 Why it's important: Guarantees that mass-produced replacement components fit perfectly together every single time without custom filing.\n🛣 Learning roadmap: Error Isolation Mathematics → Linear & Angular Gauge Systems → Geometric Dimensioning Tolerances → Coordinate Measuring Machine Operations.\n🚀 Next skill to learn: Automated optical inspection integrations.",
+        "pdfIds": ["mech"]
+      },
+      "refrigeration": {
+        "keywords": ["refrigeration", "vapor compression cycles", "refrigerant property states", "cop performance index"],
+        "explanation": "**Refrigeration Infrastructure**\n📖 Simple definition: Thermal systems built to extract heat energy from enclosed spaces using phase-change refrigerant loops.\n🧠 Beginner-friendly explanation: The cooling loop tech inside household fridges that absorbs heat from food compartments and vents it outside.\n🎯 Why it's important: Critical system network supporting food supply networks, vaccine cold storage chains, and electronics bay operations.\n🛣 Learning roadmap: Vapor Compression Heat Cycles → Enthalpy Phase Chart Adjustments → Component Optimization Profiles (Compressor, Expansion) → Eco-Friendly Gas Selection Models.\n🚀 Next skill to learn: Ultra-low temperature cryogenic cooling layouts.",
+        "pdfIds": ["mech"]
+      },
+      "hvac": {
+        "keywords": ["hvac", "psychrometric air charts", "duct heat load estimates", "chilled water loop layouts"],
+        "explanation": "**HVAC Engineering**\n📖 Simple definition: Environmental systems engineering focused on regulating temperature, air purity, and humidity levels inside large structures.\n🧠 Beginner-friendly explanation: Central heating, ventilation, and air conditioning networks that keep the air inside buildings clean, comfortable, and cool.\n🎯 Why it's important: Vital baseline framework required to safely design cleanrooms, high-occupancy skyscrapers, and industrial workspaces.\n🛣 Learning roadmap: Psychrometric Property Graphing → Thermal Envelope Load Equations → Duct Grid Velocity Computations → Energy Reclamation System Matrixes.\n🚀 Next skill to learn: Intelligent building automation automation models.",
+        "pdfIds": ["mech"]
+      },
+      "industrial engineering": {
+        "keywords": ["industrial engineering", "lean production flow", "six sigma quality control", "operations tracking layouts"],
+        "explanation": "**Industrial Engineering**\n📖 Simple definition: The management engineering track dedicated to optimizing plant production flows, resource usage, and workplace ergonomics.\n🧠 Beginner-friendly explanation: Finding clever ways to eliminate wasted time, motion, and materials on assembly lines so factories run faster and cheaper.\n🎯 Why it's important: Allows production facilities to scale up product quality without driving up retail market prices.\n🛣 Learning roadmap: Time and Motion Efficiency Studies → Lean Manufacturing Principles (5S, Kaizen) → Statistical Quality Control Matrices → Supply Chain Logistics Graphing.\n🚀 Next skill to learn: Operations management automation systems.",
+        "pdfIds": ["mech"]
+      },
+      "production engineering": {
+        "keywords": ["production engineering", "metal casting processes", "sheet metal die design", "machining chip dynamics"],
+        "explanation": "**Production Engineering**\n📖 Simple definition: Technical engineering focusing directly on metal shaping, machine shop actions, tool configurations, and casting setups.\n🧠 Beginner-friendly explanation: Figuring out the exact physical steps, molds, and drill configurations needed to manufacture items safely at low unit costs.\n🎯 Why it's important: Transforms raw foundry ingots into highly polished finished goods sold across retail channels.\n🛣 Learning roadmap: Foundry Solidification Mechanics → Metal Forming & Extrusion Physics → Chip Removal Geometry Standards → Automation Assembly Tooling Design.\n🚀 Next skill to learn: High-precision additive manufacturing workflows.",
+        "pdfIds": ["mech"]
+      },
+      "renewable energy": {
+        "keywords": ["renewable energy", "green generation models", "clean energy infrastructure", "sustainability grid models"],
+        "explanation": "**Renewable Energy Systems**\n📖 Simple definition: Power engineering using natural, self-replenishing environmental resource pathways like wind and light to generate electricity.\n🧠 Beginner-friendly explanation: Generating green electrical power from infinite natural sources like sunlight, wind currents, and river flows.\n🎯 Why it's important: The essential structural grid change required to fight climate changes and secure clean energy autonomy.\n🛣 Learning roadmap: Environmental Kinetic Energy Mechanics → Energy Store Architecture Matrices → Power Conversion Efficiency Formulations → Sustainable Distribution Grid Operations.\n🚀 Next skill to learn: Micro-grid utility integration operations.",
+        "pdfIds": ["mech"]
+      },
+      "solar energy": {
+        "keywords": ["solar energy", "photovoltaic cell layouts", "solar thermal concentrators", "inverter storage systems"],
+        "explanation": "**Solar Energy Engineering**\n📖 Simple definition: Harnessing solar light and heat through silicon cell arrays or concentrator networks to generate electrical power.\n🧠 Beginner-friendly explanation: Using solar panels to capture sunlight and turn it into electricity for home appliances and battery storage.\n🎯 Why it's important: One of the fastest-growing clean energy paths for urban microgrids and utility-scale green fields.\n🛣 Learning roadmap: Photovoltaic Conversion Physics → Solar Irradiation Mapping Data → Inverter Battery Charging Loops → Rooftop Array Structuring Rules.\n🚀 Next skill to learn: Utility-scale solar tracking field design.",
+        "pdfIds": ["mech"]
+      },
+      "wind energy": {
+        "keywords": ["wind energy", "aerodynamic lift turbine", "betz limit power calculations", "turbine nacelle gears"],
+        "explanation": "**Wind Energy Technology**\n📖 Simple definition: The capture of atmospheric kinetic energy using optimized aerodynamic rotor turbine blades connected to generator grids.\n🧠 Beginner-friendly explanation: Engineering massive wind turbines that catch high-altitude breezes to spin generator shafts and produce power.\n🎯 Why it's important: Supplies large percentages of baseline clean electricity to industrial power grids near coastal borders.\n🛣 Learning roadmap: Aerodynamic Rotor Blade Lift Physics → Betz Fluid Extraction Limit Laws → Nacelle Gearbox Speed Configurations → Off-Shore Structural Anchoring Rules.\n🚀 Next skill to learn: Intelligent turbine blade pitch modulation systems.",
+        "pdfIds": ["mech"]
+      },
+      "bearings": {
+        "keywords": ["bearings", "hydrodynamic oil film", "radial thrust bearing loads", "antifriction bearing friction"],
+        "explanation": "**Bearing Mechanics & Design**\n📖 Simple definition: Precision machine elements designed to guide moving shafts, locate rotating assemblies, and eliminate wear friction.\n🧠 Beginner-friendly explanation: Small component rings containing rolling steel balls or oil layers that help heavy spinning shafts rotate smoothly without grinding.\n🎯 Why it's important: Found in every rotating machine link, from small hard drives to giant aircraft engines.\n🛣 Learning roadmap: Friction Modality Classifications → Hydrodynamic Fluid Lubrication Laws → Radial and Axial Loading Calculations → Service Life Fatigue Ratings.\n🚀 Next skill to learn: Magnetic bearing field suspension adjustments.",
+        "pdfIds": ["mech"]
+      },
+      "gear design": {
+        "keywords": ["gear design", "involute profile tooth", "spur helical gear layout", "lewis bending equation"],
+        "explanation": "**Gear Design and Kinematics**\n📖 Simple definition: Sizing and profiling matching toothed wheels to transmit torque, change speeds, or switch output directions smoothly.\n🧠 Beginner-friendly explanation: Custom engineering the tooth shapes on interlocking wheels so they can shift speed and power without slipping or snapping.\n🎯 Why it's important: Forms the mechanical core of automotive gearboxes, transmission grids, and industrial mining equipment.\n🛣 Learning roadmap: Involute Curve Geometry Math → Mesh Interference Calculations → Bending Fatigue Strength Formula (Lewis Equation) → Wear Life Hardening Metrics.\n🚀 Next skill to learn: Epicyclic planetary gear transmission modeling.",
+        "pdfIds": ["mech"]
+      },
+      "springs": {
+        "keywords": ["springs", "helical coil compression", "hookes law spring stiffness", "torsion bar deflection"],
+        "explanation": "**Mechanical Spring Design**\n📖 Simple definition: High-elasticity machine components engineered to deflect under forces, store mechanical energy, and spring back safely.\n🧠 Beginner-friendly explanation: Coiled metal wires engineered to absorb road bumps, push switches back, or store mechanical energy when squeezed.\n🎯 Why it's important: Essential element ensuring vehicle suspension control, shock absorption protection, and reliable valve timing states.\n🛣 Learning roadmap: Hooke's Law Elastic Modulus → Helical Coil Stress Factors → Energy Storing Density Formulations → Extension Fatigue Life Limits.\n🚀 Next skill to learn: Composite material leaf-spring design parameters.",
+        "pdfIds": ["mech"]
+      },
+      "pumps": {
+        "keywords": ["pumps", "centrifugal impeller flow", "npsh cavitation limits", "positive displacement fluid"],
+        "explanation": "**Pump Mechanics**\n📖 Simple definition: Hydraulic fluid machines built to push liquid volume flows along pipelines by adding pressure mechanical energy.\n🧠 Beginner-friendly explanation: Motor-driven machines containing internal spinning blades that draw in liquids and push them down long pipe grids.\n🎯 Why it's important: Moves city water supplies, controls fuel injection loops, and drives petrochemical industrial processing plants.\n🛣 Learning roadmap: Fluid Head Pressure Formulations → Impeller Velocity Vectors → Net Positive Suction Head (NPSH) Dynamics → Cavitation Prevention Actions.\n🚀 Next skill to learn: Variable frequency pump control setup.",
+        "pdfIds": ["mech"]
+      },
+      "compressors": {
+        "keywords": ["compressors", "reciprocating piston air", "multistage gas compression", "isentropic head curves"],
+        "explanation": "**Gas Compressors**\n📖 Simple definition: Thermal-pneumatic systems configured to squeeze gas molecular volumes to boost target terminal pressures.\n🧠 Beginner-friendly explanation: High-power air machines that squeeze gas molecules tightly together to store high-pressure energy inside storage tanks.\n🎯 Why it's important: Feeds assembly-line factory pneumatics, runs turbochargers, and powers commercial gas lines.\n🛣 Learning roadmap: Thermodynamic Gas State Laws → Reciprocating vs Screw Geometry Types → Multistage Intercooling Efficiency Balance → Compressor Surge Limit Control.\n🚀 Next skill to learn: High-velocity axial-flow compressor profiling.",
+        "pdfIds": ["mech"]
+      },
+      "boilers": {
+        "keywords": ["boilers", "fire water tube boiler", "steam generation thermodynamic", "boiler water feed scaling"],
+        "explanation": "**Industrial Boilers**\n📖 Simple definition: Sealed high-pressure vessels designed to boil water into high-energy process steam through direct fuel heat extraction.\n🧠 Beginner-friendly explanation: Massive, heavy metal water tanks heated by fuel flames to generate high-pressure steam for factory power generation.\n🎯 Why it's important: The essential steam supply source driving large thermal electricity generation sites and chemical processing facilities.\n🛣 Learning roadmap: Fire-Tube vs Water-Tube Shell Archetypes → Steam Enthalpy Saturation Charts → Water Conditioning Chemistry Controls → Pressure Relief Valve Layouts.\n🚀 Next skill to learn: Supercritical thermal boiler operations.",
+        "pdfIds": ["mech"]
+      },
+      "turbines": {
+        "keywords": ["turbines", "impulse reaction steam", "turbine blade aerodynamics", "generator shaft rotation"],
+        "explanation": "**Turbine Engineering**\n📖 Simple definition: Rotary fluid engines that extract kinetic energy from high-velocity steam or water flows and change it into rotational shaft force.\n🧠 Beginner-friendly explanation: Giant wheels packed with curved aerodynamic blades that spin rapidly when blasted by high-pressure steam, turning generator shafts to make electricity.\n🎯 Why it's important: Generates over 80% of all electric power consumed globally across coal, gas, and nuclear plants.\n🛣 Learning roadmap: Impulse vs Reaction Expansion Profiles → Fluid Velocity Vector Triangles → High-Temp Blade Metallurgy Science → Shaft Vibrational Balance Controls.\n🚀 Next skill to learn: Combined-cycle gas turbine design patterns.",
+        "pdfIds": ["mech"]
+      },
+      "engineering drawing": {
+        "keywords": ["engineering drawing", "orthographic third projection", "section view engineering", "gdandt blueprint symbols"],
+        "explanation": "**Engineering Drawing & Graphics**\n📖 Simple definition: The universal graphical text and language used to map dimensioned shape shapes on structural blueprints.\n🧠 Beginner-friendly explanation: The exact blueprint rules for sketching parts from different angles (top, front, side) so machinists know exactly how to build them.\n🎯 Why it's important: The definitive legal layout tool linking design ideas directly to manufacturing floor processes.\n🛣 Learning roadmap: Orthographic Projection Mechanics (1st/3rd Angle) → Cross-Section View Cut Methods → Dimension Alignment Rules → Geometric Dimensioning Symbols (GD&T).\n🚀 Next skill to learn: 3D CAD automatic orthographic drawing generation.",
+        "pdfIds": ["mech"]
+      },
+      "tribology": {
+        "keywords": ["tribology", "wear mechanisms friction", "lubricant viscosity tracking", "surface roughness profile"],
+        "explanation": "**Tribology Fundamentals**\n📖 Simple definition: The science focusing directly on interacting surfaces in relative motion, tracking friction anomalies, wear mechanics, and lubrication paths.\n🧠 Beginner-friendly explanation: Studying how metal surfaces rub against each other so we can invent better oils and coatings to stop parts from wearing out.\n🎯 Why it's important: Boosts engine machinery life cycles and improves overall energy efficiency across industrial plants.\n🛣 Learning roadmap: Friction Modality Theories → Surface Micro-Roughness Mapping → Boundary and Film Fluid Lubrication States → Wear Material Degradation Paths.\n🚀 Next skill to learn: Micro-surface nano-coating applications.",
+        "pdfIds": ["mech"]
+      },
+      "kinematics": {
+        "keywords": ["kinematics", "mechanism displacement motion", "linkage slider crank", "velocity acceleration analysis"],
+        "explanation": "**Kinematics of Machinery**\n📖 Simple definition: Analyzing the pure displacement, velocity, and acceleration tracks of mechanism linkages without tracking the source forces causing the motion.\n🧠 Beginner-friendly explanation: Mapping out how moving engine joints, linkages, and sliders travel, spin, and accelerate without looking at the engine forces yet.\n🎯 Why it's important: Crucial step for designing reliable slider-cranks, robot joints, and internal valve train linkages.\n🛣 Learning roadmap: Degrees of Freedom Equations → Four-Bar Linkage Motion Paths → Instantaneous Center Velocity Graphics → Acceleration Vector Diagram Tracks.\n🚀 Next skill to learn: Advanced dynamic force calculations.",
+        "pdfIds": ["mech"]
+      },
+      "dynamics": {
+        "keywords": ["dynamics", "newtonian force torque", "dalesmdert balance equation", "kinetic energy equations"],
+        "explanation": "**Machinery Dynamics**\n📖 Simple definition: Studying the actual forces and torques that generate mechanical motion paths across complex assembly linkages.\n🧠 Beginner-friendly explanation: Calculating the heavy physical impacts, push forces, and torques that act on engine components while they move at high speeds.\n🎯 Why it's important: Essential for figuring out exactly how big to make connecting rods and motor mounts so they don't break under high engine forces.\n🛣 Learning roadmap: Inertial Mass Acceleration Balancing → D'Alembert's Balancing Force Equilibrium → Turning Moment Diagram Graphing → Flywheel Kinetic Storage Sizing.\n🚀 Next skill to learn: Multi-mass engine balance tuning.",
+        "pdfIds": ["mech"]
+      },
+      "vibrations": {
+        "keywords": ["vibrations", "natural frequency resonance", "damping coefficient wave", "torsional critical speed"],
+        "explanation": "**Mechanical Vibrations**\n📖 Simple definition: The study of oscillatory movements in mechanical structures and methods to eliminate resonance failure risk.\n🧠 Beginner-friendly explanation: Analyzing the shaking and shaking movements in fast-moving machines so we can damp them out before the metal cracks.\n🎯 Why it's important: Prevents dangerous resonance failures that can tear apart bridges, wings, and high-speed engine shafts.\n🛣 Learning roadmap: Free Undamped Oscillatory Systems → Damping Coefficient Mechanics → Forced Harmonic Vibration Responses → Critical Shaft Torsional Speeds.\n🚀 Next skill to learn: Digital spectrum analyzer testing workflows.",
+        "pdfIds": ["mech"]
+      },
+      "structural analysis": {
+        "keywords": ["structural analysis", "determinate structures", "truss force distribution", "beam deflection models"],
+        "explanation": "**Structural Analysis**\n📖 Simple definition: The systematic calculation of internal forces, stress levels, and deflections within a structural frame when subjected to heavy external loads.\n🧠 Beginner-friendly explanation: Calculating how columns, beams, and bridges twist or bend under the weight of cars and strong winds so they remain solid without collapsing.\n🎯 Why it's important: Core analytical science needed to design safe tall towers, public highways, and architectural frames worldwide.\n🛣 Learning roadmap: Free-Body Static Diagrams → Shear and Moment Diagramming → Deflection Evaluation Techniques → Matrix Stiffness Structural Analysis.\n🚀 Next skill to learn: Finite Element Analysis (FEA) computer applications.",
+        "pdfIds": ["civil"]
+      },
+      "soil mechanics": {
+        "keywords": ["soil mechanics", "geotechnical stress factors", "soil bearing capacities", "shear strength boundaries"],
+        "explanation": "**Soil Mechanics**\n📖 Simple definition: The branch of engineering mechanics that studies the physical and structural load properties of soils to forecast foundation settlement.\n🧠 Beginner-friendly explanation: Analyzing how mud, sand, and clay react under heavy weights so you can plan sturdy foundations that won't sink over time.\n🎯 Why it's important: Crucial baseline discipline needed before digging out tall building basements, dams, or concrete highway layers.\n🛣 Learning roadmap: Index Soil Classifications → Effective Subsurface Stress Levels → Fluid Seepage Flow Nets → Soil Shear Strength Boundaries.\n🚀 Next skill to learn: Deep pile foundation engineering models.",
+        "pdfIds": ["civil"]
+      },
+      "transportation engineering": {
+        "keywords": ["transportation engineering", "traffic capacity analysis", "urban transit grids", "transportation network math"],
+        "explanation": "**Transportation Engineering**\n📖 Simple definition: The functional application of scientific guidelines to plan, operate, and manage multi-modal transit systems safely.\n🧠 Beginner-friendly explanation: Planning mass transit networks, train lines, and highway lanes so traffic flows smoothly without gridlock accidents.\n🎯 Why it's important: Essential framework to structure growing smart cities and lower daily supply chain logistics delays.\n🛣 Learning roadmap: Transit Network Flow Modeling → Level of Service Configurations → Rail and Port Asset Infrastructure → Microscopic Traffic Simulation Frameworks.\n🚀 Next skill to learn: Intelligent transportation sensor system controls.",
+        "pdfIds": ["civil"]
+      },
+      "highway engineering": {
+        "keywords": ["highway engineering", "flexible pavement design", "geometric sight curves", "asphalt subgrade layers"],
+        "explanation": "**Highway Engineering**\n📖 Simple definition: A specialized subset of transportation engineering targeting geometric road alignments, asphalt layering, and concrete aggregate selection.\n🧠 Beginner-friendly explanation: Figuring out the exact curve angles, lane slopes, and asphalt layers required to build durable high-speed roads.\n🎯 Why it's important: Prevents dangerous hydroplaning accidents and ensures long-lasting pavement lifecycles against heavy commercial truck loads.\n🛣 Learning roadmap: Geometric Horizontal Curve Alignments → Stopping Sight Distance Calculations → Flexible/Rigid Pavement Layer Design → Asphalt Subgrade Drainage Layouts.\n🚀 Next skill to learn: Pavement lifecycle degradation monitoring.",
+        "pdfIds": ["civil"]
+      },
+      "environmental engineering": {
+        "keywords": ["environmental engineering", "effluent water processing", "air pollutant scrubbers", "waste recycle layouts"],
+        "explanation": "**Environmental Engineering**\n📖 Simple definition: The implementation of biology and chemical systems to filter industrial pollutants, treat municipal wastewater, and protect ecosystems.\n🧠 Beginner-friendly explanation: Using clever chemical filters and bacteria loops to scrub factory air pollution and clean dirty city sewage water safely.\n🎯 Why it's important: Protects public drinking reserves and enforces ecological green compliance indicators against chemical runoffs.\n🛣 Learning roadmap: Mass Balance Chemical Frameworks → Biological Wastewater Remediation → Solid Waste Asset Sorting → Industrial Gas Scrubber System Adjustments.\n🚀 Next skill to learn: Hazardous waste biological remediation designs.",
+        "pdfIds": ["civil"]
+      },
+      "water resources": {
+        "keywords": ["water resources", "open channel hydraulics", "catchment runoff formulas", "groundwater aquifer flow"],
+        "explanation": "**Water Resources Engineering**\n📖 Simple definition: The engineering discipline covering open-channel hydraulics, flood risk mapping, dam design, and municipal water supply grids.\n🧠 Beginner-friendly explanation: Managing large water volumes through canal routes, dams, and pipe setups to stop floods and deliver clean drinking water.\n🎯 Why it's important: Vital baseline framework needed to preserve farm irrigation lines and build resilient municipal aqueducts.\n🛣 Learning roadmap: Open Channel Hydraulic Flow → Catchment Runoff Computations → Aquifer Groundwater Seepage Laws → Hydrograph Storm Surge Planning.\n🚀 Next skill to learn: Automated hydraulic spillway gate designs.",
+        "pdfIds": ["civil"]
+      },
+      "smart cities": {
+        "keywords": ["smart cities", "iot urban sensors", "smart grid electrical", "automated utility monitoring"],
+        "explanation": "**Smart Cities Infrastructure**\n📖 Simple definition: The optimization of municipal space networks using interconnected IoT sensors, cloud analytics platforms, and green energy grids.\n🧠 Beginner-friendly explanation: Upgrading cities with connected sensors that automatically adjust traffic lights, monitor water leaks, and track electricity spikes.\n🎯 Why it's important: Massively reduces urban carbon footprints while enhancing life comfort metrics across crowded modern hubs.\n🛣 Learning roadmap: IoT Sensor Node Configurations → Mesh Network Connectivity Matrices → Smart Electric Grid Routing → Big Data Cloud Analytics Applications.\n🚀 Next skill to learn: Edge-AI computer vision for municipal asset mapping.",
+        "pdfIds": ["civil"]
+      },
+      "earthquake engineering": {
+        "keywords": ["earthquake engineering", "seismic dampener dampers", "base isolation pads", "structural response spectrum"],
+        "explanation": "**Earthquake Engineering**\n📖 Simple definition: The structural specialization focused on minimizing tectonic disaster risks using base isolators and harmonic structural dampening grids.\n🧠 Beginner-friendly explanation: Engineering structures with flexible base pads and internal counter-weights so they sway safely during tremors instead of cracking.\n🎯 Why it's important: The essential life-saving engineering shield required across active seismic faults and coastal tectonic rims.\n🛣 Learning roadmap: Seismic Wave Propagation Principles → Structural Response Spectrum Analysis → Base Isolation Mechanical Models → Tuned Mass Damper Implementations.\n🚀 Next skill to learn: Dynamic structural non-linear time history tracking.",
+        "pdfIds": ["civil"]
+      },
+      "digital electronics": {
+        "keywords": ["digital electronics", "logic gates and truth tables", "fpga verilog standard code", "karnaugh map optimization"],
+        "explanation": "**Digital Electronics**\n📖 Simple definition: The design of circuit units operating via binary low/high signal configurations using logic gate matrices and flip-flops.\n🧠 Beginner-friendly explanation: Working with the basic 1 and 0 code switches that modern processors use to compute data and make logical choices.\n🎯 Why it's important: The core foundation underlying every microprocessor, smartphone circuit, and computer memory core built today.\n🛣 Learning roadmap: Boolean Algebra & K-Maps → Combinational Logic Structures → Sequential Memory State Registers → Hardware Description Coding (Verilog/VHDL).\n🚀 Next skill to learn: Custom FPGA processor core programming.",
+        "pdfIds": ["js", "ece"]
+      },
+      "analog electronics": {
+        "keywords": ["analog electronics", "operational amplifier gain", "bjt transistor biassing", "diode signal filter"],
+        "explanation": "**Analog Electronics**\n📖 Simple definition: The management of continuous wave voltages using diodes, custom biassed transistors, and operational amplifier loops.\n🧠 Beginner-friendly explanation: Handling raw continuous electrical signals like radio frequencies and microphone audio without turning them into digital numbers.\n🎯 Why it's important: Essential component layer for building clean audio amplifiers, radio antennas, and industrial power supplies.\n🛣 Learning roadmap: Semiconductor Junction Alternations → BJT & MOSFET Biassing Configurations → Operational Amplifier Feedback Gains → Active Frequency Filter Architectures.\n🚀 Next skill to learn: High-speed RF wireless transmitter layout design.",
+        "pdfIds": ["ece"]
+      },
+      "microprocessors": {
+        "keywords": ["microprocessors", "x86 architecture manuals", "assembly opcode instructions", "cpu bus configurations"],
+        "explanation": "**Microprocessor Architectures**\n📖 Simple definition: Integrated silicon logic chips that interpret computer commands via precise binary arithmetic pipeline phases.\n🧠 Beginner-friendly explanation: The central brain of a computer that reads code commands step-by-step to control memory and process data files.\n🎯 Why it's important: The main computational engine driving servers, laptops, and automated operating systems globally.\n🛣 Learning roadmap: Register Transfer Level Models → ALU Processing Internals → Assembly Language Instructions → Memory Bus Arbitrations.\n🚀 Next skill to learn: Advanced pipelined multi-core caching topologies.",
+        "pdfIds": ["js", "ece"]
+      },
+      "microcontrollers": {
+        "keywords": ["microcontrollers", "embedded c firmware programs", "gpio peripheral registers", "pwm duty cycles"],
+        "explanation": "**Microcontroller Systems**\n📖 Simple definition: All-in-one low-power chips packed with a CPU core, memory blocks, and programmable hardware pins to run embedded electronics devices.\n🧠 Beginner-friendly explanation: Small, low-cost computer chips built to control dedicated devices like microwave timers, washing machines, or drone motors.\n🎯 Why it's important: The foundational core driving modern smart devices, robotics, and automation modules.\n🛣 Learning roadmap: Architecture Register Maps → GPIO Peripheral Configuration → Timer Intercept & Interrupt Operations → Communication Interfaces (I2C, SPI, UART).\n🚀 Next skill to learn: Real-Time Operating System (RTOS) firmware development.",
+        "pdfIds": ["ece"]
+      },
+      "raspberry pi": {
+        "keywords": ["raspberry pi", "python gpio library", "single board computer layouts", "linux embedded arrays"],
+        "explanation": "**Raspberry Pi Engineering**\n📖 Simple definition: A pocket-sized, Linux-driven computer board equipped with direct hardware pinout grids to deploy advanced IoT platforms.\n🧠 Beginner-friendly explanation: A tiny, credit-card-sized computer that runs Linux and lets you connect direct electronics wires to build automated smart home devices.\n🎯 Why it's important: Ideal prototyping launchpad for rapid IoT engineering, home server builds, and embedded systems development.\n🛣 Learning roadmap: Linux OS Command Baselines → Python GPIO Hardware Scripts → Camera Stream Integration Arrays → Headless Network Server Deployments.\n🚀 Next skill to learn: Custom embedded Linux build automation via Yocto.",
+        "pdfIds": ["python", "ece"]
+      },
+      "pcb design": {
+        "keywords": ["pcb design", "altium trace routing", "gerber export templates", "multi layer emi shields"],
+        "explanation": "**PCB Design & Manufacturing**\n📖 Simple definition: The structural layout step of creating insulated boards containing thin copper connection traces to physically wire electronic chips.\n🧠 Beginner-friendly explanation: Drawing the copper pathways on green circuit boards so electronic parts can fit together without messy tangled cables.\n🎯 Why it's important: Essential workflow step to convert breadboard test designs into production electronics consumer goods.\n🛣 Learning roadmap: Schematic Capture Conventions → Footprint Dimension Allocations → Multilayer Signal Track Routing → Gerber Industrial File Exports.\n🚀 Next skill to learn: High-speed differential impedance signal management.",
+        "pdfIds": ["ece"]
+      },
+      "vlsi": {
+        "keywords": ["vlsi", "cmos logic processing", "asic synthesis layouts", "rtl verification checks"],
+        "explanation": "**VLSI Engineering**\n📖 Simple definition: Very Large Scale Integration engineering tracking the deployment of millions of microscopic transistors onto single small silicon chips.\n🧠 Beginner-friendly explanation: Squeezing millions of tiny transistor switches onto a microscopic silicon wafer to build fast processor chips.\n🎯 Why it's important: The driving engine powering high-speed silicon scaling and advanced AI computing architectures.\n🛣 Learning roadmap: Silicon CMOS Physical Processing → RTL Synthesis Workflows → Static Timing Check Procedures → Placement and Routing (P&R) Arrays.\n🚀 Next skill to learn: Advanced sub-3nm silicon cell layout rules.",
+        "pdfIds": ["ece"]
+      },
+      "sensors": {
+        "keywords": ["sensors", "analog transducer conversions", "adc sampling resolutions", "sensor calibration metrics"],
+        "explanation": "**Sensors & Transducers**\n📖 Simple definition: Hardware components built to capture external physical properties (like temperature or tilt) and convert them into clean electrical voltages.\n🧠 Beginner-friendly explanation: The eyes and ears of electronic systems that translate real-world items like heat, light, or tilt into electrical signals.\n🎯 Why it's important: Provides crucial feedback data streams needed to guide robotic arms, autopilot cars, and smart medical gear.\n🛣 Learning roadmap: Transducer Physical Operations → Operational Amplifier Conditioning → Analog-to-Digital Conversion (ADC) Sampling → Sensor Drift Calibration Metrics.\n🚀 Next skill to learn: Multi-sensor data fusion algorithmic networks.",
+        "pdfIds": ["ece"]
+      },
+      "power systems": {
+        "keywords": ["power systems", "grid bus load flow", "fault protection relays", "high voltage grid transmission"],
+        "explanation": "**Electrical Power Systems**\n📖 Simple definition: The high-voltage infrastructure network built to generate, transmit over long distances, and distribute bulk electrical power efficiently.\n🧠 Beginner-friendly explanation: The massive network of power plants, giant pylons, and grid wires that moves electricity safely across entire countries.\n🎯 Why it's important: The essential lifeblood grid driving heavy factories, lighting cities, and charging electric vehicle systems.\n🛣 Learning roadmap: Per-Unit Value Network Graphing → Bus Load Flow Equations → Short Circuit Fault Math → Protective Relay Grid Operations.\n🚀 Next skill to learn: Dynamic smart grid stability tuning optimization.",
+        "pdfIds": ["ee"]
+      },
+      "control systems": {
+        "keywords": ["control systems", "pid tuning loops", "laplace transfer functions", "bode stability graph"],
+        "explanation": "**Control Systems Engineering**\n📖 Simple definition: Mathematical architectures built to govern machine actions automatically using sensor feedback correction adjustments.\n🧠 Beginner-friendly explanation: Designing self-correcting calculation loops (like car cruise control) that track actual outputs and adjust motor levels to maintain targets.\n🎯 Why it's important: Keeps rocket trajectories stable, guides autonomous drones, and monitors automated oil refinery temperatures.\n🛣 Learning roadmap: Laplace Transfer Function Formulations → Block Diagram Reduction Charts → PID Tuning Optimization Steps → Bode & Nyquist Frequency Stability Plots.\n🚀 Next skill to learn: State-space digital control automation models.",
+        "pdfIds": ["ee", "ece"]
+      },
+      "electrical machines": {
+        "keywords": ["electrical machines", "synchronous generator flux", "stator winding dynamics", "magnetic torque conversions"],
+        "explanation": "**Electrical Machines**\n📖 Simple definition: Heavy-duty electromechanical hardware configurations designed to convert electrical power into kinetic movement, or vice versa.\n🧠 Beginner-friendly explanation: The physical science behind large industrial power generators and heavy heavy motors that use magnetic fields to run.\n🎯 Why it's important: Powers every factory conveyor, municipal pump, high-speed rail locomotive, and mining mill operation globally.\n🛣 Learning roadmap: Magnetic Core Flux Reluctance → DC Machine Armature Settings → Induction Motor Torque Graphing → Synchronous Generator Plant Configurations.\n🚀 Next skill to learn: Finite element machine magnetic path modeling.",
+        "pdfIds": ["ee"]
+      },
+      "power electronics": {
+        "keywords": ["power electronics", "igbt switching converter", "inverter gate drivers", "buck boost regulator efficiency"],
+        "explanation": "**Power Electronics**\n📖 Simple definition: High-efficiency solid-state semiconductor circuits tailored to switch, convert, and regulate large voltage flows.\n🧠 Beginner-friendly explanation: High-power electronic switch designs that convert electrical forms (like switching battery DC power into household AC power) without burning out.\n🎯 Why it's important: Essential control tech inside modern electric car inverters, solar panel grid links, and laptop chargers.\n🛣 Learning roadmap: Semiconductor Switching Metrics (IGBT, MOSFET) → DC-DC Buck/Boost Formulations → DC-AC Inverter Switching Topologies → Total Harmonic Distortion Suppression.\n🚀 Next skill to learn: Wide-bandgap Gallium Nitride (GaN) high-speed switching grids.",
+        "pdfIds": ["ee"]
+      },
+      "transformers": {
+        "keywords": ["transformers", "magnetic core eddy current", "turns ratio impedance match", "transformer open circuit test"],
+        "explanation": "**Transformer Engineering**\n📖 Simple definition: Static electrical components that change AC voltage up or down using alternating magnetic fields within isolated core loops.\n🧠 Beginner-friendly explanation: Substation boxes that step dangerous long-distance line voltages down to safe levels for home electrical walls.\n🎯 Why it's important: Enables ultra-efficient long-distance power transport by minimizing copper wire line heat losses.\n🛣 Learning roadmap: Faraday's Induction Principles → Ideal vs Practical Equivalent Circuits → Core Loss Diagnostics (Eddy Current, Hysteresis) → Open and Short Circuit Testing Frameworks.\n🚀 Next skill to learn: Three-phase industrial transformer vector grouping configurations.",
+        "pdfIds": ["ee"]
+      },
+      "motors": {
+        "keywords": ["motors", "bldc field orientation", "stepper motor step angles", "induction slip speed curves"],
+        "explanation": "**Electric Motor Mechanics**\n📖 Simple definition: Electromechanical devices configured to translate electrical current into spinning mechanical force through electromagnetic interactions.\n🧠 Beginner-friendly explanation: Devices that use electrical power to spin shafts, powering items like cooling fans, factory tools, and electric car axles.\n🎯 Why it's important: The essential core machine component driving modern robotic tracks, home tech, and electric vehicle transport modes.\n🛣 Learning roadmap: Lorentz Force Mechanical Laws → Three-Phase Induction Slip Performance → Stepper Motor Angle Adjustments → BLDC Vector Drive Inquiries.\n🚀 Next skill to learn: Field-Oriented Control (FOC) motor programming.",
+        "pdfIds": ["ee", "mech"]
+      },
+      "mathematics": {
+        "keywords": ["mathematics", "advanced calculus proofs", "linear system matrices", "differential equations math"],
+        "explanation": "**Advanced Engineering Mathematics**\n📖 Simple definition: The systematic abstract framework of formulas, coordinates, and rigorous proof structures used to compute real-world design metrics.\n🧠 Beginner-friendly explanation: The absolute foundation of math equations, formulas, and geometry proofs used to calculate structural dimensions and system behaviors.\n🎯 Why it's important: The definitive tool underlying every engineering branch, software algorithm, and simulation model built today.\n🛣 Learning roadmap: Multivariable Calculus Systems → Matrix Space Transformations → Differential Equation Modeling → Numerical Approximation Formulations.\n🚀 Next skill to learn: Complex mathematical variable analysis frameworks.",
+        "pdfIds": ["bsc_math"]
+      },
+      "algebra": {
+        "keywords": ["algebra", "polynomial roots formulas", "quadratic matrix equations", "complex number spaces"],
+        "explanation": "**Linear and Polynomial Algebra**\n📖 Simple definition: The mathematical framework of notation rules used to solve complex equations containing unknown operational variables.\n🧠 Beginner-friendly explanation: Solving math puzzles by using letter symbols to balance out equations and uncover hidden variable values.\n🎯 Why it's important: Vital structural step needed to code computer algorithms and manage multi-variable structural design equations.\n🛣 Learning roadmap: Linear System Formulations → Polynomial Root Behaviors → Complex Number Grid Fields → Vector Vector Configurations.\n🚀 Next skill to learn: Abstract cryptographic group mathematics.",
+        "pdfIds": ["bsc_math"]
+      },
+      "calculus": {
+        "keywords": ["calculus", "limit continuity evaluation", "derivative slope optimization", "riemann integration limits"],
+        "explanation": "**Mathematical Calculus**\n📖 Simple definition: The mathematical study of continuous variation, covering change rates (derivatives) and accumulation amounts (integrals).\n🧠 Beginner-friendly explanation: High-level math focused on calculating real-time change rates (like acceleration) and total areas underneath curved chart plots.\n🎯 Why it's important: Used to calculate rocket trajectories, optimize business profit charts, and measure changing heat flows.\n🛣 Learning roadmap: Function Limit Foundations → Derivative Rate Adjustments → Integration Area Calculations → Infinite Series Convergence Checks.\n🚀 Next skill to learn: Multivariable calculus field tracking equations.",
+        "pdfIds": ["bsc_math"]
+      },
+      "differential equations": {
+        "keywords": ["differential equations", "ordinary differential boundaries", "laplace transform calculus", "partial differential waves"],
+        "explanation": "**Differential Equations**\n📖 Simple definition: Equations linking mathematical functions directly to their rate-of-change derivatives to track dynamic changing physics phenomena.\n🧠 Beginner-friendly explanation: Specialized math equations used to model active real-world movements like swinging pendulums, dissipating heat, or cooling coffee.\n🎯 Why it's important: The core mathematical language used to write simulations for moving fluids, structural vibrations, and circuit currents.\n🛣 Learning roadmap: First-Order Separable Equations → Linear Homogeneous Boundary Setups → Laplace Transform System Solvers → Partial Wave Modeling Forms.\n🚀 Next skill to learn: Numerical runge-kutta computer approximation models.",
+        "pdfIds": ["bsc_math"]
+      },
+      "probability": {
+        "keywords": ["probability", "bayes theorem distribution", "random variable variance", "conditional probability event"],
+        "explanation": "**Probability Theory**\n📖 Simple definition: The rigorous mathematical branch exploring chance occurrences, random variable behaviors, and likelihood distributions.\n🧠 Beginner-friendly explanation: Using exact math ratios to compute the odds of random future events happening based on old data trends.\n🎯 Why it's important: Foundational baseline system powering stock market risk analytics, insurance planning, and AI prediction software models.\n🛣 Learning roadmap: Sample Space Definition Setups → Conditional Probability Formulas (Bayes) → Discrete Random Variables → Gaussian Normal Distribution Curving.\n🚀 Next skill to learn: Stochastic random signal process modeling.",
+        "pdfIds": ["bsc_math"]
+      },
+      "statistics": {
+        "keywords": ["statistics", "hypothesis testing confidence", "linear regression plots", "anova variance test"],
+        "explanation": "**Statistical Analysis**\n📖 Simple definition: The science covering data gathering, structural aggregation, sample evaluation, and hypothesis confidence checking.\n🧠 Beginner-friendly explanation: Taking messy piles of raw real-world data and summarizing them into clean trends, averages, and confidence charts.\n🎯 Why it's important: Essential framework driving modern scientific research validation, medicine tests, and manufacturing quality control checks.\n🛣 Learning roadmap: Data Central Tendency Baselines → Hypothesis Testing Workflows (t-tests) → Confidence Interval Bound Sizing → Linear Regression Predictive Mapping.\n🚀 Next skill to learn: Multivariate predictive analytics tracking algorithms.",
+        "pdfIds": ["bsc_math"]
+      },
+      "linear algebra": {
+        "keywords": ["linear algebra", "matrix transformation eigenvalue", "vector space spans", "singular value decomposition"],
+        "explanation": "**Linear Algebra**\n📖 Simple definition: The study of multi-dimensional vector spaces, matrices, linear transformations, and coordinate transforms.\n🧠 Beginner-friendly explanation: Working with matrices and array lists of numbers to rotate, scale, and manipulate 3D shapes or data dimensions fast.\n🎯 Why it's important: The primary mathematical powerhouse driving 3D computer graphics engines, CAD renders, and AI neural net layers.\n🛣 Learning roadmap: Vector Space Baseline Properties → Matrix Multiplication Rules → Eigenvalue & Eigenvector Extractions → Singular Value Decomposition Matrices.\n🚀 Next skill to learn: High-dimensional tensor computation pipelines.",
+        "pdfIds": ["bsc_math", "js"]
+      },
+      "numerical methods": {
+        "keywords": ["numerical methods", "newton raphson roots", "numerical interpolation bounds", "euler method calculus"],
+        "explanation": "**Numerical Methods**\n📖 Simple definition: Approximation algorithms that use iterative arithmetic loops to generate clean numerical answers for equations that cannot be solved directly by hand.\n🧠 Beginner-friendly explanation: Using repeating step-by-step guessing code to approximate highly accurate solutions to monstrous math formulas fast.\n🎯 Why it's important: Enables engineering computers to solve complex aerodynamic fluid flow and structural stress models quickly.\n🛣 Learning roadmap: Root-Finding Iterative Loops (Newton-Raphson) → Linear System Solver Architectures → Polynomial Curve Interpolation → Numerical Calculus Integration Scripts.\n🚀 Next skill to learn: Finite difference computational grid systems.",
+        "pdfIds": ["bsc_math"]
+      },
+      "discrete mathematics": {
+        "keywords": ["discrete mathematics", "graph theory network", "combinatorics permutes", "set logic proofs"],
+        "explanation": "**Discrete Mathematics**\n📖 Simple definition: The study of countable, distinctly separated mathematical concepts rather than continuous variables, forms, or calculus lines.\n🧠 Beginner-friendly explanation: The specialized math governing separate integers, logic gates, network graphs, and discrete code pathways instead of smooth continuous curves.\n🎯 Why it's important: The essential structural math framework needed to study advanced data structures and computer network architectures.\n🛣 Learning roadmap: Set Logic Propositions → Permutation Combinatorics Math → Graph Network Matrix Traversals → Recurrence Coding Formula Proofs.\n🚀 Next skill to learn: Complex cryptographic integrity verification algorithms.",
+        "pdfIds": ["bsc_math", "js"]
+      },
+      "electromagnetism": {
+        "keywords": ["electromagnetism", "maxwell field equations", "magnetic flux density", "coulomb law charge"],
+        "explanation": "**Electromagnetism Physics**\n📖 Simple definition: The physical science exploring the behaviors of electric fields, magnetic fluxes, and light waves using Maxwell's baseline equations.\n🧠 Beginner-friendly explanation: How electric currents generate magnetic fields, and how changing magnets trigger electricity inside motors or antennas.\n🎯 Why it's important: The foundational branch driving electric motor operations, wireless telecommunications, and high-voltage grid layouts.\n🛣 Learning roadmap: Electrostatic Force Vectors (Coulomb) → Gauss Flux Structural Inquiries → Biot-Savart Magnetic Current Paths → Maxwell Unified Field Formulations.\n🚀 Next skill to learn: High-frequency electrodynamic wave antenna modeling.",
+        "pdfIds": ["bsc_phy", "ee"]
+      },
+      "nuclear physics": {
+        "keywords": ["nuclear physics", "radioactive decay constant", "fission fusion balance", "binding energy curves"],
+        "explanation": "**Nuclear Physics**\n📖 Simple definition: The physical study exploring atomic nucleus configurations, binding energies, isotope decay profiles, and fission reactions.\n🧠 Beginner-friendly explanation: Studying the intense forces inside the center of atoms to generate energy from split nuclei or radioactive material loops.\n🎯 Why it's important: Powers large clean nuclear utility grid stations and crucial medical radiotherapy tumor treatment gear.\n🛣 Learning roadmap: Atomic Nucleus Structures → Binding Energy Stability Curves → Radioactive Alpha-Beta-Gamma Decay Math → Fission & Fusion Nuclear Cross-Sections.\n🚀 Next skill to learn: Nuclear reactor core coolant safety engineering design.",
+        "pdfIds": ["bsc_phy"]
+      },
+      "modern physics": {
+        "keywords": ["modern physics", "quantum wave relativity", "photoelectric photon effect", "special relativity space"],
+        "explanation": "**Modern & Quantum Physics**\n📖 Simple definition: The physical models built to trace atomic behavior near light speeds and microscopic quantum length realms, bypassing classical Newtonian limits.\n🧠 Beginner-friendly explanation: Exploring high-speed relativity and atomic quantum levels where tiny particles act both like solid balls and fluid waves at the same time.\n🎯 Why it's important: Vital baseline framework needed to manufacture high-speed computer laser arrays, fiber optics, and advanced silicon chips.\n🛣 Learning roadmap: Special Relativity Coordinates → Photoelectric Wave Observations → Schrödinger Quantum Wave Mechanics → Particle Duality Boundaries.\n🚀 Next skill to learn: Quantum computer register logic structures.",
+        "pdfIds": ["bsc_phy"]
+      },
+      "semiconductor physics": {
+        "keywords": ["semiconductor physics", "silicon energy band gap", "pn junction doping layer", "carrier drift mobility"],
+        "explanation": "**Semiconductor Physics**\n📖 Simple definition: Material physics examining the energy bandgaps, chemical doping additions, and electron movement metrics inside electronic crystal networks.\n🧠 Beginner-friendly explanation: How chemically treated silicon block layers control electron flow, allowing us to build working microchip transistors.\n🎯 Why it's important: The core microelectronics layer needed to construct computer processors, LED lights, and solar panel arrays.\n🛣 Learning roadmap: Crystal Lattice Quantum Band Structures → Intrinsic vs Extrinsic Doping Processes → PN Junction Carrier Depletion Fields → Transistor Channel Electron Drift Mobility.\n🚀 Next skill to learn: Microscopic optoelectronic chip manufacturing protocols.",
+        "pdfIds": ["bsc_phy", "ece"]
+      },
+      "cell biology": {
+        "keywords": ["cell biology", "organelle membrane functions", "mitosis division cycles", "atp energy metabolism"],
+        "explanation": "**Cell Biology**\n📖 Simple definition: The biological study examining cell architectures, organelle functions, membrane gates, and metabolic cycle configurations.\n🧠 Beginner-friendly explanation: The structural study of microscopic living cells, how their internal parts function, and how they duplicate to repair body parts.\n🎯 Why it's important: Crucial baseline science needed to discover new medicine recipes, treat cellular illnesses, and run biotechnology manufacturing lines.\n🛣 Learning roadmap: Membrane Diffusion Gates → Organelle Function Operations → ATP Energy Cellular Metabolism → Mitosis/Meiosis Reproduction Phases.\n🚀 Next skill to learn: Intracellular pathway signaling cascades.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "genetics": {
+        "keywords": ["genetics", "dna replication sequencing", "mendelian heredity grids", "crispr gene edits"],
+        "explanation": "**Genetics & Molecular Heredity**\n📖 Simple definition: The study of inheritance patterns, DNA sequencing configurations, gene expression paths, and genomic code mutations.\n🧠 Beginner-friendly explanation: Decoding the DNA codes inside living cells that decide inherited traits like height, eye colors, or family health risks.\n🎯 Why it's important: Unlocks targeted hereditary treatment methods, advanced farm crop breeding programs, and custom vaccine designs.\n🛣 Learning roadmap: Mendelian Chromosome Trait Patterns → DNA/RNA Structural Replication → Transcription Gene Expressions → CRISPR Precision Mutational Studies.\n🚀 Next skill to learn: Automated bioinformatic genomic sequencing codes.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "biotechnology": {
+        "keywords": ["biotechnology", "recombinant dna cloning", "bioreactor culture scaling", "enzyme tool sets"],
+        "explanation": "**Biotechnology**\n📖 Simple definition: The industrial integration of living micro-organisms, enzymes, and biological models to synthesize consumer medications and crops.\n🧠 Beginner-friendly explanation: Programming bacteria cells or biological enzymes like tiny organic factories to manufacture clean insulin, eco-plastics, or robust crops.\n🎯 Why it's important: Core technology driving advanced clinical pharmacology labs, sustainable bio-fuels, and crop food production networks.\n🛣 Learning roadmap: Recombinant DNA Gene Integration → Enzyme Biocatalysis Mechanics → Bioreactor Mass Scaling Profiles → Downstream Purification Processes.\n🚀 Next skill to learn: Industrial bio-fermentation monitoring systems.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "human anatomy": {
+        "keywords": ["human anatomy", "cardiovascular circulation pathways", "neurological synapse maps", "musculoskeletal load systems"],
+        "explanation": "**Human Anatomy & Physiology**\n📖 Simple definition: The structural mapping of human organs, skeletal bone layouts, tissue systems, and physiological regulatory loops.\n🧠 Beginner-friendly explanation: Learning the exact shapes, placements, and connection networks of human bones, muscles, blood channels, and internal organs.\n🎯 Why it's important: Foundational baseline requirement for biomedical engineers designing artificial limb joints and surgical support gear.\n🛣 Learning roadmap: Musculoskeletal Leverage Systems → Cardiovascular Circulation Pathways → Neurological Synapse Signaling Loops → Respiratory Homeostasis Matrices.\n🚀 Next skill to learn: Biomechanical prosthetic interface engineering.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "ecology": {
+        "keywords": ["ecology", "ecosystem nutrient flows", "biodiversity trophic tiers", "carbon cycle vectors"],
+        "explanation": "**Ecology & Ecosystem Dynamics**\n📖 Simple definition: The study of the interactive environmental relationships between living organisms and their non-living surrounding resource matrices.\n🧠 Beginner-friendly explanation: Studying how animals, insects, plant life, and weather loops balance out to keep natural areas clean and stable.\n🎯 Why it's important: Provides vital baseline environmental data needed to secure urban water catchments and guide nature preservation laws.\n🛣 Learning roadmap: Trophic Energy Pyramid Interactions → Nitrogen & Carbon Cycle Vectors → Population Carrying Capacity Models → Biodiversity Landscape Integrity Checks.\n🚀 Next skill to learn: Computational environmental landscape impact tracking.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "microbiology": {
+        "keywords": ["microbiology", "bacterial gram stains", "viral replication steps", "antimicrobial defense loops"],
+        "explanation": "**Microbiology**\n📖 Simple definition: The biological science tracking microscopic organisms including bacteria, viruses, fungi, and single-celled protozoa networks.\n🧠 Beginner-friendly explanation: Studying microscopic creatures like bacteria and viruses to learn how they spread, rot food, or help clear waste.\n🎯 Why it's important: Critical baseline discipline for maintaining hospital sanitation standards, verifying food safety, and processing dairy goods.\n🛣 Learning roadmap: Microscope Culturing Methods → Gram Stain Identification Standards → Viral Reproduction Integration Cycles → Antimicrobial Chemical Resistance Profiles.\n🚀 Next skill to learn: Automated pathogen DNA identification assays.",
+        "pdfIds": ["bsc_bio"]
+      },
+      "c programming": {
+        "keywords": ["c programming", "c language basics", "procedural programming compiling", "ansi c standards"],
+        "explanation": "**C Programming Language**\n📖 Simple definition: A foundational, procedural programming language that provides low-level memory access while maintaining structural software portability.\n🧠 Beginner-friendly explanation: The legendary, super-fast coding language used to build operating systems, game engines, and control hardware directly.\n🎯 Why it's important: The structural architectural baseline underpinning modern operating system kernels like Linux, Windows, and macOS.\n🛣 Learning roadmap: Basic Syntax (Variables, Data Types) → Conditional Loops → Core Modular Functions → Low-Level Memory Handling.\n🚀 Next skill to learn: Static and dynamic arrays management.",
+        "pdfIds": ["c"]
+      },
+      "arrays": {
+        "keywords": ["arrays", "linear data matrices", "contiguous memory tracking", "multi dimensional arrays"],
+        "explanation": "**Array Data Structuring**\n📖 Simple definition: A collection of homogeneous data items stored together at contiguous, sequential memory address coordinates.\n🧠 Beginner-friendly explanation: A numbered item list that lets you store lots of similar things (like 100 high scores) inside one named variable.\n🎯 Why it's important: Foundational data layout used to optimize loop data iterations and map multi-dimensional spreadsheet grids.\n🛣 Learning roadmap: Array Index Bounds Initialization → Dynamic Element Traversal Loops → Linear Search Operations → Two-Dimensional Matrix Coordinate Math.\n🚀 Next skill to learn: Dynamic pointer memory references.",
+        "pdfIds": ["c", "cpp"]
+      },
+      "c++": {
+        "keywords": ["c++", "c plus plus concepts", "compiled object oriented", "modern cpp updates"],
+        "explanation": "**C++ Programming Language**\n📖 Simple definition: A multi-paradigm, compiled evolution of C that introduces object-oriented constructs, template abstractions, and low-level control systems.\n🧠 Beginner-friendly explanation: An advanced version of C that adds powerful object blocks, making it easier to build massive apps like modern 3D video games.\n🎯 Why it's important: The primary heavy-duty industry engine behind massive database backends, game loops (Unreal Engine), and web browsers.\n🛣 Learning roadmap: Namespace Scope Standards → Basic Class Configurations → Memory Reference Enhancements → Object Blueprint Instantiations.\n🚀 Next skill to learn: Object Oriented Programming (OOP) architectures.",
+        "pdfIds": ["cpp"]
+      },
+      "go": {
+        "keywords": ["go", "golang backend tools", "goroutines concurrency models", "go channel pipelines"],
+        "explanation": "**Go Programming (Golang)**\n📖 Simple definition: A compiled, statically typed language engineered by Google featuring built-in concurrent processing and rapid compiling speeds.\n🧠 Beginner-friendly explanation: A powerful coding language designed to handle millions of network tasks simultaneously using ultra-lightweight running lanes called Goroutines.\n🎯 Why it's important: The essential structural language driving modern cloud software infrastructure, microservices, and Docker containers.\n🛣 Learning roadmap: Basic Syntax Configurations → Concurrent Goroutines Protocols → Channel Data Synchronization → Custom Microservice REST Design.\n🚀 Next skill to learn: Cloud native Kubernetes API extensions.",
+        "pdfIds": ["cse"]
+      },
+      "rust": {
+        "keywords": ["rust", "rust ownership lifetimes", "cargo compiler tools", "memory safe systems"],
+        "explanation": "**Rust Systems Programming**\n📖 Simple definition: A multi-paradigm systems programming language focused entirely on extreme memory safety, velocity, and thread integrity without using a garbage collector.\n🧠 Beginner-friendly explanation: A super-fast language with a strict compiler that stops you from making memory coding mistakes before your program even builds.\n🎯 Why it's important: The primary cutting-edge standard replacing C/C++ in low-level operating system architectures, web browsers, and high-performance engines.\n🛣 Learning roadmap: Variables & Ownership Rules → Borrowing & Reference Lifetimes → Pattern Matching Logic → Zero-Cost Abstraction Coding.\n🚀 Next skill to learn: WebAssembly compilation frameworks.",
+        "pdfIds": ["cse"]
+      },
+      "kotlin": {
+        "keywords": ["kotlin", "kotlin android studio", "null safety compiler", "jetpack compose frameworks"],
+        "explanation": "**Kotlin Programming**\n📖 Simple definition: A modern cross-platform language optimized to compile directly onto the Java Virtual Machine (JVM) while eliminating typical null pointer errors.\n🧠 Beginner-friendly explanation: Google's favorite coding language used to build sleek Android smartphone apps without writing long, complex Java statements.\n🎯 Why it's important: The definitive corporate standard for contemporary Android app development and reactive modern server apps.\n🛣 Learning roadmap: JVM Variable Integration → Null Safety Declarations → Object Class Structuring → Coroutines Background Processing.\n🚀 Next skill to learn: Jetpack Compose mobile design workflows.",
+        "pdfIds": ["cse"]
+      },
+      "swift": {
+        "keywords": ["swift", "ios swiftui design", "xcode app structures", "swift safety features"],
+        "explanation": "**Swift (iOS Development)**\n📖 Simple definition: Apple's specialized compiled programming language optimized for building fast, highly responsive consumer apps across iOS and macOS ecosystems.\n🧠 Beginner-friendly explanation: The exact coding language you need to learn if you want to create custom apps for iPhones, iPads, and Apple Watches.\n🎯 Why it's important: The mandatory cornerstone tool for any engineer targetting deployment inside elite Apple Store application markets.\n🛣 Learning roadmap: Core Swift Language Syntaxes → Optional Unwrapping Routines → SwiftUI Interface Layouts → Network Core Data Syncing.\n🚀 Next skill to learn: Advanced iOS background hardware pipelines.",
+        "pdfIds": ["cse"]
+      },
+      "dart": {
+        "keywords": ["dart", "flutter dart widgets", "asynchronous dart programming", "cross platform apps"],
+        "explanation": "**Dart Language Framework**\n📖 Simple definition: A client-optimized object programming language tailored specifically for rapid UI building across cross-platform mobile environments.\n🧠 Beginner-friendly explanation: The backing code engine behind Flutter that lets you write one single app design and launch it on both Android and iPhones.\n🎯 Why it's important: Massive development accelerator that reduces engineering hours by consolidating frontend codebases.\n🛣 Learning roadmap: Variable Typings and Loops → Object Oriented Classes → Asynchronous Future Mapping → Flutter Widget Tree Integrations.\n🚀 Next skill to learn: State management architectures (BLoC/Provider).",
+        "pdfIds": ["cse"]
+      },
+      "typescript": {
+        "keywords": ["typescript", "statically typed javascript", "tsconfig module settings", "interface type safety"],
+        "explanation": "**TypeScript **\n📖 Simple definition: A strongly typed structural superset of JavaScript that adds explicit type declarations to eliminate runtime errors during build compilation stages.\n🧠 Beginner-friendly explanation: An upgraded version of JavaScript that forces you to define what type of data your functions can take, catching bugs before they hit websites.\n🎯 Why it's important: Essential architecture requirement for scalable enterprise web apps and reliable multi-developer teams.\n🛣 Learning roadmap: Basic Type Allocations → Interface & Type Blueprints → Generics Function Templates → Compilation Configuration Frameworks.\n🚀 Next skill to learn: Advanced multi-stage monorepo project design.",
+        "pdfIds": ["js"]
+      },
+      "php": {
+        "keywords": ["php", "php backend scripts", "pdo database connectivity", "composer package layouts"],
+        "explanation": "**PHP Hypertext Preprocessor**\n📖 Simple definition: A veteran server-side scripting language explicitly engineered to dynamically render database data across web interfaces.\n🧠 Beginner-friendly explanation: A foundational backend web code language that talks to databases and updates website page layouts before they reach user screens.\n🎯 Why it's important: Powers over 75% of content management networks worldwide, including massive platforms like WordPress and Wikipedia.\n🛣 Learning roadmap: Embedded Script syntaxes → Form POST Handling Protocols → MySQL Data Integrations (PDO) → Object Model Configurations.\n🚀 Next skill to learn: Object-oriented design pattern implementations.",
+        "pdfIds": ["cse"]
+      },
+      "c#": {
+        "keywords": ["c#", "c sharp programming", "unity game logic", "dotnet enterprise frameworks"],
+        "explanation": "**C# Programming (C-Sharp)**\n📖 Simple definition: Microsoft's multi-paradigm object-oriented language integrated into the .NET ecosystem to build enterprise cloud apps and interactive games.\n🧠 Beginner-friendly explanation: A powerful programming language used to build corporate Windows apps, backend websites, and 3D video games using the Unity engine.\n🎯 Why it's important: The premier backbone tech supporting large enterprise business backends and independent indie game loop studios.\n🛣 Learning roadmap: C# Basic Class Structures → Memory Property Allocations → LINQ Data Query Streams → .NET Middleware Integrations.\n🚀 Next skill to learn: Cross-platform mobile development via MAUI.",
+        "pdfIds": ["cpp"]
+      },
+      "sql": {
+        "keywords": ["sql", "relational database queries", "sql join operations", "database index sorting"],
+        "explanation": "**Structured Query Language (SQL)**\n📖 Simple definition: The definitive domain-specific programming language used to manage, search, and manipulate structured records inside relational databases.\n🧠 Beginner-friendly explanation: A simple, text-command language used to talk to databases, letting you create accounts, delete listings, and filter search items.\n🎯 Why it's important: The most critical universal tool every backend, data science, and web application developer needs to master to store records safely.\n🛣 Learning roadmap: Basic SELECT Data Filters → Relational JOIN Combinations → Grouping Aggregation Functions → Subquery Logic & Query Indexing Optimization.\n🚀 Next skill to learn: Relational database transactional isolation models.",
+        "pdfIds": ["js", "cse"]
+      },
+      "bootstrap": {
+        "keywords": ["bootstrap", "bootstrap grid classes", "responsive css utility", "ui component presets"],
+        "explanation": "**Bootstrap UI Framework**\n📖 Simple definition: A veteran, component-driven open-source CSS framework built around a 12-column flexbox grid system to accelerate responsive interface styling.\n🧠 Beginner-friendly explanation: A web kit containing pre-styled buttons, dropdown menus, and grid rules that instantly make your website look neat on mobile phones.\n🎯 Why it's important: Accelerates rapid frontend mockups without forcing developers to write long, messy custom CSS sheets from scratch.\n🛣 Learning roadmap: The 12-Column Layout Rules → Responsive Breakpoint Tags → Typography and Form Utilities → JavaScript Component Plugins.\n🚀 Next skill to learn: SASS template theme custom overrides.",
+        "pdfIds": ["js"]
+      },
+      "tailwind css": {
+        "keywords": ["tailwind css", "utility first styling", "responsive tailwind config", "flexbox flex items"],
+        "explanation": "**Tailwind CSS Layouts**\n📖 Simple definition: A utility-first CSS framework providing atomic low-level style classes to build completely custom visual looks right inside HTML code.\n🧠 Beginner-friendly explanation: A styling system where you design custom interfaces by typing miniature shortcut style words directly inside your webpage boxes.\n🎯 Why it's important: The modern leading web frontend standard used by modern startups to construct highly scalable, customized web architectures.\n🛣 Learning roadmap: Utility Configuration Baselines → Responsive Flex/Grid Allocations → State Modifiers (Hover/Focus) → Component Class Consolidation.\n🚀 Next skill to learn: Automated PurgeCSS bundle size optimizations.",
+        "pdfIds": ["js"]
+      },
+      "next js": {
+        "keywords": ["next js", "server side render", "next routing folders", "static site hydration"],
+        "explanation": "**Next.js Web Framework**\n📖 Simple definition: A production-ready React meta-framework enabling Server-Side Rendering (SSR), Static Site Generation (SSG), and file-system route automation.\n🧠 Beginner-friendly explanation: An upgraded version of React that automatically renders your website on a cloud server first, making it load lightning fast on Google searches.\n🎯 Why it's important: The premier framework for full-stack commercial web builds requiring top-tier SEO discoverability and speed metrics.\n🛣 Learning roadmap: App Router Directory Mappings → Server vs Client Components → API Route File Processing → Data Fetching Caching Policies.\n🚀 Next skill to learn: Incremental Static Regeneration (ISR) optimizations.",
+        "pdfIds": ["js"]
+      },
+      "vue": {
+        "keywords": ["vue", "vue composition api", "reactive data binds", "vue single component"],
+        "explanation": "**Vue.js Framework**\n📖 Simple definition: A progressive frontend JavaScript framework featuring an intuitive reactive data-binding system and approachable incremental adoptability.\n🧠 Beginner-friendly explanation: A clean web framework that combines the component power of React with simple HTML templates, making it easy to master.\n🎯 Why it's important: Acclaimed for its shallow learning curve and supreme layout velocity inside modular mid-scale app environments.\n🛣 Learning roadmap: Template Syntax Interventions → Computed Reactive Properties → Composition API Directives → Pinia Global State Networks.\n🚀 Next skill to learn: Custom micro-frontend Vue architecture nodes.",
+        "pdfIds": ["js"]
+      },
+      "angular": {
+        "keywords": ["angular", "angular typescript modules", "rxjs data streams", "angular dependency inject"],
+        "explanation": "**Angular Platform**\n📖 Simple definition: A comprehensive enterprise-grade web development framework written by Google, featuring rigid TypeScript enforcement and structural dependency injections.\n🧠 Beginner-friendly explanation: A highly structured, heavy-duty coding framework that provides everything a massive bank or corporation needs to build web tools out-of-the-box.\n🎯 Why it's important: Standardized architectural system used across corporate enterprise banks, logistics grids, and large government portals.\n🛣 Learning roadmap: Module Component Structures → TypeScript Strict Integrations → RxJS Event Observables → HTTP Client Service Injections.\n🚀 Next skill to learn: Custom state lifecycle management pipelines.",
+        "pdfIds": ["js"]
+      },
+      "node js": {
+        "keywords": ["node js", "v8 runtime engine", "event loop asynchronously", "npm package repository"],
+        "explanation": "**Node.js Environment**\n📖 Simple definition: An open-source, cross-platform JavaScript runtime environment built on Chrome's V8 engine that runs asynchronous code outside browser frames.\n🧠 Beginner-friendly explanation: A specialized software kit that lets you write backend server code, manage database structures, and handle API routing entirely in JavaScript.\n🎯 Why it's important: Unifies modern full-stack web engineering teams by using one single code language across both frontend and backend teams.\n🛣 Learning roadmap: V8 Event Loop Realities → Node Core Module Routing (FS, HTTP) → NPM Package Adaptations → File Path Stream Buffering.\n🚀 Next skill to learn: Multi-thread worker cluster implementations.",
+        "pdfIds": ["js"]
+      },
+      "express": {
+        "keywords": ["express", "express router middleware", "rest api endpoints", "http response handlers"],
+        "explanation": "**Express.js Framework**\n📖 Simple definition: A minimalist, unopinionated routing web framework designed to handle backend server APIs inside Node.js applications.\n🧠 Beginner-friendly explanation: A simple tool added to Node.js that sets up listening endpoints, allowing frontend apps to request data from databases smoothly.\n🎯 Why it's important: The standard backend foundations layer supporting the globally deployed MERN and MEAN full-stack web architectures.\n🛣 Learning roadmap: Server Route Enforcements → HTTP Method Mappings (GET, POST) → Custom Middleware Interceptions → REST JSON Response Formats.\n🚀 Next skill to learn: JWT authentication security middleware blocks.",
+        "pdfIds": ["js"]
+      },
+      "django": {
+        "keywords": ["django", "python django orm", "mvc model view", "django admin modules"],
+        "explanation": "**Django (Python Backend)**\n📖 Simple definition: A high-level Python web framework that encourages rapid application deployment using a strict batteries-included, Model-View-Template architecture.\n🧠 Beginner-friendly explanation: A complete Python backend toolkit that comes pre-packed with user login systems, security blocks, and database tools right out of the box.\n🎯 Why it's important: Highly favored by backend developers to build secure fintech apps, user portals, and heavy content engines rapidly.\n🛣 Learning roadmap: MVT Architecture Blueprints → Django ORM Query Inquiries → Automated Admin Tooling Customizations → REST Framework API Structures.\n🚀 Next skill to learn: Asynchronous background loops using Celery.",
+        "pdfIds": ["python", "cse"]
+      },
+      "flask": {
+        "keywords": ["flask", "python microframework routing", "werkzeug routing templates", "jinja layout files"],
+        "explanation": "**Flask Microframework**\n📖 Simple definition: A lightweight Python backend framework built around minimalist simplicity, providing raw routing modules without enforcing database choices.\n🧠 Beginner-friendly explanation: A featherweight Python toolkit used to build small website pipelines, fast microservices, or link machine learning models up to web APIs.\n🎯 Why it's important: Highly flexible architecture that gives software engineers total freedom over what database and layout packages to integrate.\n🛣 Learning roadmap: Basic Route Configurations → Jinja Template Rendering Layouts → Form Data Handling Arrays → Extension Module Integrations (SQLAlchemy).\n🚀 Next skill to learn: Deploying AI models onto serverless endpoints.",
+        "pdfIds": ["python", "cse"]
+      },
+      "laravel": {
+        "keywords": ["laravel", "eloquent orm models", "artisan terminal tool", "blade view layouts"],
+        "explanation": "**Laravel (PHP Architecture)**\n📖 Simple definition: An expressive PHP web application framework featuring elegant syntaxes, an integrated Eloquent ORM system, and comprehensive terminal tools.\n🧠 Beginner-friendly explanation: A popular, modern tool chest for PHP developers that turns backend database routing and user logins into clean, enjoyable tasks.\n🎯 Why it's important: The premier framework keeping standard PHP development highly scalable and active inside modern software agencies.\n🛣 Learning roadmap: MVC Architectural Layouts → Eloquent ORM Schema Setup → Artisan CLI Controls → Blade Template Interface Modularization.\n🚀 Next skill to learn: Event-driven real-time notifications via WebSockets.",
+        "pdfIds": ["cse"]
+      },
+      "asp net": {
+        "keywords": ["asp net", "c sharp core controllers", "entity framework databases", "web api microservices"],
+        "explanation": "**ASP.NET Core**\n📖 Simple definition: Microsoft's open-source, high-performance web framework designed to build modular cloud apps using C# and Entity Framework.\n🧠 Beginner-friendly explanation: A professional backend engine built by Microsoft that runs large secure corporate portals and lightning-fast web services.\n🎯 Why it's important: Top-tier runtime benchmark performance leader for enterprise cloud service architectures and high-security systems.\n🛣 Learning roadmap: Web API Dependency Pipelines → Controller Route Logic → Entity Framework Database Mapping → Middleware Security Filters.\n🚀 Next skill to learn: Enterprise microservice orchestration design patterns.",
+        "pdfIds": ["cpp"]
+      },
+      "mysql": {
+        "keywords": ["mysql", "relational database engine", "innodb storage structures", "foreign key indices"],
+        "explanation": "**MySQL Database Server**\n📖 Simple definition: The world's most widely adopted open-source relational database management system, operating via structured row-and-column storage grids.\n🧠 Beginner-friendly explanation: A popular digital records storage room that files information into clean rows and columns, linked together by unique relational IDs.\n🎯 Why it's important: The reliable storage backbone trusted by platforms like Facebook, Twitter, and thousands of standard web setups.\n🛣 Learning roadmap: Table Design Schema Rules → Foreign Key Relationship Mappings → Index Search Optimizations → ACID Transactional Boundary Proofs.\n🚀 Next skill to learn: Horizontal master-slave replication scaling tracks.",
+        "pdfIds": ["js", "cse"]
+      },
+      "postgresql": {
+        "keywords": ["postgresql", "advanced relational server", "jsonb document indices", "acid transaction controls"],
+        "explanation": "**PostgreSQL Database Engine**\n📖 Simple definition: An advanced, enterprise-grade object-relational database system renowned for structural reliability, complex queries, and native JSON handling.\n🧠 Beginner-friendly explanation: A hyper-advanced database that handles classic table sheets while simultaneously storing modern unstructured data files with extreme speed.\n🎯 Why it's important: The default database selection for serious backend developers designing heavy complex financial systems and spatial platforms.\n🛣 Learning roadmap: Relational Constraints Setup → Advanced Complex JOIN Inquiries → JSONB Document Storage Controls → Write-Ahead Log Partition Management.\n🚀 Next skill to learn: Geolocation data mapping using PostGIS arrays.",
+        "pdfIds": ["js", "cse"]
+      },
+      "mongodb": {
+        "keywords": ["mongodb", "nosql document collections", "bson data storage", "aggregation pipeline fields"],
+        "explanation": "**MongoDB (NoSQL Database)**\n📖 Simple definition: A leading document-oriented NoSQL database that stores data in flexible, schematic BSON documents rather than traditional tables.\n🧠 Beginner-friendly explanation: A non-tabular database that lets you dump data blocks directly as flexible JSON documents without strict row-and-column rules.\n🎯 Why it's important: Powerhouse backend database choice for rapid app updates, real-time messaging pipelines, and large content catalog architectures.\n🛣 Learning roadmap: Document Collection Modeling → CRUD Operation Methods → Dynamic Aggregation Pipeline Formulations → Replica Set Cluster Architecture Configuration.\n🚀 Next skill to learn: Large-scale horizontal database cluster sharding strategies.",
+        "pdfIds": ["js"]
       }
+      
 
     },
 
